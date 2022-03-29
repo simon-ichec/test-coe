@@ -1,0 +1,3041 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220330T090000
+DTEND;TZID="UTC+02:00":20220330T170000
+SUMMARY:YALES2 Training Session
+UID:https://hpc-portal.eu/node/1322
+DESCRIPTION:<p>YALES2 aims at the solving of two-phase combustion from 
+ primary atomization to pollutant prediction on massive complex meshes. It 
+ is able to handle efficiently unstructured meshes with several billions of
+  elements\, thus enabling the Direct Numerical Simulation and Large-Eddy 
+ Simulation of laboratory and semi-industrial configurations. The recent 
+ developments are focused on the dynamic mesh adaptation of tetrahedral-
+ based massive meshes for fronts and interfaces.</p> <p>This training 
+ session targets researchers and engineers interested in learning YALES2 
+ and/or the numerical methodologies developed in YALES2: solving for 
+ incompressible turbulent flows\, two-phase flows\, dynamic mesh 
+ adaptation\, etc.</p> <p>More information about YALES2 can be found 
+ <strong><a href="https://www.coria-
+ cfd.fr/index.php/YALES2">here</a></strong>.</p> 
+ <p><strong>Instructors:</strong> Vincent Moureau (CNRS)\, Ghislain 
+ Lartigue (CNRS)\, Pierre Bénard (INSA of Rouen)</p>
+LOCATION:https://coec-project.eu/event/yales2-training-session-2/
+DTSTAMP:20220329T123953Z
+GEO:49.386996;1.068877
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>YALES2 aims at 
+ the solving of two-phase combustion from primary atomization to pollutant 
+ prediction on massive complex meshes. It is able to handle efficiently 
+ unstructured meshes with several billions of elements, thus enabling the 
+ Direct Numerical Simulation and Large-Eddy Simulation of laboratory and 
+ semi-industrial configurations. The recent developments are focused on the
+  dynamic mesh adaptation of tetrahedral-based massive meshes for fronts 
+ and interfaces.</p> <p>This training session targets researchers and 
+ engineers interested in learning YALES2 and/or the numerical methodologies
+  developed in YALES2: solving for incompressible turbulent flows, two-
+ phase flows, dynamic mesh adaptation, etc.</p> <p>More information about 
+ YALES2 can be found <strong><a href="https://www.coria-
+ cfd.fr/index.php/YALES2">here</a></strong>.</p> 
+ <p><strong>Instructors:</strong> Vincent Moureau (CNRS), Ghislain Lartigue
+  (CNRS), Pierre Bénard (INSA of Rouen)</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220331T080000
+DTEND;TZID="UTC+02:00":20220401T180000
+SUMMARY:EuroCC Turkey Quantum Computing and Technologies Workshop
+UID:https://hpc-portal.eu/node/1301
+DESCRIPTION:<p>To raise awareness on quantum computing &amp\; 
+ technologies\, NCC Turkey is going to organise a workshop entitled 
+ "Quantum Computing and Related Technologies" on 31 March-1 April 2022. The
+  workshop will include talks presented by Turkish researchers and they 
+ will share their knowledge and experience on quantum computing and 
+ technologies. This workshop helps to create an atmosphere that 
+ researchers\, students\, and industry representatives will be able to 
+ exchange their ideas and knowledge. </p>
+LOCATION:https://indico.truba.gov.tr/event/76/registrations/70/
+DTSTAMP:20220329T123953Z
+GEO:39.894414;32.775513
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>To raise 
+ awareness on quantum computing &amp; technologies, NCC Turkey is going to 
+ organise a workshop entitled "Quantum Computing and Related Technologies" 
+ on 31 March-1 April 2022. The workshop will include talks presented by 
+ Turkish researchers and they will share their knowledge and experience on 
+ quantum computing and technologies. This workshop helps to create an 
+ atmosphere that researchers, students, and industry representatives will 
+ be able to exchange their ideas and knowledge. </p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220331T110000
+DTEND;TZID="UTC+02:00":20220331T170000
+SUMMARY:Advanced use of LAMMPS
+UID:https://hpc-portal.eu/node/1060
+DESCRIPTION:<p>This lesson provides an overview of some more advanced 
+ techniques and uses of LAMMPS. Specifically\, we will be discussing:</p> 
+ <ul> <li>Measuring and improving LAMMPS performance <ul> <li>Strong vs 
+ weak scaling for a range of systems</li> <li>Smarter domain 
+ decomposition</li> <li>Accelerators and what they do</li> </ul> </li> 
+ <li>Using LAMMPS with Python</li> <li>Analysing systems through 
+ reruns</li> <li>Advanced sampling methods with a focus on replica 
+ exchange</li> <li> Target Audience: </li> </ul> <p>For this lesson\, we 
+ expect attendees to be familiar with LAMMPS. We will not be covering how 
+ to prepare and run a parallel LAMMPS simulation (and we will assume that 
+ all attendees know how to do this already). This lesson is aimed at anyone
+  who:</p> <ul> <li>has experience using bash (or any other shell)</li> 
+ <li>has experience running LAMMPS on multiple processors</li> <li>would 
+ like to learn more about some of the LAMMPS functionalities stated 
+ above</li> <li>would like to learn more about tricks and methods for 
+ getting LAMMPS to perform efficiently.</li> </ul>
+LOCATION:https://events.prace-ri.eu/event/1361/registrations/1008/
+DTSTAMP:20220329T123953Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This lesson 
+ provides an overview of some more advanced techniques and uses of LAMMPS. 
+ Specifically, we will be discussing:</p> <ul> <li>Measuring and improving 
+ LAMMPS performance <ul> <li>Strong vs weak scaling for a range of 
+ systems</li> <li>Smarter domain decomposition</li> <li>Accelerators and 
+ what they do</li> </ul> </li> <li>Using LAMMPS with Python</li> 
+ <li>Analysing systems through reruns</li> <li>Advanced sampling methods 
+ with a focus on replica exchange</li> <li> Target Audience: </li> </ul> 
+ <p>For this lesson, we expect attendees to be familiar with LAMMPS. We 
+ will not be covering how to prepare and run a parallel LAMMPS simulation 
+ (and we will assume that all attendees know how to do this already). This 
+ lesson is aimed at anyone who:</p> <ul> <li>has experience using bash (or 
+ any other shell)</li> <li>has experience running LAMMPS on multiple 
+ processors</li> <li>would like to learn more about some of the LAMMPS 
+ functionalities stated above</li> <li>would like to learn more about 
+ tricks and methods for getting LAMMPS to perform efficiently.</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220401T110000
+DTEND;TZID="UTC+02:00":20220401T123000
+SUMMARY:Benchmarking and Refactoring Software in Supercomputers
+UID:https://hpc-portal.eu/node/1293
+DESCRIPTION:<p>Software benchmarking\; Refactoring strategies\; Score-P and
+  Vampir\; Examples.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/19/
+DTSTAMP:20220329T123953Z
+GEO:38.573048;-7.904405
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Software 
+ benchmarking; Refactoring strategies; Score-P and Vampir; 
+ Examples.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220401T180000
+DTEND;TZID="UTC+02:00":20220401T190000
+SUMMARY:Using the OBLIVION Supercomputer - A Training Course for Recent 
+ Users
+UID:https://hpc-portal.eu/node/1299
+DESCRIPTION:<p>Short course for recent users of the OBLIVION Supercomputer.
+  Contents: Suçpercomputer design and interconnects\; Software stack and 
+ environmental modules\;SLURM work manager\, job submission\, and 
+ accounting\; Job management.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/34/
+DTSTAMP:20220329T123953Z
+GEO:38.573049;-7.904420
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Short course for
+  recent users of the OBLIVION Supercomputer. Contents: Suçpercomputer 
+ design and interconnects; Software stack and environmental modules;SLURM 
+ work manager, job submission, and accounting; Job 
+ management.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220404T090000
+DTEND;TZID="UTC+02:00":20220408T170000
+SUMMARY:MaX school: Ab-initio Many-Body Methods and Simulations with the 
+ Yambo Code
+UID:https://hpc-portal.eu/node/1318
+DESCRIPTION:<p>The Computational School on <em>Ab-initio Many-body Methods 
+ and Simulations with the Yambo Code</em> will introduce many-body 
+ perturbation theory (MBPT) approaches and specifically to<em> first-
+ principles</em> excited-state simulations using the YAMBO code.</p> <p>The
+  target participants are graduate students\, postdocs\, and researchers 
+ who are interested in learning or in improving their knowledge and skills 
+ to calculate electronic and optical properties of materials\, beyond the 
+ well-known DFT limitations and using an efficient\, highly parallelized 
+ and accurate many-body computational tool.</p> <p>Both theoretical and 
+ technical lectures will be offered as well as dedicated hands-on sessions 
+ where students will learn how to use the code for materials of current 
+ research interest and how to optimize its use in a parallel environment. 
+ Several post-processing tools for the analysis of the results will be also
+  introduced and practically applied.</p> <p>General topics will include 
+ self-energy and quasiparticles concepts\, the GW approximation\, and the 
+ Bethe-Salpeter equation\, all placed in the context of and linked with 
+ experimental measurements (photoemission\, absorption\, 
+ photoluminescence).</p> <p>At variance with previous editions\, this 
+ school will present some advanced lectures such as:</p> <p>new algorithms 
+ developed to deal with electron-phonon interactions\, real time evolution 
+ of equations of motion\, time dependent polarization in terms of the Berry
+  phase\, and computation of non-linear optical properties.</p> <p>The 
+ specific usage in massively parallel environments equipped with modern 
+ accelerated video cards (GPU’s) will be introduced.</p> <p> 
+ <strong>Participants are required to have a pre-existing background in DFT
+  and in running DFT simulations.</strong><br>  
+ <strong>Lecturers:</strong><br> C. ATTACCALITE\, CNRS\, Aix-Marseille 
+ University\, France<br> A. FERRETTI\, CNR-NANO\, Italy<br> M. GRUNING\, 
+ Queen’s University Belfast\, UK<br> A. GUANDALINI\, CNR-NANO\, Italy<br> 
+ D. A. LEON VALIDO\, CNR-NANO\, Italy<br> A. MARINI\, CNR-ISM\, Italy<br> 
+ P. MELO\, University of Utrecht\, Netherlands<br> B. MONSERRAT SANCHEZ\, 
+ University of Cambridge\, UK<br> F. PALEARI\, CNR-NANO\, Italy<br> M. 
+ PALUMMO\, Università di Roma Tor Vergata\, Italy<br> S. RAFAELY-ABRAMSON\,
+  Weizmann Institute\, Israel<br> L. REINING\, École Polytechnique\, 
+ France<br> D. SANGALLI\, CNR-ISM\, Italy<br> P. SHEVERDYAEVA\, CNR-ISM\, 
+ Italy<br> D. VARSANO\, CNR-NANO\, Italy<br> </p> 
+ <p><strong>Grants:</strong> A limited number of grants are available to 
+ support the attendance of selected participants\, with priority given to 
+ participants from developing countries.<br> There is no registration 
+ fee.<br>  Due to the pandemic period the school is designed to allow 
+ participants to join part in person and part online. Female scientists are
+  encouraged to apply.<br>  <strong>In person participation:</strong> As 
+ regards the COVID-19 policy\, we advise to follow the updated rules 
+ available on the ICTP page <a 
+ href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
+ Guidelines for Visitors</a>.</p>
+LOCATION:https://www.ictp.it/visit-ictp.aspx
+DTSTAMP:20220329T123953Z
+GEO:45.703827;13.718426
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The 
+ Computational School on <em>Ab-initio Many-body Methods and Simulations 
+ with the Yambo Code</em> will introduce many-body perturbation theory 
+ (MBPT) approaches and specifically to<em> first-principles</em> excited-
+ state simulations using the YAMBO code.</p> <p>The target participants are
+  graduate students, postdocs, and researchers who are interested in 
+ learning or in improving their knowledge and skills to calculate 
+ electronic and optical properties of materials, beyond the well-known DFT 
+ limitations and using an efficient, highly parallelized and accurate many-
+ body computational tool.</p> <p>Both theoretical and technical lectures 
+ will be offered as well as dedicated hands-on sessions where students will
+  learn how to use the code for materials of current research interest and 
+ how to optimize its use in a parallel environment. Several post-processing
+  tools for the analysis of the results will be also introduced and 
+ practically applied.</p> <p>General topics will include self-energy and 
+ quasiparticles concepts, the GW approximation, and the Bethe-Salpeter 
+ equation, all placed in the context of and linked with experimental 
+ measurements (photoemission, absorption, photoluminescence).</p> <p>At 
+ variance with previous editions, this school will present some advanced 
+ lectures such as:</p> <p>new algorithms developed to deal with electron-
+ phonon interactions, real time evolution of equations of motion, time 
+ dependent polarization in terms of the Berry phase, and computation of 
+ non-linear optical properties.</p> <p>The specific usage in massively 
+ parallel environments equipped with modern accelerated video cards (GPU’s)
+  will be introduced.</p> <p> <strong>Participants are required to have a 
+ pre-existing background in DFT and in running DFT 
+ simulations.</strong><br>  <strong>Lecturers:</strong><br> C. ATTACCALITE,
+  CNRS, Aix-Marseille University, France<br> A. FERRETTI, CNR-NANO, 
+ Italy<br> M. GRUNING, Queen’s University Belfast, UK<br> A. GUANDALINI, 
+ CNR-NANO, Italy<br> D. A. LEON VALIDO, CNR-NANO, Italy<br> A. MARINI, CNR-
+ ISM, Italy<br> P. MELO, University of Utrecht, Netherlands<br> B. 
+ MONSERRAT SANCHEZ, University of Cambridge, UK<br> F. PALEARI, CNR-NANO, 
+ Italy<br> M. PALUMMO, Università di Roma Tor Vergata, Italy<br> S. 
+ RAFAELY-ABRAMSON, Weizmann Institute, Israel<br> L. REINING, École 
+ Polytechnique, France<br> D. SANGALLI, CNR-ISM, Italy<br> P. SHEVERDYAEVA,
+  CNR-ISM, Italy<br> D. VARSANO, CNR-NANO, Italy<br> </p> 
+ <p><strong>Grants:</strong> A limited number of grants are available to 
+ support the attendance of selected participants, with priority given to 
+ participants from developing countries.<br> There is no registration 
+ fee.<br>  Due to the pandemic period the school is designed to allow 
+ participants to join part in person and part online. Female scientists are
+  encouraged to apply.<br>  <strong>In person participation:</strong> As 
+ regards the COVID-19 policy, we advise to follow the updated rules 
+ available on the ICTP page <a 
+ href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
+ Guidelines for Visitors</a>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220405T090000
+DTEND;TZID="UTC+02:00":20220405T170000
+SUMMARY:Introduction to Performance and Energy Efficiency Analysis
+UID:https://hpc-portal.eu/node/845
+DESCRIPTION:<p>The course will offer an introduction to the fundamental 
+ concepts of performance\, power consumption\, and energy efficiency in HPC
+  systems. Then it will focus on the performance analysis process and 
+ methodology developed during the POP project\, followed by the mechanisms 
+ that today's computing elements and systems provide in terms of monitoring
+  and control of power and energy dissipation. Finally\, it will introduce 
+ and give hands-on sessions for a set of tools for performance analysis as 
+ well as reducing the energy consumption in HPC devices.</p>
+LOCATION:https://events.prace-ri.eu/event/1353/registrations/999/
+DTSTAMP:20220329T123953Z
+GEO:49.837534;18.156036
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The course will 
+ offer an introduction to the fundamental concepts of performance, power 
+ consumption, and energy efficiency in HPC systems. Then it will focus on 
+ the performance analysis process and methodology developed during the POP 
+ project, followed by the mechanisms that today's computing elements and 
+ systems provide in terms of monitoring and control of power and energy 
+ dissipation. Finally, it will introduce and give hands-on sessions for a 
+ set of tools for performance analysis as well as reducing the energy 
+ consumption in HPC devices.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220405T090000
+DTEND;TZID="UTC+02:00":20220407T160000
+SUMMARY:Hybrid Programming in HPC – MPI+X
+UID:https://hpc-portal.eu/node/920
+DESCRIPTION:<p>Most HPC systems are clusters of shared memory nodes. To use
+  such systems efficiently both memory consumption and communication time 
+ has to be optimized. Therefore\, hybrid programming may combine the 
+ distributed memory parallelization on the node interconnect (e.g.\, with 
+ MPI) with the shared memory parallelization inside of each node (e.g.\, 
+ with OpenMP or MPI-3.0 shared memory). This course analyzes the strengths 
+ and weaknesses of several parallel programming models on clusters of SMP 
+ nodes. Multi-socket-multi-core systems in highly parallel environments are
+  given special consideration. MPI-3.0 has introduced a new shared memory 
+ programming interface\, which can be combined with inter-node MPI 
+ communication. It can be used for direct neighbor accesses similar to 
+ OpenMP or for direct halo copies\, and enables new hybrid programming 
+ models. These models are compared with various hybrid MPI+OpenMP 
+ approaches and pure MPI. Numerous case studies and micro-benchmarks 
+ demonstrate the performance-related aspects of hybrid programming.</p> 
+ <p>Hands-on sessions are included on all days. Tools for hybrid 
+ programming such as thread/process placement support and performance 
+ analysis are presented in a "how-to" section. This course provides 
+ scientific training in Computational Science and\, in addition\, the 
+ scientific exchange of the participants among themselves.</p> <p>Content 
+ Levels: Beginners = 0:00h (0%) + Intermediate = 1:30h (10%) + Advanced = 
+ 13:30h (90%)</p> <p>This course is a PRACE training event.</p>
+LOCATION:https://events.prace-ri.eu/event/1337/registrations/990/
+DTSTAMP:20220329T123953Z
+GEO:48.199551;16.366868
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Most HPC systems
+  are clusters of shared memory nodes. To use such systems efficiently both
+  memory consumption and communication time has to be optimized. Therefore,
+  hybrid programming may combine the distributed memory parallelization on 
+ the node interconnect (e.g., with MPI) with the shared memory 
+ parallelization inside of each node (e.g., with OpenMP or MPI-3.0 shared 
+ memory). This course analyzes the strengths and weaknesses of several 
+ parallel programming models on clusters of SMP nodes. Multi-socket-multi-
+ core systems in highly parallel environments are given special 
+ consideration. MPI-3.0 has introduced a new shared memory programming 
+ interface, which can be combined with inter-node MPI communication. It can
+  be used for direct neighbor accesses similar to OpenMP or for direct halo
+  copies, and enables new hybrid programming models. These models are 
+ compared with various hybrid MPI+OpenMP approaches and pure MPI. Numerous 
+ case studies and micro-benchmarks demonstrate the performance-related 
+ aspects of hybrid programming.</p> <p>Hands-on sessions are included on 
+ all days. Tools for hybrid programming such as thread/process placement 
+ support and performance analysis are presented in a "how-to" section. This
+  course provides scientific training in Computational Science and, in 
+ addition, the scientific exchange of the participants among 
+ themselves.</p> <p>Content Levels: Beginners = 0:00h (0%) + Intermediate =
+  1:30h (10%) + Advanced = 13:30h (90%)</p> <p>This course is a PRACE 
+ training event.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220405T090000
+DTEND;TZID="UTC+02:00":20220407T130000
+SUMMARY:Interactive High-Performance Computing with Jupyter (ONLINE)
+UID:https://hpc-portal.eu/node/979
+DESCRIPTION:<p>Interactive exploration and analysis of large amounts of 
+ data from scientific simulations\, in-situ visualization and application 
+ control are convincing scenarios for explorative sciences. Based on the 
+ open source software Jupyter or JupyterLab\, a way has been available for 
+ some time now that combines interactive with reproducible computing while 
+ at the same time meeting the challenges of support for the wide range of 
+ different software workflows.</p> <p> Even on supercomputers\, the method 
+ enables the creation of documents that combine live code with narrative 
+ text\, mathematical equations\, visualizations\, interactive controls\, 
+ and other extensive output. However\, a number of challenges must be 
+ mastered in order to make existing workflows ready for interactive high-
+ performance computing. With so many possibilities\, it's easy to lose 
+ sight of the big picture. This course provides a detailed introduction to 
+ interactive high-performance computing.</p> <p>The following topics are 
+ covered:</p> <ul> <li>Introduction to Jupyter</li> <li>Parallel computing 
+ using Jupyter</li> <li>Interactive &amp\; in-situ visualization</li> 
+ <li>From ipywidgets to dashboards</li> </ul> <p>This course is a PRACE 
+ training course.</p>
+LOCATION:https://events.prace-ri.eu/event/1338/registrations/991/
+DTSTAMP:20220329T123953Z
+GEO:50.909339;6.406076
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Interactive 
+ exploration and analysis of large amounts of data from scientific 
+ simulations, in-situ visualization and application control are convincing 
+ scenarios for explorative sciences. Based on the open source software 
+ Jupyter or JupyterLab, a way has been available for some time now that 
+ combines interactive with reproducible computing while at the same time 
+ meeting the challenges of support for the wide range of different software
+  workflows.</p> <p> Even on supercomputers, the method enables the 
+ creation of documents that combine live code with narrative text, 
+ mathematical equations, visualizations, interactive controls, and other 
+ extensive output. However, a number of challenges must be mastered in 
+ order to make existing workflows ready for interactive high-performance 
+ computing. With so many possibilities, it's easy to lose sight of the big 
+ picture. This course provides a detailed introduction to interactive high-
+ performance computing.</p> <p>The following topics are covered:</p> <ul> 
+ <li>Introduction to Jupyter</li> <li>Parallel computing using Jupyter</li>
+  <li>Interactive &amp; in-situ visualization</li> <li>From ipywidgets to 
+ dashboards</li> </ul> <p>This course is a PRACE training 
+ course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220407T090000
+DTEND;TZID="UTC+02:00":20220408T123000
+SUMMARY:EuroCC ONLINE BOOTCAMP: AI for Science Bootcamp
+UID:https://hpc-portal.eu/node/851
+DESCRIPTION:<p>During this two-day online Bootcamp\, participants will 
+ learn how to apply AI tools\, techniques and algorithms to real-life 
+ problems. You will study the core concepts of Deep Neural Networks\, how 
+ to build Deep Learning models as well as how to measure and improve the 
+ accuracy of your models. You will also learn essential data pre-processing
+  techniques to ensure a robust Machine Learning pipeline. This online 
+ Bootcamp is a hands-on learning experience where you will be guided 
+ through step-by-step instructions with teaching assistants on hand to help
+  throughout.</p> <p> The Bootcamp is co-organised by<a 
+ href="https://www.lrz.de/"> LRZ</a>\, <a 
+ href="https://www.hlrs.de/home/">HLRS</a>\, <a href="https://www.fz-
+ juelich.de/ias/jsc/EN/Home/home_node.html">JSC</a>\, <a 
+ href="https://www.openacc.org/">OpenACC.org</a> and <a 
+ href="https://www.nvidia.com/en-us/">NVIDIA </a>for <a 
+ href="https://eurocc-gcs.de/en/">EuroCC@GCS</a>\, the German National 
+ Competence Centre for High-Performance Computing.</p>
+LOCATION:https://www.hlrs.de/training/2022/BC-AI-NV2
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>During this two-
+ day online Bootcamp, participants will learn how to apply AI tools, 
+ techniques and algorithms to real-life problems. You will study the core 
+ concepts of Deep Neural Networks, how to build Deep Learning models as 
+ well as how to measure and improve the accuracy of your models. You will 
+ also learn essential data pre-processing techniques to ensure a robust 
+ Machine Learning pipeline. This online Bootcamp is a hands-on learning 
+ experience where you will be guided through step-by-step instructions with
+  teaching assistants on hand to help throughout.</p> <p> The Bootcamp is 
+ co-organised by<a href="https://www.lrz.de/"> LRZ</a>, <a 
+ href="https://www.hlrs.de/home/">HLRS</a>, <a href="https://www.fz-
+ juelich.de/ias/jsc/EN/Home/home_node.html">JSC</a>, <a 
+ href="https://www.openacc.org/">OpenACC.org</a> and <a 
+ href="https://www.nvidia.com/en-us/">NVIDIA </a>for <a 
+ href="https://eurocc-gcs.de/en/">EuroCC@GCS</a>, the German National 
+ Competence Centre for High-Performance Computing.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220411T090000
+DTEND;TZID="UTC+02:00":20220415T170000
+SUMMARY:Numerical Methods for Large Eddy Simulation
+UID:https://hpc-portal.eu/node/1323
+DESCRIPTION:<p>The objective of the training is twofold: firstly\, to 
+ understand the fundamental principles of Large-Scale Simulations for 
+ compressive reactive two-phase flows: numerical methods\, boundary 
+ conditions\, LES approach and closure models for LES\, combustion as well 
+ as two-phase flows through theoretical courses\; on the other hand\, to 
+ learn how to use the AVBP code (Last version V7.10) on the perimeter of 
+ two-phase reactive flows through tutorials supervised by experts of the 
+ code. The AVBP code is a parallel code of fluid mechanics that solves 
+ compressible Navier-Stokes equations for laminar and turbulent reactive 
+ flows\, in 2D and 3D\, on unstructured and hybrid meshes\, with third 
+ order Taylor Galerkin schemes. The resolution of these equations is based 
+ on the Large Eddy Simulation (or Large Eddy Simulation) approach. Reduced 
+ chemical kinetics according to the Arrhenius law coupled to the TFLES 
+ model for sub-grid flame-turbulence interactions make possible to treat 
+ combustion phenomena. AVBP can also calculate two-phase flows using a 
+ Lagrangian or Eulerian solver. AVBP applies to aeronautical combustion 
+ chambers\, turbomachinery\, industrial furnaces and safety issues\, it 
+ allows for example to evaluate polluting emissions (CO\, NOx and soot)\, 
+ to treat thermo-acoustic instabilities or detonation phenomena. AVBP is a 
+ world-famous code in the field of combustion\, used by many laboratories 
+ (IMFT in Toulouse\, EM2C in Centralesupelec\, TU Munich\, Von Karmann 
+ Institute\, ETH Zurich\, etc.) and in industry (SAFRAN AIRCRAFT ENGINES\, 
+ SAFRAN HELICOPTER ENGINES\, ARIANEGROUP\, HERAKLES\, TOTAL\, etc.).</p>
+LOCATION:https://cerfacs.fr/en/event/numerical-methods-for-large-eddy-
+ simulations-2/?start=1649684580&end=1650067140
+DTSTAMP:20220329T123953Z
+GEO:43.575818;1.371272
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The objective of
+  the training is twofold: firstly, to understand the fundamental 
+ principles of Large-Scale Simulations for compressive reactive two-phase 
+ flows: numerical methods, boundary conditions, LES approach and closure 
+ models for LES, combustion as well as two-phase flows through theoretical 
+ courses; on the other hand, to learn how to use the AVBP code (Last 
+ version V7.10) on the perimeter of two-phase reactive flows through 
+ tutorials supervised by experts of the code. The AVBP code is a parallel 
+ code of fluid mechanics that solves compressible Navier-Stokes equations 
+ for laminar and turbulent reactive flows, in 2D and 3D, on unstructured 
+ and hybrid meshes, with third order Taylor Galerkin schemes. The 
+ resolution of these equations is based on the Large Eddy Simulation (or 
+ Large Eddy Simulation) approach. Reduced chemical kinetics according to 
+ the Arrhenius law coupled to the TFLES model for sub-grid flame-turbulence
+  interactions make possible to treat combustion phenomena. AVBP can also 
+ calculate two-phase flows using a Lagrangian or Eulerian solver. AVBP 
+ applies to aeronautical combustion chambers, turbomachinery, industrial 
+ furnaces and safety issues, it allows for example to evaluate polluting 
+ emissions (CO, NOx and soot), to treat thermo-acoustic instabilities or 
+ detonation phenomena. AVBP is a world-famous code in the field of 
+ combustion, used by many laboratories (IMFT in Toulouse, EM2C in 
+ Centralesupelec, TU Munich, Von Karmann Institute, ETH Zurich, etc.) and 
+ in industry (SAFRAN AIRCRAFT ENGINES, SAFRAN HELICOPTER ENGINES, 
+ ARIANEGROUP, HERAKLES, TOTAL, etc.).</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220413T090000
+DTEND;TZID="UTC+02:00":20220413T120000
+SUMMARY:Introduction to SURF Research Cloud
+UID:https://hpc-portal.eu/node/1248
+DESCRIPTION:<p>Do you want to create and manage your own work environment 
+ and run powerful applications on it? The SURF Research Cloud is a gateway 
+ that opens the door to cloud computing on several platforms. During this 
+ training\, your workload will run on the SURF HPC Cloud platform\, located
+  in Amsterdam.</p>
+LOCATION:https://www.surf.nl/en/agenda/introduction-surf-research-cloud
+DTSTAMP:20220329T123953Z
+GEO:52.356964;4.954480
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Do you want to 
+ create and manage your own work environment and run powerful applications 
+ on it? The SURF Research Cloud is a gateway that opens the door to cloud 
+ computing on several platforms. During this training, your workload will 
+ run on the SURF HPC Cloud platform, located in 
+ Amsterdam.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220413T100000
+DTEND;TZID="UTC+02:00":20220414T133000
+SUMMARY:NCC Portugal Nways To GPU Programming Bootcamp
+UID:https://hpc-portal.eu/node/872
+DESCRIPTION:<p>The Portuguese EuroCC National Center of Competence\, in 
+ collaboration with NVIDIA and OpenACC.org\, is hosting a GPU programming 
+ Bootcamp aimed primarily at the community of Portuguese researchers and 
+ students who use GPUs as the main tool for their HPC workloads.<br>  
+ During this two-day online Bootcamp\, participants will learn about 
+ multiple GPU programming models and can choose the one that best fits 
+ their needs to run their scientific codes on GPUs. This Bootcamp will 
+ cover an introduction to GPU programming using OpenACC\, OpenMP\, stdpar 
+ and CUDA C\, and provides hands-on opportunities to learn how to analyse 
+ GPU-enabled applications using NVIDIA® NsightTM Systems. This online 
+ Bootcamp is a hands-on learning experience where you will be guided 
+ through step-by-step instructions with teaching assistants on hand to help
+  throughout</p>
+LOCATION:https://www.gpuhackathons.org/event/ncc-portugal-nways-gpu-
+ programming-bootcamp
+DTSTAMP:20220329T123953Z
+GEO:40.207728;-8.424487
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Portuguese 
+ EuroCC National Center of Competence, in collaboration with NVIDIA and 
+ OpenACC.org, is hosting a GPU programming Bootcamp aimed primarily at the 
+ community of Portuguese researchers and students who use GPUs as the main 
+ tool for their HPC workloads.<br>  During this two-day online Bootcamp, 
+ participants will learn about multiple GPU programming models and can 
+ choose the one that best fits their needs to run their scientific codes on
+  GPUs. This Bootcamp will cover an introduction to GPU programming using 
+ OpenACC, OpenMP, stdpar and CUDA C, and provides hands-on opportunities to
+  learn how to analyse GPU-enabled applications using NVIDIA® NsightTM 
+ Systems. This online Bootcamp is a hands-on learning experience where you 
+ will be guided through step-by-step instructions with teaching assistants 
+ on hand to help throughout</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220414T090000
+DTEND;TZID="UTC+02:00":20220414T120000
+SUMMARY:General HPC workshop
+UID:https://hpc-portal.eu/node/907
+DESCRIPTION:<p>The market for High Performance Computing (HPC) is 
+ undergoing huge development worldwide\, which not only gives the academic 
+ sector a breakthrough in the development of a discipline\, but also 
+ benefits market players. HPC forms the basis of long-term digital future 
+ and its understanding is therefore essential for professionals working in 
+ the digitalisation field.</p> <p>In this workshop\, students\, researchers
+  and market players interested in HPC as a potential user will be updated 
+ on HPC\, user experiences and potential applications.</p>
+LOCATION:https://pxp.kifu.hu/webapp/home
+DTSTAMP:20220329T123953Z
+GEO:47.525573;19.064108
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The market for 
+ High Performance Computing (HPC) is undergoing huge development worldwide,
+  which not only gives the academic sector a breakthrough in the 
+ development of a discipline, but also benefits market players. HPC forms 
+ the basis of long-term digital future and its understanding is therefore 
+ essential for professionals working in the digitalisation field.</p> <p>In
+  this workshop, students, researchers and market players interested in HPC
+  as a potential user will be updated on HPC, user experiences and 
+ potential applications.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220419T090000
+DTEND;TZID="UTC+02:00":20220421T120000
+SUMMARY:SYCL Workshop
+UID:https://hpc-portal.eu/node/935
+DESCRIPTION:<h2>Overview</h2> <p>Welcome to this ENCCS SYCL workshop</p> 
+ <p>SYCL is a C++ abstraction layer for programming heterogeneous hardware 
+ with a single-source approach. SYCL is high-level\, cross-platform\, and 
+ extends standard ISO C++17. You will learn to:</p> <ul> <li>Use the 
+ hipSYCL compiler to generate executables for multiple hardware 
+ targets.</li> <li>Write hardware-agnostic code to express parallelism 
+ using the queue\, command group\, and kernel abstractions.</li> <li>Use 
+ buffer and accessors to handle memory across devices.</li> <li>Evaluate 
+ drawbacks and advantages of unified shared memory.</li> </ul> 
+ <h2>Tutors</h2> <p>This workshop will be given by ENCCS expert <a 
+ href="https://enccs.se/roberto-di-remigio/">Roberto Di Remigio Eikås\, 
+ PhD</a>.</p> <h2>Computing Resources</h2> <p>Supercomputer <a 
+ href="https://www.it4i.cz/en/infrastructure/karolina">Karolina</a> is 
+ going to provide computing resources for this workshop.</p> 
+ <h2>Agenda</h2> <p>For updated agenda please visit <a href="https://enccs.
+ se/events/04-2022-sycl/">https://enccs.se/events/04-2022-sycl/</a> </p> 
+ <h2>Registration</h2> <p>You can register by visiting this link <a 
+ href="https://events.prace-
+ ri.eu/event/1351/registrations/998/">https://events.prace-
+ ri.eu/event/1351/registrations/998/</a>.</p> <p>————<br> <em>This training
+  is intended for users established in the European Union or a country 
+ associated with Horizon 2020. You can read more about the countries 
+ associated with Horizon2020 here <a 
+ href="https://ec.europa.eu/info/research-and-
+ innovation/statistics/framework-programme-facts-and-
+ figures/horizon-2020-country-
+ profiles_en">https://ec.europa.eu/info/research-and-
+ innovation/statistics/framework-programme-facts-and-
+ figures/horizon-2020-country-profiles_en</a></em></p>
+LOCATION:https://events.prace-ri.eu/event/1351/registrations/998/
+DTSTAMP:20220329T123953Z
+GEO:59.349456;18.072761
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Overview</h2> 
+ <p>Welcome to this ENCCS SYCL workshop</p> <p>SYCL is a C++ abstraction 
+ layer for programming heterogeneous hardware with a single-source 
+ approach. SYCL is high-level, cross-platform, and extends standard ISO 
+ C++17. You will learn to:</p> <ul> <li>Use the hipSYCL compiler to 
+ generate executables for multiple hardware targets.</li> <li>Write 
+ hardware-agnostic code to express parallelism using the queue, command 
+ group, and kernel abstractions.</li> <li>Use buffer and accessors to 
+ handle memory across devices.</li> <li>Evaluate drawbacks and advantages 
+ of unified shared memory.</li> </ul> <h2>Tutors</h2> <p>This workshop will
+  be given by ENCCS expert <a href="https://enccs.se/roberto-di-
+ remigio/">Roberto Di Remigio Eikås, PhD</a>.</p> <h2>Computing 
+ Resources</h2> <p>Supercomputer <a 
+ href="https://www.it4i.cz/en/infrastructure/karolina">Karolina</a> is 
+ going to provide computing resources for this workshop.</p> 
+ <h2>Agenda</h2> <p>For updated agenda please visit <a href="https://enccs.
+ se/events/04-2022-sycl/">https://enccs.se/events/04-2022-sycl/</a> </p> 
+ <h2>Registration</h2> <p>You can register by visiting this link <a 
+ href="https://events.prace-
+ ri.eu/event/1351/registrations/998/">https://events.prace-
+ ri.eu/event/1351/registrations/998/</a>.</p> <p>————<br> <em>This training
+  is intended for users established in the European Union or a country 
+ associated with Horizon 2020. You can read more about the countries 
+ associated with Horizon2020 here <a 
+ href="https://ec.europa.eu/info/research-and-
+ innovation/statistics/framework-programme-facts-and-
+ figures/horizon-2020-country-
+ profiles_en">https://ec.europa.eu/info/research-and-
+ innovation/statistics/framework-programme-facts-and-
+ figures/horizon-2020-country-profiles_en</a></em></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220419T110000
+DTEND;TZID="UTC+02:00":20220420T170000
+SUMMARY:Introduction to ARCHER2 for Software Developers
+UID:https://hpc-portal.eu/node/1061
+DESCRIPTION:Description: <p>The lesson aims to answer the following 
+ questions:</p> <ul> <li>What hardware is available on ARCHER2? <ul> 
+ <li>What does they consist of (login nodes\, compute nodes\, file 
+ systems\, backup)?</li> <li>How does this impact me as a user?</li> </ul> 
+ </li> <li>How can I access ARCHER2 interactively and transfer data?</li> 
+ <li>What does the ARCHER2 application development environment look like 
+ and how do I use it?</li> <li>How do I write job submission scripts and 
+ submit them to the ARCHER2 scheduler?</li> <li>How can I be a good ARCHER2
+  citizen?</li> <li>How can I check what resources I am using and look at 
+ historical usage?</li> </ul> Target Audience: <p>This lesson provides an 
+ introduction to using ARCHER2 for user who:</p> <ul> <li>have already used
+  other HPC systems\; and</li> <li>want to compile (and possibly) develop 
+ HPC software on ARCHER2.</li> </ul>
+LOCATION:https://www.archer2.ac.uk/training/register/?course=220419-softwar
+ e-developers
+DTSTAMP:20220329T123953Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY>Description: <p>The
+  lesson aims to answer the following questions:</p> <ul> <li>What hardware
+  is available on ARCHER2? <ul> <li>What does they consist of (login nodes,
+  compute nodes, file systems, backup)?</li> <li>How does this impact me as
+  a user?</li> </ul> </li> <li>How can I access ARCHER2 interactively and 
+ transfer data?</li> <li>What does the ARCHER2 application development 
+ environment look like and how do I use it?</li> <li>How do I write job 
+ submission scripts and submit them to the ARCHER2 scheduler?</li> <li>How 
+ can I be a good ARCHER2 citizen?</li> <li>How can I check what resources I
+  am using and look at historical usage?</li> </ul> Target Audience: 
+ <p>This lesson provides an introduction to using ARCHER2 for user who:</p>
+  <ul> <li>have already used other HPC systems; and</li> <li>want to 
+ compile (and possibly) develop HPC software on ARCHER2.</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220421T110000
+DTEND;TZID="UTC+02:00":20220421T170000
+SUMMARY:Introduction to GROMACS
+UID:https://hpc-portal.eu/node/1063
+DESCRIPTION:<p>This lesson provides an introduction to using GROMACS. 
+ GROMACS is a free molecular dynamics package primarily used for simulating
+  biochemical molecules like proteins\, lipids\, and nucleic acids. The 
+ program is widely used\, and a large number of publications based on work 
+ simulated using GROMACS is published every year.</p> <p>For this lesson\, 
+ attendees will learn how to prepare\, run\, and analyse GROMACS 
+ simulations on the ARCHER2 high-performance computing facility. Attendees 
+ will learn:</p> <ul> <li>How to login to ARCHER2\, load modules\, and run 
+ jobs.</li> <li>How to use GROMACS functions to generate a fully-solvated\,
+  charge-neutral GROMACS structure file from a protein database file.</li> 
+ <li>How to prepare and run a GROMACS simulation of this structure 
+ file.</li> <li>How to analyse and visualise GROMACS simulations once 
+ they’ve run.</li> <li>How to determine whether your GROMACS simulations 
+ are running optimally.</li> </ul> Target Audience: <p>This introductory 
+ course is intended for anyone interested in learning the basics of GROMACS
+  and how to use it. Course attendees will be expected to know how to use 
+ the command line and how to SSH into a remote computer system.</p>
+LOCATION:https://www.archer2.ac.uk/training/register/?course=220421-intro-
+ gromacs
+DTSTAMP:20220329T123953Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This lesson 
+ provides an introduction to using GROMACS. GROMACS is a free molecular 
+ dynamics package primarily used for simulating biochemical molecules like 
+ proteins, lipids, and nucleic acids. The program is widely used, and a 
+ large number of publications based on work simulated using GROMACS is 
+ published every year.</p> <p>For this lesson, attendees will learn how to 
+ prepare, run, and analyse GROMACS simulations on the ARCHER2 high-
+ performance computing facility. Attendees will learn:</p> <ul> <li>How to 
+ login to ARCHER2, load modules, and run jobs.</li> <li>How to use GROMACS 
+ functions to generate a fully-solvated, charge-neutral GROMACS structure 
+ file from a protein database file.</li> <li>How to prepare and run a 
+ GROMACS simulation of this structure file.</li> <li>How to analyse and 
+ visualise GROMACS simulations once they’ve run.</li> <li>How to determine 
+ whether your GROMACS simulations are running optimally.</li> </ul> Target 
+ Audience: <p>This introductory course is intended for anyone interested in
+  learning the basics of GROMACS and how to use it. Course attendees will 
+ be expected to know how to use the command line and how to SSH into a 
+ remote computer system.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220425T090000
+DTEND;TZID="UTC+02:00":20220429T130000
+SUMMARY:GPU Programming with CUDA (ONLINE)
+UID:https://hpc-portal.eu/node/980
+DESCRIPTION:<p>GPU-accelerated computing drives current scientific 
+ research. Writing fast numeric algorithms for GPUs offers high application
+  performance by offloading compute-intensive portions of the code to an 
+ NVIDIA GPU. The course will cover basic aspects of GPU architectures and 
+ programming. Focus is on the usage of the parallel programming language 
+ CUDA C/C++ which allows maximum control of NVIDIA GPU hardware. Examples 
+ of increasing complexity will be used to demonstrate optimization and 
+ tuning of scientific applications.</p> <p>Topics covered will include:</p>
+  <ul> <li>Introduction to GPU/Parallel computing</li> <li>Programming 
+ model CUDA</li> <li>GPU libraries like CuBLAS and CuFFT</li> <li>Tools for
+  debugging and profiling</li> <li>Performance optimizations</li> 
+ <li>Advanced GPU programming model</li> <li>CUDA Fortran in a 
+ nutshell</li> </ul> <p>This course is a PRACE training course.</p>
+LOCATION:https://events.prace-ri.eu/event/1341/registrations/994/
+DTSTAMP:20220329T123953Z
+GEO:50.909379;6.406059
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>GPU-accelerated 
+ computing drives current scientific research. Writing fast numeric 
+ algorithms for GPUs offers high application performance by offloading 
+ compute-intensive portions of the code to an NVIDIA GPU. The course will 
+ cover basic aspects of GPU architectures and programming. Focus is on the 
+ usage of the parallel programming language CUDA C/C++ which allows maximum
+  control of NVIDIA GPU hardware. Examples of increasing complexity will be
+  used to demonstrate optimization and tuning of scientific 
+ applications.</p> <p>Topics covered will include:</p> <ul> 
+ <li>Introduction to GPU/Parallel computing</li> <li>Programming model 
+ CUDA</li> <li>GPU libraries like CuBLAS and CuFFT</li> <li>Tools for 
+ debugging and profiling</li> <li>Performance optimizations</li> 
+ <li>Advanced GPU programming model</li> <li>CUDA Fortran in a 
+ nutshell</li> </ul> <p>This course is a PRACE training 
+ course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220425T090000
+DTEND;TZID="UTC+02:00":20220426T120000
+SUMMARY:Upscaling A.I. Workflows
+UID:https://hpc-portal.eu/node/1304
+DESCRIPTION:<p>Supervised training of large networks requires large labeled
+  datasets\, which in turn demand high computational costs. While active 
+ practitioners in deep learning primarily develop and train their networks 
+ on local computing devices\, with the increase of networks complexity\, 
+ there is an urgent need to create\, train\, and test models on 
+ clusters.</p> <p>In this workshop\, we overview the basics of Docker and 
+ Singularity. (Working knowledge of Singularity as given in <a 
+ href="https://www.uppmax.uu.se/support/courses-and-workshops/singularity-
+ workshop-announcement)">the Uppmax workshop on Singularity</a> is 
+ desirable.) Distributed training using TensorFlow and Horovod frameworks 
+ on a supercomputer will be covered. Moreover\, it will be shown how to use
+  Singularity containers in conjunction with TensorFlow and Horovod to 
+ upscale an AI app.</p> <p>The workshop will be entirely online using 
+ zoom.</p>
+LOCATION:https://events.prace-ri.eu/event/1373/registrations/1018/
+DTSTAMP:20220329T123953Z
+GEO:59.349456;18.072761
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Supervised 
+ training of large networks requires large labeled datasets, which in turn 
+ demand high computational costs. While active practitioners in deep 
+ learning primarily develop and train their networks on local computing 
+ devices, with the increase of networks complexity, there is an urgent need
+  to create, train, and test models on clusters.</p> <p>In this workshop, 
+ we overview the basics of Docker and Singularity. (Working knowledge of 
+ Singularity as given in <a href="https://www.uppmax.uu.se/support/courses-
+ and-workshops/singularity-workshop-announcement)">the Uppmax workshop on 
+ Singularity</a> is desirable.) Distributed training using TensorFlow and 
+ Horovod frameworks on a supercomputer will be covered. Moreover, it will 
+ be shown how to use Singularity containers in conjunction with TensorFlow 
+ and Horovod to upscale an AI app.</p> <p>The workshop will be entirely 
+ online using zoom.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220425T130000
+DTEND;TZID="UTC+02:00":20220425T160000
+SUMMARY:Introduction to Data Management and Research Drive
+UID:https://hpc-portal.eu/node/1247
+DESCRIPTION:<p>This webinar offers you the necessary knowledge to keep your
+  data FAIR (findable\, accessible\, interoperable and reusable) using 
+ various services and tools\, such as the collaborative data management 
+ tool Research Drive.</p>
+LOCATION:https://www.surf.nl/en/agenda/introduction-to-data-management-and-
+ research-drive-2
+DTSTAMP:20220329T123953Z
+GEO:52.356964;4.954480
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This webinar 
+ offers you the necessary knowledge to keep your data FAIR (findable, 
+ accessible, interoperable and reusable) using various services and tools, 
+ such as the collaborative data management tool Research 
+ Drive.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220427T090000
+DTEND;TZID="UTC+02:00":20220428T150000
+SUMMARY:FORTRAN 90/95 programming
+UID:https://hpc-portal.eu/node/885
+DESCRIPTION:<p>FORTRAN programming for beginners (refresher for more 
+ advanced users). Topics include data structures\, operators\, conditions 
+ and loops\, but also using modules and packages and working with files. 
+ FORTRAN is very popular for programming and running scientific 
+ applications\, it is also used in a lot of legacy code.</p>
+LOCATION:https://itkurzy.sav.sk/node/27
+DTSTAMP:20220329T123953Z
+GEO:48.170728;17.070940
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>FORTRAN 
+ programming for beginners (refresher for more advanced users). Topics 
+ include data structures, operators, conditions and loops, but also using 
+ modules and packages and working with files. FORTRAN is very popular for 
+ programming and running scientific applications, it is also used in a lot 
+ of legacy code.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220428T090000
+DTEND;TZID="UTC+02:00":20220429T163000
+SUMMARY:Shared memory parallelization with OpenMP
+UID:https://hpc-portal.eu/node/922
+DESCRIPTION:<p>The focus of this 2 days course is on shared memory 
+ parallelization with OpenMP for dual-core\, multi-core\, shared memory\, 
+ and ccNUMA platforms. This course teaches OpenMP starting from a beginners
+  level. Hands-on sessions (in C and Fortran) will allow users to 
+ immediately test and understand the OpenMP directives\, environment 
+ variables\, and library routines. Race-condition debugging tools are also 
+ presented.</p> <p>Content Levels: Beginners = 6:00h (50%) + Intermediate =
+  4:00h (33%) + Advanced = 2:00h (17%)</p> <p>This course is a PRACE 
+ training event.</p>
+LOCATION:https://events.prace-ri.eu/event/1350/registrations/997/
+DTSTAMP:20220329T123953Z
+GEO:48.199551;16.366868
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The focus of 
+ this 2 days course is on shared memory parallelization with OpenMP for 
+ dual-core, multi-core, shared memory, and ccNUMA platforms. This course 
+ teaches OpenMP starting from a beginners level. Hands-on sessions (in C 
+ and Fortran) will allow users to immediately test and understand the 
+ OpenMP directives, environment variables, and library routines. Race-
+ condition debugging tools are also presented.</p> <p>Content Levels: 
+ Beginners = 6:00h (50%) + Intermediate = 4:00h (33%) + Advanced = 2:00h 
+ (17%)</p> <p>This course is a PRACE training event.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220503T083000
+DTEND;TZID="UTC+02:00":20220506T163000
+SUMMARY:Modern C++ Software Design (Advanced)
+UID:https://hpc-portal.eu/node/824
+DESCRIPTION:<p>This advanced C++ training is a course on object-oriented 
+ (OO) software design with the C++ programming language. The focus of the 
+ training are the essential OO and C++ software development principles\, 
+ concepts\, idioms\, and best practices\, which enable programmers to 
+ create professional\, high-quality code. Additionally\, the course gives 
+ insight into kernel development with C++. The course will not address 
+ special areas and applications of C++\, such as for instance Template Meta
+  Programming (TMP)\, or the quirks and curiosities of the C++ language. It
+  rather teaches guidelines to develop mature\, robust\, maintainable\, and
+  efficient C++ code.</p> <p>Since 2020 we provide two types of C++ 
+ courses\, each offered two times per year:</p> <ul> <li>intermediate: Mar.
+  8-11\, 2022\, and June 21-24\, 2022</li> <li><strong>advanced:</strong> 
+ May 3-6\, 2022 <strong> (this course)</strong>\, and Nov. 22-25\, 
+ 2022</li> </ul> <p>with two different levels of prerequisites.</p>
+LOCATION:https://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This advanced 
+ C++ training is a course on object-oriented (OO) software design with the 
+ C++ programming language. The focus of the training are the essential OO 
+ and C++ software development principles, concepts, idioms, and best 
+ practices, which enable programmers to create professional, high-quality 
+ code. Additionally, the course gives insight into kernel development with 
+ C++. The course will not address special areas and applications of C++, 
+ such as for instance Template Meta Programming (TMP), or the quirks and 
+ curiosities of the C++ language. It rather teaches guidelines to develop 
+ mature, robust, maintainable, and efficient C++ code.</p> <p>Since 2020 we
+  provide two types of C++ courses, each offered two times per year:</p> 
+ <ul> <li>intermediate: Mar. 8-11, 2022, and June 21-24, 2022</li> 
+ <li><strong>advanced:</strong> May 3-6, 2022 <strong> (this 
+ course)</strong>, and Nov. 22-25, 2022</li> </ul> <p>with two different 
+ levels of prerequisites.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220504T090000
+DTEND;TZID="UTC+02:00":20220505T123000
+SUMMARY:HPC On-boarding on Norwegian national infrastructure
+UID:https://hpc-portal.eu/node/1283
+DESCRIPTION:<p>The Norwegian Research Infrastructure Services 
+ (<strong>NRIS</strong>) is offering an on-boarding hands-on course for 
+ current and future users of national HPC systems (Saga\, Fram\, 
+ Betzy).</p> <p><strong>Targeted Audience</strong>: The course is aimed at 
+ students\, researchers and employees of any background. We assume no prior
+  knowledge of what an HPC is or how to use it. For those who have little 
+ experience with UNIX-like operating systems such as Linux or who have 
+ never worked on the command line of a terminal\, we will offer a hands-on 
+ pre-course about UNIX a day before the HPC course.</p>
+LOCATION:https://documentation.sigma2.no/training/events/2022-05-hpc-on-
+ boarding.html
+DTSTAMP:20220329T123953Z
+GEO:63.402209;10.395348
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Norwegian 
+ Research Infrastructure Services (<strong>NRIS</strong>) is offering an 
+ on-boarding hands-on course for current and future users of national HPC 
+ systems (Saga, Fram, Betzy).</p> <p><strong>Targeted Audience</strong>: 
+ The course is aimed at students, researchers and employees of any 
+ background. We assume no prior knowledge of what an HPC is or how to use 
+ it. For those who have little experience with UNIX-like operating systems 
+ such as Linux or who have never worked on the command line of a terminal, 
+ we will offer a hands-on pre-course about UNIX a day before the HPC 
+ course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220509T083000
+DTEND;TZID="UTC+02:00":20220513T153000
+SUMMARY:ONLINE COURSE: Fortran for Scientific Computing
+UID:https://hpc-portal.eu/node/849
+DESCRIPTION:<p>This course is dedicated to scientists and students to learn
+  (sequential) programming with Fortran of scientific applications. The 
+ course teaches newest Fortran standards. Hands-on sessions will allow 
+ users to immediately test and understand the language constructs. This 
+ workshop provides scientific training in Computational Science\, and in 
+ addition\, the scientific exchange of the participants among 
+ themselves.</p> Program <p>Fortran syntax overview<br> - Basics - Program 
+ units - Dynamic data - IO<br> Obsolete features of Fortran<br> Fortran 
+ intrinsics<br> Multiple source files<br> Optimisation of single processor 
+ performance<br> Features of Fortran 90\, 95\, 2003\, 2008 and 2018<br> 
+ Compilers for Fortran and their usage</p> <p>A detailed program will be 
+ provided. For the time being you can find <a href="https://fs.hlrs.de/proj
+ ects/par/events/2021/agenda_2021-FTN1.pdf">here (PDF)</a> the program from
+  last year (CET time).</p>
+LOCATION:https://regi.hlrs.de/2022/FTN2/registration
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
+ dedicated to scientists and students to learn (sequential) programming 
+ with Fortran of scientific applications. The course teaches newest Fortran
+  standards. Hands-on sessions will allow users to immediately test and 
+ understand the language constructs. This workshop provides scientific 
+ training in Computational Science, and in addition, the scientific 
+ exchange of the participants among themselves.</p> Program <p>Fortran 
+ syntax overview<br> - Basics - Program units - Dynamic data - IO<br> 
+ Obsolete features of Fortran<br> Fortran intrinsics<br> Multiple source 
+ files<br> Optimisation of single processor performance<br> Features of 
+ Fortran 90, 95, 2003, 2008 and 2018<br> Compilers for Fortran and their 
+ usage</p> <p>A detailed program will be provided. For the time being you 
+ can find <a href="https://fs.hlrs.de/projects/par/events/2021/agenda_2021-
+ FTN1.pdf">here (PDF)</a> the program from last year (CET 
+ time).</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220509T090000
+DTEND;TZID="UTC+02:00":20220513T163000
+SUMMARY:Programming in C++
+UID:https://hpc-portal.eu/node/990
+DESCRIPTION:<p>C++ is a multi-paradigm programming language supporting 
+ procedural\, object-oriented\, generic and functional programming styles. 
+ This course will provide a practical introduction to C++\, adhering to the
+  latest official language standard at the time of the course.</p> <p>The 
+ participants will study small example programs\, each demonstrating a 
+ certain aspect of C++\, and then do simple programming exercises using the
+  lessons learned from the examples. The initial focus of the course will 
+ be to make the participants comfortable utilizing modern C++\, e. g.\, 
+ solving small problems using the STL containers and algorithms along with 
+ lambda functions. Syntax will be explained in detail when needed. Once the
+  participants are familiar and comfortable with the easy-to-use aspects of
+  modern C++\, the powerful abstraction mechanisms of the language\, such 
+ as classes and class hierarchies\, and templates will be presented at 
+ depth. It is hoped that this course will encourage fruitful application of
+  the programming language and provide a good foundation for further 
+ learning.</p> <p>It is assumed that the participants have previous 
+ programming experience in languages such as C\, C++\, Python\, Java and 
+ Fortran. This course introduces programming in C++20. It is not meant to 
+ be a beginners' introduction to programming.</p>
+LOCATION:https://go.fzj.de/2022-cplusplus
+DTSTAMP:20220329T123953Z
+GEO:50.909392;6.405973
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>C++ is a multi-
+ paradigm programming language supporting procedural, object-oriented, 
+ generic and functional programming styles. This course will provide a 
+ practical introduction to C++, adhering to the latest official language 
+ standard at the time of the course.</p> <p>The participants will study 
+ small example programs, each demonstrating a certain aspect of C++, and 
+ then do simple programming exercises using the lessons learned from the 
+ examples. The initial focus of the course will be to make the participants
+  comfortable utilizing modern C++, e. g., solving small problems using the
+  STL containers and algorithms along with lambda functions. Syntax will be
+  explained in detail when needed. Once the participants are familiar and 
+ comfortable with the easy-to-use aspects of modern C++, the powerful 
+ abstraction mechanisms of the language, such as classes and class 
+ hierarchies, and templates will be presented at depth. It is hoped that 
+ this course will encourage fruitful application of the programming 
+ language and provide a good foundation for further learning.</p> <p>It is 
+ assumed that the participants have previous programming experience in 
+ languages such as C, C++, Python, Java and Fortran. This course introduces
+  programming in C++20. It is not meant to be a beginners' introduction to 
+ programming.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220509T090000
+DTEND;TZID="UTC+02:00":20220513T170000
+SUMMARY:Young Researchers&#039\; Workshop on Machine Learning for Materials
+UID:https://hpc-portal.eu/node/1319
+DESCRIPTION:<p><strong>Abstract Submission Deadline: 20th March 
+ 2022</strong><br> <strong>Registration Deadline: 10th April 
+ 2022</strong></p> <p>Our workshop’s objective is to cultivate the ground 
+ for the next generation of scientists which will be able to proactively 
+ and efficiently exploit data-driven techniques in materials modelling. We 
+ bring together young researchers\, experts from computer science and 
+ applied mathematics\, and renown scientists in the field of chemistry and 
+ physics\, to discuss about the present and future of machine learning for 
+ materials.</p> <p>The workshop is free of charge\, and consists of 4 half-
+ days of introductory school (Monday to Wednesday)\, followed by 4 half-
+ days of conference (Wednesday to Friday). Participants can choose whether 
+ to attend both\, or only the conference.</p> <p>A complete timetable of 
+ the event will be announced in the following weeks.</p> <p>For further 
+ information and registration visit the website <a 
+ href="https://ml4m.xyz/">https://ml4m.xyz/</a></p>
+LOCATION:https://ml4m.xyz/venue-travel/
+DTSTAMP:20220329T123953Z
+GEO:45.703180;13.719586
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Abstract
+  Submission Deadline: 20th March 2022</strong><br> <strong>Registration 
+ Deadline: 10th April 2022</strong></p> <p>Our workshop’s objective is to 
+ cultivate the ground for the next generation of scientists which will be 
+ able to proactively and efficiently exploit data-driven techniques in 
+ materials modelling. We bring together young researchers, experts from 
+ computer science and applied mathematics, and renown scientists in the 
+ field of chemistry and physics, to discuss about the present and future of
+  machine learning for materials.</p> <p>The workshop is free of charge, 
+ and consists of 4 half-days of introductory school (Monday to Wednesday), 
+ followed by 4 half-days of conference (Wednesday to Friday). Participants 
+ can choose whether to attend both, or only the conference.</p> <p>A 
+ complete timetable of the event will be announced in the following 
+ weeks.</p> <p>For further information and registration visit the website 
+ <a href="https://ml4m.xyz/">https://ml4m.xyz/</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220510T090000
+DTEND;TZID="UTC+02:00":20220512T170000
+SUMMARY:SURF Research Week
+UID:https://hpc-portal.eu/node/1249
+DESCRIPTION:<p>SURF Research Week is <em>the </em>Dutch national conference
+  that connects research\, IT and innovation.</p> <ul> <li>Discover current
+  and future technologies that will help you push the boundaries of your 
+ research.</li> <li>Connect with research communities\, peers\, and people 
+ from SURF.</li> <li>Get inspired by prominent speakers.</li> <li>Share 
+ your thoughts on hot topics such as secure data sharing\, open science\, 
+ artificial intelligence\, or energy-efficient computing.</li> </ul>
+LOCATION:https://www.surf.nl/en/agenda/surf-research-week
+DTSTAMP:20220329T123953Z
+GEO:52.085830;5.103709
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>SURF Research 
+ Week is <em>the </em>Dutch national conference that connects research, IT 
+ and innovation.</p> <ul> <li>Discover current and future technologies that
+  will help you push the boundaries of your research.</li> <li>Connect with
+  research communities, peers, and people from SURF.</li> <li>Get inspired 
+ by prominent speakers.</li> <li>Share your thoughts on hot topics such as 
+ secure data sharing, open science, artificial intelligence, or energy-
+ efficient computing.</li> </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220511T080000
+DTEND;TZID="UTC+02:00":20220511T160000
+SUMMARY:Efficient programming in Julia
+UID:https://hpc-portal.eu/node/969
+DESCRIPTION:<p>Julia (Julialang) is a powerful programming language 
+ developed at MIT and specially adapted to scientific and technical fields.
+  This language allows for the efficient development of elegant and 
+ powerful software.</p> <p>During these 5 half-days\, we will introduce the
+  fundamental elements of the language (REPL\, functions\, variables\, 
+ JAoT...) and we will propose a development organisation (workflow) which 
+ is both efficient and well adapted to the realisation of important 
+ projects.</p> <p>This course will cover in depth Julia types\, multiple 
+ dispatch\, traits\, performance measurement and optimisation\, parallel 
+ computing in Julia (CPU and GPU) as well as an overview of the Julia 
+ ecosystem.</p>
+LOCATION:https://www.triscale-innov.com/training/
+DTSTAMP:20220329T123953Z
+GEO:48.714459;2.245384
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Julia 
+ (Julialang) is a powerful programming language developed at MIT and 
+ specially adapted to scientific and technical fields. This language allows
+  for the efficient development of elegant and powerful software.</p> 
+ <p>During these 5 half-days, we will introduce the fundamental elements of
+  the language (REPL, functions, variables, JAoT...) and we will propose a 
+ development organisation (workflow) which is both efficient and well 
+ adapted to the realisation of important projects.</p> <p>This course will 
+ cover in depth Julia types, multiple dispatch, traits, performance 
+ measurement and optimisation, parallel computing in Julia (CPU and GPU) as
+  well as an overview of the Julia ecosystem.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220511T140000
+DTEND;TZID="UTC+02:00":20220511T170000
+SUMMARY:Introduction to LRZ HPC Systems with Focus on CFD Workflows
+UID:https://hpc-portal.eu/node/929
+DESCRIPTION:<p>The focus of this short course is to provide to beginners in
+  High Performance Computing (HPC) and Computational Fluid Dynamics (CFD) a
+  crash course like introduction to the following essential knowledge:</p> 
+ <ul> <li>Introduction to the LRZ Linux Cluster Systems and computing 
+ environment</li> <li>Introduction to a typical user environment on LRZ 
+ Linux Cluster systems</li> <li>Linux terminal access and file transfer 
+ tools</li> <li>Usage of the module system</li> <li>The batch queuing or 
+ scheduling system SLURM</li> <li>Introduction to a typical CFD-oriented 
+ workflow on the example of ANSYS CFD and StarCCM+</li> <li>Aspects of 
+ licensing of commercial CFD software at LRZ</li> <li>Q &amp\; A</li> </ul>
+LOCATION:https://app1.edoobox.com/en/LRZ/Online%20Courses/Online%20Course.e
+ d.f623963f5b8f_6143766607.Introduction%20to%20LRZ%20HPC%20Systems%20with%2
+ 0Focus%20on%20CFD%20Workflows
+DTSTAMP:20220329T123953Z
+GEO:48.261750;11.667515
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The focus of 
+ this short course is to provide to beginners in High Performance Computing
+  (HPC) and Computational Fluid Dynamics (CFD) a crash course like 
+ introduction to the following essential knowledge:</p> <ul> 
+ <li>Introduction to the LRZ Linux Cluster Systems and computing 
+ environment</li> <li>Introduction to a typical user environment on LRZ 
+ Linux Cluster systems</li> <li>Linux terminal access and file transfer 
+ tools</li> <li>Usage of the module system</li> <li>The batch queuing or 
+ scheduling system SLURM</li> <li>Introduction to a typical CFD-oriented 
+ workflow on the example of ANSYS CFD and StarCCM+</li> <li>Aspects of 
+ licensing of commercial CFD software at LRZ</li> <li>Q &amp; A</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220512T090000
+DTEND;TZID="UTC+02:00":20220512T130000
+SUMMARY:Data Analysis and Plotting in Python with Pandas
+UID:https://hpc-portal.eu/node/989
+DESCRIPTION:<p>Pandas solves the full stack of data analysis in Python\; 
+ reading-in of data\, mangling and manipulation\, analysis\, and 
+ visualisation (and much more\, actually). It builds up on established 
+ Python packages and can be used interchangeably with them (like Numpy\, 
+ matplotlib)\; it fits perfectly into the Jupyter Notebooks workflow of 
+ modern-day data analysis.</p> <p>This course will introduce Pandas with 
+ simple examples in hands-on exercises\, highlighting the capabilities of 
+ the software package on the way with increasing complexity.</p> 
+ <p>Attendees should have run a Python program before and know the bare 
+ minimum of the programming language.<br> You are welcome to use your own 
+ laptop for the course. Alternatively\, access to JSC training machines 
+ will be provided. Please specify what you want to use in your registration
+  email.</p>
+LOCATION:https://go.fzj.de/2022-pandas
+DTSTAMP:20220329T123953Z
+GEO:50.909365;6.406059
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Pandas solves 
+ the full stack of data analysis in Python; reading-in of data, mangling 
+ and manipulation, analysis, and visualisation (and much more, actually). 
+ It builds up on established Python packages and can be used 
+ interchangeably with them (like Numpy, matplotlib); it fits perfectly into
+  the Jupyter Notebooks workflow of modern-day data analysis.</p> <p>This 
+ course will introduce Pandas with simple examples in hands-on exercises, 
+ highlighting the capabilities of the software package on the way with 
+ increasing complexity.</p> <p>Attendees should have run a Python program 
+ before and know the bare minimum of the programming language.<br> You are 
+ welcome to use your own laptop for the course. Alternatively, access to 
+ JSC training machines will be provided. Please specify what you want to 
+ use in your registration email.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220513T090000
+DTEND;TZID="UTC+02:00":20220513T120000
+SUMMARY:General HPC workshop
+UID:https://hpc-portal.eu/node/909
+DESCRIPTION:<p>The market for High Performance Computing (HPC) is 
+ undergoing huge development worldwide\, which not only gives the academic 
+ sector a breakthrough in the development of a discipline\, but also 
+ benefits market players. HPC forms the basis of the long-term digital 
+ future and its understanding is therefore essential for professionals 
+ working in the digitalisation field.</p> <p>In this workshop\, students\, 
+ researchers and market players interested in HPC as a potential user will 
+ be updated on HPC\, user experiences and potential applications.</p>
+LOCATION:https://pxp.kifu.hu/webapp/home
+DTSTAMP:20220329T123953Z
+GEO:47.525573;19.064108
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The market for 
+ High Performance Computing (HPC) is undergoing huge development worldwide,
+  which not only gives the academic sector a breakthrough in the 
+ development of a discipline, but also benefits market players. HPC forms 
+ the basis of the long-term digital future and its understanding is 
+ therefore essential for professionals working in the digitalisation 
+ field.</p> <p>In this workshop, students, researchers and market players 
+ interested in HPC as a potential user will be updated on HPC, user 
+ experiences and potential applications.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220516T080000
+DTEND;TZID="UTC+02:00":20220517T160000
+SUMMARY:Introduction to technological intelligence: an aid to decision-
+ making in research and innovation
+UID:https://hpc-portal.eu/node/947
+DESCRIPTION:<p>Technological intelligence can be defined as "the set of 
+ coordinated activities aimed at acquiring solid knowledge on the 
+ scientific and technological environment in order to support the decision-
+ making process\, in particular on issues related to research and 
+ innovation management".<br> Technological intelligence is therefore 
+ related to the research and analysis of strategic information to better 
+ understand innovative environments. It is a set of original\, high value-
+ added methods and tools that can shed light on a range of varied issues 
+ (choice of R&amp\;D projects\, identification of partners\, competitive 
+ analysis\, etc.).<br> The stakes are high for innovative players or those 
+ who support innovation: understanding the dynamics of innovation 
+ facilitates their decision-making by helping them to better position 
+ themselves in dynamic\, internationalised and highly competitive 
+ environments.</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:0.859137;-3.040830
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Technological 
+ intelligence can be defined as "the set of coordinated activities aimed at
+  acquiring solid knowledge on the scientific and technological environment
+  in order to support the decision-making process, in particular on issues 
+ related to research and innovation management".<br> Technological 
+ intelligence is therefore related to the research and analysis of 
+ strategic information to better understand innovative environments. It is 
+ a set of original, high value-added methods and tools that can shed light 
+ on a range of varied issues (choice of R&amp;D projects, identification of
+  partners, competitive analysis, etc.).<br> The stakes are high for 
+ innovative players or those who support innovation: understanding the 
+ dynamics of innovation facilitates their decision-making by helping them 
+ to better position themselves in dynamic, internationalised and highly 
+ competitive environments.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220516T100000
+DTEND;TZID="UTC+02:00":20220519T160000
+SUMMARY:Deep Learning and GPU Programming Workshop @ LRZ
+UID:https://hpc-portal.eu/node/1162
+DESCRIPTION:<p>Learn how to accelerate your applications with OpenACC and 
+ CUDA\, how to train and deploy a neural network to solve real-world 
+ problems\, and how to effectively parallelize training of deep neural 
+ networks on Multi-GPUs.</p> <p>The online workshop combines lectures about
+  Accelerated Computing with OpenACC and CUDA with lectures about 
+ Fundamentals of Deep Learning for single and for Multi-GPUs.</p> <p>The 
+ lectures are interleaved with many hands-on sessions using Jupyter 
+ Notebooks. The exercises will be done on a fully configured GPU-
+ accelerated workstation in the cloud.</p> <p>The workshop is co-organised 
+ by LRZ and NVIDIA <a href="http://www.nvidia.co.uk/dli">Deep Learning 
+ Institute</a> (DLI) for the Partnership for Advanced Computing in Europe 
+ (PRACE). LRZ as part of GCS is one of the currently 14 <a 
+ href="http://www.training.prace-ri.eu/">PRACE Training Centres</a> which 
+ serve as European hubs and key drivers of advanced high-quality training 
+ for researchers working in the computational sciences.</p> <p>NVIDIA DLI 
+ offers hands-on training for developers\, data scientists\, and 
+ researchers looking to solve challenging problems with deep learning.</p> 
+ <p>All instructors are NVIDIA certified University Ambassadors.</p>
+LOCATION:https://app1.edoobox.com/en/LRZ/Online%20Courses/Online%20Course.e
+ d.1e13ccb8cf80_6417571996.Deep%20Learning%20and%20GPU%20Programming%20Work
+ shop%20%40%20LRZ%20%28register%20via%20PRACE%29
+DTSTAMP:20220329T123953Z
+GEO:48.261750;11.667515
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Learn how to 
+ accelerate your applications with OpenACC and CUDA, how to train and 
+ deploy a neural network to solve real-world problems, and how to 
+ effectively parallelize training of deep neural networks on Multi-
+ GPUs.</p> <p>The online workshop combines lectures about Accelerated 
+ Computing with OpenACC and CUDA with lectures about Fundamentals of Deep 
+ Learning for single and for Multi-GPUs.</p> <p>The lectures are 
+ interleaved with many hands-on sessions using Jupyter Notebooks. The 
+ exercises will be done on a fully configured GPU-accelerated workstation 
+ in the cloud.</p> <p>The workshop is co-organised by LRZ and NVIDIA <a 
+ href="http://www.nvidia.co.uk/dli">Deep Learning Institute</a> (DLI) for 
+ the Partnership for Advanced Computing in Europe (PRACE). LRZ as part of 
+ GCS is one of the currently 14 <a href="http://www.training.prace-
+ ri.eu/">PRACE Training Centres</a> which serve as European hubs and key 
+ drivers of advanced high-quality training for researchers working in the 
+ computational sciences.</p> <p>NVIDIA DLI offers hands-on training for 
+ developers, data scientists, and researchers looking to solve challenging 
+ problems with deep learning.</p> <p>All instructors are NVIDIA certified 
+ University Ambassadors.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220516T130000
+DTEND;TZID="UTC+02:00":20220519T170000
+SUMMARY:Introduction to Supercomputing at JSC - Theory & Practice
+UID:https://hpc-portal.eu/node/988
+DESCRIPTION:<p>Through the John von Neumann Institute for Computing\, 
+ Research Centre Jülich provides high-performance computing resources to 
+ scientific user groups from throughout Germany and Europe and to its 
+ industry partners. The aim of this course is to give new users of the 
+ supercomputers an introduction to the systems\, such that they can make 
+ efficient use of their allocated resources.</p> <p>The course will start 
+ with the upload of credentials to the systems before logging in for the 
+ first time. We then go on to explain how to navigate the systems and get 
+ the user's data and programs in place. By the end\, participants will be 
+ running their first small computations on the supercomputers.</p> 
+ <p>Theoretical lectures will be held in the afternoon from Monday to 
+ Thursday. To turn theory into practice tutorials will be offered in the 
+ mornings from Tuesday to Thursday\, which cover some of the material from 
+ the preceding afternoon.</p> <p>In May 2021\, these two parts of the 
+ course were offered as two separate courses with separate registration 
+ forms. They have now been combined and there is only one registration form
+  which lets you select the parts of the course you wish to attend. We 
+ strongly suggest that registrants attend both parts.</p> <p>Topics covered
+  include:</p> <ul> <li>User account management with the JuDoor portal</li>
+  <li>System access via SSH\, Jupyter\, and UNICORE</li> <li>System 
+ configuration for JURECA and JUWELS</li> <li>File systems\, I/O\, and data
+  management</li> <li>Software modules (compilers\, MPI\, math libraries\, 
+ applications\, debuggers\, tools)</li> <li>Building software from 
+ source</li> <li>Submitting jobs via the resource manager</li> <li>Using 
+ GPUs</li> <li>Performance tuning</li> <li>Visualization</li> </ul>
+LOCATION:https://go.fzj.de/2022-sc-1
+DTSTAMP:20220329T123953Z
+GEO:50.909474;6.405973
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Through the John
+  von Neumann Institute for Computing, Research Centre Jülich provides 
+ high-performance computing resources to scientific user groups from 
+ throughout Germany and Europe and to its industry partners. The aim of 
+ this course is to give new users of the supercomputers an introduction to 
+ the systems, such that they can make efficient use of their allocated 
+ resources.</p> <p>The course will start with the upload of credentials to 
+ the systems before logging in for the first time. We then go on to explain
+  how to navigate the systems and get the user's data and programs in 
+ place. By the end, participants will be running their first small 
+ computations on the supercomputers.</p> <p>Theoretical lectures will be 
+ held in the afternoon from Monday to Thursday. To turn theory into 
+ practice tutorials will be offered in the mornings from Tuesday to 
+ Thursday, which cover some of the material from the preceding 
+ afternoon.</p> <p>In May 2021, these two parts of the course were offered 
+ as two separate courses with separate registration forms. They have now 
+ been combined and there is only one registration form which lets you 
+ select the parts of the course you wish to attend. We strongly suggest 
+ that registrants attend both parts.</p> <p>Topics covered include:</p> 
+ <ul> <li>User account management with the JuDoor portal</li> <li>System 
+ access via SSH, Jupyter, and UNICORE</li> <li>System configuration for 
+ JURECA and JUWELS</li> <li>File systems, I/O, and data management</li> 
+ <li>Software modules (compilers, MPI, math libraries, applications, 
+ debuggers, tools)</li> <li>Building software from source</li> 
+ <li>Submitting jobs via the resource manager</li> <li>Using GPUs</li> 
+ <li>Performance tuning</li> <li>Visualization</li> </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220517T080000
+DTEND;TZID="UTC+02:00":20220520T160000
+SUMMARY:Foundations of machine learning and deep learning
+UID:https://hpc-portal.eu/node/948
+DESCRIPTION:<p>Machine learning is at the heart of current advances in 
+ artificial intelligence for processing digital data. In particular\, we 
+ find deep learning\; many other approaches can sometimes prove to be more 
+ efficient depending on the real problems to be treated. This training 
+ proposes an overview of the methods available "on the shelf" with a focus 
+ on the practical use of these methods with the scikit-learn library.</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:43.280429;5.380554
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Machine learning
+  is at the heart of current advances in artificial intelligence for 
+ processing digital data. In particular, we find deep learning; many other 
+ approaches can sometimes prove to be more efficient depending on the real 
+ problems to be treated. This training proposes an overview of the methods 
+ available "on the shelf" with a focus on the practical use of these 
+ methods with the scikit-learn library.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220517T083000
+DTEND;TZID="UTC+02:00":20220520T130000
+SUMMARY:Parallelization with MPI
+UID:https://hpc-portal.eu/node/923
+DESCRIPTION:<p>On clusters and distributed memory architectures\, parallel 
+ programming with the Message Passing Interface (MPI) is the dominating 
+ programming model. This 4 half-days course teaches parallel programming 
+ with MPI starting from a beginners level. Hands-on sessions (in C\, 
+ Fortran\, and Python) will allow users to immediately test and understand 
+ the basic constructs of the Message Passing Interface (MPI).</p> 
+ <p>Content Levels: Beginners = 8:00h (50%) + Intermediate = 6:00h (37%) + 
+ Advanced = 2:00h (13%)</p> <p>This course is a PRACE training event.</p>
+LOCATION:https://events.prace-ri.eu/event/1360/registrations/1007/
+DTSTAMP:20220329T123953Z
+GEO:48.199551;16.366868
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>On clusters and 
+ distributed memory architectures, parallel programming with the Message 
+ Passing Interface (MPI) is the dominating programming model. This 4 half-
+ days course teaches parallel programming with MPI starting from a 
+ beginners level. Hands-on sessions (in C, Fortran, and Python) will allow 
+ users to immediately test and understand the basic constructs of the 
+ Message Passing Interface (MPI).</p> <p>Content Levels: Beginners = 8:00h 
+ (50%) + Intermediate = 6:00h (37%) + Advanced = 2:00h (13%)</p> <p>This 
+ course is a PRACE training event.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220518T093000
+DTEND;TZID="UTC+02:00":20220520T170000
+SUMMARY:Introduction to C++
+UID:https://hpc-portal.eu/node/1164
+DESCRIPTION:<p>Programming languages such as C++ are devices to help you 
+ think and plan workflows in a systematic\, logical\, and consistent – say 
+ structured – way. C++ contains many language features\, and comprises 
+ different paradigms such as precedural or object-oriented programming. As 
+ with many other contemporary programming languages\, the difficulties of 
+ writing code lie in making design decisions – which language features to 
+ use\, and in which way.</p> <p>This 3-days course covers an introduction 
+ into the C++ language features (types and data structures\, basic key 
+ words\, flow control structures\, templates\, ...)\, some of the paradigm 
+ ideas\, software development process including program design\, project 
+ managment\, debugging\, and more (cmake\, doxygen\, git\, ...).</p> <p>The
+  straightest way to learn a programming language is probably to have the 
+ need to apply it to a problem. If you have a specific problem or project 
+ in mind\, this would be perfect. However\, we offer Hands-on tutorials 
+ with application examples out of the scientific and mathematical fields\, 
+ which are usually met in the universitary environment. We want to 
+ disburden the entry and access to the skills of programming for 
+ prospective and advancing scientists and engineers.</p>
+LOCATION:https://app1.edoobox.com/en/LRZ/Online%20Courses/Online%20Course.e
+ d.f56dd3e44578_6153342355.Introduction%20to%20C%2B%2B
+DTSTAMP:20220329T123953Z
+GEO:48.261750;11.667515
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Programming 
+ languages such as C++ are devices to help you think and plan workflows in 
+ a systematic, logical, and consistent – say structured – way. C++ contains
+  many language features, and comprises different paradigms such as 
+ precedural or object-oriented programming. As with many other contemporary
+  programming languages, the difficulties of writing code lie in making 
+ design decisions – which language features to use, and in which way.</p> 
+ <p>This 3-days course covers an introduction into the C++ language 
+ features (types and data structures, basic key words, flow control 
+ structures, templates, ...), some of the paradigm ideas, software 
+ development process including program design, project managment, 
+ debugging, and more (cmake, doxygen, git, ...).</p> <p>The straightest way
+  to learn a programming language is probably to have the need to apply it 
+ to a problem. If you have a specific problem or project in mind, this 
+ would be perfect. However, we offer Hands-on tutorials with application 
+ examples out of the scientific and mathematical fields, which are usually 
+ met in the universitary environment. We want to disburden the entry and 
+ access to the skills of programming for prospective and advancing 
+ scientists and engineers.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220518T100000
+DTEND;TZID="UTC+02:00":20220518T150000
+SUMMARY:HPC Infrastructure
+UID:https://hpc-portal.eu/node/882
+DESCRIPTION:<p>This is the basic course about singing up\, logging in\, 
+ program compilation and job running on CC SAS HPC resources.</p>
+LOCATION:https://itkurzy.sav.sk/node/30
+DTSTAMP:20220329T123953Z
+GEO:48.170728;17.070940
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This is the 
+ basic course about singing up, logging in, program compilation and job 
+ running on CC SAS HPC resources.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220523T090000
+DTEND;TZID="UTC+02:00":20220526T180000
+SUMMARY:[ONLINE] PATC: Introduction to CUDA Programming
+UID:https://hpc-portal.eu/node/1012
+DESCRIPTION:<p>The aim of this course is to provide students with knowledge
+  and hands-on experience in developing applications software for 
+ processors with massively parallel computing resources. In general\, we 
+ refer to a processor as massively parallel if it has the ability to 
+ complete more than 64 arithmetic operations per clock cycle. Many 
+ commercial offerings from NVIDIA\, AMD\, and Intel already offer such 
+ levels of concurrency. Effectively programming these processors will 
+ require in-depth knowledge about parallel programming principles\, as well
+  as the parallelism models\, communication models\, and resource 
+ limitations of these processors.</p> <p>This course will also provide very
+  good introduction to the<strong> PUMPS Summer School run jointly with 
+ NVIDIA</strong> (as this school has attendee selection process). Further 
+ information on the 2022 PUMPS Summer school will follow soon.</p> <p>You 
+ may also be interested in our <strong><a 
+ href="https://www.bsc.es/education/training/patc-courses/online-patc-
+ introduction-openacc-0">Introduction to OpenACC</a> </strong>course.</p>
+LOCATION:https://events.prace-ri.eu/event/1355/registrations/1001/
+DTSTAMP:20220329T123953Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The aim of this 
+ course is to provide students with knowledge and hands-on experience in 
+ developing applications software for processors with massively parallel 
+ computing resources. In general, we refer to a processor as massively 
+ parallel if it has the ability to complete more than 64 arithmetic 
+ operations per clock cycle. Many commercial offerings from NVIDIA, AMD, 
+ and Intel already offer such levels of concurrency. Effectively 
+ programming these processors will require in-depth knowledge about 
+ parallel programming principles, as well as the parallelism models, 
+ communication models, and resource limitations of these processors.</p> 
+ <p>This course will also provide very good introduction to the<strong> 
+ PUMPS Summer School run jointly with NVIDIA</strong> (as this school has 
+ attendee selection process). Further information on the 2022 PUMPS Summer 
+ school will follow soon.</p> <p>You may also be interested in our 
+ <strong><a href="https://www.bsc.es/education/training/patc-
+ courses/online-patc-introduction-openacc-0">Introduction to OpenACC</a> 
+ </strong>course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220525T090000
+DTEND;TZID="UTC+02:00":20220525T170000
+SUMMARY:Big Data – wie lässt sich die Datenflut zähmen?
+UID:https://hpc-portal.eu/node/1236
+DESCRIPTION:<p>Ihr Unternehmen will die Grundlagen des Big Data Managements
+  und Big Data Analytics kennenlernen? Dann sind Sie hier genau richtig. 
+ Sie erhalten auch genügend Möglichkeiten selbst Hand anzulegen.</p> 
+ <p><strong>Der Workshop umfasst die Themen und Tools:</strong></p> <p> • 
+ Was versteht man unter Big Data\, wo liegen die Herausforderungen und wo 
+ der Nutzen?</p> <p> • Big Data Architekturen</p> <p> • Apache Hadoop</p> 
+ <p> • Apache Spark (inkl. SQL und ML mit Spark)</p> <p> • Big Data 
+ Analysis</p> <p> • Big Data und HPC</p>
+LOCATION:https://vsc.ac.at/training/registration/BigData_zaehmen
+DTSTAMP:20220329T123953Z
+GEO:48.199551;16.366868
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Ihr Unternehmen 
+ will die Grundlagen des Big Data Managements und Big Data Analytics 
+ kennenlernen? Dann sind Sie hier genau richtig. Sie erhalten auch genügend
+  Möglichkeiten selbst Hand anzulegen.</p> <p><strong>Der Workshop umfasst 
+ die Themen und Tools:</strong></p> <p> • Was versteht man unter Big Data, 
+ wo liegen die Herausforderungen und wo der Nutzen?</p> <p> • Big Data 
+ Architekturen</p> <p> • Apache Hadoop</p> <p> • Apache Spark (inkl. SQL 
+ und ML mit Spark)</p> <p> • Big Data Analysis</p> <p> • Big Data und 
+ HPC</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220527T090000
+DTEND;TZID="UTC+02:00":20220527T190000
+SUMMARY:[ONLINE] PATC: Introduction to OpenACC
+UID:https://hpc-portal.eu/node/1013
+DESCRIPTION:<p>This is an expansion of the topic "OpenACC and other 
+ approaches to GPU computing" covered on last years editions of the 
+ Introduction to CUDA Programming. This course is delivered by the GPU 
+ Center of Excellence (GCOE) awarded by NVIDIA to the Barcelona 
+ Supercomputing Center (BSC) in association with Universitat Politecnica de
+  Catalunya (UPC). It will provide very good introduction to the PUMPS 
+ Summer School run jointly with NVIDIA - Further information on the 2022 
+ PUMPS Summer school will follow soon. As an NVIDIA GPU Center of 
+ Excellence\, BSC and UPC are deeply involved in research and outreach 
+ activities around GPU Computing. OpenACC is a high-level\, directive-based
+  programming model for GPU computing. It is a very convenient language to 
+ leverage the GPU power with minimal code modifications\, being the 
+ preferred option for non computer scientists. This course will cover the 
+ necessary topics to get started with GPU programming in OpenACC\, as well 
+ as some advanced topics.</p>
+LOCATION:https://events.prace-ri.eu/event/1356/registrations/1002/
+DTSTAMP:20220329T123953Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This is an 
+ expansion of the topic "OpenACC and other approaches to GPU computing" 
+ covered on last years editions of the Introduction to CUDA Programming. 
+ This course is delivered by the GPU Center of Excellence (GCOE) awarded by
+  NVIDIA to the Barcelona Supercomputing Center (BSC) in association with 
+ Universitat Politecnica de Catalunya (UPC). It will provide very good 
+ introduction to the PUMPS Summer School run jointly with NVIDIA - Further 
+ information on the 2022 PUMPS Summer school will follow soon. As an NVIDIA
+  GPU Center of Excellence, BSC and UPC are deeply involved in research and
+  outreach activities around GPU Computing. OpenACC is a high-level, 
+ directive-based programming model for GPU computing. It is a very 
+ convenient language to leverage the GPU power with minimal code 
+ modifications, being the preferred option for non computer scientists. 
+ This course will cover the necessary topics to get started with GPU 
+ programming in OpenACC, as well as some advanced topics.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220602T080000
+DTEND;TZID="UTC+02:00":20220603T160000
+SUMMARY:Hybrid MPI / OpenMP
+UID:https://hpc-portal.eu/node/952
+DESCRIPTION:<p>Hybrid MPI / OpenMP<br> - Motivations<br> - Presentation of 
+ the general concepts<br> - Joint use of MPI and OpenMP<br> - Architecture 
+ suitability: the memory gain aspect<br> - Architecture suitability: the 
+ network aspect<br> - Case studies<br> - Tools</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.699184;2.187457
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Hybrid MPI / 
+ OpenMP<br> - Motivations<br> - Presentation of the general concepts<br> - 
+ Joint use of MPI and OpenMP<br> - Architecture suitability: the memory 
+ gain aspect<br> - Architecture suitability: the network aspect<br> - Case 
+ studies<br> - Tools</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220602T080000
+DTEND;TZID="UTC+02:00":20220603T160000
+SUMMARY:Hybrid MPI / OpenMP
+UID:https://hpc-portal.eu/node/953
+DESCRIPTION:<p>Hybrid MPI / OpenMP<br> - Motivations<br> - Presentation of 
+ the general concepts<br> - Joint use of MPI and OpenMP<br> - Architecture 
+ suitability: the memory gain aspect<br> - Architecture suitability: the 
+ network aspect<br> - Case studies<br> - Tools</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.699184;2.187457
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Hybrid MPI / 
+ OpenMP<br> - Motivations<br> - Presentation of the general concepts<br> - 
+ Joint use of MPI and OpenMP<br> - Architecture suitability: the memory 
+ gain aspect<br> - Architecture suitability: the network aspect<br> - Case 
+ studies<br> - Tools</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220602T080000
+DTEND;TZID="UTC+02:00":20220603T160000
+SUMMARY:Introduction to MPI/OpenMP hybrid programming
+UID:https://hpc-portal.eu/node/1019
+DESCRIPTION:<p>To be introduced to hybrid MPI/OpenMP programming\, 
+ especially for optimal exploitation of supercomputers\, such as those in 
+ national centres\,<br> Understand the underlying concepts\,<br> Understand
+  the different interests of this approach (performance\, scalability\, 
+ memory optimisation...)\,<br> See the different possible implementations 
+ and learn to implement them explicitly on real applications.</p>
+LOCATION:http://www.idris.fr/info/contacts/alleridris.html
+DTSTAMP:20220329T123953Z
+GEO:48.707414;2.175106
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>To be introduced
+  to hybrid MPI/OpenMP programming, especially for optimal exploitation of 
+ supercomputers, such as those in national centres,<br> Understand the 
+ underlying concepts,<br> Understand the different interests of this 
+ approach (performance, scalability, memory optimisation...),<br> See the 
+ different possible implementations and learn to implement them explicitly 
+ on real applications.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220607T090000
+DTEND;TZID="UTC+02:00":20220610T163000
+SUMMARY:High-performance scientific computing in C++  (ONLINE)
+UID:https://hpc-portal.eu/node/981
+DESCRIPTION:<p>Modern C++\, with its support for procedural\, objected 
+ oriented\, generic and functional programming styles\, offers many 
+ powerful abstraction mechanisms to express complexity at a high level 
+ while remaining very efficient. It is therefore the language of choice for
+  many scientific projects. The approval of the latest language standard\, 
+ C++20\, has also opened up new abstraction layers and new exciting ways to
+  organize code at all levels. However\, achieving high performance by 
+ today's standards requires understanding and exploiting multiple levels of
+  parallelism\, as well as understanding C++ code from a performance 
+ centric viewpoint.</p> <p>In this course\, the participants will learn how
+  to write C++ programs which better utilize typical HPC hardware resources
+  of the present day. The course is geared towards scientists and engineers
+  already familiar with C++17\, who wish to develop maintainable and fast 
+ applications. Since C++20 is a relatively large structural change of the 
+ C++ language\, similar to C++11\, novel ways to write expressive\, 
+ maintainable and fast code are now available to C++ programmers\, which 
+ will be introduced in the course. The participants will learn techniques 
+ to better utilize CPU caches\, instruction pipelines\, SIMD functionality 
+ and multi-threading. Shared memory parallel programming on multiple CPU 
+ cores will be introduced using standard C++ parallel STL and Intel (R) 
+ Threading Building Blocks. The participants will also learn basic GPGPU 
+ programming using C++ template based generic programming techniques.</p> 
+ <p>This course is a PRACE training course.</p>
+LOCATION:https://www.fz-
+ juelich.de/SharedDocs/Termine/IAS/JSC/EN/courses/2022/ptc-hpc-
+ cplusplus-2022.html?nn=2800336
+DTSTAMP:20220329T123953Z
+GEO:50.909365;6.406016
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Modern C++, with
+  its support for procedural, objected oriented, generic and functional 
+ programming styles, offers many powerful abstraction mechanisms to express
+  complexity at a high level while remaining very efficient. It is 
+ therefore the language of choice for many scientific projects. The 
+ approval of the latest language standard, C++20, has also opened up new 
+ abstraction layers and new exciting ways to organize code at all levels. 
+ However, achieving high performance by today's standards requires 
+ understanding and exploiting multiple levels of parallelism, as well as 
+ understanding C++ code from a performance centric viewpoint.</p> <p>In 
+ this course, the participants will learn how to write C++ programs which 
+ better utilize typical HPC hardware resources of the present day. The 
+ course is geared towards scientists and engineers already familiar with 
+ C++17, who wish to develop maintainable and fast applications. Since C++20
+  is a relatively large structural change of the C++ language, similar to 
+ C++11, novel ways to write expressive, maintainable and fast code are now 
+ available to C++ programmers, which will be introduced in the course. The 
+ participants will learn techniques to better utilize CPU caches, 
+ instruction pipelines, SIMD functionality and multi-threading. Shared 
+ memory parallel programming on multiple CPU cores will be introduced using
+  standard C++ parallel STL and Intel (R) Threading Building Blocks. The 
+ participants will also learn basic GPGPU programming using C++ template 
+ based generic programming techniques.</p> <p>This course is a PRACE 
+ training course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220609T090000
+DTEND;TZID="UTC+02:00":20220609T150000
+SUMMARY:Introduction to HPC
+UID:https://hpc-portal.eu/node/910
+DESCRIPTION:<p>What is HPC?</p> <p>How can reached HPC infrastucture?</p> 
+ <p>Estimate of resource requirement and the process of the request 
+ submission</p> <p>Basics of parallel programming and performance 
+ optimization</p> <p>Connecing to the network\, Linux introduction</p> 
+ <p>HPC applications</p>
+LOCATION:https://kifu.gov.hu/en/contact
+DTSTAMP:20220329T123953Z
+GEO:47.525573;19.064108
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>What is HPC?</p>
+  <p>How can reached HPC infrastucture?</p> <p>Estimate of resource 
+ requirement and the process of the request submission</p> <p>Basics of 
+ parallel programming and performance optimization</p> <p>Connecing to the 
+ network, Linux introduction</p> <p>HPC applications</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220612T090000
+DTEND;TZID="UTC+02:00":20220617T170000
+SUMMARY:BioExcel Summer School on Biomolecular Simulations 2022
+UID:https://hpc-portal.eu/node/1316
+DESCRIPTION:<p>The summer school will include lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>Molecular dynamics 
+ simulations</li> <li>Biomolecular docking</li> <li>Free energy 
+ calculations</li> <li>Advanced sampling methods (Metadynamics)</li> 
+ <li>BioExcel Building Blocks (BioBB)</li> <li>Quantum mechanics/molecular 
+ mechanics (QM/MM)</li> <li>Machine learning</li> </ul> <p>During the 
+ hands-on computer practicals you will make use of the BioExcel flagship 
+ software and tools: e.g. GROMACS\, HADDOCK\, PMX\, BioBB\, and CP2K. The 
+ trainers\, developers and/or experts in the use of the software\, will 
+ provide guidance and support.</p> <p><strong>Audience and 
+ Prerequisites</strong></p> <p>The BioExcel school is intended for 
+ primarily PhD and post-doctoral researchers using or planning to use 
+ biomolecular modeling and simulation in their everyday research. 
+ Familiarity with Linux and basic knowledge of molecular modelling software
+  is a requirement.</p>
+LOCATION:https://bioexcel.eu/locations/science-and-technology-park-of-
+ sardinia/
+DTSTAMP:20220329T123953Z
+GEO:38.992215;8.919490
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer 
+ school will include lectures and hands-on sessions on the following 
+ topics:</p> <ul> <li>Molecular dynamics simulations</li> <li>Biomolecular 
+ docking</li> <li>Free energy calculations</li> <li>Advanced sampling 
+ methods (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> 
+ <li>Quantum mechanics/molecular mechanics (QM/MM)</li> <li>Machine 
+ learning</li> </ul> <p>During the hands-on computer practicals you will 
+ make use of the BioExcel flagship software and tools: e.g. GROMACS, 
+ HADDOCK, PMX, BioBB, and CP2K. The trainers, developers and/or experts in 
+ the use of the software, will provide guidance and support.</p> 
+ <p><strong>Audience and Prerequisites</strong></p> <p>The BioExcel school 
+ is intended for primarily PhD and post-doctoral researchers using or 
+ planning to use biomolecular modeling and simulation in their everyday 
+ research. Familiarity with Linux and basic knowledge of molecular 
+ modelling software is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220613T080000
+DTEND;TZID="UTC+02:00":20220617T160000
+SUMMARY:OpenMP / MPI (Open Multi-Processing / Message Passing Interface)
+UID:https://hpc-portal.eu/node/1020
+DESCRIPTION:<p>Be able to develop parallel programs using the MPI message 
+ exchange library<br> Learn about shared memory parallelization with 
+ OpenMP.</p>
+LOCATION:http://www.idris.fr/info/contacts/alleridris.html
+DTSTAMP:20220329T123953Z
+GEO:48.707414;2.175106
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Be able to 
+ develop parallel programs using the MPI message exchange library<br> Learn
+  about shared memory parallelization with OpenMP.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220614T090000
+DTEND;TZID="UTC+02:00":20220614T170000
+SUMMARY:Introduction to Working on the VSC Clusters
+UID:https://hpc-portal.eu/node/917
+DESCRIPTION:<p>This course is from beginners level (the first steps on a 
+ supercomputer) to intermediate level (some experience on VSC or an other 
+ compute cluster).</p> <p>In this course we will help you getting started 
+ on the VSC clusters\, Austria's most powerful supercomputers. With running
+  and developing software on a supercomputer there are many similarities 
+ and fewer but crucial differences compared to your desktop PC. Focusing on
+  hands-on teaching throughout the course\, you will immediately try out 
+ what you've heard and adapt it to your own needs.</p> <p>This lecture is 
+ equally relevant to those who will merely be running existing software as 
+ to those who will develop scientific codes (however\, without actually 
+ teaching supercomputer programming – if you would like to learn parallel 
+ programming\, please refer to our MPI- or OpenMP-courses).</p>
+LOCATION:https://vsc.ac.at/training/registration/vsc-intro
+DTSTAMP:20220329T123953Z
+GEO:48.199551;16.366868
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
+ from beginners level (the first steps on a supercomputer) to intermediate 
+ level (some experience on VSC or an other compute cluster).</p> <p>In this
+  course we will help you getting started on the VSC clusters, Austria's 
+ most powerful supercomputers. With running and developing software on a 
+ supercomputer there are many similarities and fewer but crucial 
+ differences compared to your desktop PC. Focusing on hands-on teaching 
+ throughout the course, you will immediately try out what you've heard and 
+ adapt it to your own needs.</p> <p>This lecture is equally relevant to 
+ those who will merely be running existing software as to those who will 
+ develop scientific codes (however, without actually teaching supercomputer
+  programming – if you would like to learn parallel programming, please 
+ refer to our MPI- or OpenMP-courses).</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220615T090000
+DTEND;TZID="UTC+02:00":20220621T170000
+SUMMARY:NOMAD&#039\;s Midsummer School: Towards exascale solutions in Green
+  function methods and advanced DFT
+UID:https://hpc-portal.eu/node/1325
+DESCRIPTION:<p>With 10^18 floating point operations per second\, exascale 
+ computers will be able to simulate and analyze complex processes in real 
+ materials more realistically than what is possible today. This will allow 
+ to study systems of higher complexity (in space and time) and to achieve 
+ higher accuracy and precision. In close contact with academia and 
+ industry\, the <strong>NOMAD CoE</strong> will develop exascale software\,
+  artificial intelligence (Al) methods\, and efficient workflows for an 
+ advanced materials modeling. The <strong>NOMAD School focusses on 
+ "exascale solutions in Green function methods and advanced 
+ DFT"</strong>.</p> <p> The NOMAD School features <strong>50-minute 
+ tutorial lectures </strong>by renowned scientists of the field (see below 
+ and the PROGRAM) who will introduce their respective topics and address 
+ recent exascale achievements and prevailing challenges.</p> <p> NOMAD 
+ anticipates that the exascale challenge\, which shows "exaflops" 
+ performance in some components of the codes\, will be met by workflows 
+ handling high-throughput calculations and/or complex ensemble averages of 
+ statistical mechanics and artificial intelligence. To get more practical 
+ insights into all these topics\, there will be hands-on tutorials and/or 
+ hackathons in the afternoon\, run in parallel by key developers of the 
+ codes Abinit\, exciting\, FHI-aims\, <strong>GPAW</strong>\, and by 
+ <strong>developers of ASE/ASR\, CC4S and Mini-Apps</strong>. For 
+ example:</p> <ul> <li>people presently using code A can learn about the 
+ possible advantages of code B.</li> <li>people using any of the codes can 
+ learn about and contribute to the workflow management of ASE/AS R.</li> 
+ <li>people using any of the codes can learn about and contribute to the 
+ development of the INTERFACE towards CC4S (coupled cluster for 
+ solids).</li> <li>people using any of the codes can learn about and 
+ contribute to the development of mini apps to check and analyze their code
+  performance.</li> </ul> <p>The school is aimed at graduate students and 
+ early-career postdocs. </p>
+LOCATION:https://www.nomad-coe.eu/events/nomads-midsummer-school-2022-in-
+ riga/NMS22-location
+DTSTAMP:20220329T123953Z
+GEO:56.950760;24.116231
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>With 10^18 
+ floating point operations per second, exascale computers will be able to 
+ simulate and analyze complex processes in real materials more 
+ realistically than what is possible today. This will allow to study 
+ systems of higher complexity (in space and time) and to achieve higher 
+ accuracy and precision. In close contact with academia and industry, the 
+ <strong>NOMAD CoE</strong> will develop exascale software, artificial 
+ intelligence (Al) methods, and efficient workflows for an advanced 
+ materials modeling. The <strong>NOMAD School focusses on "exascale 
+ solutions in Green function methods and advanced DFT"</strong>.</p> <p> 
+ The NOMAD School features <strong>50-minute tutorial lectures </strong>by 
+ renowned scientists of the field (see below and the PROGRAM) who will 
+ introduce their respective topics and address recent exascale achievements
+  and prevailing challenges.</p> <p> NOMAD anticipates that the exascale 
+ challenge, which shows "exaflops" performance in some components of the 
+ codes, will be met by workflows handling high-throughput calculations 
+ and/or complex ensemble averages of statistical mechanics and artificial 
+ intelligence. To get more practical insights into all these topics, there 
+ will be hands-on tutorials and/or hackathons in the afternoon, run in 
+ parallel by key developers of the codes Abinit, exciting, FHI-aims, 
+ <strong>GPAW</strong>, and by <strong>developers of ASE/ASR, CC4S and 
+ Mini-Apps</strong>. For example:</p> <ul> <li>people presently using code 
+ A can learn about the possible advantages of code B.</li> <li>people using
+  any of the codes can learn about and contribute to the workflow 
+ management of ASE/AS R.</li> <li>people using any of the codes can learn 
+ about and contribute to the development of the INTERFACE towards CC4S 
+ (coupled cluster for solids).</li> <li>people using any of the codes can 
+ learn about and contribute to the development of mini apps to check and 
+ analyze their code performance.</li> </ul> <p>The school is aimed at 
+ graduate students and early-career postdocs. </p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220615T100000
+DTEND;TZID="UTC+02:00":20220616T150000
+SUMMARY:Basics of Programming in Python
+UID:https://hpc-portal.eu/node/878
+DESCRIPTION:<p>Python programming for beginners (refresher for more 
+ advanced users). Topics include data structures\, operators\, conditions 
+ and loops\, but also using modules and packages and working with files. 
+ This course includes basics of using Jupyter and running Python programs 
+ on HPC Clusters.</p>
+LOCATION:https://itkurzy.sav.sk/kurzy
+DTSTAMP:20220329T123953Z
+GEO:48.170728;17.070940
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Python 
+ programming for beginners (refresher for more advanced users). Topics 
+ include data structures, operators, conditions and loops, but also using 
+ modules and packages and working with files. This course includes basics 
+ of using Jupyter and running Python programs on HPC 
+ Clusters.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220620T090000
+DTEND;TZID="UTC+02:00":20220624T130000
+SUMMARY:High-performance computing with Python (ONLINE)
+UID:https://hpc-portal.eu/node/982
+DESCRIPTION:<p>Python is increasingly used in high-performance computing 
+ projects. It can be used either as a high-level interface to existing HPC 
+ applications and libraries\, as embedded interpreter\, or directly.</p> 
+ <p>This course combines lectures and hands-on sessions. We will show how 
+ Python can be used on parallel architectures and how to optimize critical 
+ parts of the kernel using various tools.</p> <p>The following topics will 
+ be covered:</p> <ul> <li>Interactive parallel programming with 
+ IPython</li> <li>Profiling and optimization</li> <li>High-performance 
+ NumPy</li> <li>Just-in-time compilation with numba</li> <li>Distributed-
+ memory parallel programming with Python and MPI</li> <li>Bindings to other
+  programming languages and HPC libraries</li> <li>Interfaces to GPUs</li> 
+ </ul> <p>This course is aimed at scientists who wish to explore the 
+ productivity gains made possible by Python for HPC.</p> <p>This course is 
+ a PRACE training course.</p>
+LOCATION:https://www.fz-
+ juelich.de/SharedDocs/Termine/IAS/JSC/EN/courses/2022/ptc-hpc-
+ python-2022.html?nn=2800336
+DTSTAMP:20220329T123953Z
+GEO:50.909406;6.406059
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Python is 
+ increasingly used in high-performance computing projects. It can be used 
+ either as a high-level interface to existing HPC applications and 
+ libraries, as embedded interpreter, or directly.</p> <p>This course 
+ combines lectures and hands-on sessions. We will show how Python can be 
+ used on parallel architectures and how to optimize critical parts of the 
+ kernel using various tools.</p> <p>The following topics will be 
+ covered:</p> <ul> <li>Interactive parallel programming with IPython</li> 
+ <li>Profiling and optimization</li> <li>High-performance NumPy</li> 
+ <li>Just-in-time compilation with numba</li> <li>Distributed-memory 
+ parallel programming with Python and MPI</li> <li>Bindings to other 
+ programming languages and HPC libraries</li> <li>Interfaces to GPUs</li> 
+ </ul> <p>This course is aimed at scientists who wish to explore the 
+ productivity gains made possible by Python for HPC.</p> <p>This course is 
+ a PRACE training course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220621T083000
+DTEND;TZID="UTC+02:00":20220624T163000
+SUMMARY:Modern C++ Software Design (Intermediate)
+UID:https://hpc-portal.eu/node/825
+DESCRIPTION:<p>This intermediate C++ training is a course on software 
+ development with the C++ programming language. The focus of the training 
+ are the essential C++ software development principles\, concepts\, 
+ idioms\, and best practices\, which enable programmers to create 
+ professional\, high-quality code. The course will give insight into the 
+ different aspects of C++ (object-oriented programming\, functional 
+ programming\, generic programming) and will teach guidelines to develop 
+ mature\, robust\, maintainable\, and efficient C++ code.</p> <p>Since 2020
+  we provide two types of C++ courses\, each offered two times per 
+ year:</p> <ul> <li><strong>intermediate</strong>: Mar. 8-11\, 2022\, and 
+ June 21-24\, 2021 <strong> (this course)</strong></li> <li>advanced: May 
+ 3-6\, 2022\, and Nov. 22-25\, 2022</li> </ul> <p>with two different levels
+  of prerequisites.</p>
+LOCATION:https://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This 
+ intermediate C++ training is a course on software development with the C++
+  programming language. The focus of the training are the essential C++ 
+ software development principles, concepts, idioms, and best practices, 
+ which enable programmers to create professional, high-quality code. The 
+ course will give insight into the different aspects of C++ (object-
+ oriented programming, functional programming, generic programming) and 
+ will teach guidelines to develop mature, robust, maintainable, and 
+ efficient C++ code.</p> <p>Since 2020 we provide two types of C++ courses,
+  each offered two times per year:</p> <ul> 
+ <li><strong>intermediate</strong>: Mar. 8-11, 2022, and June 21-24, 2021 
+ <strong> (this course)</strong></li> <li>advanced: May 3-6, 2022, and Nov.
+  22-25, 2022</li> </ul> <p>with two different levels of 
+ prerequisites.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220622T090000
+DTEND;TZID="UTC+02:00":20220624T160000
+SUMMARY:Hybrid Programming in HPC - MPI+X
+UID:https://hpc-portal.eu/node/1165
+DESCRIPTION:<p>Most HPC systems are clusters of shared memory nodes. To use
+  such systems efficiently both memory consumption and communication time 
+ has to be optimized. Therefore\, hybrid programming may combine the 
+ distributed memory parallelization on the node interconnect (e.g.\, with 
+ MPI) with the shared memory parallelization inside of each node (e.g.\, 
+ with OpenMP or MPI-3.0 shared memory). This course analyzes the strengths 
+ and weaknesses of several parallel programming models on clusters of SMP 
+ nodes. Multi-socket-multi-core systems in highly parallel environments are
+  given special consideration. MPI-3.0 has introduced a new shared memory 
+ programming interface\, which can be combined with inter-node MPI 
+ communication. It can be used for direct neighbor accesses similar to 
+ OpenMP or for direct halo copies\, and enables new hybrid programming 
+ models. These models are compared with various hybrid MPI+OpenMP 
+ approaches and pure MPI. Numerous case studies and micro-benchmarks 
+ demonstrate the performance-related aspects of hybrid programming.</p> 
+ <p>Hands-on sessions are included on all days. Tools for hybrid 
+ programming such as thread/process placement support and performance 
+ analysis are presented in a "how-to" section. This course provides 
+ scientific training in Computational Science and\, in addition\, the 
+ scientific exchange of the participants among themselves.</p> <p>This 
+ online course is a PRACE training event. It is organised by LRZ in 
+ cooperation with NHR@FAU\, RRZE and the VSC Research Center\, TU Wien.</p>
+LOCATION:https://app1.edoobox.com/en/LRZ/Online%20Courses/Online%20Course.e
+ d.2aea539d2ccf_6250920706.Hybrid%20Programming%20in%20HPC%20-%20MPI%2BX%20
+ %28register%20via%20PRACE%29
+DTSTAMP:20220329T123953Z
+GEO:48.261750;11.667515
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Most HPC systems
+  are clusters of shared memory nodes. To use such systems efficiently both
+  memory consumption and communication time has to be optimized. Therefore,
+  hybrid programming may combine the distributed memory parallelization on 
+ the node interconnect (e.g., with MPI) with the shared memory 
+ parallelization inside of each node (e.g., with OpenMP or MPI-3.0 shared 
+ memory). This course analyzes the strengths and weaknesses of several 
+ parallel programming models on clusters of SMP nodes. Multi-socket-multi-
+ core systems in highly parallel environments are given special 
+ consideration. MPI-3.0 has introduced a new shared memory programming 
+ interface, which can be combined with inter-node MPI communication. It can
+  be used for direct neighbor accesses similar to OpenMP or for direct halo
+  copies, and enables new hybrid programming models. These models are 
+ compared with various hybrid MPI+OpenMP approaches and pure MPI. Numerous 
+ case studies and micro-benchmarks demonstrate the performance-related 
+ aspects of hybrid programming.</p> <p>Hands-on sessions are included on 
+ all days. Tools for hybrid programming such as thread/process placement 
+ support and performance analysis are presented in a "how-to" section. This
+  course provides scientific training in Computational Science and, in 
+ addition, the scientific exchange of the participants among 
+ themselves.</p> <p>This online course is a PRACE training event. It is 
+ organised by LRZ in cooperation with NHR@FAU, RRZE and the VSC Research 
+ Center, TU Wien.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220629T080000
+DTEND;TZID="UTC+02:00":20220701T160000
+SUMMARY:Introduction to OpenACC and OpenMP GPU
+UID:https://hpc-portal.eu/node/951
+DESCRIPTION:<p>Since the beginning of the 2010 decade\, the use of graphics
+  cards (GPUs) as acceleration devices for certain types of computation has
+  grown rapidly and\, while they were initially designed for video games\, 
+ their use for scientific computation has grown steadily.<br> Although they
+  offer very significant potential gains in acceleration for certain types 
+ of calculation\, a notable obstacle to the widespread use of graphics 
+ cards was the need for very low-level programming using specific 
+ libraries\, which required a high degree of computer expertise. But 
+ recently\, the programming of graphics cards can be done by simple sets of
+  directives (OpenACC standard and OpenMP standard since its version 4.5)\,
+  in the straight line of the usual programming paradigms on scientific 
+ computers\, which makes the use of GPUs easily affordable for a large 
+ number of programmers.<br> The objective of this training is to present 
+ these new sets of guidelines and to show\, through their practical 
+ implementation\, how they allow today to take advantage of the enormous 
+ potential of graphics cards to accelerate scientific applications.<br> 
+ </p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.699184;2.187457
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Since the 
+ beginning of the 2010 decade, the use of graphics cards (GPUs) as 
+ acceleration devices for certain types of computation has grown rapidly 
+ and, while they were initially designed for video games, their use for 
+ scientific computation has grown steadily.<br> Although they offer very 
+ significant potential gains in acceleration for certain types of 
+ calculation, a notable obstacle to the widespread use of graphics cards 
+ was the need for very low-level programming using specific libraries, 
+ which required a high degree of computer expertise. But recently, the 
+ programming of graphics cards can be done by simple sets of directives 
+ (OpenACC standard and OpenMP standard since its version 4.5), in the 
+ straight line of the usual programming paradigms on scientific computers, 
+ which makes the use of GPUs easily affordable for a large number of 
+ programmers.<br> The objective of this training is to present these new 
+ sets of guidelines and to show, through their practical implementation, 
+ how they allow today to take advantage of the enormous potential of 
+ graphics cards to accelerate scientific applications.<br> 
+ </p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220706T090000
+DTEND;TZID="UTC+02:00":20220707T170000
+SUMMARY:Python for HPC
+UID:https://hpc-portal.eu/node/1250
+DESCRIPTION:<p>During the past ten years\, Python has seen a meteoric rise 
+ in both popularity and demand not only in general purpose programming but 
+ especially data science contributed to this trend. Despite Python's 
+ architectural shortcomings\, even the field of High Performance Computing 
+ (HPC)\, with its highly specific demands\, profited from recent 
+ developments with various libraries and optimizations.</p> <p>This course 
+ introduces the interested participant to Python from an HPC viewpoint\, 
+ the most practical tools\, and various indispensable libraries for HPC use
+  cases. After completion of this two-day course\, participants are 
+ prepared to effectively develop their own Python libraries or integrate 
+ Python into existing projects.</p>
+LOCATION:https://vsc.ac.at/training/registration/python4hpc
+DTSTAMP:20220329T123953Z
+GEO:48.199551;16.366868
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>During the past 
+ ten years, Python has seen a meteoric rise in both popularity and demand 
+ not only in general purpose programming but especially data science 
+ contributed to this trend. Despite Python's architectural shortcomings, 
+ even the field of High Performance Computing (HPC), with its highly 
+ specific demands, profited from recent developments with various libraries
+  and optimizations.</p> <p>This course introduces the interested 
+ participant to Python from an HPC viewpoint, the most practical tools, and
+  various indispensable libraries for HPC use cases. After completion of 
+ this two-day course, participants are prepared to effectively develop 
+ their own Python libraries or integrate Python into existing 
+ projects.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220707T090000
+DTEND;TZID="UTC+02:00":20220708T160000
+SUMMARY:Introduction to using AMBERTOOLS
+UID:https://hpc-portal.eu/node/1294
+DESCRIPTION:<p><strong>Theory classes:</strong> Classical dynamics at 
+ finite temperature (Hamilton equations\, atomic potentials for proteins\, 
+ how to introduce thermal baths). Preparation for hands-on classes: the 
+ sander module of AMBERTOOLS (what type of systems it can simulate\, what 
+ type of simulations it can do\, how thermal baths can be represented\, 
+ input and output files). The cpptraj module of AMBERTOOLS to analyze 
+ results. <strong>Hands-on classes:</strong> How to login in and submit 
+ AMBERTOOLS jobs to Oblivion. Submit a short molecular dynamics job to 
+ Oblivion using the sander module. Inspection of the output files. Use the 
+ cpptraj module to further analyze the results. Use the software VMD to 
+ visualize proteins and protein trajectories.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/32/
+DTSTAMP:20220329T123953Z
+GEO:38.573049;-7.904393
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Theory 
+ classes:</strong> Classical dynamics at finite temperature (Hamilton 
+ equations, atomic potentials for proteins, how to introduce thermal 
+ baths). Preparation for hands-on classes: the sander module of AMBERTOOLS 
+ (what type of systems it can simulate, what type of simulations it can do,
+  how thermal baths can be represented, input and output files). The 
+ cpptraj module of AMBERTOOLS to analyze results. <strong>Hands-on 
+ classes:</strong> How to login in and submit AMBERTOOLS jobs to Oblivion. 
+ Submit a short molecular dynamics job to Oblivion using the sander module.
+  Inspection of the output files. Use the cpptraj module to further analyze
+  the results. Use the software VMD to visualize proteins and protein 
+ trajectories.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220711T160000
+DTEND;TZID="UTC+02:00":20220711T180000
+SUMMARY:Using the OBLIVION Supercomputer @ ERASMUS+ Intensive Program on 
+ Machine Learning
+UID:https://hpc-portal.eu/node/1295
+DESCRIPTION:<p>Supercomputer design and interconnects\; Software stack and 
+ environmental modules\; SLURM\, submission scripts\, and accounting.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/28/
+DTSTAMP:20220329T123953Z
+GEO:38.573045;-7.904415
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Supercomputer 
+ design and interconnects; Software stack and environmental modules; SLURM,
+  submission scripts, and accounting.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220712T090000
+DTEND;TZID="UTC+02:00":20220714T170000
+SUMMARY:Deep Learning and GPU programming using OpenACC
+UID:https://hpc-portal.eu/node/1312
+DESCRIPTION:<p><a href="https://www.nvidia.co.uk/dli">NVIDIA Deep Learning 
+ Institute (DLI)</a> offers hands-on training for developers\, data 
+ scientists\, and researchers looking to solve challenging problems with 
+ deep learning.</p> <p>Learn how to accelerate your applications with 
+ OpenACC\, how to train and deploy a neural network to solve real-world 
+ problems\, and how to effectively parallelize training of deep neural 
+ networks on Multi-GPUs.</p> <p>The workshop combines lectures about 
+ <em>Fundamentals of Deep Learning </em>and <em>Fundamentals of Deep 
+ Learning for Multi-GPUs </em> with a lecture about <em>Accelerated 
+ Computing with OpenACC</em>.</p> <p>The lectures are interleaved with many
+  hands-on sessions using Jupyter Notebooks. The exercises will be done on 
+ a fully configured GPU-accelerated cluster in the cloud.</p> <p>The first 
+ three days are organized in cooperation with LRZ (Germany) and Nvidia. All
+  instructors are NVIDIA certified University Ambassadors. On the last 
+ day\, you will learn more about DL on the systems at HLRS.</p>
+LOCATION:https://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><a 
+ href="https://www.nvidia.co.uk/dli">NVIDIA Deep Learning Institute 
+ (DLI)</a> offers hands-on training for developers, data scientists, and 
+ researchers looking to solve challenging problems with deep learning.</p> 
+ <p>Learn how to accelerate your applications with OpenACC, how to train 
+ and deploy a neural network to solve real-world problems, and how to 
+ effectively parallelize training of deep neural networks on Multi-
+ GPUs.</p> <p>The workshop combines lectures about <em>Fundamentals of Deep
+  Learning </em>and <em>Fundamentals of Deep Learning for Multi-GPUs </em> 
+ with a lecture about <em>Accelerated Computing with OpenACC</em>.</p> 
+ <p>The lectures are interleaved with many hands-on sessions using Jupyter 
+ Notebooks. The exercises will be done on a fully configured GPU-
+ accelerated cluster in the cloud.</p> <p>The first three days are 
+ organized in cooperation with LRZ (Germany) and Nvidia. All instructors 
+ are NVIDIA certified University Ambassadors. On the last day, you will 
+ learn more about DL on the systems at HLRS.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220718T090000
+DTEND;TZID="UTC+02:00":20220722T160000
+SUMMARY:ERASMUS+ Intensive Program on Machine Learning
+UID:https://hpc-portal.eu/node/1307
+DESCRIPTION:<p><strong>ERASMUS+ BLENDED INTENSIVE PROGRAM</strong></p> 
+ <p><strong>Organised and funded by:</strong></p> <ul> <li><strong>ERASMUS+
+  ADVANCED COMPUTING CONSORTIUM (AdvCC)</strong> </li> </ul> <p><strong> 
+ (Project ID: </strong>2021-1-PT01- KA130-HED-000005845)</p> <ul> 
+ <li><strong>ERASMUS+ KA131 MOBILITIES PROJECT UNDER AdvCC</strong></li> 
+ </ul> <p> (<strong>Project ID:</strong> 
+ 2021-1-PT01-KA131-HED-000008876)</p> <p><strong>Syllabus:</strong> 
+ Introduction\; Inductive Learning\; Linear and logistic regression\; 
+ Neural Networks and Deep Learning. Support Vector Machines (SVM)\; 
+ Ensemble Methods\; Probabilistic Graphic Models\; Unsupervised learning: 
+ clustering.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/37/
+DTSTAMP:20220329T123953Z
+GEO:37.044979;-7.971316
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>ERASMUS+
+  BLENDED INTENSIVE PROGRAM</strong></p> <p><strong>Organised and funded 
+ by:</strong></p> <ul> <li><strong>ERASMUS+ ADVANCED COMPUTING CONSORTIUM 
+ (AdvCC)</strong> </li> </ul> <p><strong> (Project ID: 
+ </strong>2021-1-PT01- KA130-HED-000005845)</p> <ul> <li><strong>ERASMUS+ 
+ KA131 MOBILITIES PROJECT UNDER AdvCC</strong></li> </ul> <p> 
+ (<strong>Project ID:</strong> 2021-1-PT01-KA131-HED-000008876)</p> 
+ <p><strong>Syllabus:</strong> Introduction; Inductive Learning; Linear and
+  logistic regression; Neural Networks and Deep Learning. Support Vector 
+ Machines (SVM); Ensemble Methods; Probabilistic Graphic Models; 
+ Unsupervised learning: clustering.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220808T090000
+DTEND;TZID="UTC+02:00":20220812T163000
+SUMMARY:Introduction to parallel programming with MPI and OpenMP
+UID:https://hpc-portal.eu/node/983
+DESCRIPTION:<p>An introduction to the parallel programming of 
+ supercomputers is given. The focus is on the usage of the Message Passing 
+ Interface (MPI)\, the most often used programming model for systems with 
+ distributed memory. Furthermore\, OpenMP will be presented\, which is 
+ often used on shared-memory architectures.</p> <p>The first four days of 
+ the course consist of lectures and short exercises. A fifth day is devoted
+  to demonstrating the use of MPI and OpenMP in a larger context. To this 
+ end\, starting from a simple but representative serial algorithm\, a 
+ parallel version will be designed and implemented using the techniques 
+ presented in the course.</p>
+LOCATION:https://go.fzj.de/2022-mpi-intro-2
+DTSTAMP:20220329T123953Z
+GEO:50.909447;6.406016
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>An introduction 
+ to the parallel programming of supercomputers is given. The focus is on 
+ the usage of the Message Passing Interface (MPI), the most often used 
+ programming model for systems with distributed memory. Furthermore, OpenMP
+  will be presented, which is often used on shared-memory 
+ architectures.</p> <p>The first four days of the course consist of 
+ lectures and short exercises. A fifth day is devoted to demonstrating the 
+ use of MPI and OpenMP in a larger context. To this end, starting from a 
+ simple but representative serial algorithm, a parallel version will be 
+ designed and implemented using the techniques presented in the 
+ course.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220905T090000
+DTEND;TZID="UTC+02:00":20220906T160000
+SUMMARY:Introduction to Gromacs
+UID:https://hpc-portal.eu/node/1296
+DESCRIPTION:<p><strong>Syllabus:</strong> Overview of local installation 
+ and configuration of Gromacs software + visualization tools in Linux 
+ environment\; Biomolecular simulation basics\; Gromacs suite components 
+ and basic utility instructions\; Molecular dynamics simulations in model 
+ systems\; Use of Gromacs suite analysis tools\; Use of Gromacs software in
+  advanced computing environments.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/33/
+DTSTAMP:20220329T123953Z
+GEO:38.573038;-7.904393
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Syllabus:</strong> Overview of local 
+ installation and configuration of Gromacs software + visualization tools 
+ in Linux environment; Biomolecular simulation basics; Gromacs suite 
+ components and basic utility instructions; Molecular dynamics simulations 
+ in model systems; Use of Gromacs suite analysis tools; Use of Gromacs 
+ software in advanced computing environments.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220912T080000
+DTEND;TZID="UTC+02:00":20220912T160000
+SUMMARY:Effective programming in Julia
+UID:https://hpc-portal.eu/node/970
+DESCRIPTION:<p>Julia (Julialang) is a powerful programming language 
+ developed at MIT and specially adapted to scientific and technical fields.
+  This language allows for the efficient development of elegant and 
+ powerful software.</p> <p>During these 5 half-days\, we will introduce the
+  fundamental elements of the language (REPL\, functions\, variables\, 
+ JAoT...) and we will propose a development organisation (workflow) which 
+ is both efficient and well adapted to the realisation of important 
+ projects.</p> <p>This course will cover in depth Julia types\, multiple 
+ dispatch\, traits\, performance measurement and optimisation\, parallel 
+ computing in Julia (CPU and GPU) as well as an overview of the Julia 
+ ecosystem.</p>
+LOCATION:https://www.triscale-innov.com/training/
+DTSTAMP:20220329T123953Z
+GEO:48.714459;2.245384
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Julia 
+ (Julialang) is a powerful programming language developed at MIT and 
+ specially adapted to scientific and technical fields. This language allows
+  for the efficient development of elegant and powerful software.</p> 
+ <p>During these 5 half-days, we will introduce the fundamental elements of
+  the language (REPL, functions, variables, JAoT...) and we will propose a 
+ development organisation (workflow) which is both efficient and well 
+ adapted to the realisation of important projects.</p> <p>This course will 
+ cover in depth Julia types, multiple dispatch, traits, performance 
+ measurement and optimisation, parallel computing in Julia (CPU and GPU) as
+  well as an overview of the Julia ecosystem.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220912T090000
+DTEND;TZID="UTC+02:00":20220916T153000
+SUMMARY:Introduction to Computational Fluid Dynamics
+UID:https://hpc-portal.eu/node/853
+DESCRIPTION:<p>The course deals with current numerical methods for 
+ Computational Fluid Dynamics in the context of high performance computing.
+  An emphasis is placed on explicit methods for compressible flows\, but 
+ classical numerical methods for incompressible Navier-Stokes equations are
+  also covered. A brief introduction to turbulence modelling is also 
+ provided by the course. Additional topics are high order numerical methods
+  for the solution of systems of partial differential equations. The last 
+ day is dedicated to parallelization. </p> <p>Hands-on sessions will 
+ manifest the contents of the lectures. In most of these sessions\, the 
+ application Framework APES will be used. They cover grid generation using 
+ Seeder\, visualization with ParaView and the usage of the parallel CFD 
+ solver Ateles on the local HPC system. </p> <p>The course is organized by 
+ HLRS\, IAG (University of Stuttgart) and <a href="https://www.dlr.de/sp/de
+ sktopdefault.aspx/tabid-12153/21357_read-53987/">DLR</a>\, Institute of 
+ Software Methods for Product Virtualisation (SP).</p> Program <p>See link 
+ to the <strong><a 
+ href="https://fs.hlrs.de/projects/par/events/2015/agenda_2015-CFD-
+ SIEGEN.pdf">detailed program</a> </strong>(<strong>CEST time</strong>\, 
+ preliminary\, refers to the analogous <strong>classroom course </strong> 
+ in Siegen).<br> Schedule might vary in this <strong>online 
+ course</strong>.</p>
+LOCATION:https://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The course deals
+  with current numerical methods for Computational Fluid Dynamics in the 
+ context of high performance computing. An emphasis is placed on explicit 
+ methods for compressible flows, but classical numerical methods for 
+ incompressible Navier-Stokes equations are also covered. A brief 
+ introduction to turbulence modelling is also provided by the course. 
+ Additional topics are high order numerical methods for the solution of 
+ systems of partial differential equations. The last day is dedicated to 
+ parallelization. </p> <p>Hands-on sessions will manifest the contents of 
+ the lectures. In most of these sessions, the application Framework APES 
+ will be used. They cover grid generation using Seeder, visualization with 
+ ParaView and the usage of the parallel CFD solver Ateles on the local HPC 
+ system. </p> <p>The course is organized by HLRS, IAG (University of 
+ Stuttgart) and <a href="https://www.dlr.de/sp/desktopdefault.aspx/tabid-12
+ 153/21357_read-53987/">DLR</a>, Institute of Software Methods for Product 
+ Virtualisation (SP).</p> Program <p>See link to the <strong><a 
+ href="https://fs.hlrs.de/projects/par/events/2015/agenda_2015-CFD-
+ SIEGEN.pdf">detailed program</a> </strong>(<strong>CEST time</strong>, 
+ preliminary, refers to the analogous <strong>classroom course </strong> in
+  Siegen).<br> Schedule might vary in this <strong>online 
+ course</strong>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220913T160000
+DTEND;TZID="UTC+02:00":20220913T180000
+SUMMARY:Using the OBLIVION Supercomputer @ ERASMUS+ Introduction to 
+ parallel programming with MPI and OpenMP
+UID:https://hpc-portal.eu/node/1308
+DESCRIPTION:<p><strong>ONLINE COURSE</strong></p> <p>HIGH PERFORMANCE 
+ COMPUTING CENTRE - UNIVERSITY OF ÉVORA</p> <p>Sponsored by</p> <ul> 
+ <li>EuroCC (European Commission\, EuroHPC JU)</li> <li>Foundation for 
+ Science &amp\; Technology (Portugal)</li> <li>High Performance Computing 
+ Chair (**)</li> </ul> <p>(**) The HPC Chair is a R&amp\;D infrastructure 
+ (based at the University of Évora)\, endorsed by Hewlett Packard 
+ Enterprise (HPE)\, and involving a consortium of higher education 
+ institutions\, research centres\, enterprises\, and public/private 
+ organisations.</p> <p><strong>Syllabus: </strong></p> <p>Supercomputer 
+ design and interconnects\; Software stack and environment modules\; 
+ SLURM\, submission scripts\, accounting\; Questions &amp\; answers.</p> 
+LOCATION:https://indico.hpc.uevora.pt/event/26/
+DTSTAMP:20220329T123953Z
+GEO:38.573049;-7.904404
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>ONLINE 
+ COURSE</strong></p> <p>HIGH PERFORMANCE COMPUTING CENTRE - UNIVERSITY OF 
+ ÉVORA</p> <p>Sponsored by</p> <ul> <li>EuroCC (European Commission, 
+ EuroHPC JU)</li> <li>Foundation for Science &amp; Technology 
+ (Portugal)</li> <li>High Performance Computing Chair (**)</li> </ul> 
+ <p>(**) The HPC Chair is a R&amp;D infrastructure (based at the University
+  of Évora), endorsed by Hewlett Packard Enterprise (HPE), and involving a 
+ consortium of higher education institutions, research centres, 
+ enterprises, and public/private organisations.</p> <p><strong>Syllabus: 
+ </strong></p> <p>Supercomputer design and interconnects; Software stack 
+ and environment modules; SLURM, submission scripts, accounting; Questions 
+ &amp; answers.</p> </BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220919T090000
+DTEND;TZID="UTC+02:00":20220923T180000
+SUMMARY:ERASMUS+ Introduction to parallel programming with MPI and OpenMP
+UID:https://hpc-portal.eu/node/1309
+DESCRIPTION:<p><strong>ERASMUS+ BLENDED INTENSIVE PROGRAM </strong></p> 
+ <p><strong>Organised under the projects:</strong></p> <ul> 
+ <li><strong>ERASMUS+ ADVANCED COMPUTING CONSORTIUM (AdvCC)</strong> </li> 
+ </ul> <p><strong> (Project ID: </strong>2021-1-PT01- 
+ KA130-HED-000005845)</p> <ul> <li><strong>ERASMUS+ KA131 MOBILITIES 
+ PROJECT UNDER AdvCC</strong></li> </ul> <p> (<strong>Project ID:</strong> 
+ 2021-1-PT01-KA131-HED-000008876)</p> <p><strong>Syllabus:</strong> 
+ Introduction (Terminology\; Parallelization\, load balancing\; Evaluating 
+ program performance\; Architectures (Distributed memory\, Shared memory\, 
+ Hybrid systems)\; Parallel programming (Message passing\; Multithreading\,
+  OpenMP\; Accelerators\, OpenACC)\; Debugging and Parallel program 
+ performance analysis. Parallel models\; Hands-on activities.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/38/
+DTSTAMP:20220329T123953Z
+GEO:37.042759;-7.971933
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>ERASMUS+
+  BLENDED INTENSIVE PROGRAM </strong></p> <p><strong>Organised under the 
+ projects:</strong></p> <ul> <li><strong>ERASMUS+ ADVANCED COMPUTING 
+ CONSORTIUM (AdvCC)</strong> </li> </ul> <p><strong> (Project ID: 
+ </strong>2021-1-PT01- KA130-HED-000005845)</p> <ul> <li><strong>ERASMUS+ 
+ KA131 MOBILITIES PROJECT UNDER AdvCC</strong></li> </ul> <p> 
+ (<strong>Project ID:</strong> 2021-1-PT01-KA131-HED-000008876)</p> 
+ <p><strong>Syllabus:</strong> Introduction (Terminology; Parallelization, 
+ load balancing; Evaluating program performance; Architectures (Distributed
+  memory, Shared memory, Hybrid systems); Parallel programming (Message 
+ passing; Multithreading, OpenMP; Accelerators, OpenACC); Debugging and 
+ Parallel program performance analysis. Parallel models; Hands-on 
+ activities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220923T080000
+DTEND;TZID="UTC+02:00":20220928T160000
+SUMMARY:MPI (Message Passing Interface)
+UID:https://hpc-portal.eu/node/1021
+DESCRIPTION:<p>Be able to develop parallel programs through the 
+ implementation of the MPI message exchange library</p>
+LOCATION:http://www.idris.fr/info/contacts/alleridris.html
+DTSTAMP:20220329T123953Z
+GEO:48.707414;2.175106
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Be able to 
+ develop parallel programs through the implementation of the MPI message 
+ exchange library</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220928T090000
+DTEND;TZID="UTC+02:00":20220928T150000
+SUMMARY:Introduction to HPC
+UID:https://hpc-portal.eu/node/911
+DESCRIPTION:<p>What is HPC?</p> <p>How can reached HPC infrastucture?</p> 
+ <p>Estimate of resource requirement and the process of the request 
+ submission</p> <p>Basics of parallel programming and performance 
+ optimization</p> <p>Connecing to the network\, Linux introduction</p> 
+ <p>HPC applications</p>
+LOCATION:https://kifu.gov.hu/en/contact
+DTSTAMP:20220329T123953Z
+GEO:47.525573;19.064108
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>What is HPC?</p>
+  <p>How can reached HPC infrastucture?</p> <p>Estimate of resource 
+ requirement and the process of the request submission</p> <p>Basics of 
+ parallel programming and performance optimization</p> <p>Connecing to the 
+ network, Linux introduction</p> <p>HPC applications</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220929T080000
+DTEND;TZID="UTC+02:00":20220930T160000
+SUMMARY:MPI
+UID:https://hpc-portal.eu/node/954
+DESCRIPTION:<p>Day 1<br> - Introduction to MPI<br> - MPI environment (with 
+ exercises)<br> - Point to point communications (with exercises)<br> - 
+ Group communications (with exercises)</p> <p>Day 2<br> - Communication 
+ models<br> - Derived types (with exercises)</p> <p>Day 3<br> - 
+ Communicators (with exercises)<br> - Parallel inputs/outputs (with 
+ exercises)</p> <p>Day 4<br> - Parallel input/output (continued)<br> - 
+ Summary exercise (half day)</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.699184;2.187457
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Day 1<br> - 
+ Introduction to MPI<br> - MPI environment (with exercises)<br> - Point to 
+ point communications (with exercises)<br> - Group communications (with 
+ exercises)</p> <p>Day 2<br> - Communication models<br> - Derived types 
+ (with exercises)</p> <p>Day 3<br> - Communicators (with exercises)<br> - 
+ Parallel inputs/outputs (with exercises)</p> <p>Day 4<br> - Parallel 
+ input/output (continued)<br> - Summary exercise (half 
+ day)</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220929T090000
+DTEND;TZID="UTC+02:00":20220930T160000
+SUMMARY:Scientific Visualization with COVISE and Vistle
+UID:https://hpc-portal.eu/node/855
+DESCRIPTION:<p>This course is targeted at researchers with basic knowledge 
+ in numerical simulation\, who would like to learn how to visualize their 
+ simulation results on the desktop but also in Augmented Reality and 
+ Virtual Environments. The two-day workshop gives a short overview over 
+ scientific visualization in general\, followed by a hands-on introduction 
+ to 3D desktop visualization with <a 
+ href="https://services.excellerat.eu/viewcode/2">VISTLE </a> and <a 
+ href="http://www.hlrs.de/covise/">COVISE</a>. Participants will further 
+ learn how to build interactive 3D Models for Virtual Environments and how 
+ to set up an Augmented Reality visualization.</p>
+LOCATION:http://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
+ targeted at researchers with basic knowledge in numerical simulation, who 
+ would like to learn how to visualize their simulation results on the 
+ desktop but also in Augmented Reality and Virtual Environments. The two-
+ day workshop gives a short overview over scientific visualization in 
+ general, followed by a hands-on introduction to 3D desktop visualization 
+ with <a href="https://services.excellerat.eu/viewcode/2">VISTLE </a> and 
+ <a href="http://www.hlrs.de/covise/">COVISE</a>. Participants will further
+  learn how to build interactive 3D Models for Virtual Environments and how
+  to set up an Augmented Reality visualization.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221004T080000
+DTEND;TZID="UTC+02:00":20221006T160000
+SUMMARY:Artificial intelligence: state of the art and applications
+UID:https://hpc-portal.eu/node/946
+DESCRIPTION:<p>This course presents an overview of the major research 
+ themes at the heart of artificial intelligence. The various presentations 
+ will be in the form of interactive courses. Each theme will be illustrated
+  by application examples\, a description of the technologies used\, the 
+ corresponding technological bricks\, the key players and the major 
+ challenges in the field.</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.858884;2.346941
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
+ presents an overview of the major research themes at the heart of 
+ artificial intelligence. The various presentations will be in the form of 
+ interactive courses. Each theme will be illustrated by application 
+ examples, a description of the technologies used, the corresponding 
+ technological bricks, the key players and the major challenges in the 
+ field.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221006T090000
+DTEND;TZID="UTC+02:00":20221007T163000
+SUMMARY:Porting code from Matlab to Python
+UID:https://hpc-portal.eu/node/987
+DESCRIPTION:<p>Python is becoming a popular language for scientific 
+ applications and is increasingly used for high performance computing. In 
+ this course we want to introduce Matlab programmers to the usage of 
+ Python. Matlab and Python have a comparable language philosophy\, but 
+ Python can offer better performance using its optimizations and 
+ parallelization interfaces. Python also increases the portability and 
+ flexibility (interaction with other open source and proprietary software 
+ packages) of solutions\, and can be run on supercomputing resources 
+ without high licensing costs.</p> <p>The training course will be divided 
+ into three stages: First\, attendants will learn how to do a direct 
+ translation of language concepts from Matlab to Python. Then\, 
+ optimization of scripts using more Pythonic data structures and functions 
+ will be shown. Finally\, code will be taken to the supercomputers where 
+ basic parallel programming (MPI) will be used to exploit parallelism in 
+ the computation.</p> <p>The course will focus on numerical and statistical
+  analysis as well as on image processing applications.</p> <p>This course 
+ involves theoretical and hands on sessions which will be guided by experts
+  in Python\, Matlab and High Performance Computing. Attendants are highly 
+ encouraged to bring their own Matlab scripts.</p>
+LOCATION:https://go.fzj.de/2022-matlab2python
+DTSTAMP:20220329T123953Z
+GEO:50.909419;6.405887
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Python is 
+ becoming a popular language for scientific applications and is 
+ increasingly used for high performance computing. In this course we want 
+ to introduce Matlab programmers to the usage of Python. Matlab and Python 
+ have a comparable language philosophy, but Python can offer better 
+ performance using its optimizations and parallelization interfaces. Python
+  also increases the portability and flexibility (interaction with other 
+ open source and proprietary software packages) of solutions, and can be 
+ run on supercomputing resources without high licensing costs.</p> <p>The 
+ training course will be divided into three stages: First, attendants will 
+ learn how to do a direct translation of language concepts from Matlab to 
+ Python. Then, optimization of scripts using more Pythonic data structures 
+ and functions will be shown. Finally, code will be taken to the 
+ supercomputers where basic parallel programming (MPI) will be used to 
+ exploit parallelism in the computation.</p> <p>The course will focus on 
+ numerical and statistical analysis as well as on image processing 
+ applications.</p> <p>This course involves theoretical and hands on 
+ sessions which will be guided by experts in Python, Matlab and High 
+ Performance Computing. Attendants are highly encouraged to bring their own
+  Matlab scripts.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221010T080000
+DTEND;TZID="UTC+02:00":20221021T160000
+SUMMARY:Foundations and practice of machine learning and deep learning
+UID:https://hpc-portal.eu/node/949
+DESCRIPTION:<p>What is machine learning?<br> - Machine learning data<br> - 
+ Visualisation\, Feature Engineering<br> - Unsupervised learning<br> - 
+ Dimension reduction<br> - Early classification and regression 
+ algorithms<br> - Classification and regression trees<br> - Ensemble 
+ methods<br> - Model selection for regression<br> - Optimal linear 
+ separators and kernels<br> - Optimisation with gradients<br> - Neural 
+ networks<br> - Deep Learning<br> - Multiple testing<br> - Machine Learning
+  and fairness<br> - Learning and Privacy<br> - Introduction to 
+ Reinforcement Learning<br> - Learning for recommendation</p> 
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.701882;2.134529
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>What is machine 
+ learning?<br> - Machine learning data<br> - Visualisation, Feature 
+ Engineering<br> - Unsupervised learning<br> - Dimension reduction<br> - 
+ Early classification and regression algorithms<br> - Classification and 
+ regression trees<br> - Ensemble methods<br> - Model selection for 
+ regression<br> - Optimal linear separators and kernels<br> - Optimisation 
+ with gradients<br> - Neural networks<br> - Deep Learning<br> - Multiple 
+ testing<br> - Machine Learning and fairness<br> - Learning and Privacy<br>
+  - Introduction to Reinforcement Learning<br> - Learning for 
+ recommendation</p> </BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221010T093000
+DTEND;TZID="UTC+02:00":20221014T173000
+SUMMARY:Machine Learning for Data Science
+UID:https://hpc-portal.eu/node/942
+DESCRIPTION:<p>This training course enables the participants to reinforce 
+ their theoretical and practical knowledge in order to implement machine 
+ learning techniques for the automatic analysis of data. The main 
+ statistical methods for data analysis are presented\, both for data 
+ exploration (non-supervised learning) and for prediction (supervised 
+ learning). Each method is first presented and commented on a theoretical 
+ level\, and then illustrated on numerical experiments run with public 
+ datasets using R and/or python/scikit-learn software.</p>
+LOCATION:https://cerfacs.fr/en/come-to-cerfacs-by-bike-bus-or-car/
+DTSTAMP:20220329T123953Z
+GEO:43.577449;1.376675
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This training 
+ course enables the participants to reinforce their theoretical and 
+ practical knowledge in order to implement machine learning techniques for 
+ the automatic analysis of data. The main statistical methods for data 
+ analysis are presented, both for data exploration (non-supervised 
+ learning) and for prediction (supervised learning). Each method is first 
+ presented and commented on a theoretical level, and then illustrated on 
+ numerical experiments run with public datasets using R and/or 
+ python/scikit-learn software.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221012T080000
+DTEND;TZID="UTC+02:00":20221014T160000
+SUMMARY:OpenMP
+UID:https://hpc-portal.eu/node/955
+DESCRIPTION:<p>Course</p> <p>Introduction to the course<br> - 
+ Principles<br> - Work Sharing<br> - Synchronisation<br> - SIMD 
+ Vectorisation<br> - Tasks<br> - Memory and processor affinity<br> - 
+ Performance<br> - Conclusion</p>
+LOCATION:https://cnrsformation.cnrs.fr/
+DTSTAMP:20220329T123953Z
+GEO:48.699184;2.187457
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Course</p> 
+ <p>Introduction to the course<br> - Principles<br> - Work Sharing<br> - 
+ Synchronisation<br> - SIMD Vectorisation<br> - Tasks<br> - Memory and 
+ processor affinity<br> - Performance<br> - Conclusion</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221014T090000
+DTEND;TZID="UTC+02:00":20221014T150000
+SUMMARY:Introduction to parallel programming with OpenMP
+UID:https://hpc-portal.eu/node/912
+DESCRIPTION:<p>Introduction to parallel programming with OpenMP</p>
+LOCATION:https://pxp.kifu.hu/webapp/home
+DTSTAMP:20220329T123953Z
+GEO:47.525573;19.064108
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Introduction to 
+ parallel programming with OpenMP</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221025T090000
+DTEND;TZID="UTC+02:00":20221026T160000
+SUMMARY:Programming in Julia for Digital Humanities
+UID:https://hpc-portal.eu/node/1310
+DESCRIPTION:<p><strong>ONLINE COURSE</strong></p> <p>HIGH PERFORMANCE 
+ COMPUTING CENTRE &amp\; HPC CHAIR (**)</p> <p>Sponsored by</p> <ul> 
+ <li>EuroCC (European Commission\, EuroHPC JU)</li> <li>Foundation for 
+ Science &amp\; Technology (Portugal)</li> </ul> <p>(**) The HPC Chair is a
+  R&amp\;D infrastructure (based at the University of Évora)\, endorsed by 
+ Hewlett Packard Enterprise (HPE)\, and involving a consortium of higher 
+ education institutions\, research centres\, enterprises\, and 
+ public/private organisations.</p> <p>Course Syllabus:</p> <ul> 
+ <li>Installation and Configuration\, </li> <li>Modify a Program\; 
+ Calculations and Notebooks. </li> <li>Duplicate\; Programming 
+ Fundamentals\; Common Starting Points. </li> <li>Strings and Slices\; 
+ Regular Expressions. </li> <li>Hands-on and challenge projects.</li> </ul>
+LOCATION:https://indico.hpc.uevora.pt/event/35/
+DTSTAMP:20220329T123953Z
+GEO:38.573039;-7.904388
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>ONLINE 
+ COURSE</strong></p> <p>HIGH PERFORMANCE COMPUTING CENTRE &amp; HPC CHAIR 
+ (**)</p> <p>Sponsored by</p> <ul> <li>EuroCC (European Commission, EuroHPC
+  JU)</li> <li>Foundation for Science &amp; Technology (Portugal)</li> 
+ </ul> <p>(**) The HPC Chair is a R&amp;D infrastructure (based at the 
+ University of Évora), endorsed by Hewlett Packard Enterprise (HPE), and 
+ involving a consortium of higher education institutions, research centres,
+  enterprises, and public/private organisations.</p> <p>Course 
+ Syllabus:</p> <ul> <li>Installation and Configuration, </li> <li>Modify a 
+ Program; Calculations and Notebooks. </li> <li>Duplicate; Programming 
+ Fundamentals; Common Starting Points. </li> <li>Strings and Slices; 
+ Regular Expressions. </li> <li>Hands-on and challenge projects.</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221026T090000
+DTEND;TZID="UTC+02:00":20221028T130000
+SUMMARY:Directive-based GPU programming with OpenACC
+UID:https://hpc-portal.eu/node/986
+DESCRIPTION:<p>GPU-accelerated computing drives current scientific 
+ research. Writing fast numeric algorithms for GPUs offers high application
+  performance by offloading compute-intensive portions of the code to the 
+ GPU. The course will cover basic aspects of GPU architectures and 
+ programming. Focus is on the usage of the directive-based OpenACC 
+ programming model which allows for portable application development. 
+ Examples of increasing complexity will be used to demonstrate optimization
+  and tuning of scientific applications.</p> <p>Topics covered will 
+ include:</p> <ul> <li>Introduction to GPU/Parallel computing</li> 
+ <li>Programming model OpenACC</li> <li>Interoperability of OpenACC with 
+ GPU libraries (like cuBLAS and cuFFT) and CUDA</li> <li>Multi-GPU 
+ Programming with MPI and OpenACC</li> <li>Tools for debugging and 
+ profiling</li> <li>Performance optimization</li> </ul> <p>The course 
+ consists of lectures and interactive hands-on sessions in C or Fortran 
+ (the attendee’s choice).</p>
+LOCATION:https://go.fzj.de/2022-openacc
+DTSTAMP:20220329T123953Z
+GEO:50.909419;6.405888
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>GPU-accelerated 
+ computing drives current scientific research. Writing fast numeric 
+ algorithms for GPUs offers high application performance by offloading 
+ compute-intensive portions of the code to the GPU. The course will cover 
+ basic aspects of GPU architectures and programming. Focus is on the usage 
+ of the directive-based OpenACC programming model which allows for portable
+  application development. Examples of increasing complexity will be used 
+ to demonstrate optimization and tuning of scientific applications.</p> 
+ <p>Topics covered will include:</p> <ul> <li>Introduction to GPU/Parallel 
+ computing</li> <li>Programming model OpenACC</li> <li>Interoperability of 
+ OpenACC with GPU libraries (like cuBLAS and cuFFT) and CUDA</li> 
+ <li>Multi-GPU Programming with MPI and OpenACC</li> <li>Tools for 
+ debugging and profiling</li> <li>Performance optimization</li> </ul> 
+ <p>The course consists of lectures and interactive hands-on sessions in C 
+ or Fortran (the attendee’s choice).</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221116T180000
+DTEND;TZID="UTC+01:00":20221116T193000
+SUMMARY:Using the OBLIVION Supercomputer
+UID:https://hpc-portal.eu/node/1298
+DESCRIPTION:<p><strong>HIGH PERFORMANCE COMPUTING CENTRE - UNIVERSITY OF 
+ ÉVORA</strong></p> <p><strong>Sponsored by</strong></p> <ul> <li> EuroCC 
+ (European Commission\, EuroHPC JU) </li> <li> Foundation for Science 
+ &amp\; Technology (Portugal) </li> <li> High Performance Computing Chair 
+ (**) </li> </ul> <p>(**) The HPC Chair is a R&amp\;D infrastructure (based
+  at the University of Évora)\, endorsed by Hewlett Packard Enterprise 
+ (HPE)\, and involving a consortium of higher education institutions\, 
+ research centres\, enterprises\, and public/private organisations.</p> 
+ <p><strong>Syllabus:</strong> Supercomputer design and interconnects\; 
+ Software stack and environmental modules\; SLURM\; Job submission\; 
+ Accounting.</p>
+LOCATION:https://indico.hpc.uevora.pt/event/27/
+DTSTAMP:20220329T123953Z
+GEO:38.573053;-7.904393
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>HIGH 
+ PERFORMANCE COMPUTING CENTRE - UNIVERSITY OF ÉVORA</strong></p> 
+ <p><strong>Sponsored by</strong></p> <ul> <li> EuroCC (European 
+ Commission, EuroHPC JU) </li> <li> Foundation for Science &amp; Technology
+  (Portugal) </li> <li> High Performance Computing Chair (**) </li> </ul> 
+ <p>(**) The HPC Chair is a R&amp;D infrastructure (based at the University
+  of Évora), endorsed by Hewlett Packard Enterprise (HPE), and involving a 
+ consortium of higher education institutions, research centres, 
+ enterprises, and public/private organisations.</p> 
+ <p><strong>Syllabus:</strong> Supercomputer design and interconnects; 
+ Software stack and environmental modules; SLURM; Job submission; 
+ Accounting.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221121T090000
+DTEND;TZID="UTC+01:00":20221121T150000
+SUMMARY:AI and HPC in industry
+UID:https://hpc-portal.eu/node/914
+DESCRIPTION:<p>Presentation of NCC and introduction to HPC</p> <p>AI and 
+ HPC for the accelerate of the business development</p> <p>Launch of the 
+ HPC projects</p> <p>Configuration of machine learning -Configure and 
+ running of machine learning projects</p> <p>Experiences of industrial HPC 
+ users\, partners</p>
+LOCATION:https://kifu.gov.hu/en/contact
+DTSTAMP:20220329T123953Z
+GEO:47.525573;19.064108
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Presentation of 
+ NCC and introduction to HPC</p> <p>AI and HPC for the accelerate of the 
+ business development</p> <p>Launch of the HPC projects</p> 
+ <p>Configuration of machine learning -Configure and running of machine 
+ learning projects</p> <p>Experiences of industrial HPC users, 
+ partners</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221121T130000
+DTEND;TZID="UTC+01:00":20221124T170000
+SUMMARY:Introduction to Supercomputing at JSC - Theory & Practice
+UID:https://hpc-portal.eu/node/985
+DESCRIPTION:<p>Through the John von Neumann Institute for Computing\, 
+ Research Centre Jülich provides high-performance computing resources to 
+ scientific user groups from throughout Germany and Europe and to its 
+ industry partners. The aim of this course is to give new users of the 
+ supercomputers an introduction to the systems\, such that they can make 
+ efficient use of their allocated resources.</p> <p>The course will start 
+ with the upload of credentials to the systems before logging in for the 
+ first time. We then go on to explain how to navigate the systems and get 
+ the user's data and programs in place. By the end\, participants will be 
+ running their first small computations on the supercomputers.</p> 
+ <p>Theoretical lectures will be held in the afternoon from Monday to 
+ Thursday. To turn theory into practice tutorials will be offered in the 
+ mornings from Tuesday to Thursday\, which cover some of the material from 
+ the preceding afternoon.</p> <p>You can select in the registration form 
+ which parts (theoretical or practical) of the course you wish to attend. 
+ We strongly suggest that registrants attend both parts.</p> <p>Topics 
+ covered include:</p> <ul> <li>User account management with the JuDoor 
+ portal</li> <li>System access via SSH\, Jupyter\, and UNICORE</li> 
+ <li>System configuration for JURECA and JUWELS</li> <li>File systems\, 
+ I/O\, and data management</li> <li>Software modules (compilers\, MPI\, 
+ math libraries\, applications\, debuggers\, tools)</li> <li>Building 
+ software from source</li> <li>Submitting jobs via the resource 
+ manager</li> <li>Using GPUs</li> <li>Performance tuning</li> 
+ <li>Visualization</li> </ul>
+LOCATION:https://go.fzj.de/2022-sc-2
+DTSTAMP:20220329T123953Z
+GEO:50.909365;6.405973
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Through the John
+  von Neumann Institute for Computing, Research Centre Jülich provides 
+ high-performance computing resources to scientific user groups from 
+ throughout Germany and Europe and to its industry partners. The aim of 
+ this course is to give new users of the supercomputers an introduction to 
+ the systems, such that they can make efficient use of their allocated 
+ resources.</p> <p>The course will start with the upload of credentials to 
+ the systems before logging in for the first time. We then go on to explain
+  how to navigate the systems and get the user's data and programs in 
+ place. By the end, participants will be running their first small 
+ computations on the supercomputers.</p> <p>Theoretical lectures will be 
+ held in the afternoon from Monday to Thursday. To turn theory into 
+ practice tutorials will be offered in the mornings from Tuesday to 
+ Thursday, which cover some of the material from the preceding 
+ afternoon.</p> <p>You can select in the registration form which parts 
+ (theoretical or practical) of the course you wish to attend. We strongly 
+ suggest that registrants attend both parts.</p> <p>Topics covered 
+ include:</p> <ul> <li>User account management with the JuDoor portal</li> 
+ <li>System access via SSH, Jupyter, and UNICORE</li> <li>System 
+ configuration for JURECA and JUWELS</li> <li>File systems, I/O, and data 
+ management</li> <li>Software modules (compilers, MPI, math libraries, 
+ applications, debuggers, tools)</li> <li>Building software from 
+ source</li> <li>Submitting jobs via the resource manager</li> <li>Using 
+ GPUs</li> <li>Performance tuning</li> <li>Visualization</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221122T083000
+DTEND;TZID="UTC+01:00":20221125T163000
+SUMMARY:Modern C++ Software Design (Advanced)
+UID:https://hpc-portal.eu/node/877
+DESCRIPTION:<p>This advanced C++ training is a course on software design 
+ with the C++ programming language. The focus of the training are the 
+ essential C++ software development principles\, concepts\, idioms\, and 
+ best practices\, which enable programmers to create professional\, high-
+ quality code. Additionally\, the course gives insight into kernel 
+ development with C++. The course provides insight into different design 
+ strategies (object-oriented programming\, functional programming\, generic
+  programming) and the philosophy of “Modern C++” and teaches guidelines to
+  develop mature\, robust\, maintainable\, and efficient C++ code.</p> 
+ <p>Please note that this course is not a tutorial on any specific C++ 
+ library or tool (as for instance OpenFoam or CUDA)\, but teaches good\, 
+ mature software design with the C++ itself.</p> <p>Since 2020 we provide 
+ two types of C++ courses\, each offered two times per year:</p> <ul> 
+ <li>intermediate: Mar. 8-11\, 2021\, and June 21-24\, 2021</li> 
+ <li><strong>advanced</strong>: May 3-6\, 2021\, and Nov. 22-25\, 2021 
+ <strong>(this course)</strong></li> </ul> <p>with two different levels of 
+ prerequisites.</p>
+LOCATION:https://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This advanced 
+ C++ training is a course on software design with the C++ programming 
+ language. The focus of the training are the essential C++ software 
+ development principles, concepts, idioms, and best practices, which enable
+  programmers to create professional, high-quality code. Additionally, the 
+ course gives insight into kernel development with C++. The course provides
+  insight into different design strategies (object-oriented programming, 
+ functional programming, generic programming) and the philosophy of “Modern
+  C++” and teaches guidelines to develop mature, robust, maintainable, and 
+ efficient C++ code.</p> <p>Please note that this course is not a tutorial 
+ on any specific C++ library or tool (as for instance OpenFoam or CUDA), 
+ but teaches good, mature software design with the C++ itself.</p> <p>Since
+  2020 we provide two types of C++ courses, each offered two times per 
+ year:</p> <ul> <li>intermediate: Mar. 8-11, 2021, and June 21-24, 
+ 2021</li> <li><strong>advanced</strong>: May 3-6, 2021, and Nov. 22-25, 
+ 2021 <strong>(this course)</strong></li> </ul> <p>with two different 
+ levels of prerequisites.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221128T090000
+DTEND;TZID="UTC+01:00":20221130T173000
+SUMMARY:Advanced Parallel Programming with MPI and OpenMP
+UID:https://hpc-portal.eu/node/984
+DESCRIPTION:<p>The focus is on advanced programming with MPI and OpenMP. 
+ The course addresses participants who have already some experience with 
+ C/C++ or Fortran and MPI and OpenMP\, the most popular programming models 
+ in high performance computing (HPC).</p> <p>The course will teach newest 
+ methods in MPI-3.0/3.1 and OpenMP-4.5 and 5.0\, which were developed for 
+ the efficient use of current HPC hardware. Topics with MPI are the group 
+ and communicator concept\, process topologies\, derived data types\, the 
+ new MPI-3.0 Fortran language binding\, one-sided communication and the new
+  MPI-3.0 shared memory programming model within MPI. Topics with OpenMP 
+ are the OpenMP-4.0 extensions\, as the vectorization directives\, thread 
+ affinity and OpenMP places. (The GPU programming with OpenMP-4.0 
+ directives is not part of this course.) The course also contains 
+ performance and best practice considerations.</p> <p>Hands-on sessions (in
+  C and Fortran) will allow users to immediately test and understand the 
+ taught constructs of the Message Passing Interface (MPI) and the shared 
+ memory directives of OpenMP. Most MPI exercises will (in addition to C and
+  Fortran) also be available for Python + mpi4py + numpy.</p> <p>This 
+ course provides scientific training in Computational Science\, and in 
+ addition\, the scientific exchange of the participants among themselves. 
+ It is organized by JSC in cooperation with HLRS. </p>
+LOCATION:https://go.fzj.de/2022-adv-mpi
+DTSTAMP:20220329T123953Z
+GEO:50.909419;6.405887
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The focus is on 
+ advanced programming with MPI and OpenMP. The course addresses 
+ participants who have already some experience with C/C++ or Fortran and 
+ MPI and OpenMP, the most popular programming models in high performance 
+ computing (HPC).</p> <p>The course will teach newest methods in 
+ MPI-3.0/3.1 and OpenMP-4.5 and 5.0, which were developed for the efficient
+  use of current HPC hardware. Topics with MPI are the group and 
+ communicator concept, process topologies, derived data types, the new 
+ MPI-3.0 Fortran language binding, one-sided communication and the new 
+ MPI-3.0 shared memory programming model within MPI. Topics with OpenMP are
+  the OpenMP-4.0 extensions, as the vectorization directives, thread 
+ affinity and OpenMP places. (The GPU programming with OpenMP-4.0 
+ directives is not part of this course.) The course also contains 
+ performance and best practice considerations.</p> <p>Hands-on sessions (in
+  C and Fortran) will allow users to immediately test and understand the 
+ taught constructs of the Message Passing Interface (MPI) and the shared 
+ memory directives of OpenMP. Most MPI exercises will (in addition to C and
+  Fortran) also be available for Python + mpi4py + numpy.</p> <p>This 
+ course provides scientific training in Computational Science, and in 
+ addition, the scientific exchange of the participants among themselves. It
+  is organized by JSC in cooperation with HLRS. </p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221128T140000
+DTEND;TZID="UTC+01:00":20221130T190000
+SUMMARY:Programming and Data Infrastructure in Digital Humanities
+UID:https://hpc-portal.eu/node/1311
+DESCRIPTION:<p><strong>INTERNATIONAL CONFERENCE</strong></p> 
+ <strong>Rationale</strong> <p>Programming in Digital Humanities (DH) is 
+ one of the most challenging topics in this field of knowledge and 
+ research. Unfortunately\, a significant number of DH’ers coming from areas
+  of knowledge such as literature\, philology\, history\, etc.\, still 
+ experience great difficulties when it comes to use programming languages 
+ to handle their data and display it. This meeting aims to address these 
+ difficulties and discuss the latest developments associated to programming
+  in DHs by bringing together scientists from different areas within the 
+ community.</p> <strong>Scientific Topics</strong> <p>The meeting program 
+ covers several fundamental topics in the field of programming in Digital 
+ Humanities\, e.g.:</p> <ul> <li> Data programming infrastructures </li> 
+ <li> Data handling and analytics (small or big data) </li> <li> 
+ Programming languages\, e.g.\, Python\, Julia\, R </li> <li> Programming 
+ stylistics </li> <li> Using artificial intelligence </li> <li> Training 
+ human resources in programming in DHs </li> </ul>
+LOCATION:https://indico.hpc.uevora.pt/event/36/
+DTSTAMP:20220329T123953Z
+GEO:38.573046;-7.904404
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>INTERNATIONAL CONFERENCE</strong></p> 
+ <strong>Rationale</strong> <p>Programming in Digital Humanities (DH) is 
+ one of the most challenging topics in this field of knowledge and 
+ research. Unfortunately, a significant number of DH’ers coming from areas 
+ of knowledge such as literature, philology, history, etc., still 
+ experience great difficulties when it comes to use programming languages 
+ to handle their data and display it. This meeting aims to address these 
+ difficulties and discuss the latest developments associated to programming
+  in DHs by bringing together scientists from different areas within the 
+ community.</p> <strong>Scientific Topics</strong> <p>The meeting program 
+ covers several fundamental topics in the field of programming in Digital 
+ Humanities, e.g.:</p> <ul> <li> Data programming infrastructures </li> 
+ <li> Data handling and analytics (small or big data) </li> <li> 
+ Programming languages, e.g., Python, Julia, R </li> <li> Programming 
+ stylistics </li> <li> Using artificial intelligence </li> <li> Training 
+ human resources in programming in DHs </li> </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221129T080000
+DTEND;TZID="UTC+01:00":20221130T160000
+SUMMARY:Parallel programming tools MPI\, OpenMP
+UID:https://hpc-portal.eu/node/944
+DESCRIPTION:<p>This course aims at learning to parallelize applications in 
+ order to reduce compute time or solve larger problems using MPI/OpenMP 
+ programming models. The course is taught using formal lectures and 
+ practical/programming sessions. All examples in the course will be done in
+  Fortran\, the exercices can be done in Fortran or C.</p>
+LOCATION:https://cerfacs.fr/en/come-to-cerfacs-by-bike-bus-or-car/
+DTSTAMP:20220329T123953Z
+GEO:43.574084;1.376453
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course aims
+  at learning to parallelize applications in order to reduce compute time 
+ or solve larger problems using MPI/OpenMP programming models. The course 
+ is taught using formal lectures and practical/programming sessions. All 
+ examples in the course will be done in Fortran, the exercices can be done 
+ in Fortran or C.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221214T140000
+DTEND;TZID="UTC+01:00":20221215T190000
+SUMMARY:Vienna Ab-initio Simulation Package (VASP) Ecosystem
+UID:https://hpc-portal.eu/node/1305
+DESCRIPTION:<p><strong>Rationale</strong></p> <p>The Vienna Ab-initio 
+ Simulation Package (VASP) is one of the leading electronic structure 
+ software to study chemical / physical properties and reactions paths of 
+ solids\, surfaces\, and interfaces. It is based on the atomic scale 
+ modeling from first principles by solving the many-body Schrödinger-type 
+ equation\, the Kohn-Sham equations (Density Functional Theory\; DFT). The 
+ software is able to tackle problems with 1-1000s atoms and applications 
+ are widely used to perform simulations of liquids\, crystals\, magnetism\,
+  semiconductor/insulators\, surfaces\, catalysts.</p> <p>The software has 
+ been developed/refractored by the Kresse group at the University of Vienna
+  and VASP Software GmbH for about ~25 years. It enables MPI and Open MP 
+ parallelism\, and prior to 2011\, first efforts on GPU acceleration with 
+ CUDA C were considered.</p> <p>During the meeting considerations on how to
+  run VASP efficiently in national HPC facilities (i.e. Oblivion) will be 
+ presented. Theoretical background on the underlying theory is to be 
+ presented by invited speakers\, and who will also focus on the best 
+ practices for running VASP calculations. </p> <p><strong>Scientific 
+ Topics</strong></p> <ul> <li>(TD)DFT calculations to probe electronic and 
+ optical properties.</li> <li>Vibrational properties to analyse dynamical 
+ properties and/or transition states.</li> <li>Going beyond the density-
+ functional framework with Many-body Perturbation Theory\, i.e.\, GW 
+ approximation.</li> <li>Application of machine learning force fields as 
+ opposed to Ab-initio methods.</li> <li>Empirical and/or Ab-initio 
+ Molecular Dynamics.</li> </ul> 
+LOCATION:https://indico.hpc.uevora.pt/event/39/
+DTSTAMP:20220329T123953Z
+GEO:38.573037;-7.904420
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Rationale</strong></p> <p>The Vienna Ab-initio
+  Simulation Package (VASP) is one of the leading electronic structure 
+ software to study chemical / physical properties and reactions paths of 
+ solids, surfaces, and interfaces. It is based on the atomic scale modeling
+  from first principles by solving the many-body Schrödinger-type equation,
+  the Kohn-Sham equations (Density Functional Theory; DFT). The software is
+  able to tackle problems with 1-1000s atoms and applications are widely 
+ used to perform simulations of liquids, crystals, magnetism, 
+ semiconductor/insulators, surfaces, catalysts.</p> <p>The software has 
+ been developed/refractored by the Kresse group at the University of Vienna
+  and VASP Software GmbH for about ~25 years. It enables MPI and Open MP 
+ parallelism, and prior to 2011, first efforts on GPU acceleration with 
+ CUDA C were considered.</p> <p>During the meeting considerations on how to
+  run VASP efficiently in national HPC facilities (i.e. Oblivion) will be 
+ presented. Theoretical background on the underlying theory is to be 
+ presented by invited speakers, and who will also focus on the best 
+ practices for running VASP calculations. </p> <p><strong>Scientific 
+ Topics</strong></p> <ul> <li>(TD)DFT calculations to probe electronic and 
+ optical properties.</li> <li>Vibrational properties to analyse dynamical 
+ properties and/or transition states.</li> <li>Going beyond the density-
+ functional framework with Many-body Perturbation Theory, i.e., GW 
+ approximation.</li> <li>Application of machine learning force fields as 
+ opposed to Ab-initio methods.</li> <li>Empirical and/or Ab-initio 
+ Molecular Dynamics.</li> </ul> </BODY></HTML>
+END:VEVENT
+END:VCALENDAR
