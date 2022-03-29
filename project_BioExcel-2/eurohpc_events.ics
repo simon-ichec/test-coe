@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220612T090000
+DTEND;TZID="UTC+02:00":20220617T170000
+SUMMARY:BioExcel Summer School on Biomolecular Simulations 2022
+UID:https://hpc-portal.eu/node/1316
+DESCRIPTION:<p>The summer school will include lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>Molecular dynamics 
+ simulations</li> <li>Biomolecular docking</li> <li>Free energy 
+ calculations</li> <li>Advanced sampling methods (Metadynamics)</li> 
+ <li>BioExcel Building Blocks (BioBB)</li> <li>Quantum mechanics/molecular 
+ mechanics (QM/MM)</li> <li>Machine learning</li> </ul> <p>During the 
+ hands-on computer practicals you will make use of the BioExcel flagship 
+ software and tools: e.g. GROMACS\, HADDOCK\, PMX\, BioBB\, and CP2K. The 
+ trainers\, developers and/or experts in the use of the software\, will 
+ provide guidance and support.</p> <p><strong>Audience and 
+ Prerequisites</strong></p> <p>The BioExcel school is intended for 
+ primarily PhD and post-doctoral researchers using or planning to use 
+ biomolecular modeling and simulation in their everyday research. 
+ Familiarity with Linux and basic knowledge of molecular modelling software
+  is a requirement.</p>
+LOCATION:https://bioexcel.eu/locations/science-and-technology-park-of-
+ sardinia/
+DTSTAMP:20220329T123953Z
+GEO:38.992215;8.919490
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer 
+ school will include lectures and hands-on sessions on the following 
+ topics:</p> <ul> <li>Molecular dynamics simulations</li> <li>Biomolecular 
+ docking</li> <li>Free energy calculations</li> <li>Advanced sampling 
+ methods (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> 
+ <li>Quantum mechanics/molecular mechanics (QM/MM)</li> <li>Machine 
+ learning</li> </ul> <p>During the hands-on computer practicals you will 
+ make use of the BioExcel flagship software and tools: e.g. GROMACS, 
+ HADDOCK, PMX, BioBB, and CP2K. The trainers, developers and/or experts in 
+ the use of the software, will provide guidance and support.</p> 
+ <p><strong>Audience and Prerequisites</strong></p> <p>The BioExcel school 
+ is intended for primarily PhD and post-doctoral researchers using or 
+ planning to use biomolecular modeling and simulation in their everyday 
+ research. Familiarity with Linux and basic knowledge of molecular 
+ modelling software is a requirement.</p></BODY></HTML>
+END:VEVENT
+END:VCALENDAR

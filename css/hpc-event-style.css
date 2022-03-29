@@ -1,0 +1,239 @@
+.events-section a, button {
+  background-color: rgba(218, 165, 32, 0.85);
+  text-decoration: none;
+  color: white;
+  border-radius: .25rem;
+  text-align: center;
+  /* display: inline-block; */
+  transition: all .3s;
+  font-size: 1rem;
+  padding: .05rem .25rem;
+}
+
+.events-section a:hover, button:hover {
+  opacity: .6;
+}
+
+.events-section details {
+  background: #fff9f0;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+}
+
+.events-section details > p > p {
+  padding: .25rem;
+}
+
+.events-section details > p > ol, .events-section details > p > ul {
+  list-style-type: circle;
+  padding: .5rem;
+}
+
+.events-section details > p > p > a {
+  background-color: unset;
+  color: blue;
+  padding: unset;
+}
+
+.events-section summary {
+  cursor: pointer;
+  margin-bottom: .5rem;
+  display: list-item;
+}
+
+.events-section summary > * {
+  display: inline;
+}
+
+/* events-section styles */
+.events-section {
+  padding: 0.5rem;
+}
+
+.events-section > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.events-section > ul > li {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid #000000;
+  border-radius: .5rem;
+  background: #fff9f0;
+  box-shadow: 0 6px 10px rgba(0,0,0,0.4);
+  list-style-type: none;
+}
+
+.events-section > ul > li > figure {
+  max-height: 220px;
+  min-height: 180px;
+  overflow: hidden;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+  margin: 0;
+}
+
+.events-section > ul > li > figure > img {
+  width: 100%;
+  background: #FFF;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.events-section > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0,0,0,.65);
+  width: 100%;
+}
+
+.events-section > ul > li > figure > figcaption > h3 {
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+  color: white;
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.events-section > ul > li > figure > date {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0,0,0,.4);
+  width: 40%;
+  border-bottom-left-radius: .5rem;
+}
+
+.events-section > ul > li > figure > place {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.4);
+  width: 40%;
+  border-bottom-right-radius: .5rem;
+}
+
+.events-section > ul > li > figure > date > h3, .events-section > ul > li > figure > place > h3 {
+  color: white;
+  padding: .3rem;
+  font-size: 1rem;
+  text-align: center;
+  font-family: 'IBM Plex Serif', serif;
+  font-weight: 400;
+}
+
+.events-section > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+  color: #565656;
+}
+
+.events-section > ul > li > p > h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.events-section > ul > li > a {
+  padding: .5rem 1rem;
+  margin: .5rem;
+}
+
+.events-section > ul > li > button {
+  padding: .3rem 1rem;
+  margin: .5rem;
+}
+
+.modal {
+  display: none;
+  flex-direction: column;
+  overflow: hidden;;
+
+  width: 1024px;
+  max-width: 90%;
+
+  height: 768px;
+  max-height: 90%;
+
+  position: fixed;
+
+  z-index: 100;
+
+  left: 50%;
+  top: 50%;
+
+  /* Use this for centering if unknown width/height */
+  transform: translate(-50%, -50%);
+
+  /* If known, negative margins are probably better (less chance of blurry text). */
+  /* margin: -200px 0 0 -200px; */
+
+  background: white;
+  box-shadow: 0 0 60px 10px rgba(0, 0, 0, 0.9);
+  border-radius: .5rem;
+}
+
+.modal iframe {
+  flex-grow: 1;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background:url(../images/loader.gif) center center no-repeat;
+}
+
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 50;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal .close-button {
+  position: absolute;
+
+  /* don't need to go crazy with z-index here, just sits over .modal-guts */
+  z-index: 1;
+
+  top: 10px;
+
+  /* needs to look OK with or without scrollbar */
+  right: 20px;
+
+  border: 0;
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+}
+
+.open {
+  display: flex;
+}
+
+.modal-overlay .open {
+  display: block;
+}
+
+.is-hidden { display: none !important; }
+
+.my-searchbox {
+    margin: auto;
+    /* width: 100%; */
+    padding-top: 1.25rem;
+}
+
+.my-searchbox label {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}

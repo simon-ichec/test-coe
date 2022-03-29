@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220929T090000
+DTEND;TZID="UTC+02:00":20220930T160000
+SUMMARY:Scientific Visualization with COVISE and Vistle
+UID:https://hpc-portal.eu/node/855
+DESCRIPTION:<p>This course is targeted at researchers with basic knowledge 
+ in numerical simulation\, who would like to learn how to visualize their 
+ simulation results on the desktop but also in Augmented Reality and 
+ Virtual Environments. The two-day workshop gives a short overview over 
+ scientific visualization in general\, followed by a hands-on introduction 
+ to 3D desktop visualization with <a 
+ href="https://services.excellerat.eu/viewcode/2">VISTLE </a> and <a 
+ href="http://www.hlrs.de/covise/">COVISE</a>. Participants will further 
+ learn how to build interactive 3D Models for Virtual Environments and how 
+ to set up an Augmented Reality visualization.</p>
+LOCATION:http://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220329T123953Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
+ targeted at researchers with basic knowledge in numerical simulation, who 
+ would like to learn how to visualize their simulation results on the 
+ desktop but also in Augmented Reality and Virtual Environments. The two-
+ day workshop gives a short overview over scientific visualization in 
+ general, followed by a hands-on introduction to 3D desktop visualization 
+ with <a href="https://services.excellerat.eu/viewcode/2">VISTLE </a> and 
+ <a href="http://www.hlrs.de/covise/">COVISE</a>. Participants will further
+  learn how to build interactive 3D Models for Virtual Environments and how
+  to set up an Augmented Reality visualization.</p></BODY></HTML>
+END:VEVENT
+END:VCALENDAR

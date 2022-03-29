@@ -1,0 +1,155 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220404T090000
+DTEND;TZID="UTC+02:00":20220408T170000
+SUMMARY:MaX school: Ab-initio Many-Body Methods and Simulations with the 
+ Yambo Code
+UID:https://hpc-portal.eu/node/1318
+DESCRIPTION:<p>The Computational School on <em>Ab-initio Many-body Methods 
+ and Simulations with the Yambo Code</em> will introduce many-body 
+ perturbation theory (MBPT) approaches and specifically to<em> first-
+ principles</em> excited-state simulations using the YAMBO code.</p> <p>The
+  target participants are graduate students\, postdocs\, and researchers 
+ who are interested in learning or in improving their knowledge and skills 
+ to calculate electronic and optical properties of materials\, beyond the 
+ well-known DFT limitations and using an efficient\, highly parallelized 
+ and accurate many-body computational tool.</p> <p>Both theoretical and 
+ technical lectures will be offered as well as dedicated hands-on sessions 
+ where students will learn how to use the code for materials of current 
+ research interest and how to optimize its use in a parallel environment. 
+ Several post-processing tools for the analysis of the results will be also
+  introduced and practically applied.</p> <p>General topics will include 
+ self-energy and quasiparticles concepts\, the GW approximation\, and the 
+ Bethe-Salpeter equation\, all placed in the context of and linked with 
+ experimental measurements (photoemission\, absorption\, 
+ photoluminescence).</p> <p>At variance with previous editions\, this 
+ school will present some advanced lectures such as:</p> <p>new algorithms 
+ developed to deal with electron-phonon interactions\, real time evolution 
+ of equations of motion\, time dependent polarization in terms of the Berry
+  phase\, and computation of non-linear optical properties.</p> <p>The 
+ specific usage in massively parallel environments equipped with modern 
+ accelerated video cards (GPU’s) will be introduced.</p> <p> 
+ <strong>Participants are required to have a pre-existing background in DFT
+  and in running DFT simulations.</strong><br>  
+ <strong>Lecturers:</strong><br> C. ATTACCALITE\, CNRS\, Aix-Marseille 
+ University\, France<br> A. FERRETTI\, CNR-NANO\, Italy<br> M. GRUNING\, 
+ Queen’s University Belfast\, UK<br> A. GUANDALINI\, CNR-NANO\, Italy<br> 
+ D. A. LEON VALIDO\, CNR-NANO\, Italy<br> A. MARINI\, CNR-ISM\, Italy<br> 
+ P. MELO\, University of Utrecht\, Netherlands<br> B. MONSERRAT SANCHEZ\, 
+ University of Cambridge\, UK<br> F. PALEARI\, CNR-NANO\, Italy<br> M. 
+ PALUMMO\, Università di Roma Tor Vergata\, Italy<br> S. RAFAELY-ABRAMSON\,
+  Weizmann Institute\, Israel<br> L. REINING\, École Polytechnique\, 
+ France<br> D. SANGALLI\, CNR-ISM\, Italy<br> P. SHEVERDYAEVA\, CNR-ISM\, 
+ Italy<br> D. VARSANO\, CNR-NANO\, Italy<br> </p> 
+ <p><strong>Grants:</strong> A limited number of grants are available to 
+ support the attendance of selected participants\, with priority given to 
+ participants from developing countries.<br> There is no registration 
+ fee.<br>  Due to the pandemic period the school is designed to allow 
+ participants to join part in person and part online. Female scientists are
+  encouraged to apply.<br>  <strong>In person participation:</strong> As 
+ regards the COVID-19 policy\, we advise to follow the updated rules 
+ available on the ICTP page <a 
+ href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
+ Guidelines for Visitors</a>.</p>
+LOCATION:https://www.ictp.it/visit-ictp.aspx
+DTSTAMP:20220329T123953Z
+GEO:45.703827;13.718426
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The 
+ Computational School on <em>Ab-initio Many-body Methods and Simulations 
+ with the Yambo Code</em> will introduce many-body perturbation theory 
+ (MBPT) approaches and specifically to<em> first-principles</em> excited-
+ state simulations using the YAMBO code.</p> <p>The target participants are
+  graduate students, postdocs, and researchers who are interested in 
+ learning or in improving their knowledge and skills to calculate 
+ electronic and optical properties of materials, beyond the well-known DFT 
+ limitations and using an efficient, highly parallelized and accurate many-
+ body computational tool.</p> <p>Both theoretical and technical lectures 
+ will be offered as well as dedicated hands-on sessions where students will
+  learn how to use the code for materials of current research interest and 
+ how to optimize its use in a parallel environment. Several post-processing
+  tools for the analysis of the results will be also introduced and 
+ practically applied.</p> <p>General topics will include self-energy and 
+ quasiparticles concepts, the GW approximation, and the Bethe-Salpeter 
+ equation, all placed in the context of and linked with experimental 
+ measurements (photoemission, absorption, photoluminescence).</p> <p>At 
+ variance with previous editions, this school will present some advanced 
+ lectures such as:</p> <p>new algorithms developed to deal with electron-
+ phonon interactions, real time evolution of equations of motion, time 
+ dependent polarization in terms of the Berry phase, and computation of 
+ non-linear optical properties.</p> <p>The specific usage in massively 
+ parallel environments equipped with modern accelerated video cards (GPU’s)
+  will be introduced.</p> <p> <strong>Participants are required to have a 
+ pre-existing background in DFT and in running DFT 
+ simulations.</strong><br>  <strong>Lecturers:</strong><br> C. ATTACCALITE,
+  CNRS, Aix-Marseille University, France<br> A. FERRETTI, CNR-NANO, 
+ Italy<br> M. GRUNING, Queen’s University Belfast, UK<br> A. GUANDALINI, 
+ CNR-NANO, Italy<br> D. A. LEON VALIDO, CNR-NANO, Italy<br> A. MARINI, CNR-
+ ISM, Italy<br> P. MELO, University of Utrecht, Netherlands<br> B. 
+ MONSERRAT SANCHEZ, University of Cambridge, UK<br> F. PALEARI, CNR-NANO, 
+ Italy<br> M. PALUMMO, Università di Roma Tor Vergata, Italy<br> S. 
+ RAFAELY-ABRAMSON, Weizmann Institute, Israel<br> L. REINING, École 
+ Polytechnique, France<br> D. SANGALLI, CNR-ISM, Italy<br> P. SHEVERDYAEVA,
+  CNR-ISM, Italy<br> D. VARSANO, CNR-NANO, Italy<br> </p> 
+ <p><strong>Grants:</strong> A limited number of grants are available to 
+ support the attendance of selected participants, with priority given to 
+ participants from developing countries.<br> There is no registration 
+ fee.<br>  Due to the pandemic period the school is designed to allow 
+ participants to join part in person and part online. Female scientists are
+  encouraged to apply.<br>  <strong>In person participation:</strong> As 
+ regards the COVID-19 policy, we advise to follow the updated rules 
+ available on the ICTP page <a 
+ href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
+ Guidelines for Visitors</a>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220509T090000
+DTEND;TZID="UTC+02:00":20220513T170000
+SUMMARY:Young Researchers&#039\; Workshop on Machine Learning for Materials
+UID:https://hpc-portal.eu/node/1319
+DESCRIPTION:<p><strong>Abstract Submission Deadline: 20th March 
+ 2022</strong><br> <strong>Registration Deadline: 10th April 
+ 2022</strong></p> <p>Our workshop’s objective is to cultivate the ground 
+ for the next generation of scientists which will be able to proactively 
+ and efficiently exploit data-driven techniques in materials modelling. We 
+ bring together young researchers\, experts from computer science and 
+ applied mathematics\, and renown scientists in the field of chemistry and 
+ physics\, to discuss about the present and future of machine learning for 
+ materials.</p> <p>The workshop is free of charge\, and consists of 4 half-
+ days of introductory school (Monday to Wednesday)\, followed by 4 half-
+ days of conference (Wednesday to Friday). Participants can choose whether 
+ to attend both\, or only the conference.</p> <p>A complete timetable of 
+ the event will be announced in the following weeks.</p> <p>For further 
+ information and registration visit the website <a 
+ href="https://ml4m.xyz/">https://ml4m.xyz/</a></p>
+LOCATION:https://ml4m.xyz/venue-travel/
+DTSTAMP:20220329T123953Z
+GEO:45.703180;13.719586
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Abstract
+  Submission Deadline: 20th March 2022</strong><br> <strong>Registration 
+ Deadline: 10th April 2022</strong></p> <p>Our workshop’s objective is to 
+ cultivate the ground for the next generation of scientists which will be 
+ able to proactively and efficiently exploit data-driven techniques in 
+ materials modelling. We bring together young researchers, experts from 
+ computer science and applied mathematics, and renown scientists in the 
+ field of chemistry and physics, to discuss about the present and future of
+  machine learning for materials.</p> <p>The workshop is free of charge, 
+ and consists of 4 half-days of introductory school (Monday to Wednesday), 
+ followed by 4 half-days of conference (Wednesday to Friday). Participants 
+ can choose whether to attend both, or only the conference.</p> <p>A 
+ complete timetable of the event will be announced in the following 
+ weeks.</p> <p>For further information and registration visit the website 
+ <a href="https://ml4m.xyz/">https://ml4m.xyz/</a></p></BODY></HTML>
+END:VEVENT
+END:VCALENDAR
