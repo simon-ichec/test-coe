@@ -186,7 +186,7 @@ function addEventToPage (jsonData, count) {
 
   // Append the event to the list (if it is not already finished)
   const today = new Date()
-  const endDate = new Date(jsonData.endDate)
+  const endDate = new Date(jsonData.endDate) + 100
   if (endDate.getTime() > today.getTime()) {
     eventList.appendChild(event)
   }
