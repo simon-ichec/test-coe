@@ -345,7 +345,7 @@ function addEventToPage (jsonData, count) {
   //eventDict.image.width = jsonData.image.width
   //eventDict.image.style.height = 'auto'
   eventDict.title.innerHTML = jsonData.name.trim() // update the content
-  //eventDict.ncc.innerHTML = 'NCC '+jsonData.country.join(',') // update the content
+  eventDict.ncc.innerHTML = jsonData.projects.join(',') // update the content
   start_date = (new Date(jsonData.startDate)).toDateString()
   end_date = (new Date(jsonData.endDate)).toDateString()
   if (start_date == end_date) {
