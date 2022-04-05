@@ -9,8 +9,7 @@ if (!website) {
 }
 
 // default main style sheet
-//var main_style_href = website + "/" + "css/hpc-event-style.css";
-var main_style_href = "https://fs.hlrs.de/projects/par/events/2022/test/css/hpc-event-style.css";
+var main_style_href = "https://fs.hlrs.de/projects/par/events/2022/test/" + "css/hpc-event-style.css";
 
 // Set the country if specified
 const restrict_country = hpc_events_element.hasAttribute("data-country") ? hpc_events_element.getAttribute("data-country") : null;
@@ -166,7 +165,7 @@ if (project_subfolder && project_subfolder.length != 0) {
     website = website + '/' + 'project_' + project_subfolder;
     // If use-project-css property is set to "yes", use it.
     if (hpc_events_element.hasAttribute("data-project-css") && hpc_events_element.getAttribute("data-project-css" == "yes")) {
-	    var main_style_href = "https://fs.hlrs.de/projects/par/events/2022/test" + "/" + "css/hpc-"+project+"-event-style.css";
+	    var main_style_href = website + "/" + "css/hpc-"+project+"-event-style.css";
     }
   } 
   else{ 
@@ -242,24 +241,44 @@ function close_details(e) {
 	}
 }
 
+function prefixIds(elem,prefix){
+	elem.setAttribute('id', prefix+elem.id);
+}
+
 function open_details(e) {
 	e.preventDefault(); 
 	let li = this.parentNode.parentNode; 
 	let id = li.id;
 	const details = li.querySelector('details>p#event_description-'+id).cloneNode(true);
+	let element_ids = details.querySelectorAll('[id]');
+	element_ids.forEach(function(elem) {prefixIds(elem,'eurohpc-overlay-top-');});
+	details.setAttribute('id', 'eurohpc-overlay-top-fig');
 	const fig = li.querySelector('figure').cloneNode(true);
+	element_ids = fig.querySelectorAll('[id]');
+	element_ids.forEach(function(elem) {prefixIds(elem,'eurohpc-overlay-top-');});
+	fig.setAttribute('id', 'eurohpc-overlay-top-fig');
+	const website = li.querySelector('button.open-button').cloneNode(true);
+	website.setAttribute('id', 'eurohpc-overlay-top-website-button');
+	website.removeAttribute('style');
+	website.addEventListener('click', e => {li.querySelector('button.open-button').click();});
 	let modal_overlay = this.parentNode.parentNode.querySelector('#modal_overlay-'+id); 
 	modal_overlay.classList.add('open');
 	this.classList.add('open');
 	const x = document.createElement("div");
 	x.setAttribute('id', 'eurohpc-overlay-top');
-	x.appendChild(fig);
-	x.appendChild(details);
 	const close_but = document.createElement('button');
+	close_but.setAttribute('id', 'eurohpc-overlay-top-close-but');
 	close_but.innerHTML="Close";
 	close_but.addEventListener('click', close_details);
 	x.appendChild(close_but);
+	x.appendChild(fig);
+	x.appendChild(details);
+	const button_div = document.createElement("div");
+	button_div.classList.add('eurohpc-overlay-top-center');
+	button_div.appendChild(website);
+	x.appendChild(button_div);
 	li.appendChild(x);
+	document.getElementById('eurohpc-overlay-top-close-but').focus();
 }
 
 function addEventToPage (jsonData, count) {
@@ -273,6 +292,7 @@ function addEventToPage (jsonData, count) {
   eventDict.li = event.getElementById('list_id')
   eventDict.image = event.getElementById('event_image')
   eventDict.title = event.getElementById('event_title')
+  eventDict.ncc = event.getElementById('event_ncc')
   eventDict.summary = event.getElementById('event_summary')
   eventDict.description = event.getElementById('event_description')
   eventDict.date = event.getElementById('event_date')
@@ -281,8 +301,8 @@ function addEventToPage (jsonData, count) {
   eventDict.eventModal = event.getElementById('modal')
   eventDict.eventModalOverlay = event.getElementById('modal_overlay')
   eventDict.eventOpenButton = event.getElementById('open_button')
-  eventDict.eventNewtabButton = event.getElementById('newtab_button')
-  eventDict.eventCloseButton = event.getElementById('close_button')
+  // eventDict.eventNewtabButton = event.getElementById('newtab_button')
+  // eventDict.eventCloseButton = event.getElementById('close_button')
   //eventDict.eventDropdownApple = event.getElementById('eventLinkApple')
   eventDict.eventDropdownGoogle = event.getElementById('eventLinkGoogle')
   eventDict.eventDropdownOutlook = event.getElementById('eventLinkOutlook')
@@ -325,6 +345,7 @@ function addEventToPage (jsonData, count) {
   //eventDict.image.width = jsonData.image.width
   //eventDict.image.style.height = 'auto'
   eventDict.title.innerHTML = jsonData.name.trim() // update the content
+  //eventDict.ncc.innerHTML = 'NCC '+jsonData.country.join(',') // update the content
   start_date = (new Date(jsonData.startDate)).toDateString()
   end_date = (new Date(jsonData.endDate)).toDateString()
   if (start_date == end_date) {
@@ -370,16 +391,16 @@ function addEventToPage (jsonData, count) {
   // Configure the triggers
   if (have_url) {
     // New tab button
-    eventDict.eventNewtabButton.onclick = function () { window.open(iframeSrc, '_blank') }
+    eventDict.eventOpenButton.onclick = function () { window.open(iframeSrc, '_blank') }
     // Iframe button
-    eventDict.eventOpenButton.onclick = function () { openIframe(document.getElementById(eventDict.iframe.id), iframeSrc, document.getElementById(eventDict.eventModal.id), document.getElementById(eventDict.eventModalOverlay.id)) } // update the content
-    eventDict.eventCloseButton.onclick = function () { toggleIframe(document.getElementById(eventDict.eventModal.id), document.getElementById(eventDict.eventModalOverlay.id)) }
+    // eventDict.eventOpenButton.onclick = function () { openIframe(document.getElementById(eventDict.iframe.id), iframeSrc, document.getElementById(eventDict.eventModal.id), document.getElementById(eventDict.eventModalOverlay.id)) } // update the content
+    // eventDict.eventCloseButton.onclick = function () { toggleIframe(document.getElementById(eventDict.eventModal.id), document.getElementById(eventDict.eventModalOverlay.id)) }
     
   } else {
     // if we don't have the url remove the elements altogether
-    eventDict.eventNewtabButton.parentNode.removeChild(eventDict.eventNewtabButton);
+    // eventDict.eventNewtabButton.parentNode.removeChild(eventDict.eventNewtabButton);
     eventDict.eventOpenButton.parentNode.removeChild(eventDict.eventOpenButton);
-    eventDict.eventCloseButton.parentNode.removeChild(eventDict.eventCloseButton);
+    // eventDict.eventCloseButton.parentNode.removeChild(eventDict.eventCloseButton);
     // Keep ModalOverlay, since used for details
     //eventDict.eventModalOverlay.parentNode.removeChild(eventDict.eventModalOverlay);
   }
@@ -457,7 +478,7 @@ function update_pages_block() {
 	const pages_block = document.querySelector('#eurohpc-items-block>div>#pages-block');
 	// only show this block if there are more items (after filtering) than should be on one page
 	if (mtch_event_cnt > nr_dspl_items) {
-		pages = "<span>Page </span><ol class='eurohpc_nav_buttons'>";
+		pages = "<span>Page </span><nav><ol class='eurohpc_nav_buttons'>";
     if (dspl_offset == 0) {
       pages += "<li class='eurohpc_nav_button'><button class='eurohpc_page_item' disabled='true' aria-label='Previous Page'>Prev</button></li>";
     } else {
@@ -478,7 +499,7 @@ function update_pages_block() {
     } else {
       pages += "<li class='eurohpc_nav_button'><button class='eurohpc_page_item' onClick='dspl_offset=Math.min(dspl_offset+"+(nr_dspl_items)+",mtch_event_cnt); set_hidden();' aria-label='Next Page'>Next</button></li>";
     }
-    pages += "</ol>"
+    pages += "</ol></nav>"
 		pages_block.innerHTML = pages;
 		//
 	}
@@ -610,7 +631,7 @@ function inject_preload_style(url){
 /* Inject our html */
 
 // Add our external styles
-inject_preload_style("https://fs.hlrs.de/projects/par/events/2022/test" + "/" + "css/all.css");
+inject_preload_style("https://fs.hlrs.de/projects/par/events/2022/test/" + "css/all.css");
 inject_preload_style("https://fs.hlrs.de/projects/par/events/2022/test/css/filters.css");
 inject_preload_style("https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Source+Sans+Pro:300,400,600&display=swap");
 
@@ -635,7 +656,7 @@ const searchbox_html = `
                 <label for="calendar_feed">Event feed:</label>
                 <span style="white-space: nowrap;">
                     <a id="calendar_feed">Download</a>
-                    <a onclick='let text=document.getElementById("calendar_feed").href;navigator.clipboard.writeText(text);alert("Copied the text: " + text);'>Copy URL</a>
+                    <a id="eurohpc-event-feed-copy-element" onclick='let text=document.getElementById("calendar_feed").href;navigator.clipboard.writeText(text);alert("Copied the text: " + text);'>Copy URL</a>
                 </span>
             </th>
             <th width="50%">
@@ -819,15 +840,10 @@ function add_filter_block() {
 function item_slider_callback(){
 	let value = event.target.value;
 	// scale by factor 1/2 and cut-off at 49
-	nr_dspl_items = Number(value)===100 ? Infinity : Math.ceil(value/2); 
+	nr_dspl_items = value==="all" ? Infinity : value; 
 	dspl_offset=0;
 	// change hidden elements
 	set_hidden();
-	// change slider label
-	const slider_label = document.querySelector('section#eurohpc-items-block>div>div#per-page-block>label');
-	if (nr_dspl_items > 1 && nr_dspl_items < Infinity) {slider_label.innerHTML = nr_dspl_items+" items per page";}
-	if (nr_dspl_items === Infinity) {slider_label.innerHTML = "infinitely many items per page";}
-	if (nr_dspl_items === 1) {slider_label.innerHTML = nr_dspl_items+" item per page";}
 }
 
 // Add items-per-page-block
@@ -836,15 +852,17 @@ x.setAttribute("id", "eurohpc-items-block");
 x.setAttribute("class", "events-section items-block");
 // define intial values for slider
 let eurohpc_per_page_slider_initial = 2*nr_dspl_items<100 ? 2*nr_dspl_items : 100;
-let eurohpc_per_page_slider_initial_label = `${nr_dspl_items} items per page`;
-if (nr_dspl_items === Infinity) {eurohpc_per_page_slider_initial_label = "infinitely many items per page";}
-if (nr_dspl_items === 1) {eurohpc_per_page_slider_initial_label = nr_dspl_items+" item per page";}
 // HTML block
 const pages_block_html = `
     <div class="">
 	<div id="pages-block"></div>
-	<div id="per-page-block"><input type="range" id="eurohpc-items-per-page-slider" min="1" value="${eurohpc_per_page_slider_initial}" onChange="item_slider_callback()" />
-	<label for="eurohpc-items-per-page-slider">${eurohpc_per_page_slider_initial_label}</label></div>
+	<div id="per-page-block"><select id="eurohpc-items-per-page-slider" name="eurohpc-items-per-page-slider" value="${eurohpc_per_page_slider_initial}" onChange="item_slider_callback()">
+    <option value="10"${ nr_dspl_items==10 ? ' selected="true"' : '' }>10</option>
+    <option value="25"${ nr_dspl_items==25 ? ' selected="true"' : '' }>25</option>
+    <option value="100"${ nr_dspl_items==100 ? ' selected="true"' : '' }>100</option>
+    <option value="all"${ nr_dspl_items==Infinity ? ' selected="true"' : '' }>All</option>
+  </select>
+	<label for="eurohpc-items-per-page-slider">items per page</label></div>
     </div>
 `;
 x.innerHTML = pages_block_html;
@@ -865,9 +883,14 @@ const template_html = `
                 </div>
                 <figure>
                     <img id="event_image" loading="lazy">
-                    <figcaption><h3 id="event_title"></h3></figcaption>
-                    <date><h3 id="event_date"></h3></date>
-                    <place><h3 id="event_place"></h3></place>
+		    <div>
+		    	<div>
+			    <place><h3 id="event_place"></h3></place>
+			    <date><h3 id="event_date"></h3></date>
+			</div>
+                    	<div class="eurohpc-event-title"><h3 id="event_title"></h3></div>
+			<div class="eurohpc-event-ncc"><h3 id="event_ncc"></h3></div>
+		    </div>
                 </figure>
                 <p><span style="white-space:pre-line" id="event_summary"></span></p>
                 <details>
@@ -878,8 +901,7 @@ const template_html = `
                 <div style="padding: 0.5rem; margin-top: auto;">
                     <center>
                     <div>
-                        <button class="open-button" id="open_button" style="width: 80%;"><i class="fas fa-link"></i> Event website</button>
-                        <button class="open-button" id="newtab_button" style="width: 15%;" aria-label="Open in new tab"><i class="fas fa-external-link-alt"></i></button>
+                        <button class="open-button" id="open_button" style="width: 80%;"><i class="fas fa-link"></i> Event website <i class="fas fa-external-link-alt"></i></button>
                     </div>
                     <div style="padding: 0.5rem;">
                     <!-- <a id="eventLinkApple"> <i class="fab fa-apple" aria-hidden="true"></i> Apple calendar</a> -->
