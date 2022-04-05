@@ -10,7 +10,7 @@ if (!website) {
 
 // default main style sheet
 //var main_style_href = website + "/" + "css/hpc-event-style.css";
-var main_style_href = "https://simon-ichec.github.io/test-coe/css/hpc-event-style.css";
+var main_style_href = "https://fs.hlrs.de/projects/par/events/2022/test/css/hpc-event-style.css";
 
 // Set the country if specified
 const restrict_country = hpc_events_element.hasAttribute("data-country") ? hpc_events_element.getAttribute("data-country") : null;
