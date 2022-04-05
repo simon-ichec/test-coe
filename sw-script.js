@@ -25,7 +25,7 @@ if (hpc_events_element.hasAttribute("data-filter-options-country")) {
 	filter_values['country'] = ['Country/NCC', hpc_events_element.getAttribute("data-filter-options-country").split(',').map(item => item.trim())];
 }
 else {
-	filter_values['country'] = ['Country/NCC', [
+	filter_values['country'] = ['Country', [
 	"Austria",
 	"Belgium",
 	"Bulgaria",
