@@ -652,7 +652,14 @@ x.setAttribute("class", "events-section my-searchbox");
 const searchbox_html = `
     <table width="100%">
         <tr>
-            <th width="100%">
+	    <th id="calendar_feed_cell" width="50%">
+                <label for="calendar_feed">Event feed:</label>
+                <span style="white-space: nowrap;">
+                    <a id="calendar_feed">Download</a>
+                    <a id="eurohpc-event-feed-copy-element" onclick='let text=document.getElementById("calendar_feed").href;navigator.clipboard.writeText(text);alert("Copied the text: " + text);'>Copy URL</a>
+                </span>
+            </th>
+            <th width="50%">
                 <label for="searchbox">Search events:</label>
                 <input type="search" id="searchbox" placeholder="Type text to search for">
             </th>
@@ -662,14 +669,14 @@ const searchbox_html = `
 x.innerHTML = searchbox_html;
 // Do not display download/copy link for feed if country filter is active...
 //if (restrict_country !== null && restrict_country.length > 0) {
-//	x.querySelector('#calendar_feed_cell').remove();
+	x.querySelector('#calendar_feed_cell').remove();
 //}
 // ... if no country filter is active, add the correct URL.
 //else {
 //	// Set ics file
 //	x.querySelector("a#calendar_feed").href = website + "/" + events_stub + ".ics"
 //}
-//parent_element.appendChild(x);
+parent_element.appendChild(x);
 
 // Variable to count active filters
 var act_filter_count = 0;
