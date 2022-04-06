@@ -153,7 +153,7 @@ button.active_page {
   color: white;
   /* padding: .3rem; */
   font-size: 1rem;
-  text-align: center;
+  text-align: left;
   font-family: 'IBM Plex Serif', serif;
   font-weight: 400;
   margin: 0px;
