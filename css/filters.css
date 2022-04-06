@@ -1,0 +1,43 @@
+#eurohpc_filters_block {display:table; width:100%;}
+#eurohpc_filters_block > ul {display:table-row;}
+#eurohpc_filters_block > ul > li {display:table-cell; width:19vw; text-align: center;}
+#eurohpc_filters_block > ul > li       > ul { display: none; text-align:left; position:absolute; z-index:800002; list-style:none;
+                                        grid-template-columns:repeat(auto-fill, 11em);}
+/* larger displays */
+@media all and (min-width: 55em){
+        #eurohpc_filters_block > ul {display:table-row;}
+        #eurohpc_filters_block > ul > li {position:relative;}
+        #eurohpc_filters_block > ul > li > ul {width:150%; min-width:11em; left: -25%;}
+        #eurohpc_filters_block > ul > li:last-child > ul {right:0px; left:initial;}
+        #eurohpc_filters_block > ul > li:nth-child(2) > ul {left:0px; right:initial;}
+}
+/* small displays */
+@media all and (max-width: 55em){
+        #eurohpc_filters_block > ul {display:table-row; position:relative;}
+        #eurohpc_filters_block > ul > li {}
+        #eurohpc_filters_block > ul > li > ul {width:calc(100% - 1rem); left:0px}
+}
+#eurohpc_filters_block > ul > li:hover > ul, #eurohpc_filters_block > ul > li:focus > ul { display: grid; }
+#eurohpc_filters_block > ul > li.eurohpc-has-submenu.open > ul { display: grid; }
+#eurohpc_filters_block > ul > li > ul > li {padding:0.5em;}
+#eurohpc_filters_block > ul > li > ul > li label {display:block;}
+#eurohpc_filters_block > ul > li > ul > li input {display:block; float:left; margin-right:1ex;}
+
+#eurohpc_selected_filters_block {display:table-row; width:100vw;}
+#eurohpc_selected_filters_block > div {display:table-cell;}
+#eurohpc_selected_filters_block > div.head{
+	min-width:max-content; 
+	width:min-content;
+	vertical-align:middle;
+	white-space: nowrap;
+	word-break: normal;
+}
+
+.eurohpc_act_filter {display: inline-block;}
+.eurohpc_filter_rm_button{cursor:pointer;}
+
+/*#eurohpc-overlay-top{position:relative; margin:15vw; z-index:10;}*/
+#eurohpc-overlay-top{z-index:800060; position:fixed; top:10vh; left:15vw; right: 15vw; max-height:80vh; overflow:auto;}
+
+section#eurohpc-items-block>div {display:grid; grid-template-columns:1fr 1fr; margin-left:33%;}
+section#eurohpc-items-block>div>div {width: 100%; text-align:center;}
