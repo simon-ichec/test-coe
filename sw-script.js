@@ -9,7 +9,7 @@ if (!website) {
 }
 
 // default main style sheet
-var main_style_href = "https://fs.hlrs.de/projects/par/events/2022/test/" + "css/hpc-event-style.css";
+var main_style_href = "https://simon-ichec.github.io/test-coe/" + "css/hpc-event-style.css";
 
 // Set the country if specified
 const restrict_country = hpc_events_element.hasAttribute("data-country") ? hpc_events_element.getAttribute("data-country") : null;
@@ -631,8 +631,8 @@ function inject_preload_style(url){
 /* Inject our html */
 
 // Add our external styles
-inject_preload_style("https://fs.hlrs.de/projects/par/events/2022/test/" + "css/all.css");
-inject_preload_style("https://fs.hlrs.de/projects/par/events/2022/test/css/filters.css");
+inject_preload_style("https://simon-ichec.github.io/test-coe/css/all.css");
+inject_preload_style("https://simon-ichec.github.io/test-coe/css/filters.css");
 inject_preload_style("https://fonts.googleapis.com/css?family=IBM+Plex+Serif|Source+Sans+Pro:300,400,600&display=swap");
 
 // Add our main style
