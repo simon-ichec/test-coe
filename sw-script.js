@@ -652,7 +652,10 @@ x.setAttribute("class", "events-section my-searchbox");
 const searchbox_html = `
     <table width="100%">
         <tr>
-            <th width="100%">
+            <th id="calendar_feed_cell" width="1%">
+                <label for="calendar_feed">Event feed:</label>
+            </th>
+            <th width="99%">
                 <label for="searchbox">Search events:</label>
                 <input type="search" id="searchbox" placeholder="Type text to search for">
             </th>
