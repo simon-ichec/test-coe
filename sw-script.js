@@ -654,6 +654,8 @@ const searchbox_html = `
         <tr>
             <th id="calendar_feed_cell" width="1%">
                 <label for="calendar_feed">Event feed:</label>
+		<a id="calendar_feed">Download</a>
+                <a id="eurohpc-event-feed-copy-element" onclick='let text=document.getElementById("calendar_feed").href;navigator.clipboard.writeText(text);alert("Copied the text: " + text);'>Copy URL</a>
             </th>
             <th width="99%">
                 <label for="searchbox">Search events:</label>
