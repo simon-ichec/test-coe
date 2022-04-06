@@ -894,7 +894,7 @@ const template_html = `
                 </figure>
                 <p><span style="white-space:pre-line" id="event_summary"></span></p>
                 <details>
-                    <summary>Click here for more details</summary>
+                    <summary>Show more...</summary>
                     <p id="event_description"></p>
                 </details>
 
