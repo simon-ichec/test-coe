@@ -652,14 +652,7 @@ x.setAttribute("class", "events-section my-searchbox");
 const searchbox_html = `
     <table width="100%">
         <tr>
-            <th id="calendar_feed_cell" width="50%">
-                <label for="calendar_feed">Event feed:</label>
-                <span style="white-space: nowrap;">
-                    <a id="calendar_feed">Download</a>
-                    <a id="eurohpc-event-feed-copy-element" onclick='let text=document.getElementById("calendar_feed").href;navigator.clipboard.writeText(text);alert("Copied the text: " + text);'>Copy URL</a>
-                </span>
-            </th>
-            <th width="50%">
+            <th width="100%">
                 <label for="searchbox">Search events:</label>
                 <input type="search" id="searchbox" placeholder="Type text to search for">
             </th>
