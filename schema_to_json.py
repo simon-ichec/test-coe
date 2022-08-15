@@ -320,7 +320,7 @@ jslde = JsonLdExtractor()
 # Site information (assumption is a Drupal site and a view with a pager)
 root_url = "https://hpc-portal.eu/"
 verify_ssl_cert = True  # check page has valid cert
-events_page = "upcoming-events-courses/"
+events_page = "coe-training-events/"
 
 # Loop over pages until we run out articles
 page = 0
