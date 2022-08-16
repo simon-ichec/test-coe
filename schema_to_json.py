@@ -14,7 +14,7 @@ from PIL import Image
 from io import BytesIO
 from ics import Calendar, Event, ContentLine
 
-PLACEHOLDER_IMAGE = "images/placeholder.webp"
+PLACEHOLDER_IMAGE = "images/FocusCoE_placeholder.webp"
 
 
 def image_dimensions(image):
@@ -236,6 +236,7 @@ def create_calendar_event_from_jsonld(event):
     # pprint.pprint(event)
     my_event = Event()
     my_event.summary = event["name"]
+    print (event["name"])
     my_event.uid = event["@id"]
     if hasattr(event, "url"):
         my_event.url = event["url"]

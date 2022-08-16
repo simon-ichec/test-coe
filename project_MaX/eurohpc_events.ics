@@ -11,6 +11,55 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+02:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220509T090000
+DTEND;TZID="UTC+02:00":20220513T170000
+SUMMARY:Young Researchers&#039\; Workshop on Machine Learning for Materials
+UID:https://hpc-portal.eu/node/1319
+DESCRIPTION:<p><strong>Abstract Submission Deadline: 20th March 
+ 2022</strong><br> <strong>Registration Deadline: 10th April 
+ 2022</strong></p> <p>Our workshop’s objective is to cultivate the ground 
+ for the next generation of scientists which will be able to proactively 
+ and efficiently exploit data-driven techniques in materials modelling. We 
+ bring together young researchers\, experts from computer science and 
+ applied mathematics\, and renown scientists in the field of chemistry and 
+ physics\, to discuss about the present and future of machine learning for 
+ materials.</p> <p>The workshop is free of charge\, and consists of 4 half-
+ days of introductory school (Monday to Wednesday)\, followed by 4 half-
+ days of conference (Wednesday to Friday). Participants can choose whether 
+ to attend both\, or only the conference.</p> <p>A complete timetable of 
+ the event will be announced in the following weeks.</p> <p>For further 
+ information and registration visit the website <a 
+ href="https://ml4m.xyz/">https://ml4m.xyz/</a></p>
+LOCATION:https://ml4m.xyz/venue-travel/
+DTSTAMP:20220816T095005Z
+GEO:45.703180;13.719586
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Abstract
+  Submission Deadline: 20th March 2022</strong><br> <strong>Registration 
+ Deadline: 10th April 2022</strong></p> <p>Our workshop’s objective is to 
+ cultivate the ground for the next generation of scientists which will be 
+ able to proactively and efficiently exploit data-driven techniques in 
+ materials modelling. We bring together young researchers, experts from 
+ computer science and applied mathematics, and renown scientists in the 
+ field of chemistry and physics, to discuss about the present and future of
+  machine learning for materials.</p> <p>The workshop is free of charge, 
+ and consists of 4 half-days of introductory school (Monday to Wednesday), 
+ followed by 4 half-days of conference (Wednesday to Friday). Participants 
+ can choose whether to attend both, or only the conference.</p> <p>A 
+ complete timetable of the event will be announced in the following 
+ weeks.</p> <p>For further information and registration visit the website 
+ <a href="https://ml4m.xyz/">https://ml4m.xyz/</a></p></BODY></HTML>
+END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220404T090000
 DTEND;TZID="UTC+02:00":20220408T170000
@@ -64,7 +113,7 @@ DESCRIPTION:<p>The Computational School on <em>Ab-initio Many-body Methods
  href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
  Guidelines for Visitors</a>.</p>
 LOCATION:https://www.ictp.it/visit-ictp.aspx
-DTSTAMP:20220329T123953Z
+DTSTAMP:20220816T095005Z
 GEO:45.703827;13.718426
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The 
  Computational School on <em>Ab-initio Many-body Methods and Simulations 
@@ -114,42 +163,927 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The
  Guidelines for Visitors</a>.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID="UTC+02:00":20220509T090000
-DTEND;TZID="UTC+02:00":20220513T170000
-SUMMARY:Young Researchers&#039\; Workshop on Machine Learning for Materials
-UID:https://hpc-portal.eu/node/1319
-DESCRIPTION:<p><strong>Abstract Submission Deadline: 20th March 
- 2022</strong><br> <strong>Registration Deadline: 10th April 
- 2022</strong></p> <p>Our workshop’s objective is to cultivate the ground 
- for the next generation of scientists which will be able to proactively 
- and efficiently exploit data-driven techniques in materials modelling. We 
- bring together young researchers\, experts from computer science and 
- applied mathematics\, and renown scientists in the field of chemistry and 
- physics\, to discuss about the present and future of machine learning for 
- materials.</p> <p>The workshop is free of charge\, and consists of 4 half-
- days of introductory school (Monday to Wednesday)\, followed by 4 half-
- days of conference (Wednesday to Friday). Participants can choose whether 
- to attend both\, or only the conference.</p> <p>A complete timetable of 
- the event will be announced in the following weeks.</p> <p>For further 
- information and registration visit the website <a 
- href="https://ml4m.xyz/">https://ml4m.xyz/</a></p>
-LOCATION:https://ml4m.xyz/venue-travel/
-DTSTAMP:20220329T123953Z
-GEO:45.703180;13.719586
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Abstract
-  Submission Deadline: 20th March 2022</strong><br> <strong>Registration 
- Deadline: 10th April 2022</strong></p> <p>Our workshop’s objective is to 
- cultivate the ground for the next generation of scientists which will be 
- able to proactively and efficiently exploit data-driven techniques in 
- materials modelling. We bring together young researchers, experts from 
- computer science and applied mathematics, and renown scientists in the 
- field of chemistry and physics, to discuss about the present and future of
-  machine learning for materials.</p> <p>The workshop is free of charge, 
- and consists of 4 half-days of introductory school (Monday to Wednesday), 
- followed by 4 half-days of conference (Wednesday to Friday). Participants 
- can choose whether to attend both, or only the conference.</p> <p>A 
- complete timetable of the event will be announced in the following 
- weeks.</p> <p>For further information and registration visit the website 
- <a href="https://ml4m.xyz/">https://ml4m.xyz/</a></p></BODY></HTML>
+DTSTART;TZID="UTC+02:00":20210915T090000
+DTEND;TZID="UTC+02:00":20210922T170000
+SUMMARY:Optimizing Digital Teaching and Communication
+UID:https://hpc-portal.eu/node/1370
+DESCRIPTION:<p>In September 2021 we will hold a hands-on workshop on 
+ e-learning techniques and strategies\, under the aegis of CECAM\, Psi-k 
+ and the MaX (Material Design at Exascale) European Center of Excellence\, 
+ aimed at teachers and researchers in electronic structure and HPC in 
+ general.</p> <p>Join us!</p> <p>In this new world after the pandemic\, 
+ experience and needs of those preparing online teaching have evolved. 
+ Therefore\, we are organizing a hands-on workshop on online and blended 
+ teaching\, that addresses the needs of the post-Covid era. There are 
+ plenty of reasons to keep elements of teaching in an online form 
+ permanently. </p> <p>Some workshop objectives are:</p> <ul> <li> How can 
+ we learn from the past year? </li> <li> How can we <strong>offer our 
+ online</strong> and blended <strong>teaching</strong> in a way that leads 
+ <strong>to better learning and increased student satisfaction</strong>? 
+ </li> <li> What are the <strong>pitfalls we must avoid</strong>? </li> 
+ </ul> <p>We’ve set ourselves the challenge to bring this information to 
+ you in an online format that will keep you engaged and motivated.</p> <ul>
+  <li> You will <strong>leave the workshop with a set of online teaching 
+ materials you will have prepared</strong>\, for your own courses\, talks 
+ or science communication. </li> <li> You will not have the chance to hide 
+ yourself anonymously behind your laptop\, and you <strong>will learn how 
+ to avoid the same for your students or your audience.</strong> </li> </ul>
+  <p>If you participate in this online workshop\, you may expect:</p> 
+ <p>First a short self-paced online preparation course\, which you can take
+  at any time between mid-August and mid-September 2021 (duration: 2-4 
+ hours). Here you will learn the very basics\, and you will be guided to 
+ set up the soft- and hardware you will need during the workshop (e.g. 
+ video editing software\, polling tools\, ...).</p> <p>Four 3-hour live 
+ online sessions spread from September 15 to September 22 (a detailed 
+ timing will follow). During and after every session (yes\, there will be 
+ home-work !) you will work on several tasks\, in small teams together with
+  other participants.</p> <p>After September 22\, you will be given a 
+ larger task that deals with a topic of your choice (e.g. something you 
+ will need to teach about at your institute\, or a lecture you will have to
+  give\, or simply a science topic you like). You will work on this for one
+  week\, in interaction with a small team of other participants.</p> <p>On 
+ October 1\, there is a final 3-hour online session where you will see what
+  (some of) the other participants accomplished\, and where you will get 
+ collective feedback as well as peer feedback on your work. </p> <p>If you 
+ are interested to participate\, you should register in two different steps
+  (both steps are mandatory):</p> <p>Step 1: register at CECAM<a 
+ href="https://members.cecam.org/workshops/participate/6"> via this 
+ form</a> (attention: if you don't have one yet\,<a 
+ href="https://members.cecam.org/register"> create a CECAM account 
+ first</a>)</p> <p>Step 2: register<a 
+ href="https://forms.gle/6mTiigF7y1i1TMRh6"> via this form</a>.</p> 
+ <p>Deadline: September 8th\, 2021</p> <p>Stefaan Cottenier (Ghent 
+ University)</p> <p>Andrea Cucca (CNRS)</p> <p>Rex Godby (University of 
+ York)</p> <p>Myrta Grüning (Queen's University Belfast)</p> <p>Gian-Marco 
+ Rignanese (Université Catholique de Louvain)</p> <p>Francesco Sottile 
+ (Ecole Polytechnique)</p> <p>Matthieu Verstraete (University of Liege)</p>
+  <p>Zeila Zanolli (Utrecht University)</p>
+LOCATION:http://www.max-centre.eu/news-events/optimizing-digital-teaching-
+ and-communication
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In September 
+ 2021 we will hold a hands-on workshop on e-learning techniques and 
+ strategies, under the aegis of CECAM, Psi-k and the MaX (Material Design 
+ at Exascale) European Center of Excellence, aimed at teachers and 
+ researchers in electronic structure and HPC in general.</p> <p>Join 
+ us!</p> <p>In this new world after the pandemic, experience and needs of 
+ those preparing online teaching have evolved. Therefore, we are organizing
+  a hands-on workshop on online and blended teaching, that addresses the 
+ needs of the post-Covid era. There are plenty of reasons to keep elements 
+ of teaching in an online form permanently. </p> <p>Some workshop 
+ objectives are:</p> <ul> <li> How can we learn from the past year? </li> 
+ <li> How can we <strong>offer our online</strong> and blended 
+ <strong>teaching</strong> in a way that leads <strong>to better learning 
+ and increased student satisfaction</strong>? </li> <li> What are the 
+ <strong>pitfalls we must avoid</strong>? </li> </ul> <p>We’ve set 
+ ourselves the challenge to bring this information to you in an online 
+ format that will keep you engaged and motivated.</p> <ul> <li> You will 
+ <strong>leave the workshop with a set of online teaching materials you 
+ will have prepared</strong>, for your own courses, talks or science 
+ communication. </li> <li> You will not have the chance to hide yourself 
+ anonymously behind your laptop, and you <strong>will learn how to avoid 
+ the same for your students or your audience.</strong> </li> </ul> <p>If 
+ you participate in this online workshop, you may expect:</p> <p>First a 
+ short self-paced online preparation course, which you can take at any time
+  between mid-August and mid-September 2021 (duration: 2-4 hours). Here you
+  will learn the very basics, and you will be guided to set up the soft- 
+ and hardware you will need during the workshop (e.g. video editing 
+ software, polling tools, ...).</p> <p>Four 3-hour live online sessions 
+ spread from September 15 to September 22 (a detailed timing will follow). 
+ During and after every session (yes, there will be home-work !) you will 
+ work on several tasks, in small teams together with other 
+ participants.</p> <p>After September 22, you will be given a larger task 
+ that deals with a topic of your choice (e.g. something you will need to 
+ teach about at your institute, or a lecture you will have to give, or 
+ simply a science topic you like). You will work on this for one week, in 
+ interaction with a small team of other participants.</p> <p>On October 1, 
+ there is a final 3-hour online session where you will see what (some of) 
+ the other participants accomplished, and where you will get collective 
+ feedback as well as peer feedback on your work. </p> <p>If you are 
+ interested to participate, you should register in two different steps 
+ (both steps are mandatory):</p> <p>Step 1: register at CECAM<a 
+ href="https://members.cecam.org/workshops/participate/6"> via this 
+ form</a> (attention: if you don't have one yet,<a 
+ href="https://members.cecam.org/register"> create a CECAM account 
+ first</a>)</p> <p>Step 2: register<a 
+ href="https://forms.gle/6mTiigF7y1i1TMRh6"> via this form</a>.</p> 
+ <p>Deadline: September 8th, 2021</p> <p>Stefaan Cottenier (Ghent 
+ University)</p> <p>Andrea Cucca (CNRS)</p> <p>Rex Godby (University of 
+ York)</p> <p>Myrta Grüning (Queen's University Belfast)</p> <p>Gian-Marco 
+ Rignanese (Université Catholique de Louvain)</p> <p>Francesco Sottile 
+ (Ecole Polytechnique)</p> <p>Matthieu Verstraete (University of Liege)</p>
+  <p>Zeila Zanolli (Utrecht University)</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210628T090000
+DTEND;TZID="UTC+02:00":20210702T170000
+SUMMARY:First-principles simulations of materials with SIESTA
+UID:https://hpc-portal.eu/node/1369
+DESCRIPTION:<p>The school is aimed at students and researchers from 
+ different disciplines who already use\, or plan to use\, first-principles 
+ techniques to simulate properties of matter at the atomic scale. In 
+ particular\, the school will focus on the SIESTA method [1\,2]. 
+ Participants will learn its essential theoretical foundations\, and how to
+  use the SIESTA code effectively. Pre- and post-processing tools will also
+  be presented. The format of the school (completely online) allows for a 
+ flexible offering of modules of different levels\, from basic to 
+ advanced\, so that participants can adapt their syllabus. In addition\, 
+ the material prepared for the school will be integrated into the corpus of
+  SIESTA documentation\, which will remain available for continuous 
+ learning.</p> <p><strong>FORMAT</strong></p> <p>The School will be 
+ formally held in the week of June 28 -- July 2nd\, 2021\, but the week 
+ before participants are expected to watch pre-recorded lectures\, prepare 
+ their local computer setup [3]\, and work on simple exercises. Throughout 
+ the School week\, live meetings will be offered in two tracks (morning and
+  afternoon in Central-European Summer Time) to try to adapt to an audience
+  distributed over different time zones\, and will consist of reviews of 
+ relevant concepts (with Q&amp\;A sections) and guided hands-on 
+ exercises.</p> <p>An online support forum will be open before\, during\, 
+ and for some time after the canonical school dates to provide further 
+ guidance\, to answer questions\, and to facilitate discussions between 
+ school students and tutors.</p> <p><strong>COURSE MATERIALS</strong></p> 
+ <p>The materials for the school will consist of:</p> <ul> <li>Pre-recorded
+  video lectures covering the necessary theoretical background and/or how-
+ to's for specific features.</li> <li>An online repository of documentation
+  and how-to guides.</li> <li>A virtual machine or container\, based on the
+  Quantum Mobile [3]\, packaged with the necessary codes and supporting 
+ school files\, for the hands-on exercises.</li> </ul> 
+ <p><strong>PROGRAM</strong></p> <p>The live sessions of the school will 
+ take place from 09:30 to 12:30 CEST (Track A) and from 16:00 to 19:00 CEST
+  (Track B)\, with breaks. It is expected that two modules will be covered 
+ in each session.</p> <p>Background lectures and hands-on modules will 
+ cover an assortment of topics\, from basic and fundamental to advanced. 
+ Students focusing on basic to medium level topics will be able to work on 
+ the relevant modules throughout the school. More advanced students will be
+  able to prepare their own selection of topics.</p> <p>(Please check <a 
+ href="https://siesta-project.org/siesta/events/SIESTA_School-2021/">this 
+ page</a> for updates and further details.)</p> 
+ <p><strong>REGISTRATION</strong></p> <p>Persons interested in registering 
+ for the School need to <strong>submit two registration forms</strong>. 
+ </p> <p>First\, they must apply through the “Participate” tab of<a 
+ href="https://members.cecam.org/login"> the CECAM web page</a>. </p> 
+ <p>Second\, they need to submit the online form at <a href="https://forms.
+ office.com/r/BQYpMkku4V">https://forms.office.com/r/BQYpMkku4V</a> using 
+ the same email address that they provided to CECAM.</p> <p>Apart from 
+ basic identification and affiliation data\, prospective students will be 
+ asked to provide a brief statement of motivation\, a very brief CV (one 
+ paragraph)\, and indications of preferences for topics. <strong>Please 
+ submit both forms\, persons who only apply through one of the two forms 
+ will not be accepted</strong> to the school.</p> <p>For practical reasons 
+ the school is organized to handle only a finite number of students in the 
+ live sessions\, hence we must limit the number of officially registered 
+ participants. Nevertheless\, the material and some forum channels will be 
+ available at a later date also for those not officially admitted to the 
+ school.</p> <p>The deadline for applications is the <strong>4th June 
+ 2021</strong>. We will communicate our acceptance decisions by the 11th 
+ June. Accepted participants will be given access to the materials starting
+  on the 21st June.</p> <h2>References</h2> <p>[1] José M Soler\, Emilio 
+ Artacho\, Julian D Gale\, Alberto García\, Javier Junquera\, Pablo 
+ Ordejón\, Daniel Sánchez-Portal: "The SIESTA method for ab initio order-N 
+ materials simulation"\, Journal of Physics: Condensed Matter 14 (11)\, 
+ 2745–2779 (2002). <a href="https://doi.org/10.1088/0953-8984/14/11/302">ht
+ tps://doi.org/10.1088/0953-8984/14/11/302</a> .</p> <p>[2] Alberto 
+ García\, Nick Papior\, Arsalan Akhtar\, Emilio Artacho\, Volker Blum\, 
+ Emanuele Bosoni\, Pedro Brandimarte\, et al.: "Siesta: Recent Developments
+  and Applications"\, The Journal of Chemical Physics 152 (20)\, 204108 
+ (2020). <a href="https://doi.org/10.1063/5.0005077">https://doi.org/10.106
+ 3/5.0005077</a> .</p> <p>[3] See <a href="https://quantum-
+ mobile.readthedocs.io/">https://quantum-mobile.readthedocs.io/</a> .</p> 
+ <p>Organizers' details<a href="https://www.cecam.org/workshop-details/5"> 
+ </a><a href="https://www.cecam.org/workshop-
+ details/5">https://www.cecam.org/workshop-details/5</a></p>
+LOCATION:http://www.max-centre.eu/news-events/first-principles-simulations-
+ materials-siesta-0
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school is 
+ aimed at students and researchers from different disciplines who already 
+ use, or plan to use, first-principles techniques to simulate properties of
+  matter at the atomic scale. In particular, the school will focus on the 
+ SIESTA method [1,2]. Participants will learn its essential theoretical 
+ foundations, and how to use the SIESTA code effectively. Pre- and post-
+ processing tools will also be presented. The format of the school 
+ (completely online) allows for a flexible offering of modules of different
+  levels, from basic to advanced, so that participants can adapt their 
+ syllabus. In addition, the material prepared for the school will be 
+ integrated into the corpus of SIESTA documentation, which will remain 
+ available for continuous learning.</p> <p><strong>FORMAT</strong></p> 
+ <p>The School will be formally held in the week of June 28 -- July 2nd, 
+ 2021, but the week before participants are expected to watch pre-recorded 
+ lectures, prepare their local computer setup [3], and work on simple 
+ exercises. Throughout the School week, live meetings will be offered in 
+ two tracks (morning and afternoon in Central-European Summer Time) to try 
+ to adapt to an audience distributed over different time zones, and will 
+ consist of reviews of relevant concepts (with Q&amp;A sections) and guided
+  hands-on exercises.</p> <p>An online support forum will be open before, 
+ during, and for some time after the canonical school dates to provide 
+ further guidance, to answer questions, and to facilitate discussions 
+ between school students and tutors.</p> <p><strong>COURSE 
+ MATERIALS</strong></p> <p>The materials for the school will consist 
+ of:</p> <ul> <li>Pre-recorded video lectures covering the necessary 
+ theoretical background and/or how-to's for specific features.</li> <li>An 
+ online repository of documentation and how-to guides.</li> <li>A virtual 
+ machine or container, based on the Quantum Mobile [3], packaged with the 
+ necessary codes and supporting school files, for the hands-on 
+ exercises.</li> </ul> <p><strong>PROGRAM</strong></p> <p>The live sessions
+  of the school will take place from 09:30 to 12:30 CEST (Track A) and from
+  16:00 to 19:00 CEST (Track B), with breaks. It is expected that two 
+ modules will be covered in each session.</p> <p>Background lectures and 
+ hands-on modules will cover an assortment of topics, from basic and 
+ fundamental to advanced. Students focusing on basic to medium level topics
+  will be able to work on the relevant modules throughout the school. More 
+ advanced students will be able to prepare their own selection of 
+ topics.</p> <p>(Please check <a href="https://siesta-
+ project.org/siesta/events/SIESTA_School-2021/">this page</a> for updates 
+ and further details.)</p> <p><strong>REGISTRATION</strong></p> <p>Persons 
+ interested in registering for the School need to <strong>submit two 
+ registration forms</strong>. </p> <p>First, they must apply through the 
+ “Participate” tab of<a href="https://members.cecam.org/login"> the CECAM 
+ web page</a>. </p> <p>Second, they need to submit the online form at <a hr
+ ef="https://forms.office.com/r/BQYpMkku4V">https://forms.office.com/r/BQYp
+ Mkku4V</a> using the same email address that they provided to CECAM.</p> 
+ <p>Apart from basic identification and affiliation data, prospective 
+ students will be asked to provide a brief statement of motivation, a very 
+ brief CV (one paragraph), and indications of preferences for topics. 
+ <strong>Please submit both forms, persons who only apply through one of 
+ the two forms will not be accepted</strong> to the school.</p> <p>For 
+ practical reasons the school is organized to handle only a finite number 
+ of students in the live sessions, hence we must limit the number of 
+ officially registered participants. Nevertheless, the material and some 
+ forum channels will be available at a later date also for those not 
+ officially admitted to the school.</p> <p>The deadline for applications is
+  the <strong>4th June 2021</strong>. We will communicate our acceptance 
+ decisions by the 11th June. Accepted participants will be given access to 
+ the materials starting on the 21st June.</p> <h2>References</h2> <p>[1] 
+ José M Soler, Emilio Artacho, Julian D Gale, Alberto García, Javier 
+ Junquera, Pablo Ordejón, Daniel Sánchez-Portal: "The SIESTA method for ab 
+ initio order-N materials simulation", Journal of Physics: Condensed Matter
+  14 (11), 2745–2779 (2002). <a href="https://doi.org/10.1088/0953-8984/14/
+ 11/302">https://doi.org/10.1088/0953-8984/14/11/302</a> .</p> <p>[2] 
+ Alberto García, Nick Papior, Arsalan Akhtar, Emilio Artacho, Volker Blum, 
+ Emanuele Bosoni, Pedro Brandimarte, et al.: "Siesta: Recent Developments 
+ and Applications", The Journal of Chemical Physics 152 (20), 204108 
+ (2020). <a href="https://doi.org/10.1063/5.0005077">https://doi.org/10.106
+ 3/5.0005077</a> .</p> <p>[3] See <a href="https://quantum-
+ mobile.readthedocs.io/">https://quantum-mobile.readthedocs.io/</a> .</p> 
+ <p>Organizers' details<a href="https://www.cecam.org/workshop-details/5"> 
+ </a><a href="https://www.cecam.org/workshop-
+ details/5">https://www.cecam.org/workshop-details/5</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210517T090000
+DTEND;TZID="UTC+02:00":20210521T170000
+SUMMARY:Advanced school on Quantum Transport using SIESTA
+UID:https://hpc-portal.eu/node/1374
+DESCRIPTION:<p>This five-day online school will focus on the field of 
+ theoretical condensed matter electronic transport exploiting the non-
+ equilibrium Green’s function approach. In particular\, recent advances in 
+ transport theory [1] will be presented in the form of lectures and hands-
+ on sessions on hot topics in the field. The teachers will present novel 
+ methods used for materials research modelling. The participants will learn
+  the advanced features of SIESTA [2]\, such as the calculations of non-
+ equilibrium properties using the TranSIESTA/TBtrans approach and the 
+ python framework SISL [3]. For example\, the school lectures will cover a 
+ recent scheme introducing truly single-junction transport calculations [4]
+  and the new implementations to include in the transport calculations 
+ different corrections to the Hamiltonian accounting for electron-phonon 
+ coupling [5]\, spin orbit coupling and electronic correlation. Moreover\, 
+ the users will learn how to extract a tight-binding Hamiltonian from a DFT
+  Hamiltonian allowing them to deal with very large systems [6\,7].</p> 
+ <p>The lectures will take place via Zoom with an invited list of speakers 
+ who will present their work in a variety of fields in which the covered 
+ tools have been used. Each topic will be followed by a hands-on session 
+ allowing participants first-hand experience with the tools and 
+ analysis.</p> <p>While this is an open workshop (for everybody!)\, we ask 
+ participants to sign-up due to content distribution prior to the workshop 
+ itself.</p> <p>The workshop will also host 2 evenings with online poster 
+ sessions\, and all participants are expected to present their research in 
+ one of the two sessions.</p> <p><strong>The deadline for the abstract 
+ submission is April 1 th.</strong></p> <p>For more details follow <a 
+ href="https://www.cecam.org/workshop-details/4">this link</a></p> <p>In 
+ collaboration with <img src="https://lh5.googleusercontent.com/Q5sFauyWHQr
+ SZaZd8TYkytpBy3x84KY_STSPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY
+ 46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p> 
+ <p><strong>Provisional program</strong></p> <p>Day 1: Introduction to NEGF
+  theory and hands-on with TBtrans\, TranSiesta and SISL</p> <p>Day 2: DFT-
+ TB parametrization and surrounding real space self-energies\, evening 
+ poster session</p> <p>Day 3: Topological insulators and inelastic 
+ transport mechanisms\, evening poster session</p> <p>Day 4: 
+ Electrochemistry and electron correlation in graphene nano structures</p> 
+ <p>Day 5: Solution to participant projects and <em>ad-hoc</em> follow up 
+ questions</p> <p>Up to one month before the school\, participants are 
+ invited to submit project suggestions (for the last day of the school) via
+  this GitHub repository (please do so ASAP!) <a href="https://github.com/z
+ erothi/sisl/issues/new?template=100_workshop.md">submit project suggestion
+  here</a>.</p> <p>We invite everybody to join the online school (link will
+  follow) and all material will be made available at <a 
+ href="https://github.com/zerothi/ts-tbt-sisl-
+ tutorial">https://github.com/zerothi/ts-tbt-sisl-tutorial</a></p> 
+ <p><strong>Detailed School Topics:</strong></p> <p><em>Advanced usage of 
+ SIESTA\, TranSIESTA/TBtrans and sisl</em></p> <p>Participants will learn 
+ how to use the advanced features implemented in the aforementioned code 
+ and python framework. In particular students will be taught how to perform
+  efficient DFT+NEGF calculations\, pre-processing\, post-processing 
+ analysis and data visualization.</p> <p><em>Electrochemistry</em></p> 
+ <p>First principles simulations are now crucial in many areas of materials
+  science. However\, this has not yet reached the field of 
+ electrochemistry\, where the complexity of the electrochemical environment
+  and the presence of the external electrode potential are difficulties 
+ that have precluded direct application of the usual first-principles 
+ methods like DFT. We will explain how some of these problems\, like the 
+ presence of the electrostatic potential\, can be tackled using 
+ TranSIESTA.</p> <p><em>Topological Insulators</em></p> <p>Topological 
+ insulators (TI) are a phase of matter characterized by a bulk energy gap 
+ and conducting surface (or edge) states symmetry-protected against small 
+ perturbations. Quantum transport simulations are crucial to compute and 
+ validate the topological properties of materials. We will show how SIESTA 
+ can be used to predict the essential features of topological materials\, 
+ leveraging on the recent Spin-Orbit Coupling implementation and SISL.</p> 
+ <p><em>Inelastic transport</em></p> <p>The modelling of inelastic effects 
+ due to the electron-phonon coupling in nano-scale devices is of great 
+ technological importance as it impacts both the transport properties and 
+ Joule heating. It is especially challenging to include the effects in 
+ large-scale atomistic first principles device simulations. We will discuss
+  how this can be addressed using various approximations and introduce the 
+ Inelastica package (<a href="https://github.com/tfrederiksen/inelastica/">
+ https://github.com/tfrederiksen/inelastica/</a>) based on TranSIESTA.</p> 
+ <p><em>Correlated systems and the meanfield Hubbard model</em></p> 
+ <p>Coulomb repulsion between electrons can lead to unpaired electron 
+ states and interesting spin structures. For graphene-like nanostructures 
+ the meanfield Hubbard model provides a simple and\, yet\, often sufficient
+  method to understand how electronic interactions lead to magnetism. We 
+ will describe an implementation of this model based on SISL.</p> 
+ <p><em>Single contacts by removal of periodic images</em></p> 
+ <p>Understanding transport properties under non-equilibrium is of vital 
+ importance to the development of next-generation electronics. A basic 
+ principle of conducting such simulations is by using Bloch’s theorem which
+  has the disadvantage of adding a periodic image of the junction. We will 
+ present how users can overcome this limitation and simulate truly single 
+ junctions.</p> <p><em>Modelling of extremely large-systems with DFT 
+ precision</em></p> <p>Recent increase in compute power is rapidly 
+ decreasing the gap between experimental and theoretical works. This allows
+  theoreticians to study one-to-one samples matching an exact experiment. 
+ However\, there is still some way to go in terms of scalability and 
+ precision. Here we present a method to extract the important part of a 
+ Hamiltonian in an energy window allowing simulations of transport 
+ properties of even larger systems by retaining the band-structure without 
+ using any wannierization techniques.</p> <h2>References</h2> <p>[1] N. 
+ Papior\, N. Lorente\, T. Frederiksen\, A. García\, M. Brandbyge\, Comp. 
+ Phys. Comm.\, 212\, 8 (2017)<br> [2] A. Garcia et al\, J. Chem. Phys. 
+ 152\, 204108 (2020)<br> [3] <a href="https://github.com/zerothi/sisl">http
+ s://github.com/zerothi/sisl</a><br> [4] N. Papior\, G. Calogero\, S. 
+ Leitherer and M. Brandbyge\, arXiv:1905.11113v1.<br> [5] J. Halle\, N. 
+ Néel\, M. Fonin\, M. Brandbyge\, J. Kröger\, Nano Lett. 18\, 5697 
+ (2018).<br> [6] G. Calogero\, N. Papior\, M. Koleini\, M. H. L. Larsen\, 
+ and M. Brandbyge\, Nanoscale\, 11\, 6153 (2019).<br> [7] G. Calogero\, N. 
+ Papior\, P. Bøggild\, and M. Brandbyge\, J. Phys. Condens. Matter\, 30 
+ (2018)</p>
+LOCATION:http://www.max-centre.eu/news-events/advanced-school-quantum-
+ transport-using-siesta-0
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This five-day 
+ online school will focus on the field of theoretical condensed matter 
+ electronic transport exploiting the non-equilibrium Green’s function 
+ approach. In particular, recent advances in transport theory [1] will be 
+ presented in the form of lectures and hands-on sessions on hot topics in 
+ the field. The teachers will present novel methods used for materials 
+ research modelling. The participants will learn the advanced features of 
+ SIESTA [2], such as the calculations of non-equilibrium properties using 
+ the TranSIESTA/TBtrans approach and the python framework SISL [3]. For 
+ example, the school lectures will cover a recent scheme introducing truly 
+ single-junction transport calculations [4] and the new implementations to 
+ include in the transport calculations different corrections to the 
+ Hamiltonian accounting for electron-phonon coupling [5], spin orbit 
+ coupling and electronic correlation. Moreover, the users will learn how to
+  extract a tight-binding Hamiltonian from a DFT Hamiltonian allowing them 
+ to deal with very large systems [6,7].</p> <p>The lectures will take place
+  via Zoom with an invited list of speakers who will present their work in 
+ a variety of fields in which the covered tools have been used. Each topic 
+ will be followed by a hands-on session allowing participants first-hand 
+ experience with the tools and analysis.</p> <p>While this is an open 
+ workshop (for everybody!), we ask participants to sign-up due to content 
+ distribution prior to the workshop itself.</p> <p>The workshop will also 
+ host 2 evenings with online poster sessions, and all participants are 
+ expected to present their research in one of the two sessions.</p> 
+ <p><strong>The deadline for the abstract submission is April 1 
+ th.</strong></p> <p>For more details follow <a 
+ href="https://www.cecam.org/workshop-details/4">this link</a></p> <p>In 
+ collaboration with <img src="https://lh5.googleusercontent.com/Q5sFauyWHQr
+ SZaZd8TYkytpBy3x84KY_STSPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY
+ 46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p> 
+ <p><strong>Provisional program</strong></p> <p>Day 1: Introduction to NEGF
+  theory and hands-on with TBtrans, TranSiesta and SISL</p> <p>Day 2: DFT-
+ TB parametrization and surrounding real space self-energies, evening 
+ poster session</p> <p>Day 3: Topological insulators and inelastic 
+ transport mechanisms, evening poster session</p> <p>Day 4: 
+ Electrochemistry and electron correlation in graphene nano structures</p> 
+ <p>Day 5: Solution to participant projects and <em>ad-hoc</em> follow up 
+ questions</p> <p>Up to one month before the school, participants are 
+ invited to submit project suggestions (for the last day of the school) via
+  this GitHub repository (please do so ASAP!) <a href="https://github.com/z
+ erothi/sisl/issues/new?template=100_workshop.md">submit project suggestion
+  here</a>.</p> <p>We invite everybody to join the online school (link will
+  follow) and all material will be made available at <a 
+ href="https://github.com/zerothi/ts-tbt-sisl-
+ tutorial">https://github.com/zerothi/ts-tbt-sisl-tutorial</a></p> 
+ <p><strong>Detailed School Topics:</strong></p> <p><em>Advanced usage of 
+ SIESTA, TranSIESTA/TBtrans and sisl</em></p> <p>Participants will learn 
+ how to use the advanced features implemented in the aforementioned code 
+ and python framework. In particular students will be taught how to perform
+  efficient DFT+NEGF calculations, pre-processing, post-processing analysis
+  and data visualization.</p> <p><em>Electrochemistry</em></p> <p>First 
+ principles simulations are now crucial in many areas of materials science.
+  However, this has not yet reached the field of electrochemistry, where 
+ the complexity of the electrochemical environment and the presence of the 
+ external electrode potential are difficulties that have precluded direct 
+ application of the usual first-principles methods like DFT. We will 
+ explain how some of these problems, like the presence of the electrostatic
+  potential, can be tackled using TranSIESTA.</p> <p><em>Topological 
+ Insulators</em></p> <p>Topological insulators (TI) are a phase of matter 
+ characterized by a bulk energy gap and conducting surface (or edge) states
+  symmetry-protected against small perturbations. Quantum transport 
+ simulations are crucial to compute and validate the topological properties
+  of materials. We will show how SIESTA can be used to predict the 
+ essential features of topological materials, leveraging on the recent 
+ Spin-Orbit Coupling implementation and SISL.</p> <p><em>Inelastic 
+ transport</em></p> <p>The modelling of inelastic effects due to the 
+ electron-phonon coupling in nano-scale devices is of great technological 
+ importance as it impacts both the transport properties and Joule heating. 
+ It is especially challenging to include the effects in large-scale 
+ atomistic first principles device simulations. We will discuss how this 
+ can be addressed using various approximations and introduce the Inelastica
+  package (<a href="https://github.com/tfrederiksen/inelastica/">https://gi
+ thub.com/tfrederiksen/inelastica/</a>) based on TranSIESTA.</p> 
+ <p><em>Correlated systems and the meanfield Hubbard model</em></p> 
+ <p>Coulomb repulsion between electrons can lead to unpaired electron 
+ states and interesting spin structures. For graphene-like nanostructures 
+ the meanfield Hubbard model provides a simple and, yet, often sufficient 
+ method to understand how electronic interactions lead to magnetism. We 
+ will describe an implementation of this model based on SISL.</p> 
+ <p><em>Single contacts by removal of periodic images</em></p> 
+ <p>Understanding transport properties under non-equilibrium is of vital 
+ importance to the development of next-generation electronics. A basic 
+ principle of conducting such simulations is by using Bloch’s theorem which
+  has the disadvantage of adding a periodic image of the junction. We will 
+ present how users can overcome this limitation and simulate truly single 
+ junctions.</p> <p><em>Modelling of extremely large-systems with DFT 
+ precision</em></p> <p>Recent increase in compute power is rapidly 
+ decreasing the gap between experimental and theoretical works. This allows
+  theoreticians to study one-to-one samples matching an exact experiment. 
+ However, there is still some way to go in terms of scalability and 
+ precision. Here we present a method to extract the important part of a 
+ Hamiltonian in an energy window allowing simulations of transport 
+ properties of even larger systems by retaining the band-structure without 
+ using any wannierization techniques.</p> <h2>References</h2> <p>[1] N. 
+ Papior, N. Lorente, T. Frederiksen, A. García, M. Brandbyge, Comp. Phys. 
+ Comm., 212, 8 (2017)<br> [2] A. Garcia et al, J. Chem. Phys. 152, 204108 
+ (2020)<br> [3] <a href="https://github.com/zerothi/sisl">https://github.co
+ m/zerothi/sisl</a><br> [4] N. Papior, G. Calogero, S. Leitherer and M. 
+ Brandbyge, arXiv:1905.11113v1.<br> [5] J. Halle, N. Néel, M. Fonin, M. 
+ Brandbyge, J. Kröger, Nano Lett. 18, 5697 (2018).<br> [6] G. Calogero, N. 
+ Papior, M. Koleini, M. H. L. Larsen, and M. Brandbyge, Nanoscale, 11, 6153
+  (2019).<br> [7] G. Calogero, N. Papior, P. Bøggild, and M. Brandbyge, J. 
+ Phys. Condens. Matter, 30 (2018)</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210517T090000
+DTEND;TZID="UTC+02:00":20210528T170000
+SUMMARY:MaX school on Advanced Materials and Molecular Modelling with 
+ Quantum ESPRESSO
+UID:https://hpc-portal.eu/node/1372
+DESCRIPTION:<p>The school will introduce students and young researchers to 
+ materials and molecular modelling with Quantum ESPRESSO (QE)\, covering 
+ basic concepts\, recent advances and developments\, with emphasis on 
+ density-functional-theory (DFT) based methods and High-Performance 
+ Computing (HPC).</p> <p>Computational methods in electronic structure 
+ theory are a powerful tool for the understanding and the prediction of 
+ materials properties at the atomistic level. The combination of the 
+ progresses made by condensed matter theory with the increasing computing 
+ capabilities provided in HPC centers foster a great interest in 
+ computational materials science. Ab-initio electronic structure software 
+ like (QE) makes easily available such potentialities to a wide audience of
+  scientists and students.</p> <p>The purpose of this school is to 
+ introduce students and young researchers to materials and molecular 
+ modeling with QE. The school aims to train beginners in computational 
+ materials sciences to the efficient use of QE on modern massively parallel
+  architectures\, with special emphasis on the emerging architectures based
+  on GPGPUs and on the use of advanced tools for generating\, managing\, 
+ storing\, and sharing results.</p> <p><strong>Note: On 14 May 2021 a 
+ Participant’s computer setup will be scheduled\, from 9.00 to 12.00 
+ (CEST).</strong></p> <p><strong>For the registration and further details 
+ <a href="http://indico.ictp.it/event/9616/">here</a></strong></p> <p>In 
+ collaboration with <img src="https://lh5.googleusercontent.com/Q5sFauyWHQr
+ SZaZd8TYkytpBy3x84KY_STSPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY
+ 46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
+LOCATION:http://www.max-centre.eu/news-events/max-school-advanced-
+ materials-and-molecular-modelling-quantum-espresso
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
+ introduce students and young researchers to materials and molecular 
+ modelling with Quantum ESPRESSO (QE), covering basic concepts, recent 
+ advances and developments, with emphasis on density-functional-theory 
+ (DFT) based methods and High-Performance Computing (HPC).</p> 
+ <p>Computational methods in electronic structure theory are a powerful 
+ tool for the understanding and the prediction of materials properties at 
+ the atomistic level. The combination of the progresses made by condensed 
+ matter theory with the increasing computing capabilities provided in HPC 
+ centers foster a great interest in computational materials science. Ab-
+ initio electronic structure software like (QE) makes easily available such
+  potentialities to a wide audience of scientists and students.</p> <p>The 
+ purpose of this school is to introduce students and young researchers to 
+ materials and molecular modeling with QE. The school aims to train 
+ beginners in computational materials sciences to the efficient use of QE 
+ on modern massively parallel architectures, with special emphasis on the 
+ emerging architectures based on GPGPUs and on the use of advanced tools 
+ for generating, managing, storing, and sharing results.</p> 
+ <p><strong>Note: On 14 May 2021 a Participant’s computer setup will be 
+ scheduled, from 9.00 to 12.00 (CEST).</strong></p> <p><strong>For the 
+ registration and further details <a 
+ href="http://indico.ictp.it/event/9616/">here</a></strong></p> <p>In 
+ collaboration with <img src="https://lh5.googleusercontent.com/Q5sFauyWHQr
+ SZaZd8TYkytpBy3x84KY_STSPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY
+ 46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210412T090000
+DTEND;TZID="UTC+02:00":20210416T170000
+SUMMARY:All electron DFT with Fleur - a Hands-on Tutorial
+UID:https://hpc-portal.eu/node/1371
+DESCRIPTION:<p>The density-functional theory (DFT) in its various 
+ incarnation provides the most practical framework to compute basic 
+ electronic\, magnetic\, and structural properties of materials. Large 
+ scale materials screening using DFT is believed to be a key factor in 
+ future materials development. The full-potential linearized augmented 
+ planewave (FLAPW) method has emerged as a robust and precise state-of-the-
+ art technique with reasonable computational efficiency. It is widely 
+ accepted as providing the reference solution. However\, the use and 
+ application of DFT methods and of FLAPW in particular require a thorough 
+ training where users meet developers of such methods.</p> <p>Hence this 
+ tutorial focuses on training the participants in using our all-electron 
+ FLAPW DFT code <a href="http://www.flapw.de/">FLEUR</a>. A special focus 
+ will be on the usage of FLEUR within the AiiDA infrastructure to build 
+ automatic work-flows applicable to materials screening applications.</p> 
+ <p>The tutorial covers theoretical lectures to provide the necessary 
+ methodological and physical background to professionally use the FLEUR 
+ code family and enable the participants to benefit from the strengths of 
+ the codes. Hands-on sessions are provided to get in touch with the codes 
+ from a practical perspective.</p> <p>Our school will consist of lectures 
+ covering three main areas:</p> <ul> <li>the underlying basic theory\,</li>
+  <li>the installation and usage of FLEUR and its <a 
+ href="http://www.aiida.net/">AiiDA</a> interface\,</li> <li>more 
+ specialized topics relevant for typical FLEUR calculations.</li> </ul> 
+ <p><strong>Registration: <a href="https://docs.google.com/forms/d/e/1FAIpQ
+ LSfUUvKg9N0EUihXJOwyA6ybY3OMAmSKVXcJ86Ymk8UBnvdQpw/viewform">here</a> 
+ </strong>(deadline 21.03.2021)</p> <p>Complete info <a 
+ href="https://www.flapw.de/MaX-5.0/handson/">here</a> </p> <p>In 
+ collaboration with <img src="https://lh5.googleusercontent.com/Q5sFauyWHQr
+ SZaZd8TYkytpBy3x84KY_STSPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY
+ 46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
+LOCATION:http://www.max-centre.eu/news-events/all-electron-dft-fleur-hands-
+ tutorial
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The density-
+ functional theory (DFT) in its various incarnation provides the most 
+ practical framework to compute basic electronic, magnetic, and structural 
+ properties of materials. Large scale materials screening using DFT is 
+ believed to be a key factor in future materials development. The full-
+ potential linearized augmented planewave (FLAPW) method has emerged as a 
+ robust and precise state-of-the-art technique with reasonable 
+ computational efficiency. It is widely accepted as providing the reference
+  solution. However, the use and application of DFT methods and of FLAPW in
+  particular require a thorough training where users meet developers of 
+ such methods.</p> <p>Hence this tutorial focuses on training the 
+ participants in using our all-electron FLAPW DFT code <a 
+ href="http://www.flapw.de/">FLEUR</a>. A special focus will be on the 
+ usage of FLEUR within the AiiDA infrastructure to build automatic work-
+ flows applicable to materials screening applications.</p> <p>The tutorial 
+ covers theoretical lectures to provide the necessary methodological and 
+ physical background to professionally use the FLEUR code family and enable
+  the participants to benefit from the strengths of the codes. Hands-on 
+ sessions are provided to get in touch with the codes from a practical 
+ perspective.</p> <p>Our school will consist of lectures covering three 
+ main areas:</p> <ul> <li>the underlying basic theory,</li> <li>the 
+ installation and usage of FLEUR and its <a 
+ href="http://www.aiida.net/">AiiDA</a> interface,</li> <li>more 
+ specialized topics relevant for typical FLEUR calculations.</li> </ul> 
+ <p><strong>Registration: <a href="https://docs.google.com/forms/d/e/1FAIpQ
+ LSfUUvKg9N0EUihXJOwyA6ybY3OMAmSKVXcJ86Ymk8UBnvdQpw/viewform">here</a> 
+ </strong>(deadline 21.03.2021)</p> <p>Complete info <a 
+ href="https://www.flapw.de/MaX-5.0/handson/">here</a> </p> <p>In 
+ collaboration with <img src="https://lh5.googleusercontent.com/Q5sFauyWHQr
+ SZaZd8TYkytpBy3x84KY_STSPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY
+ 46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210408T090000
+DTEND;TZID="UTC+02:00":20210416T170000
+SUMMARY:Virtual school on electronic excitations in solids and 
+ nanostructures using the Yambo code
+UID:https://hpc-portal.eu/node/1373
+DESCRIPTION:<p>The MaX/CECAM virtual school will last four days and will be
+  held on <strong>April 8\, 9 (week 1) and April 15\, 16 (week 2) 
+ 2021</strong> using the online platform Zoom. </p> <p>The school aims to 
+ introduce participants to post-DFT simulations\, in particular to many-
+ body perturbation theory (MBPT) approaches and will provide both 
+ theoretical overviews and practical training on the calculation of 
+ electronic and optical properties of solids and nanostructures.</p> 
+ <p>Participants will attend theoretical lessons on Many-Body Perturbation 
+ Theory - organised in short modules - that will introduce them to the 
+ concepts based on the linear response\, GW and Bethe-Salpeter 
+ calculations. A strong focus will be given on the connection with 
+ experimental observables (from photoemission to absorption and 
+ photoluminescence). </p> <p>Dedicated online hands-on sessions will be 
+ held for each topic\, to gain experience and directly learn the use of the
+  Yambo code. Students will further learn how to run post-processing tools 
+ for the analysis of the results.</p> <p>Two online poster sessions will 
+ take place and applicants are encouraged to prepare a poster about their 
+ research. Details on the poster presentation will be provided upon 
+ registration.</p> <p>Participants are required to have a background in DFT
+  methods\, including experience in running first-principles 
+ simulations.</p> <p>The number of participants for the hands-on sessions 
+ will be limited. </p> <p>For a preliminary program please visit <a 
+ href="http://www.yambo-code.org/2021/02/25/virtual-school-on-electronic-
+ excitations-in-solids-and-nanostructures-using-the-yambo-code/">this 
+ link</a></p> <p>For more details and applications please follow <a 
+ href="https://www.cecam.org/workshop-details/1081">this link</a></p> 
+ <p><strong>Deadline: 25/3/2021 </strong></p> <p>In collaboration with <img
+  src="https://lh5.googleusercontent.com/Q5sFauyWHQrSZaZd8TYkytpBy3x84KY_ST
+ SPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY46djK5odpKSGfrtpvC6rFzE
+ PkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
+LOCATION:http://www.max-centre.eu/news-events/virtual-school-electronic-
+ excitations-solids-and-nanostructures-using-yambo-code
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The MaX/CECAM 
+ virtual school will last four days and will be held on <strong>April 8, 9 
+ (week 1) and April 15, 16 (week 2) 2021</strong> using the online platform
+  Zoom. </p> <p>The school aims to introduce participants to post-DFT 
+ simulations, in particular to many-body perturbation theory (MBPT) 
+ approaches and will provide both theoretical overviews and practical 
+ training on the calculation of electronic and optical properties of solids
+  and nanostructures.</p> <p>Participants will attend theoretical lessons 
+ on Many-Body Perturbation Theory - organised in short modules - that will 
+ introduce them to the concepts based on the linear response, GW and Bethe-
+ Salpeter calculations. A strong focus will be given on the connection with
+  experimental observables (from photoemission to absorption and 
+ photoluminescence). </p> <p>Dedicated online hands-on sessions will be 
+ held for each topic, to gain experience and directly learn the use of the 
+ Yambo code. Students will further learn how to run post-processing tools 
+ for the analysis of the results.</p> <p>Two online poster sessions will 
+ take place and applicants are encouraged to prepare a poster about their 
+ research. Details on the poster presentation will be provided upon 
+ registration.</p> <p>Participants are required to have a background in DFT
+  methods, including experience in running first-principles 
+ simulations.</p> <p>The number of participants for the hands-on sessions 
+ will be limited. </p> <p>For a preliminary program please visit <a 
+ href="http://www.yambo-code.org/2021/02/25/virtual-school-on-electronic-
+ excitations-in-solids-and-nanostructures-using-the-yambo-code/">this 
+ link</a></p> <p>For more details and applications please follow <a 
+ href="https://www.cecam.org/workshop-details/1081">this link</a></p> 
+ <p><strong>Deadline: 25/3/2021 </strong></p> <p>In collaboration with <img
+  src="https://lh5.googleusercontent.com/Q5sFauyWHQrSZaZd8TYkytpBy3x84KY_ST
+ SPtz_7Nxou4Mb9uFRHmbP92VZ7A8lk9gy7xoxkOIilKBmr0XiXY46djK5odpKSGfrtpvC6rFzE
+ PkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200707T090000
+DTEND;TZID="UTC+02:00":20200710T170000
+SUMMARY:AiiDA Virtual Tutorial
+UID:https://hpc-portal.eu/node/1375
+DESCRIPTION:<p>The goal of this 4 day-tutorial is to help students and 
+ researchers from the field of computational materials science get started 
+ with writing reproducible workflows. They will be introduced by experts in
+  the field (including the developers of the code) to the use of AiiDA\, a 
+ state-of-the-art framework for provenance tracking and workflow management
+  designed to support high-throughput research\, and will gain in-depth 
+ hands-on experience using a tool that they can directly apply to their own
+  research. Participation both from academia and from industry is 
+ encouraged.</p> <p>The AiiDA framework is a tool for workflow management 
+ and provenance tracking\, which is backed by a significant community of 
+ users and developers\, and has interfaces to more than 30 materials 
+ science codes (see <a href="http://aiidateam.github.io/aiida-
+ registry">plugin registry</a>)\, including (among others) to the ab initio
+  codes Quantum ESPRESSO\, VASP\, cp2k\, Castep\, Siesta\, Fleur\, 
+ Crystal\, NWChem\, Wannier90\, and Yambo. AiiDA’s permissive open source 
+ license (MIT) enables participants to use it both in academic and 
+ commercial settings. By virtue of its general design and flexible plugin 
+ system\, AiiDA is easily extended to new codes and new use cases.</p> 
+ <p>Talks will be pre-recorded and made available to participants before 
+ the event\, and hands-on tutorials will be held <em>via</em> <a 
+ href="https://zoom.us/">Zoom</a>. In order to avoid losing time on 
+ installation issues\, participants will have the option to connect to 
+ virtual machines preconfigured with AiiDA (or to come with AiiDA already 
+ installed on their laptop via the <a 
+ href="https://www.materialscloud.org/work/quantum-mobile">Quantum Mobile 
+ virtual machine</a>).</p> <p>The event will mostly focus on in-depth 
+ tutorials on using AiiDA and on writing workflows. It will also include 
+ some talks on how AiiDA has been already used in production\, given by the
+  organisers and the core developers of AiiDA\; on advanced aspects of 
+ workflow management\; on designing and writing new AiiDA plugins\; and on 
+ research data management (RDM) and how to write data management plans 
+ (DMPs)\, especially when using AiiDA and the <a 
+ href="https://www.materialscloud.org/">Materials Cloud</a>.</p> 
+ <p><strong>Speakers &amp\; organisers</strong></p> <p>The tutorial is 
+ organised by <strong>Chris Sewell (EPFL\, CH)\, Marnik Bercx (EPFL\, CH) 
+ </strong>and<strong> Giovanni Pizzi (EPFL\, CH).</strong></p> <p>Tutorial 
+ lectures and assistance during hands-on session will be provided by the 
+ organisers and a team of core AiiDA developers: Sebastiaan Huber\, Leopold
+  Talirz\, Yakutovich Aliaksandr\, Casper Andersen and Francisco 
+ Ramirez.</p> <p>For general information concerning the tutorial you can 
+ contact Chris (<a 
+ href="mailto:christopher.sewell@epfl.ch">christopher.sewell@epfl.ch</a>) 
+ or Marnik (<a 
+ href="mailto:marnik.bercx@epfl.ch">marnik.bercx@epfl.ch</a>).</p> <p>More 
+ info <a href="http://www.aiida.net/aiida-virtual-tutorial-
+ july-2020/">here</a></p>
+LOCATION:http://www.max-centre.eu/news-events/aiida-virtual-tutorial
+DTSTAMP:20220816T095005Z
+GEO:44.631901;10.945368
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The goal of this
+  4 day-tutorial is to help students and researchers from the field of 
+ computational materials science get started with writing reproducible 
+ workflows. They will be introduced by experts in the field (including the 
+ developers of the code) to the use of AiiDA, a state-of-the-art framework 
+ for provenance tracking and workflow management designed to support high-
+ throughput research, and will gain in-depth hands-on experience using a 
+ tool that they can directly apply to their own research. Participation 
+ both from academia and from industry is encouraged.</p> <p>The AiiDA 
+ framework is a tool for workflow management and provenance tracking, which
+  is backed by a significant community of users and developers, and has 
+ interfaces to more than 30 materials science codes (see <a 
+ href="http://aiidateam.github.io/aiida-registry">plugin registry</a>), 
+ including (among others) to the ab initio codes Quantum ESPRESSO, VASP, 
+ cp2k, Castep, Siesta, Fleur, Crystal, NWChem, Wannier90, and Yambo. 
+ AiiDA’s permissive open source license (MIT) enables participants to use 
+ it both in academic and commercial settings. By virtue of its general 
+ design and flexible plugin system, AiiDA is easily extended to new codes 
+ and new use cases.</p> <p>Talks will be pre-recorded and made available to
+  participants before the event, and hands-on tutorials will be held 
+ <em>via</em> <a href="https://zoom.us/">Zoom</a>. In order to avoid losing
+  time on installation issues, participants will have the option to connect
+  to virtual machines preconfigured with AiiDA (or to come with AiiDA 
+ already installed on their laptop via the <a 
+ href="https://www.materialscloud.org/work/quantum-mobile">Quantum Mobile 
+ virtual machine</a>).</p> <p>The event will mostly focus on in-depth 
+ tutorials on using AiiDA and on writing workflows. It will also include 
+ some talks on how AiiDA has been already used in production, given by the 
+ organisers and the core developers of AiiDA; on advanced aspects of 
+ workflow management; on designing and writing new AiiDA plugins; and on 
+ research data management (RDM) and how to write data management plans 
+ (DMPs), especially when using AiiDA and the <a 
+ href="https://www.materialscloud.org/">Materials Cloud</a>.</p> 
+ <p><strong>Speakers &amp; organisers</strong></p> <p>The tutorial is 
+ organised by <strong>Chris Sewell (EPFL, CH), Marnik Bercx (EPFL, CH) 
+ </strong>and<strong> Giovanni Pizzi (EPFL, CH).</strong></p> <p>Tutorial 
+ lectures and assistance during hands-on session will be provided by the 
+ organisers and a team of core AiiDA developers: Sebastiaan Huber, Leopold 
+ Talirz, Yakutovich Aliaksandr, Casper Andersen and Francisco Ramirez.</p> 
+ <p>For general information concerning the tutorial you can contact Chris 
+ (<a 
+ href="mailto:christopher.sewell@epfl.ch">christopher.sewell@epfl.ch</a>) 
+ or Marnik (<a 
+ href="mailto:marnik.bercx@epfl.ch">marnik.bercx@epfl.ch</a>).</p> <p>More 
+ info <a href="http://www.aiida.net/aiida-virtual-tutorial-
+ july-2020/">here</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200217T090000
+DTEND;TZID="UTC+01:00":20200218T170000
+SUMMARY:Integration of ESL modules into electronic-structure codes
+UID:https://hpc-portal.eu/node/1376
+DESCRIPTION:<p>The evolutionary pressure on electronic structure software 
+ development is greatly increasing\, due to the emergence of new 
+ paradigms\, new kinds of users\, new processes\, and new tools. Electronic
+  structure software complexity is consequently also increasing\, requiring
+  a larger effort on code maintenance. Developers of large electronic 
+ structure codes are trying to relieve some complexity by transitioning 
+ standardized algorithms into separate libraries [BigDFT-PSolver\, ELPA\, 
+ ELSI\, LibXC\, LibGridXC\, etc.]. This paradigm shift requires library 
+ developers to have a hybrid developer profile where the scientific and 
+ computational skill set becomes equally important. These topics have been 
+ extensively and publicly discussed between developers of various projects 
+ including ABINIT\, ASE\, ATK\, BigDFT\, CASTEP\, FHI-aims\, GPAW\, 
+ Octopus\, Quantum Espresso\, SIESTA\, and SPR-KKR.</p> <p>High-quality 
+ standardized libraries are not only a highly challenging effort lying at 
+ the hands of the library developers\, they also open possibilities for 
+ codes to take advantage of a standard way to access commonly used 
+ algorithms. Integration of these libraries\, however\, requires a 
+ significant initial effort that is often sacrificed for new developments 
+ that often not even reach the mainstream branch of the code. 
+ Additionally\, there are multiple challenges in adopting new libraries 
+ which have their roots in a variety of issues: installation\, data 
+ structures\, physical units and parallelism - all of which are code-
+ dependent. On the other hand\, adoption of common libraries ensures the 
+ immediate propagation of improvements within the respective library’s 
+ field of research and ensures codes are up-to-date with much less effort 
+ [LibXC]. Indeed\, well-established libraries can have a huge impact on 
+ multiple scientific communities at once [PETSc].</p> <p>In the Electronic 
+ Structure community\, two issues are emerging. Libraries are being 
+ developed [esl\, esl-gitlab] but require an ongoing commitment from the 
+ community with respect to sharing the maintenance and development effort. 
+ Secondly\, existing codes will benefit from libraries by adopting their 
+ use. Both issues are mainly governed by the exposure of the libraries and 
+ the availability of library core developers\, which are typically 
+ researchers pressured by publication deliverables and fund-raising 
+ burdens. They are thus not able to commit a large fraction of their time 
+ to software development.</p> <p>An effort to allow code developers to make
+  use of\, and develop\, shared components is needed. This requires an 
+ efficient coordination between various elements:</p> <p>A common and 
+ consistent code development infrastructure/education in terms of 
+ compilation\, installation\, testing and documentation.<br> - How to use 
+ and integrate already published libraries into existing projects.<br> - 
+ Creating long-lasting synergies between developers to reach a “critical 
+ mass” of component contributors.<br> - Relevant quality metrics ("TRLs" 
+ and “SRLs”)\, to provide businesses with useful information .</p> <p>This 
+ is what the Electronic Structure Library (ESL)[esl\, esl-gitlab] has been 
+ doing since 2014\, with a wiki\, a data-exchange standard\, refactoring 
+ code of global interest into integrated modules\, and regularly organizing
+  workshops\, within a wider movement lead by the European eXtreme Data and
+  Computing Initiative [exdci].</p> <p>References</p> <p>[BigDFT-PSolver] 
+ <a href="http://bigdft.org/Wiki/index.php?title=The_Solver_Package">http:/
+ /bigdft.org/Wiki/index.php?title=The_Solver_Package</a><br> [ELPA] <a href
+ ="https://gitlab.mpcdf.mgp.de/elpa/elpa">https://gitlab.mpcdf.mgp.de/elpa/
+ elpa</a><br> [ELSI] <a href="http://elsi-interchange.org/">http://elsi-
+ interchange.org</a><br> [LibXC] <a href="http://www.tddft.org/programs/lib
+ xc/">http://www.tddft.org/programs/libxc/</a><br> [LibGridXC] <a href="htt
+ ps://launchpad.net/libgridxc">https://launchpad.net/libgridxc</a><br> 
+ [PETSc] <a href="https://www.mcs.anl.gov/petsc/">https://www.mcs.anl.gov/p
+ etsc/</a><br> [esl] <a 
+ href="http://esl.cecam.org/">http://esl.cecam.org/</a><br> [esl-gitlab] <a
+  href="http://gitlab.e-cam2020.eu/esl">http://gitlab.e-cam2020.eu/esl</a><
+ br> [exdci] <a href="https://exdci.eu/newsroom/press-releases/exdci-
+ towards-common-hpc-strategy-europe">https://exdci.eu/newsroom/press-
+ releases/exdci-towards-common-hpc-strate...</a></p>
+LOCATION:http://www.max-centre.eu/news-events/integration-esl-modules-
+ electronic-structure-codes-0
+DTSTAMP:20220816T095005Z
+GEO:46.520151;6.572236
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The evolutionary
+  pressure on electronic structure software development is greatly 
+ increasing, due to the emergence of new paradigms, new kinds of users, new
+  processes, and new tools. Electronic structure software complexity is 
+ consequently also increasing, requiring a larger effort on code 
+ maintenance. Developers of large electronic structure codes are trying to 
+ relieve some complexity by transitioning standardized algorithms into 
+ separate libraries [BigDFT-PSolver, ELPA, ELSI, LibXC, LibGridXC, etc.]. 
+ This paradigm shift requires library developers to have a hybrid developer
+  profile where the scientific and computational skill set becomes equally 
+ important. These topics have been extensively and publicly discussed 
+ between developers of various projects including ABINIT, ASE, ATK, BigDFT,
+  CASTEP, FHI-aims, GPAW, Octopus, Quantum Espresso, SIESTA, and SPR-
+ KKR.</p> <p>High-quality standardized libraries are not only a highly 
+ challenging effort lying at the hands of the library developers, they also
+  open possibilities for codes to take advantage of a standard way to 
+ access commonly used algorithms. Integration of these libraries, however, 
+ requires a significant initial effort that is often sacrificed for new 
+ developments that often not even reach the mainstream branch of the code. 
+ Additionally, there are multiple challenges in adopting new libraries 
+ which have their roots in a variety of issues: installation, data 
+ structures, physical units and parallelism - all of which are code-
+ dependent. On the other hand, adoption of common libraries ensures the 
+ immediate propagation of improvements within the respective library’s 
+ field of research and ensures codes are up-to-date with much less effort 
+ [LibXC]. Indeed, well-established libraries can have a huge impact on 
+ multiple scientific communities at once [PETSc].</p> <p>In the Electronic 
+ Structure community, two issues are emerging. Libraries are being 
+ developed [esl, esl-gitlab] but require an ongoing commitment from the 
+ community with respect to sharing the maintenance and development effort. 
+ Secondly, existing codes will benefit from libraries by adopting their 
+ use. Both issues are mainly governed by the exposure of the libraries and 
+ the availability of library core developers, which are typically 
+ researchers pressured by publication deliverables and fund-raising 
+ burdens. They are thus not able to commit a large fraction of their time 
+ to software development.</p> <p>An effort to allow code developers to make
+  use of, and develop, shared components is needed. This requires an 
+ efficient coordination between various elements:</p> <p>A common and 
+ consistent code development infrastructure/education in terms of 
+ compilation, installation, testing and documentation.<br> - How to use and
+  integrate already published libraries into existing projects.<br> - 
+ Creating long-lasting synergies between developers to reach a “critical 
+ mass” of component contributors.<br> - Relevant quality metrics ("TRLs" 
+ and “SRLs”), to provide businesses with useful information .</p> <p>This 
+ is what the Electronic Structure Library (ESL)[esl, esl-gitlab] has been 
+ doing since 2014, with a wiki, a data-exchange standard, refactoring code 
+ of global interest into integrated modules, and regularly organizing 
+ workshops, within a wider movement lead by the European eXtreme Data and 
+ Computing Initiative [exdci].</p> <p>References</p> <p>[BigDFT-PSolver] <a
+  href="http://bigdft.org/Wiki/index.php?title=The_Solver_Package">http://b
+ igdft.org/Wiki/index.php?title=The_Solver_Package</a><br> [ELPA] <a href="
+ https://gitlab.mpcdf.mgp.de/elpa/elpa">https://gitlab.mpcdf.mgp.de/elpa/el
+ pa</a><br> [ELSI] <a href="http://elsi-interchange.org/">http://elsi-
+ interchange.org</a><br> [LibXC] <a href="http://www.tddft.org/programs/lib
+ xc/">http://www.tddft.org/programs/libxc/</a><br> [LibGridXC] <a href="htt
+ ps://launchpad.net/libgridxc">https://launchpad.net/libgridxc</a><br> 
+ [PETSc] <a href="https://www.mcs.anl.gov/petsc/">https://www.mcs.anl.gov/p
+ etsc/</a><br> [esl] <a 
+ href="http://esl.cecam.org/">http://esl.cecam.org/</a><br> [esl-gitlab] <a
+  href="http://gitlab.e-cam2020.eu/esl">http://gitlab.e-cam2020.eu/esl</a><
+ br> [exdci] <a href="https://exdci.eu/newsroom/press-releases/exdci-
+ towards-common-hpc-strategy-europe">https://exdci.eu/newsroom/press-
+ releases/exdci-towards-common-hpc-strate...</a></p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

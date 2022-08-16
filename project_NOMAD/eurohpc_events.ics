@@ -11,6 +11,16 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+02:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220615T090000
 DTEND;TZID="UTC+02:00":20220621T170000
@@ -49,7 +59,7 @@ DESCRIPTION:<p>With 10^18 floating point operations per second\, exascale
  early-career postdocs. </p>
 LOCATION:https://www.nomad-coe.eu/events/nomads-midsummer-school-2022-in-
  riga/NMS22-location
-DTSTAMP:20220329T123954Z
+DTSTAMP:20220816T095005Z
 GEO:56.950760;24.116231
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>With 10^18 
  floating point operations per second, exascale computers will be able to 
@@ -81,5 +91,56 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>With 10^18
  learn about and contribute to the development of mini apps to check and 
  analyze their code performance.</li> </ul> <p>The school is aimed at 
  graduate students and early-career postdocs. </p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20211115T090000
+DTEND;TZID="UTC+01:00":20211119T170000
+SUMMARY:High-throughput workflows for materials science with the Atomic 
+ Simulation Environment and Fireworks
+UID:https://hpc-portal.eu/node/1330
+DESCRIPTION:<p>This 4-days combined workshop/hackathon (2-day/2-day) will 
+ introduce young scientists from the electronic structure community to the 
+ <em><strong>latest developments in the Atomic Simulation Environment (ASE)
+  and Fireworks software packages</strong></em>.</p> <p>This meeting will 
+ give developers and users of ASE the possibility to present and discuss 
+ ongoing developments and to coordinate their efforts. A particular focus 
+ shall be put on automatized high-throughput computations for which the 
+ first fundamental steps are already implemented in ASE and are readily 
+ available for customization and further development. To this end\, the 
+ coupling to Fireworks/atomate as a code independent workflow engine will 
+ be explored and possible synergy effects will be identified.</p> <p>The 
+ first part of the workshop is <em><strong>intended for both younger 
+ (PhD/postdocs) and experienced researchers with an interest in high-
+ throughput electronic structure calculations and materials 
+ design.</strong></em> The last part of the workshop comprises more 
+ technical sessions aimed at bringing electronic structure (ES) code 
+ developers up to date with the latest developments of ASE/Fireworks 
+ related to high-throughput workflows\, and a hackathon aimed at extending 
+ and improving the existing interfaces between ASE/Fireworks and ES codes 
+ to take full advantage of new powerful features.</p>
+LOCATION:https://nomad-coe.eu/events/ase-fireworks-workshop
+DTSTAMP:20220816T095005Z
+GEO:55.785409;12.519589
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This 4-days 
+ combined workshop/hackathon (2-day/2-day) will introduce young scientists 
+ from the electronic structure community to the <em><strong>latest 
+ developments in the Atomic Simulation Environment (ASE) and Fireworks 
+ software packages</strong></em>.</p> <p>This meeting will give developers 
+ and users of ASE the possibility to present and discuss ongoing 
+ developments and to coordinate their efforts. A particular focus shall be 
+ put on automatized high-throughput computations for which the first 
+ fundamental steps are already implemented in ASE and are readily available
+  for customization and further development. To this end, the coupling to 
+ Fireworks/atomate as a code independent workflow engine will be explored 
+ and possible synergy effects will be identified.</p> <p>The first part of 
+ the workshop is <em><strong>intended for both younger (PhD/postdocs) and 
+ experienced researchers with an interest in high-throughput electronic 
+ structure calculations and materials design.</strong></em> The last part 
+ of the workshop comprises more technical sessions aimed at bringing 
+ electronic structure (ES) code developers up to date with the latest 
+ developments of ASE/Fireworks related to high-throughput workflows, and a 
+ hackathon aimed at extending and improving the existing interfaces between
+  ASE/Fireworks and ES codes to take full advantage of new powerful 
+ features.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

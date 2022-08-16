@@ -1,4 +1,535 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220317T150000
+DTEND;TZID="UTC+01:00":20220317T163000
+SUMMARY:AI4EU WebCafe: Opportunities and Challenges of CoEs in the sector 
+ of AI
+UID:https://hpc-portal.eu/node/812
+DESCRIPTION:<p>The following session aims to bring together the Centers of 
+ Excellence in AI sectors to discuss about the opportunities and challenges
+  in the sector\, how the Centres of Excellence can help to tackle them 
+ thanks to HPC technologies and which opportunities are emerging. It is a 
+ good opportunity to get a common understanding of the ongoing activities 
+ within the different CoEs and foster collaboration opportunities.</p>
+LOCATION:https://www.ai4europe.eu/news-and-events/events/webcafes
+DTSTAMP:20220816T095005Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The following 
+ session aims to bring together the Centers of Excellence in AI sectors to 
+ discuss about the opportunities and challenges in the sector, how the 
+ Centres of Excellence can help to tackle them thanks to HPC technologies 
+ and which opportunities are emerging. It is a good opportunity to get a 
+ common understanding of the ongoing activities within the different CoEs 
+ and foster collaboration opportunities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20211011T083000
+DTEND;TZID="UTC+02:00":20211015T173000
+SUMMARY:Parallel Programming Workshop (MPI\, OpenMP and advanced topics) @ 
+ HLRS
+UID:https://hpc-portal.eu/node/807
+DESCRIPTION:<p><strong>Distributed memory parallelization with the Message 
+ Passing Interface MPI (Mon\, for beginners):</strong></p> <p>On clusters 
+ and distributed memory architectures\, parallel programming with the 
+ Message Passing Interface (MPI) is the dominating programming model. The 
+ course gives an introduction into MPI-1. Hands-on sessions (in C and 
+ Fortran) will allow users to immediately test and understand the basic 
+ constructs of the Message Passing Interface (MPI).</p> <p><strong>Shared 
+ memory parallelization with OpenMP (Tue\, for beginners):</strong><br> The
+  focus is on shared memory parallelization with OpenMP\, the key concept 
+ on hyper-threading\, dual-core\, multi-core\, shared memory\, and ccNUMA 
+ platforms. This course teaches shared memory OpenMP parallelization. 
+ Hands-on sessions (in C and Fortran) will allow users to immediately test 
+ and understand the directives and other interfaces of OpenMP. Race-
+ condition debugging tools are also presented.</p> <p><strong>Intermediate 
+ and advanced topics in parallel programming (Wed-Fri):</strong><br> Topics
+  are advanced usage of communicators and virtual topologies\, one-sided 
+ communication\, derived datatypes\, MPI-2 parallel file I/O\, hybrid mixed
+  model MPI+OpenMP parallelization\, parallelization of explicit and 
+ implicit solvers and of particle based applications\, parallel numerics 
+ and libraries\, and parallelization with PETSc. MPI-3.0 introduced a new 
+ shared memory programming interface\, which can be combined with MPI 
+ message passing and remote memory access on the cluster interconnect. It 
+ can be used for direct neighbor accesses similar to OpenMP or for direct 
+ halo copies\, and enables new hybrid programming models. These models are 
+ compared in the hybrid mixed model MPI+OpenMP parallelization session with
+  various hybrid MPI+OpenMP approaches and pure MPI. Further aspects are 
+ domain decomposition\, load balancing\, and debugging. Hands-on sessions 
+ are included on all days. This course provides scientific training in 
+ Computational Science\, and in addition\, the scientific exchange of the 
+ participants among themselves.</p> <p><strong>Hands-on sessions</strong> 
+ are included on all days. This course provides scientific training in 
+ Computational Science\, and in addition\, the scientific exchange of the 
+ participants among themselves.</p>
+LOCATION:https://hpc-portal.eu/node/807
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Distributed memory parallelization with the 
+ Message Passing Interface MPI (Mon, for beginners):</strong></p> <p>On 
+ clusters and distributed memory architectures, parallel programming with 
+ the Message Passing Interface (MPI) is the dominating programming model. 
+ The course gives an introduction into MPI-1. Hands-on sessions (in C and 
+ Fortran) will allow users to immediately test and understand the basic 
+ constructs of the Message Passing Interface (MPI).</p> <p><strong>Shared 
+ memory parallelization with OpenMP (Tue, for beginners):</strong><br> The 
+ focus is on shared memory parallelization with OpenMP, the key concept on 
+ hyper-threading, dual-core, multi-core, shared memory, and ccNUMA 
+ platforms. This course teaches shared memory OpenMP parallelization. 
+ Hands-on sessions (in C and Fortran) will allow users to immediately test 
+ and understand the directives and other interfaces of OpenMP. Race-
+ condition debugging tools are also presented.</p> <p><strong>Intermediate 
+ and advanced topics in parallel programming (Wed-Fri):</strong><br> Topics
+  are advanced usage of communicators and virtual topologies, one-sided 
+ communication, derived datatypes, MPI-2 parallel file I/O, hybrid mixed 
+ model MPI+OpenMP parallelization, parallelization of explicit and implicit
+  solvers and of particle based applications, parallel numerics and 
+ libraries, and parallelization with PETSc. MPI-3.0 introduced a new shared
+  memory programming interface, which can be combined with MPI message 
+ passing and remote memory access on the cluster interconnect. It can be 
+ used for direct neighbor accesses similar to OpenMP or for direct halo 
+ copies, and enables new hybrid programming models. These models are 
+ compared in the hybrid mixed model MPI+OpenMP parallelization session with
+  various hybrid MPI+OpenMP approaches and pure MPI. Further aspects are 
+ domain decomposition, load balancing, and debugging. Hands-on sessions are
+  included on all days. This course provides scientific training in 
+ Computational Science, and in addition, the scientific exchange of the 
+ participants among themselves.</p> <p><strong>Hands-on sessions</strong> 
+ are included on all days. This course provides scientific training in 
+ Computational Science, and in addition, the scientific exchange of the 
+ participants among themselves.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210920T083000
+DTEND;TZID="UTC+02:00":20210924T153000
+SUMMARY:CFD with OpenFOAM® @ HLRS
+UID:https://hpc-portal.eu/node/808
+DESCRIPTION:<p>OpenFOAM® is a widely-used open-source code and a powerful 
+ framework for solving a variety of problems mainly in the field of CFD. 
+ The five-day workshop gives an introduction to OpenFOAM® applied on CFD 
+ phenomena and is intended for beginners as well as for people with CFD 
+ background knowledge. The user will learn about case setup\, meshing tools
+  like snappyHexMesh and cfMesh. Available OpenFOAM® utilities and 
+ additional libraries like swak4Foam\, that can be used for pre- and 
+ postprocessing tasks\, are further aspects of this course. Additionally\, 
+ basic solvers and major aspects of code structure are highlighted. 
+ Lectures and hands-on sessions with typical CFD examples will guide 
+ through this course including first steps in own coding. This course 
+ provides scientific training in Computational Science\, and in addition\, 
+ the scientific exchange of the participants among themselves.</p> 
+ <p>Additionally\, the <a href="https://hidalgo-
+ project.eu"><strong>HiDALGO</strong></a> digital twin for <strong><a 
+ href="https://hidalgo-project.eu/use-cases/pollution">urban air 
+ pollution</a></strong> and the workflow for urban air pollution modelling 
+ will be introduced during the workshop. <a href="https://hidalgo-
+ project.eu"><strong>HiDALGO</strong></a> is the EU Centre of Excellence 
+ for Global Challenges. See also the <a href="https://moodle.hidalgo-
+ project.eu/"><strong>moodle platform</strong></a> of HiDALGO training.</p>
+LOCATION:https://www.hlrs.de/contact/how-to-find-us/
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM® is a 
+ widely-used open-source code and a powerful framework for solving a 
+ variety of problems mainly in the field of CFD. The five-day workshop 
+ gives an introduction to OpenFOAM® applied on CFD phenomena and is 
+ intended for beginners as well as for people with CFD background 
+ knowledge. The user will learn about case setup, meshing tools like 
+ snappyHexMesh and cfMesh. Available OpenFOAM® utilities and additional 
+ libraries like swak4Foam, that can be used for pre- and postprocessing 
+ tasks, are further aspects of this course. Additionally, basic solvers and
+  major aspects of code structure are highlighted. Lectures and hands-on 
+ sessions with typical CFD examples will guide through this course 
+ including first steps in own coding. This course provides scientific 
+ training in Computational Science, and in addition, the scientific 
+ exchange of the participants among themselves.</p> <p>Additionally, the <a
+  href="https://hidalgo-project.eu"><strong>HiDALGO</strong></a> digital 
+ twin for <strong><a href="https://hidalgo-project.eu/use-
+ cases/pollution">urban air pollution</a></strong> and the workflow for 
+ urban air pollution modelling will be introduced during the workshop. <a 
+ href="https://hidalgo-project.eu"><strong>HiDALGO</strong></a> is the EU 
+ Centre of Excellence for Global Challenges. See also the <a 
+ href="https://moodle.hidalgo-project.eu/"><strong>moodle 
+ platform</strong></a> of HiDALGO training.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210707T090000
+DTEND;TZID="UTC+02:00":20210709T103000
+SUMMARY:Tackling Global challenges with HPC\, HPDA\, and simulations
+UID:https://hpc-portal.eu/node/809
+DESCRIPTION:<p>The EU-funded projects HiDALGO and ESIWACE kindly invite for
+  a joined online workshop on “Tackling Global challenges with HPC\, HPDA 
+ and simulations” (Wednesday\, 7th till Friday\, 9th July 2021).<br> The 
+ three-days workshop will bring together researchers and industry from the 
+ HPC area to exchange views and to learn more about how high performance 
+ computing HPC supports to deal with issues of today’s world\, e.g. climate
+  change\, energy\, migration\, air pollution\, social<br> media. All 
+ sessions are designed as practical presentations\, training\, hands-on 
+ experience\, demonstrations and plenary sessions.</p> <p>Training 
+ material:<br> https://moodle.hidalgo-project.eu/course/view.php?id=6<br> 
+ https://moodle.hidalgo-project.eu/course/view.php?id=13</p> 
+LOCATION:https://hpc-portal.eu/node/809
+DTSTAMP:20220816T095005Z
+GEO:40.434870;-3.632042
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The EU-funded 
+ projects HiDALGO and ESIWACE kindly invite for a joined online workshop on
+  “Tackling Global challenges with HPC, HPDA and simulations” (Wednesday, 
+ 7th till Friday, 9th July 2021).<br> The three-days workshop will bring 
+ together researchers and industry from the HPC area to exchange views and 
+ to learn more about how high performance computing HPC supports to deal 
+ with issues of today’s world, e.g. climate change, energy, migration, air 
+ pollution, social<br> media. All sessions are designed as practical 
+ presentations, training, hands-on experience, demonstrations and plenary 
+ sessions.</p> <p>Training material:<br> https://moodle.hidalgo-
+ project.eu/course/view.php?id=6<br> https://moodle.hidalgo-
+ project.eu/course/view.php?id=13</p> </BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210427T090000
+DTEND;TZID="UTC+02:00":20210427T170000
+SUMMARY:Workshop on High-performance Data Analytics @ENCCS/HiDALGO
+UID:https://hpc-portal.eu/node/869
+DESCRIPTION:<h2>General description and learning outcomes</h2> <p>We would 
+ like to invite you to participate in our High-performance data analytics 
+ course where we will introduce different tools and methods for Big data 
+ handling. The tools will be presented on two different use cases but can 
+ be applied to any data.</p> <p>HiDALGO (<a href="https://hidalgo-
+ project.eu/">https://hidalgo-project.eu/</a>) – HPC and Big Data 
+ Technologies for Global Systems – is a European project funded by the 
+ Horizon 2020 Framework Programme of the European Union. The project is 
+ carried out by 13 institutions from seven countries. <br>  This training 
+ event will start with an introductory talk to provide a view of high-
+ performance data analytics (HPDA) from the HiDALGO perspective. The main 
+ concepts will be presented\, listing the tools that have been used\, 
+ together with information about benchmarks the consortium has done (as a 
+ source of information about their scalability). This introduction also 
+ presents how these tools are being applied in HiDALGO\, in order to solve 
+ different problems.<br>  The following part of the training will focus on 
+ HPC and HPDA technologies\, applied to use-cases such as Urban Air 
+ Pollution (UAP). The UAP application is a software framework for modeling 
+ the vehicular traffic emitted air pollution and its dispersion at very 
+ high resolution by using geometry inputs (Open Street Map)\, coupled 
+ weather data (ECMWF) and traffic simulation (SUMO)\, computational fluid 
+ dynamics (CFD) tools running on HPC infrastructures (OpenFOAM)\, and 
+ evaluation with HPDA methods.<br>  This HPC/HPDA/UAP-part of the training 
+ will introduce the UAP concept\, workflows\, implementations\, application
+  of the CFD-module in HPC environment\, deployment to HPC\, running\, and 
+ evaluation. Participants will learn the techniques of these parts from a 
+ general perspective\, namely\, HPC workflow modeling (TOSCA in YAML 
+ rendering)\, basics of OpenFOAM for computation of air pollutant 
+ dispersion using HPC\, and the applied HPDA methods for fast 
+ evaluation.<br>  The last part will provide an introduction to the data 
+ available at ECMWF and Copernicus\, and the APIs for retrieving the data\,
+  followed by practical sessions on data exploration and manipulation. 
+ After this web-seminar\, participants will be able to independently 
+ discover weather\, climate\, and environmental data produced and hosted by
+  ECMWF\, and also to retrieve and process these data using Python 
+ libraries.</p> <h2>For whom is the workshop</h2> <p>Researchers\, 
+ practitioners\, and developers who are interested in implementation of HPC
+  workflows and HPDA. Environmental scientists that would like to apply 
+ microscale models and exploit the strength of HPC easily.</p> <p>The part 
+ provided by ECMWF is aimed in particular at researchers that would like to
+  use weather\, climate\, or environmental data in their work.</p> 
+ <h2>Prerequisites</h2> <ul> <li>Participants are expected to have some 
+ basic knowledge about Big Data technologies (although not mandatory).</li>
+  <li>Participants need to have basic knowledge of Linux CLI for the 
+ developer parts of the UAP training. For the application side\, basic 
+ environmental knowledge related to air pollution needed (although not 
+ mandatory).</li> <li>For the part related to weather\, participants are 
+ expected to have basic Python knowledge and be comfortable using Jupyter 
+ Notebooks. They will have the option to either use the mybinder.org 
+ platform or work locally. The github repository with the notebooks and a 
+ list of libraries will be provided before the workshop.</li> </ul> 
+ <h2>Instructors</h2> <p><strong>Zoltán Horváth</strong>\,<strong> Ákos 
+ Kovács</strong>\,<strong> László Környei</strong>\, <strong>Mátyás 
+ Constans</strong>\, Széchenyi István University\, Győr<br> <strong>Milana 
+ Vuckovic</strong>\, European Centre for Medium-Range Weather Forecasts</p>
+  <h2>Agenda</h2> <p>For the updated agenda and information on the sessions
+  check the event's webpage at <br> <a 
+ href="https://enccs.se/events/2021/04/enccshidalgo-workshop-on-high-
+ performance-data-analytics/">https://enccs.se/events/2021/04/enccshidalgo-
+ workshop-on-high-performance-data-analytics/</a></p>
+LOCATION:https://events.prace-ri.eu/event/1193/
+DTSTAMP:20220816T095005Z
+GEO:59.349456;18.072761
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>General 
+ description and learning outcomes</h2> <p>We would like to invite you to 
+ participate in our High-performance data analytics course where we will 
+ introduce different tools and methods for Big data handling. The tools 
+ will be presented on two different use cases but can be applied to any 
+ data.</p> <p>HiDALGO (<a href="https://hidalgo-
+ project.eu/">https://hidalgo-project.eu/</a>) – HPC and Big Data 
+ Technologies for Global Systems – is a European project funded by the 
+ Horizon 2020 Framework Programme of the European Union. The project is 
+ carried out by 13 institutions from seven countries. <br>  This training 
+ event will start with an introductory talk to provide a view of high-
+ performance data analytics (HPDA) from the HiDALGO perspective. The main 
+ concepts will be presented, listing the tools that have been used, 
+ together with information about benchmarks the consortium has done (as a 
+ source of information about their scalability). This introduction also 
+ presents how these tools are being applied in HiDALGO, in order to solve 
+ different problems.<br>  The following part of the training will focus on 
+ HPC and HPDA technologies, applied to use-cases such as Urban Air 
+ Pollution (UAP). The UAP application is a software framework for modeling 
+ the vehicular traffic emitted air pollution and its dispersion at very 
+ high resolution by using geometry inputs (Open Street Map), coupled 
+ weather data (ECMWF) and traffic simulation (SUMO), computational fluid 
+ dynamics (CFD) tools running on HPC infrastructures (OpenFOAM), and 
+ evaluation with HPDA methods.<br>  This HPC/HPDA/UAP-part of the training 
+ will introduce the UAP concept, workflows, implementations, application of
+  the CFD-module in HPC environment, deployment to HPC, running, and 
+ evaluation. Participants will learn the techniques of these parts from a 
+ general perspective, namely, HPC workflow modeling (TOSCA in YAML 
+ rendering), basics of OpenFOAM for computation of air pollutant dispersion
+  using HPC, and the applied HPDA methods for fast evaluation.<br>  The 
+ last part will provide an introduction to the data available at ECMWF and 
+ Copernicus, and the APIs for retrieving the data, followed by practical 
+ sessions on data exploration and manipulation. After this web-seminar, 
+ participants will be able to independently discover weather, climate, and 
+ environmental data produced and hosted by ECMWF, and also to retrieve and 
+ process these data using Python libraries.</p> <h2>For whom is the 
+ workshop</h2> <p>Researchers, practitioners, and developers who are 
+ interested in implementation of HPC workflows and HPDA. Environmental 
+ scientists that would like to apply microscale models and exploit the 
+ strength of HPC easily.</p> <p>The part provided by ECMWF is aimed in 
+ particular at researchers that would like to use weather, climate, or 
+ environmental data in their work.</p> <h2>Prerequisites</h2> <ul> 
+ <li>Participants are expected to have some basic knowledge about Big Data 
+ technologies (although not mandatory).</li> <li>Participants need to have 
+ basic knowledge of Linux CLI for the developer parts of the UAP training. 
+ For the application side, basic environmental knowledge related to air 
+ pollution needed (although not mandatory).</li> <li>For the part related 
+ to weather, participants are expected to have basic Python knowledge and 
+ be comfortable using Jupyter Notebooks. They will have the option to 
+ either use the mybinder.org platform or work locally. The github 
+ repository with the notebooks and a list of libraries will be provided 
+ before the workshop.</li> </ul> <h2>Instructors</h2> <p><strong>Zoltán 
+ Horváth</strong>,<strong> Ákos Kovács</strong>,<strong> László 
+ Környei</strong>, <strong>Mátyás Constans</strong>, Széchenyi István 
+ University, Győr<br> <strong>Milana Vuckovic</strong>, European Centre for
+  Medium-Range Weather Forecasts</p> <h2>Agenda</h2> <p>For the updated 
+ agenda and information on the sessions check the event's webpage at <br> 
+ <a href="https://enccs.se/events/2021/04/enccshidalgo-workshop-on-high-
+ performance-data-analytics/">https://enccs.se/events/2021/04/enccshidalgo-
+ workshop-on-high-performance-data-analytics/</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210414T140000
+DTEND;TZID="UTC+02:00":20210414T160000
+SUMMARY:Reproducible Software Environments & Benchmarks with Ansible and 
+ Spack: HiDALGO approach
+UID:https://hpc-portal.eu/node/868
+DESCRIPTION:<p>A talk will be given by Sergiy Gogolenko at HLRS (HiDALGO 
+ partner) on simplifying user software installation on versatile 
+ clusters/testbeds\, as well as creating reproducible software environments
+  and benchmarks with Spack and Ansible for HiDALGO and HLRS-SANE 
+ teams.</p> <p>Abstract:<br>  In recent decades\, there is a tendency to 
+ pay solid attention to reproducibility of experiments in science. In many 
+ cases\, reproducibility becomes one of the corner-stone measures (or even 
+ pre-requisite for publication) of the high quality research. In terms of 
+ HPC\, reproducibility of benchmarks presumes exhaustive reports of the 
+ hardware and software setup\, as well as an easy and consistent way to 
+ replicate the software environment in use.<br>  Unfortunately\, the users 
+ of HPC clusters and testbeds face with a number of obstacles on the way to
+  prepare reproducible software environments. In particular\, each data 
+ center provides its own subset of pre-installed software and has a set of 
+ specific policies and restrictions (like lack of access to internet). 
+ Moreover\, in order to reach better performance\, the end-user usually 
+ must install the software from sources watching all its dependencies\, 
+ which demands an unnecessarily high level of technical expertise. As a 
+ results\, installation often becomes a tedious time-consuming process 
+ discouraging people from taking care of software reproducibility 
+ particularly and from HPC generally.<br>  Spack is a HPC-oriented package 
+ manager\, which solves most of the above-mentioned problems if configured 
+ correctly\, while Ansible addresses the issue of deploying and configuring
+  Spack with off-line mirrors for the end-users. In addition\, Ansible and 
+ Spack feature deep integration of YAML and JSON formats along with a high 
+ extensibility via a wide range of builtin and external modules. It makes 
+ these tools a perfect combination not only for automated fully-
+ reproducible software installation\, but also for documenting hardware and
+  software configurations along with the installation process uniformly in 
+ a human readable format easy to post-process.<br>  The purpose of this 
+ talk is largely to teach basics of configuring and using Spack for the 
+ end-users of HPC systems\, as well as to introduce an Ansible+Spack 
+ solution which we use for automated installation of the same software on a
+  variety of clusters.<br>  Tentative agenda:<br>  - Introduction to Spack 
+ and Ansible (5min)<br> - Spack from user prospective: basic usage 
+ (10min)<br> - Configuring Spack (15 min)<br> - Deployment of Spack on 
+ versatile hardware with Ansible (10min)<br> - Reproducible benchmarks and 
+ their reporting with Ansible (10min)<br> - Reproducible benchmarks and 
+ their reporting with Ansible (10min)<br> - Q&amp\;A (10min)</p>
+LOCATION:https://moodle.hidalgo-project.eu/course/view.php?id=11
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>A talk will be 
+ given by Sergiy Gogolenko at HLRS (HiDALGO partner) on simplifying user 
+ software installation on versatile clusters/testbeds, as well as creating 
+ reproducible software environments and benchmarks with Spack and Ansible 
+ for HiDALGO and HLRS-SANE teams.</p> <p>Abstract:<br>  In recent decades, 
+ there is a tendency to pay solid attention to reproducibility of 
+ experiments in science. In many cases, reproducibility becomes one of the 
+ corner-stone measures (or even pre-requisite for publication) of the high 
+ quality research. In terms of HPC, reproducibility of benchmarks presumes 
+ exhaustive reports of the hardware and software setup, as well as an easy 
+ and consistent way to replicate the software environment in use.<br>  
+ Unfortunately, the users of HPC clusters and testbeds face with a number 
+ of obstacles on the way to prepare reproducible software environments. In 
+ particular, each data center provides its own subset of pre-installed 
+ software and has a set of specific policies and restrictions (like lack of
+  access to internet). Moreover, in order to reach better performance, the 
+ end-user usually must install the software from sources watching all its 
+ dependencies, which demands an unnecessarily high level of technical 
+ expertise. As a results, installation often becomes a tedious time-
+ consuming process discouraging people from taking care of software 
+ reproducibility particularly and from HPC generally.<br>  Spack is a HPC-
+ oriented package manager, which solves most of the above-mentioned 
+ problems if configured correctly, while Ansible addresses the issue of 
+ deploying and configuring Spack with off-line mirrors for the end-users. 
+ In addition, Ansible and Spack feature deep integration of YAML and JSON 
+ formats along with a high extensibility via a wide range of builtin and 
+ external modules. It makes these tools a perfect combination not only for 
+ automated fully-reproducible software installation, but also for 
+ documenting hardware and software configurations along with the 
+ installation process uniformly in a human readable format easy to post-
+ process.<br>  The purpose of this talk is largely to teach basics of 
+ configuring and using Spack for the end-users of HPC systems, as well as 
+ to introduce an Ansible+Spack solution which we use for automated 
+ installation of the same software on a variety of clusters.<br>  Tentative
+  agenda:<br>  - Introduction to Spack and Ansible (5min)<br> - Spack from 
+ user prospective: basic usage (10min)<br> - Configuring Spack (15 min)<br>
+  - Deployment of Spack on versatile hardware with Ansible (10min)<br> - 
+ Reproducible benchmarks and their reporting with Ansible (10min)<br> - 
+ Reproducible benchmarks and their reporting with Ansible (10min)<br> - 
+ Q&amp;A (10min)</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210308T090000
+DTEND;TZID="UTC+01:00":20210310T160000
+SUMMARY:Iterative Solvers for Linear Systems @ HLRS
+UID:https://hpc-portal.eu/node/867
+DESCRIPTION:<p>The focus of the course is on modern iterative solvers for 
+ large linear systems of equations. Thereby\, beside classical schemes and 
+ fundamentals of multigrid techniques different modern Krylov subspace 
+ methods (CG\, GMRES\, BiCGSTAB ...) as well as highly efficient 
+ preconditioning techniques are presented in the context of real life 
+ applications. Hands-on sessions (MATLAB and GNU Octave respectively) will 
+ allow users to immediately test and understand the basic constructs of 
+ iterative solvers. This course provides scientific training in 
+ Computational Science\, and in addition\, the scientific exchange of the 
+ participants among themselves. It is organized by HLRS\, IAG\, and Uni. 
+ Kassel.</p> <p>The guest lecture on Day 2 is offered in collaboration with
+  <a href="https://hidalgo-project.eu"><strong>HiDALGO</strong></a>\, the 
+ EU Centre of Excellence for Global Challenges. The method exposed is used 
+ in the HiDALGO <strong><a href="https://hidalgo-project.eu/use-
+ cases/social-networks">Social Network Pilot</a></strong>.</p>
+LOCATION:https://www.hlrs.de/training/2021/ITER-S/
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The focus of the
+  course is on modern iterative solvers for large linear systems of 
+ equations. Thereby, beside classical schemes and fundamentals of multigrid
+  techniques different modern Krylov subspace methods (CG, GMRES, BiCGSTAB 
+ ...) as well as highly efficient preconditioning techniques are presented 
+ in the context of real life applications. Hands-on sessions (MATLAB and 
+ GNU Octave respectively) will allow users to immediately test and 
+ understand the basic constructs of iterative solvers. This course provides
+  scientific training in Computational Science, and in addition, the 
+ scientific exchange of the participants among themselves. It is organized 
+ by HLRS, IAG, and Uni. Kassel.</p> <p>The guest lecture on Day 2 is 
+ offered in collaboration with <a href="https://hidalgo-
+ project.eu"><strong>HiDALGO</strong></a>, the EU Centre of Excellence for 
+ Global Challenges. The method exposed is used in the HiDALGO <strong><a 
+ href="https://hidalgo-project.eu/use-cases/social-networks">Social Network
+  Pilot</a></strong>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210304T110000
+DTEND;TZID="UTC+01:00":20210304T130000
+SUMMARY:Huawei Atlas AI Workshop @ PSNC
+UID:https://hpc-portal.eu/node/865
+DESCRIPTION:<p>Please visit the <a href="https://moodle.hidalgo-
+ project.eu/course/view.php?id=10">Moodle page</a>.</p>
+LOCATION:https://moodle.hidalgo-project.eu/course/view.php?id=10
+DTSTAMP:20220816T095005Z
+GEO:52.407190;16.953149
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Please visit the
+  <a href="https://moodle.hidalgo-project.eu/course/view.php?id=10">Moodle 
+ page</a>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210127T130000
+DTEND;TZID="UTC+01:00":20210129T121500
+SUMMARY:First joint CoEs Technical Workshop
+UID:https://hpc-portal.eu/node/862
+DESCRIPTION:<p>This event\, which takes place on 27-29 January 2021\, is 
+ open to HiDALGO\, ChEESE and EXCELLERAT partners. Members of other CoEs 
+ may also participate.</p> <p><a href="https://www.excellerat.eu/technical-
+ workshop/">Joint CoEs Technical Workshop (27-29 Jan)</a></p> <p><a 
+ href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
+ Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p>
+LOCATION:https://services.excellerat.eu/viewevent/10
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event, 
+ which takes place on 27-29 January 2021, is open to HiDALGO, ChEESE and 
+ EXCELLERAT partners. Members of other CoEs may also participate.</p> <p><a
+  href="https://www.excellerat.eu/technical-workshop/">Joint CoEs Technical
+  Workshop (27-29 Jan)</a></p> <p><a 
+ href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
+ Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210120T130000
+DTEND;TZID="UTC+01:00":20210120T183000
+SUMMARY:Tackling global challenges by use of HPC / HPDA and AI Workshop at 
+ the HiPEAC Conference
+UID:https://hpc-portal.eu/node/974
+DESCRIPTION:<p>Global challenges\, like the spread of diseases\, climate 
+ change\, air pollution\, forced migration\, the spread of disinformation 
+ in social networks and the sustainable use of energy are more emergent and
+  urgent than ever. The use of HPC\, HPDA and Artificial Intelligence 
+ allows to accurately model and simulate the underlying complex 
+ processes.</p> <p>Within this workshop several current examples are 
+ presented of how HPC\, HPDA and AI support the tackling of global 
+ challenges. The workshop provides insights into advanced HPC\, HPDA and AI
+  technologies to improve data-centric computation. It aims to attract and 
+ bring together different stakeholders from the HPC and Big Data and Global
+  Challenges communities.</p>
+LOCATION:https://www.hipeac.net/2021/budapest/#/
+DTSTAMP:20220816T095005Z
+GEO:47.481583;19.130016
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Global 
+ challenges, like the spread of diseases, climate change, air pollution, 
+ forced migration, the spread of disinformation in social networks and the 
+ sustainable use of energy are more emergent and urgent than ever. The use 
+ of HPC, HPDA and Artificial Intelligence allows to accurately model and 
+ simulate the underlying complex processes.</p> <p>Within this workshop 
+ several current examples are presented of how HPC, HPDA and AI support the
+  tackling of global challenges. The workshop provides insights into 
+ advanced HPC, HPDA and AI technologies to improve data-centric 
+ computation. It aims to attract and bring together different stakeholders 
+ from the HPC and Big Data and Global Challenges 
+ communities.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

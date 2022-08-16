@@ -1,4 +1,198 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220906T143000
+DTEND;TZID="UTC+02:00":20220909T163000
+SUMMARY:Training on High Performance Data Analytics and Visualisation
+UID:https://hpc-portal.eu/node/1414
+DESCRIPTION:<p>As the volumes of weather and climate data expand\, it is of
+  paramount importance for scientists to exploit techniques and solutions 
+ able to efficiently extract knowledge from these data. </p> <p>This online
+  training course aims to increase scientists’ expertise on data analysis 
+ and visualisation applied to climate and weather domains\, using high-
+ performance data analytics (HPDA) and visualisation tools available from 
+ the open source market (i.e.\, Ophidia and ParaView). </p> <p>The training
+  covers topics from simple analytics tasks to workflows and applications 
+ (e.g.\, Python-based) and provides best practices and guidelines on 
+ dealing with massive scientific datasets on HPC architectures. </p> 
+ <p>Examples of real applications of the tools for data analytics and 
+ visualisation (i.e.\, Ophidia and ParaView) in the climate and weather 
+ domain will be presented. The training will include demos and hands-on 
+ sessions concerning the different tools. </p> <p>This course is organised 
+ in the context of the “Centre of Excellence in Simulation of Weather and 
+ Climate in Europe” (ESiWACE) phase 2 project.</p> <p><strong>List of 
+ Topics</strong>:</p> <ul> <li>Introduction to big data\, scientific data 
+ management and analytics at scale</li> <li>Open-source High Performance 
+ Data Analytics (HPDA) tools</li> <li>Data Analytics workflows for 
+ eScience</li> <li>Introduction to data visualisation using ParaView</li> 
+ <li>Discussion of visualisation workflows\, from post to in-situ</li> 
+ </ul> <p><strong>Audience</strong>: The training targets the audience in 
+ the field of weather and climate research with different backgrounds\, 
+ from computer to Earth system scientists. This course is open to 
+ students\, young scientists and also more experienced 
+ researchers/engineers who wish to improve their data analytics and 
+ visualisation skills. Basic knowledge of Python\, Linux\, NetCDF data 
+ format and general aspects concerning climate/weather data is required to 
+ fully take advantage of the training.</p> <p><strong>Schedule</strong>: 
+ The training is organised as an 8-hour online course\, divided into 4 
+ sessions\, with 2 hours of work per day required for the participants. The
+  event is scheduled for September 6-9\, 2022 according to the following 
+ calendar:</p> <ul> <li>Session 1: Introduction to Ophidia\, 6th September 
+ 2022\, 14.30-16.30</li> <li>Session 2: Ophidia advanced concepts\, 7th 
+ September 2022\, 14.30-16.30</li> <li>Session 3: Introduction to 
+ ParaView\, 8th September 2022\, 14.30-16.30</li> <li>Session 4: Advanced 
+ ParaView use\, 9th September 2022\, 14.30-16.30</li> </ul> <p>Each session
+  combines presentations about the various topics and practical 
+ tutorials/hands-on.</p> <p><strong>Participation</strong>: Registration is
+  required for attending the online live training sessions. The training 
+ materials (e.g.\, slides\, instructions\, notebooks\, scripts\, etc.) will
+  be made available. Instructions and materials for the practical sessions 
+ will be made available beforehand to registered users.</p> <p><strong>You 
+ can register to the training from this page: <a href="https://indico.dkrz.
+ de/event/43/">https://indico.dkrz.de/event/43/</a></strong><br> 
+ <strong>Note that the registration closes on the 2nd of September 
+ AoE.</strong></p> <p> Read our <a 
+ href="https://www.esiwace.eu/news/news/hpda-vis-
+ training-2021-completed">news item</a> on the successfully completed 2021 
+ edition of this training.</p>
+LOCATION:https://www.esiwace.eu/events/hpda-vis-training-2022
+DTSTAMP:20220816T095005Z
+GEO:53.566848;9.976507
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As the volumes 
+ of weather and climate data expand, it is of paramount importance for 
+ scientists to exploit techniques and solutions able to efficiently extract
+  knowledge from these data. </p> <p>This online training course aims to 
+ increase scientists’ expertise on data analysis and visualisation applied 
+ to climate and weather domains, using high-performance data analytics 
+ (HPDA) and visualisation tools available from the open source market 
+ (i.e., Ophidia and ParaView). </p> <p>The training covers topics from 
+ simple analytics tasks to workflows and applications (e.g., Python-based) 
+ and provides best practices and guidelines on dealing with massive 
+ scientific datasets on HPC architectures. </p> <p>Examples of real 
+ applications of the tools for data analytics and visualisation (i.e., 
+ Ophidia and ParaView) in the climate and weather domain will be presented.
+  The training will include demos and hands-on sessions concerning the 
+ different tools. </p> <p>This course is organised in the context of the 
+ “Centre of Excellence in Simulation of Weather and Climate in Europe” 
+ (ESiWACE) phase 2 project.</p> <p><strong>List of Topics</strong>:</p> 
+ <ul> <li>Introduction to big data, scientific data management and 
+ analytics at scale</li> <li>Open-source High Performance Data Analytics 
+ (HPDA) tools</li> <li>Data Analytics workflows for eScience</li> 
+ <li>Introduction to data visualisation using ParaView</li> <li>Discussion 
+ of visualisation workflows, from post to in-situ</li> </ul> 
+ <p><strong>Audience</strong>: The training targets the audience in the 
+ field of weather and climate research with different backgrounds, from 
+ computer to Earth system scientists. This course is open to students, 
+ young scientists and also more experienced researchers/engineers who wish 
+ to improve their data analytics and visualisation skills. Basic knowledge 
+ of Python, Linux, NetCDF data format and general aspects concerning 
+ climate/weather data is required to fully take advantage of the 
+ training.</p> <p><strong>Schedule</strong>: The training is organised as 
+ an 8-hour online course, divided into 4 sessions, with 2 hours of work per
+  day required for the participants. The event is scheduled for September 
+ 6-9, 2022 according to the following calendar:</p> <ul> <li>Session 1: 
+ Introduction to Ophidia, 6th September 2022, 14.30-16.30</li> <li>Session 
+ 2: Ophidia advanced concepts, 7th September 2022, 14.30-16.30</li> 
+ <li>Session 3: Introduction to ParaView, 8th September 2022, 
+ 14.30-16.30</li> <li>Session 4: Advanced ParaView use, 9th September 2022,
+  14.30-16.30</li> </ul> <p>Each session combines presentations about the 
+ various topics and practical tutorials/hands-on.</p> 
+ <p><strong>Participation</strong>: Registration is required for attending 
+ the online live training sessions. The training materials (e.g., slides, 
+ instructions, notebooks, scripts, etc.) will be made available. 
+ Instructions and materials for the practical sessions will be made 
+ available beforehand to registered users.</p> <p><strong>You can register 
+ to the training from this page: <a href="https://indico.dkrz.de/event/43/"
+ >https://indico.dkrz.de/event/43/</a></strong><br> <strong>Note that the 
+ registration closes on the 2nd of September AoE.</strong></p> <p> Read our
+  <a href="https://www.esiwace.eu/news/news/hpda-vis-
+ training-2021-completed">news item</a> on the successfully completed 2021 
+ edition of this training.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210707T090000
+DTEND;TZID="UTC+02:00":20210709T103000
+SUMMARY:Tackling Global challenges with HPC\, HPDA\, and simulations
+UID:https://hpc-portal.eu/node/809
+DESCRIPTION:<p>The EU-funded projects HiDALGO and ESIWACE kindly invite for
+  a joined online workshop on “Tackling Global challenges with HPC\, HPDA 
+ and simulations” (Wednesday\, 7th till Friday\, 9th July 2021).<br> The 
+ three-days workshop will bring together researchers and industry from the 
+ HPC area to exchange views and to learn more about how high performance 
+ computing HPC supports to deal with issues of today’s world\, e.g. climate
+  change\, energy\, migration\, air pollution\, social<br> media. All 
+ sessions are designed as practical presentations\, training\, hands-on 
+ experience\, demonstrations and plenary sessions.</p> <p>Training 
+ material:<br> https://moodle.hidalgo-project.eu/course/view.php?id=6<br> 
+ https://moodle.hidalgo-project.eu/course/view.php?id=13</p> 
+LOCATION:https://hpc-portal.eu/node/809
+DTSTAMP:20220816T095005Z
+GEO:40.434870;-3.632042
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The EU-funded 
+ projects HiDALGO and ESIWACE kindly invite for a joined online workshop on
+  “Tackling Global challenges with HPC, HPDA and simulations” (Wednesday, 
+ 7th till Friday, 9th July 2021).<br> The three-days workshop will bring 
+ together researchers and industry from the HPC area to exchange views and 
+ to learn more about how high performance computing HPC supports to deal 
+ with issues of today’s world, e.g. climate change, energy, migration, air 
+ pollution, social<br> media. All sessions are designed as practical 
+ presentations, training, hands-on experience, demonstrations and plenary 
+ sessions.</p> <p>Training material:<br> https://moodle.hidalgo-
+ project.eu/course/view.php?id=6<br> https://moodle.hidalgo-
+ project.eu/course/view.php?id=13</p> </BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210120T130000
+DTEND;TZID="UTC+01:00":20210120T183000
+SUMMARY:Tackling global challenges by use of HPC / HPDA and AI Workshop at 
+ the HiPEAC Conference
+UID:https://hpc-portal.eu/node/974
+DESCRIPTION:<p>Global challenges\, like the spread of diseases\, climate 
+ change\, air pollution\, forced migration\, the spread of disinformation 
+ in social networks and the sustainable use of energy are more emergent and
+  urgent than ever. The use of HPC\, HPDA and Artificial Intelligence 
+ allows to accurately model and simulate the underlying complex 
+ processes.</p> <p>Within this workshop several current examples are 
+ presented of how HPC\, HPDA and AI support the tackling of global 
+ challenges. The workshop provides insights into advanced HPC\, HPDA and AI
+  technologies to improve data-centric computation. It aims to attract and 
+ bring together different stakeholders from the HPC and Big Data and Global
+  Challenges communities.</p>
+LOCATION:https://www.hipeac.net/2021/budapest/#/
+DTSTAMP:20220816T095005Z
+GEO:47.481583;19.130016
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Global 
+ challenges, like the spread of diseases, climate change, air pollution, 
+ forced migration, the spread of disinformation in social networks and the 
+ sustainable use of energy are more emergent and urgent than ever. The use 
+ of HPC, HPDA and Artificial Intelligence allows to accurately model and 
+ simulate the underlying complex processes.</p> <p>Within this workshop 
+ several current examples are presented of how HPC, HPDA and AI support the
+  tackling of global challenges. The workshop provides insights into 
+ advanced HPC, HPDA and AI technologies to improve data-centric 
+ computation. It aims to attract and bring together different stakeholders 
+ from the HPC and Big Data and Global Challenges 
+ communities.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

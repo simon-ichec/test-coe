@@ -1,4 +1,61 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220215T100000
+DTEND;TZID="UTC+01:00":20220218T133000
+SUMMARY:[ONLINE] PATC: Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1005
+DESCRIPTION:<p>The objetive of this course is to give a panorama on the use
+  of hpc-based computational mechanics in Biomedical Sciences. The training
+  is delivered in collaboration with the centers of excellence CompBioMed2 
+ and PerMedCoE.</p>
+LOCATION:https://events.prace-ri.eu/event/1317/registrations/976/
+DTSTAMP:20220816T095005Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The objetive of 
+ this course is to give a panorama on the use of hpc-based computational 
+ mechanics in Biomedical Sciences. The training is delivered in 
+ collaboration with the centers of excellence CompBioMed2 and 
+ PerMedCoE.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220131T100000
+DTEND;TZID="UTC+01:00":20220202T163000
+SUMMARY:[ONLINE] PATC: Introduction to HPC for Life Scientists
+UID:https://hpc-portal.eu/node/1003
+DESCRIPTION:<p>This course introduces HPC to life science researchers\, 
+ focusing on the aspects that are most important for those new to this 
+ technology to understand. It will help you judge how HPC can best benefit 
+ your research\, and equip you to go on to successfully and efficiently 
+ make use of HPC facilities in future. The course will cover basic concepts
+  in HPC hardware\, software\, user environments\, filesystems\, and 
+ programming models. It also provides an opportunity to gain hands-on 
+ practical experience and assistance using an HPC system (MARENOSTRUM) 
+ through examples drawn from the life sciences\, such as biomolecular 
+ simulation.</p>
+LOCATION:https://events.prace-ri.eu/event/1304/
+DTSTAMP:20220816T095005Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
+ introduces HPC to life science researchers, focusing on the aspects that 
+ are most important for those new to this technology to understand. It will
+  help you judge how HPC can best benefit your research, and equip you to 
+ go on to successfully and efficiently make use of HPC facilities in 
+ future. The course will cover basic concepts in HPC hardware, software, 
+ user environments, filesystems, and programming models. It also provides 
+ an opportunity to gain hands-on practical experience and assistance using 
+ an HPC system (MARENOSTRUM) through examples drawn from the life sciences,
+  such as biomolecular simulation.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

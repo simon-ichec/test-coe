@@ -1,4 +1,98 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20211019T090000
+DTEND;TZID="UTC+02:00":20211021T170000
+SUMMARY:Advanced Training on HPC for Computational Seismology
+UID:https://hpc-portal.eu/node/1331
+DESCRIPTION:<p>Are you interested in numerical wave simulations but feel 
+ like there are too many codes and methods out there and don’t know which 
+ option is right for you? Or\, perhaps you just want to refresh your 
+ knowledge and gain some practical experience with the different 
+ possibilities? Either way\, this fully virtual workshop is for you!</p> 
+ <p>During three full days\, you will receive introductory hands-on 
+ tutorials for <a href="https://exahype.eu/">ExaHyPE</a>\, <a 
+ href="https://cos.ethz.ch/software/production/salvus.html">Salvus</a>\, <a
+  href="http://www.seissol.org/">SeisSol</a>\, and <a 
+ href="https://geodynamics.org/cig/software/specfem3d/">SPECFEM3D</a>\, 
+ which are four different high-performance computational seismology 
+ software packages focused on waveform modeling and inversion. The workshop
+  will provide you with an overview of their similarities\, differences\, 
+ and areas of applicability. Unique and in-depth half-day practicals will 
+ be provided for each package\, with computational resources provided by 
+ HLRS. Participants will also be encouraged to present their own work 
+ and/or motivation as a one-minute lightning-talk during the wrap-up 
+ session of the workshop. This training event is hosted by <a 
+ href="https://cheese-coe.eu/">ChEESE</a>\, the Center of Excellence for 
+ Exascale in Solid Earth and supported by the <a href="https://enerxico-
+ project.eu/">ENERXICO</a> project.</p>
+LOCATION:https://www.hlrs.de/training/2021-10-19-CHEESE/
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Are you 
+ interested in numerical wave simulations but feel like there are too many 
+ codes and methods out there and don’t know which option is right for you? 
+ Or, perhaps you just want to refresh your knowledge and gain some 
+ practical experience with the different possibilities? Either way, this 
+ fully virtual workshop is for you!</p> <p>During three full days, you will
+  receive introductory hands-on tutorials for <a 
+ href="https://exahype.eu/">ExaHyPE</a>, <a 
+ href="https://cos.ethz.ch/software/production/salvus.html">Salvus</a>, <a 
+ href="http://www.seissol.org/">SeisSol</a>, and <a 
+ href="https://geodynamics.org/cig/software/specfem3d/">SPECFEM3D</a>, 
+ which are four different high-performance computational seismology 
+ software packages focused on waveform modeling and inversion. The workshop
+  will provide you with an overview of their similarities, differences, and
+  areas of applicability. Unique and in-depth half-day practicals will be 
+ provided for each package, with computational resources provided by HLRS. 
+ Participants will also be encouraged to present their own work and/or 
+ motivation as a one-minute lightning-talk during the wrap-up session of 
+ the workshop. This training event is hosted by <a href="https://cheese-
+ coe.eu/">ChEESE</a>, the Center of Excellence for Exascale in Solid Earth 
+ and supported by the <a href="https://enerxico-project.eu/">ENERXICO</a> 
+ project.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210127T130000
+DTEND;TZID="UTC+01:00":20210129T121500
+SUMMARY:First joint CoEs Technical Workshop
+UID:https://hpc-portal.eu/node/862
+DESCRIPTION:<p>This event\, which takes place on 27-29 January 2021\, is 
+ open to HiDALGO\, ChEESE and EXCELLERAT partners. Members of other CoEs 
+ may also participate.</p> <p><a href="https://www.excellerat.eu/technical-
+ workshop/">Joint CoEs Technical Workshop (27-29 Jan)</a></p> <p><a 
+ href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
+ Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p>
+LOCATION:https://services.excellerat.eu/viewevent/10
+DTSTAMP:20220816T095005Z
+GEO:48.739486;9.097317
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event, 
+ which takes place on 27-29 January 2021, is open to HiDALGO, ChEESE and 
+ EXCELLERAT partners. Members of other CoEs may also participate.</p> <p><a
+  href="https://www.excellerat.eu/technical-workshop/">Joint CoEs Technical
+  Workshop (27-29 Jan)</a></p> <p><a 
+ href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
+ Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

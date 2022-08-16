@@ -1,4 +1,93 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220228T090000
+DTEND;TZID="UTC+01:00":20220304T170000
+SUMMARY:TREX Hackathon II at UVSQ
+UID:https://hpc-portal.eu/node/1328
+DESCRIPTION:<p>Hackathon II and TREX Event at premises of <a 
+ href="https://www.trex-coe.eu/partners/universite-de-versailles-saint-
+ quentin-en-yvelines">Université de Versailles-Saint-Quentin-en-Yvelines 
+ (UVSQ)</a>\, France from Monday 28th of February to Friday 4th of March. 
+ The Hackathon is scheduled from Monday till Wednesday\, see agenda 
+ below.</p> <p>The consecutive TREX event is scheduled from Wednesday till 
+ Thursday. <strong>Optional:</strong> we could anticipate an extra day for 
+ collaborations on Friday if wanted.</p> <h3><strong>AGENDA</strong></h3> 
+ <p><strong>Day Date Topic</strong></p> <p><strong>Day 1 28 February 2022 
+ </strong>Hackathon II for Code Developers</p> <p><strong>Day 2 01 March 
+ 2022 </strong>Hackathon II for Code Developers</p> <p><strong>Day 3 02 
+ March 2022 </strong>TREX Event + Hackathon II Summary</p> <p><strong>Day 4
+  03 March 2022 </strong>TREX Event</p> <p><strong>Day 5 04 March 2022 
+ </strong>*Optional – Collaboration sessions</p>
+LOCATION:https://trex-coe.eu/events/trex-hackathon-ii-trex-event-uvsq
+DTSTAMP:20220816T095005Z
+GEO:48.782029;2.217037
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Hackathon II and
+  TREX Event at premises of <a href="https://www.trex-
+ coe.eu/partners/universite-de-versailles-saint-quentin-en-
+ yvelines">Université de Versailles-Saint-Quentin-en-Yvelines (UVSQ)</a>, 
+ France from Monday 28th of February to Friday 4th of March. The Hackathon 
+ is scheduled from Monday till Wednesday, see agenda below.</p> <p>The 
+ consecutive TREX event is scheduled from Wednesday till Thursday. 
+ <strong>Optional:</strong> we could anticipate an extra day for 
+ collaborations on Friday if wanted.</p> <h3><strong>AGENDA</strong></h3> 
+ <p><strong>Day Date Topic</strong></p> <p><strong>Day 1 28 February 2022 
+ </strong>Hackathon II for Code Developers</p> <p><strong>Day 2 01 March 
+ 2022 </strong>Hackathon II for Code Developers</p> <p><strong>Day 3 02 
+ March 2022 </strong>TREX Event + Hackathon II Summary</p> <p><strong>Day 4
+  03 March 2022 </strong>TREX Event</p> <p><strong>Day 5 04 March 2022 
+ </strong>*Optional – Collaboration sessions</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20211108T090000
+DTEND;TZID="UTC+01:00":20211112T170000
+SUMMARY:TREX Build-system Hackathon
+UID:https://hpc-portal.eu/node/1327
+DESCRIPTION:<p>Making HPC software easy to install on multiple 
+ supercomputers or different architectures is a difficult task: different 
+ systems have different compilers\, libraries\, system commands etc. This 
+ task can be helped by tools like <a href="https://cmake.org/">CMake</a> 
+ and <a href="https://www.gnu.org/software/autoconf/">GNU 
+ Autotools</a>.</p> <p>In this Hackathon\, we will help code developers 
+ better understand how to use these build systems to improve the 
+ portability of their applications. In addition\, well-done configuration 
+ scripts facilitate the packaging of the software\, and presentations will 
+ be given to propose different packaging possibilities to distribute the 
+ software.</p> <p>This Hackathon is a multi-day virtual event targeting 
+ students\, engineers and researchers developing HPC open-source software. 
+ It aims at helping teams of one to six developers improve the build 
+ scripts of codes they develop. The supported build systems for this 
+ Hackathon are Autotools and CMake.</p>
+LOCATION:https://trex-coe.eu/events/trex-build-system-
+ hackathon-8-12-nov-2021
+DTSTAMP:20220816T095005Z
+GEO:52.238346;6.850669
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Making HPC 
+ software easy to install on multiple supercomputers or different 
+ architectures is a difficult task: different systems have different 
+ compilers, libraries, system commands etc. This task can be helped by 
+ tools like <a href="https://cmake.org/">CMake</a> and <a 
+ href="https://www.gnu.org/software/autoconf/">GNU Autotools</a>.</p> <p>In
+  this Hackathon, we will help code developers better understand how to use
+  these build systems to improve the portability of their applications. In 
+ addition, well-done configuration scripts facilitate the packaging of the 
+ software, and presentations will be given to propose different packaging 
+ possibilities to distribute the software.</p> <p>This Hackathon is a 
+ multi-day virtual event targeting students, engineers and researchers 
+ developing HPC open-source software. It aims at helping teams of one to 
+ six developers improve the build scripts of codes they develop. The 
+ supported build systems for this Hackathon are Autotools and 
+ CMake.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

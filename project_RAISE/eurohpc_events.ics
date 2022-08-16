@@ -1,4 +1,64 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220317T150000
+DTEND;TZID="UTC+01:00":20220317T163000
+SUMMARY:AI4EU WebCafe: Opportunities and Challenges of CoEs in the sector 
+ of AI
+UID:https://hpc-portal.eu/node/812
+DESCRIPTION:<p>The following session aims to bring together the Centers of 
+ Excellence in AI sectors to discuss about the opportunities and challenges
+  in the sector\, how the Centres of Excellence can help to tackle them 
+ thanks to HPC technologies and which opportunities are emerging. It is a 
+ good opportunity to get a common understanding of the ongoing activities 
+ within the different CoEs and foster collaboration opportunities.</p>
+LOCATION:https://www.ai4europe.eu/news-and-events/events/webcafes
+DTSTAMP:20220816T095005Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The following 
+ session aims to bring together the Centers of Excellence in AI sectors to 
+ discuss about the opportunities and challenges in the sector, how the 
+ Centres of Excellence can help to tackle them thanks to HPC technologies 
+ and which opportunities are emerging. It is a good opportunity to get a 
+ common understanding of the ongoing activities within the different CoEs 
+ and foster collaboration opportunities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220119T130000
+DTEND;TZID="UTC+01:00":20220120T170000
+SUMMARY:Massively Parallel GPU Computing with CUDA: Introduction
+UID:https://hpc-portal.eu/node/1230
+DESCRIPTION:<p>The training course covers the theoretical and practical 
+ principles of massively parallel GPU computing with CUDA technology based 
+ on hands-on exercises\, highlighting the capabilities of the parallel 
+ computing on the way with increasing complexity. The course will discuss 
+ the CUDA hardware and software architecture\, memory management\, parallel
+  computing with C/C++ and Python\, common application libraries and tools.
+  An additional attention is paid to the possibilities and advantages of 
+ using CUDA in machine learning solutions.</p>
+LOCATION:https://hpc.rtu.lv/training-courses/gpu-computing-with-
+ cuda/?lang=en
+DTSTAMP:20220816T095005Z
+GEO:56.951555;24.079442
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The training 
+ course covers the theoretical and practical principles of massively 
+ parallel GPU computing with CUDA technology based on hands-on exercises, 
+ highlighting the capabilities of the parallel computing on the way with 
+ increasing complexity. The course will discuss the CUDA hardware and 
+ software architecture, memory management, parallel computing with C/C++ 
+ and Python, common application libraries and tools. An additional 
+ attention is paid to the possibilities and advantages of using CUDA in 
+ machine learning solutions.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

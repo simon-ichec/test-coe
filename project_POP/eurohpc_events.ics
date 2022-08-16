@@ -1,4 +1,46 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220207T090000
+DTEND;TZID="UTC+01:00":20220211T160000
+SUMMARY:41st VI-HPS Tuning Workshop (online)
+UID:https://hpc-portal.eu/node/999
+DESCRIPTION:<p>This workshop organised by VI-HPS\, Jülich Supercomputing 
+ Centre &amp\; RWTH Aachen ITC will:</p> <ul> <li>give an overview of the 
+ VI-HPS programming tools suite</li> <li>explain the functionality of 
+ individual tools\, and how to use them effectively</li> <li>offer hands-on
+  experience and expert coaching assistance using the tools</li> <li>with 
+ your own application running on multi-GPU compute nodes</li> </ul> <p>On 
+ completion participants should be familiar with common performance 
+ analysis and diagnosis techniques and how they can be employed in practice
+  (on a range of HPC systems). Those who prepared their own application 
+ test cases will have been coached in the tuning of their measurement and 
+ analysis\, and provided optimization suggestions.</p>
+LOCATION:https://indico-jsc.fz-juelich.de/event/171/registration/
+DTSTAMP:20220816T095005Z
+GEO:50.909433;6.406038
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This workshop 
+ organised by VI-HPS, Jülich Supercomputing Centre &amp; RWTH Aachen ITC 
+ will:</p> <ul> <li>give an overview of the VI-HPS programming tools 
+ suite</li> <li>explain the functionality of individual tools, and how to 
+ use them effectively</li> <li>offer hands-on experience and expert 
+ coaching assistance using the tools</li> <li>with your own application 
+ running on multi-GPU compute nodes</li> </ul> <p>On completion 
+ participants should be familiar with common performance analysis and 
+ diagnosis techniques and how they can be employed in practice (on a range 
+ of HPC systems). Those who prepared their own application test cases will 
+ have been coached in the tuning of their measurement and analysis, and 
+ provided optimization suggestions.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

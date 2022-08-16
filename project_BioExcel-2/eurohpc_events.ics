@@ -11,6 +11,16 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+02:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+01:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+01:00
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220612T090000
 DTEND;TZID="UTC+02:00":20220617T170000
@@ -33,7 +43,7 @@ DESCRIPTION:<p>The summer school will include lectures and hands-on
   is a requirement.</p>
 LOCATION:https://bioexcel.eu/locations/science-and-technology-park-of-
  sardinia/
-DTSTAMP:20220329T123953Z
+DTSTAMP:20220816T095005Z
 GEO:38.992215;8.919490
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer 
  school will include lectures and hands-on sessions on the following 
@@ -50,5 +60,129 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer
  planning to use biomolecular modeling and simulation in their everyday 
  research. Familiarity with Linux and basic knowledge of molecular 
  modelling software is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220207T090000
+DTEND;TZID="UTC+01:00":20220209T140000
+SUMMARY:ONLINE: Advanced GROMACS workshop
+UID:https://hpc-portal.eu/node/1168
+DESCRIPTION:<p>This course gives advanced practical tips on how to run 
+ GROMACS MD simulations efficiently on modern hardware including both CPUs 
+ and GPUs. In addition to speeding up MD simulations\, also workflow 
+ automation\, advanced sampling techniques and future developments are 
+ discussed. CSC's <a href="https://docs.csc.fi/computing/available-
+ systems/">Puhti supercomputer</a> will be used for the hands-on 
+ exercises.</p> <p>The course consists of lectures and hands-on exercises. 
+ GROMACS will be used in the exercise sessions.</p> <p>The event is 
+ organized in collaboration with <a 
+ href="https://bioexcel.eu/">BioExcel</a>\, <a 
+ href="https://www.csc.fi/">CSC</a>\, <a href="https://enccs.se/">ENCCS</a>
+  and supported by <a href="https://www.csc.fi/en/-/eurocc">EuroCC</a>.</p>
+LOCATION:https://ssl.eventilla.com/advanced-gromacs-2022
+DTSTAMP:20220816T095005Z
+GEO:60.178253;24.832881
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
+ gives advanced practical tips on how to run GROMACS MD simulations 
+ efficiently on modern hardware including both CPUs and GPUs. In addition 
+ to speeding up MD simulations, also workflow automation, advanced sampling
+  techniques and future developments are discussed. CSC's <a 
+ href="https://docs.csc.fi/computing/available-systems/">Puhti 
+ supercomputer</a> will be used for the hands-on exercises.</p> <p>The 
+ course consists of lectures and hands-on exercises. GROMACS will be used 
+ in the exercise sessions.</p> <p>The event is organized in collaboration 
+ with <a href="https://bioexcel.eu/">BioExcel</a>, <a 
+ href="https://www.csc.fi/">CSC</a>, <a href="https://enccs.se/">ENCCS</a> 
+ and supported by <a 
+ href="https://www.csc.fi/en/-/eurocc">EuroCC</a>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220131T100000
+DTEND;TZID="UTC+01:00":20220202T163000
+SUMMARY:[ONLINE] PATC: Introduction to HPC for Life Scientists
+UID:https://hpc-portal.eu/node/1003
+DESCRIPTION:<p>This course introduces HPC to life science researchers\, 
+ focusing on the aspects that are most important for those new to this 
+ technology to understand. It will help you judge how HPC can best benefit 
+ your research\, and equip you to go on to successfully and efficiently 
+ make use of HPC facilities in future. The course will cover basic concepts
+  in HPC hardware\, software\, user environments\, filesystems\, and 
+ programming models. It also provides an opportunity to gain hands-on 
+ practical experience and assistance using an HPC system (MARENOSTRUM) 
+ through examples drawn from the life sciences\, such as biomolecular 
+ simulation.</p>
+LOCATION:https://events.prace-ri.eu/event/1304/
+DTSTAMP:20220816T095005Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
+ introduces HPC to life science researchers, focusing on the aspects that 
+ are most important for those new to this technology to understand. It will
+  help you judge how HPC can best benefit your research, and equip you to 
+ go on to successfully and efficiently make use of HPC facilities in 
+ future. The course will cover basic concepts in HPC hardware, software, 
+ user environments, filesystems, and programming models. It also provides 
+ an opportunity to gain hands-on practical experience and assistance using 
+ an HPC system (MARENOSTRUM) through examples drawn from the life sciences,
+  such as biomolecular simulation.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210909T090000
+DTEND;TZID="UTC+02:00":20210910T180000
+SUMMARY:GROMACS Workshop
+UID:https://hpc-portal.eu/node/827
+DESCRIPTION:<p>Molecular Dynamic (MD) simulations are fundamental to 
+ understand the mechanism of biological systems. This workshop aims to 
+ provide an introduction on the use and on the features of a well-
+ established and highly used package in the field GROMACS.</p> <p>The 
+ workshop covers an introduction to MD simulation\, to accelerated weight 
+ histogram methods and to GraphicsGraphical Processing Units (GPU) 
+ performance. At the end the participants will be familiar with the 
+ features of GROMACS code\, and they will be able to set up and perform 
+ molecular simulation on the covered topic.</p>
+LOCATION:https://elixir-portugal.org/node/330
+DTSTAMP:20220816T095005Z
+GEO:40.207620;-8.424491
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Molecular 
+ Dynamic (MD) simulations are fundamental to understand the mechanism of 
+ biological systems. This workshop aims to provide an introduction on the 
+ use and on the features of a well-established and highly used package in 
+ the field GROMACS.</p> <p>The workshop covers an introduction to MD 
+ simulation, to accelerated weight histogram methods and to 
+ GraphicsGraphical Processing Units (GPU) performance. At the end the 
+ participants will be familiar with the features of GROMACS code, and they 
+ will be able to set up and perform molecular simulation on the covered 
+ topic.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210201T090000
+DTEND;TZID="UTC+01:00":20210203T120000
+SUMMARY:Online: Advanced GROMACS workshop
+UID:https://hpc-portal.eu/node/1129
+DESCRIPTION:<p>This course gives a practical introduction on how to run 
+ GROMACS MD simulations efficiently on modern hardware including both CPUs 
+ and GPUs. In addition to speeding up MD simulations\, also workflow 
+ automation and advanced sampling techniques are discussed. CSC's <a 
+ href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
+ supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
+ course consists of lectures and hands-on exercises. GROMACS will be used 
+ in the exercise sessions.</p> <p>The event is organized in collaboration 
+ with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
+ href="https://www.csc.fi/">CSC</a> and supported by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>.</p>
+LOCATION:https://a3s.fi/advanced_gmx/PRACE_CSC_BioExcelWorkshop-
+ GROMACS_workflows_and_advanced_topics.html
+DTSTAMP:20220816T095005Z
+GEO:60.178269;24.832865
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
+ gives a practical introduction on how to run GROMACS MD simulations 
+ efficiently on modern hardware including both CPUs and GPUs. In addition 
+ to speeding up MD simulations, also workflow automation and advanced 
+ sampling techniques are discussed. CSC's <a 
+ href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
+ supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
+ course consists of lectures and hands-on exercises. GROMACS will be used 
+ in the exercise sessions.</p> <p>The event is organized in collaboration 
+ with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
+ href="https://www.csc.fi/">CSC</a> and supported by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR
