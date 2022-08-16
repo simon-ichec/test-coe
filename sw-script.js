@@ -421,9 +421,9 @@ function addEventToPage (jsonData, count) {
   if (count >= nr_dspl_items) {
   	eventDict.li.classList.add("is-hidden");
   }
-  if (endDate.getTime() > today.getTime()) {
+  //if (endDate.getTime() > today.getTime()) {
     eventList.appendChild(event)
-  }
+  //}
 }
 
 function inIframe() {
