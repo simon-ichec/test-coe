@@ -2,6 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
 TZID:UTC+01:00
 BEGIN:STANDARD
 TZOFFSETFROM:+0000
@@ -11,6 +21,80 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221003T090000
+DTEND;TZID="UTC+02:00":20221005T170000
+SUMMARY:Co-Design for HPC in Computational Materials and Molecular Science
+UID:https://hpc-portal.eu/node/1443
+DESCRIPTION:<p>The Workshop on HPC (High Performance Computing) Co-design 
+ in Computational Materials and Molecular Science was initiated and is led 
+ by the NOMAD Center of Excellence (www.nomad-coe.eu)\, and is organised by
+  NOMAD in collaboration with the BioExcel\, MAX\, and TREX CoEs. </p> 
+ <p>The workshop will gather contributions from leading scientists\, 
+ technologies\, and SW engineers from the fields of academia\, HPC 
+ centres\, HW-vendors\, and industry. The workshop covers a broad range of 
+ current topics\, taking materials and molecular science codes as reference
+  HPC applications and possible co-design vehicles. </p> <p>The topics to 
+ be covered are:</p> <p>(1) existing examples of HPC co-design in materials
+  and molecular science\,</p> <p>(2) co-design of general purpose and 
+ domain-specific libraries\, kernels\, and mini-apps\, and</p> <p>(3) the 
+ perspective of hardware manufacturers\, integrators\, and data center 
+ owners.</p> <p>The workshop will focus in particular on\, and attempt to 
+ draw conclusions about:</p> <p>(1) the relationship between algorithms and
+  computer architectures in materials science\,</p> <p>(2) the connection 
+ between parallel programming technologies and runtime systems\, and</p> 
+ <p>(3) the interplay of the above layers for a wide spectrum of computer 
+ architectures\, within the selected scientific domain. </p> <p>We aim to 
+ identify how scientific software developers in materials science can 
+ influence hardware manufacturers as well as middleware and system-level 
+ software developers\, and vice versa. In particular\, we seek to determine
+  how co-design is employed in the development of the new HPC processors 
+ and of the related software stack\, including with respect to compilers 
+ and optimized libraries\, schedulers and IO\, and container technologies. 
+ </p> <p>Hardware HPC vendors and integrators will share their vision on 
+ co-design\, while key people from the scientific software development 
+ community will discuss the adoption of state-of-the-art technologies when 
+ porting their codes on emerging computer architectures. Consequently\, the
+  workshop will provide a rare and valuable opportunity to foster close 
+ contacts and the exchange of ideas between the scientific and technical 
+ communities.</p>
+LOCATION:https://www.cecam.org/workshop-details/1113
+DTSTAMP:20220830T140834Z
+GEO:46.520216;6.572210
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Workshop on 
+ HPC (High Performance Computing) Co-design in Computational Materials and 
+ Molecular Science was initiated and is led by the NOMAD Center of 
+ Excellence (www.nomad-coe.eu), and is organised by NOMAD in collaboration 
+ with the BioExcel, MAX, and TREX CoEs. </p> <p>The workshop will gather 
+ contributions from leading scientists, technologies, and SW engineers from
+  the fields of academia, HPC centres, HW-vendors, and industry. The 
+ workshop covers a broad range of current topics, taking materials and 
+ molecular science codes as reference HPC applications and possible co-
+ design vehicles. </p> <p>The topics to be covered are:</p> <p>(1) existing
+  examples of HPC co-design in materials and molecular science,</p> <p>(2) 
+ co-design of general purpose and domain-specific libraries, kernels, and 
+ mini-apps, and</p> <p>(3) the perspective of hardware manufacturers, 
+ integrators, and data center owners.</p> <p>The workshop will focus in 
+ particular on, and attempt to draw conclusions about:</p> <p>(1) the 
+ relationship between algorithms and computer architectures in materials 
+ science,</p> <p>(2) the connection between parallel programming 
+ technologies and runtime systems, and</p> <p>(3) the interplay of the 
+ above layers for a wide spectrum of computer architectures, within the 
+ selected scientific domain. </p> <p>We aim to identify how scientific 
+ software developers in materials science can influence hardware 
+ manufacturers as well as middleware and system-level software developers, 
+ and vice versa. In particular, we seek to determine how co-design is 
+ employed in the development of the new HPC processors and of the related 
+ software stack, including with respect to compilers and optimized 
+ libraries, schedulers and IO, and container technologies. </p> <p>Hardware
+  HPC vendors and integrators will share their vision on co-design, while 
+ key people from the scientific software development community will discuss
+  the adoption of state-of-the-art technologies when porting their codes on
+  emerging computer architectures. Consequently, the workshop will provide 
+ a rare and valuable opportunity to foster close contacts and the exchange 
+ of ideas between the scientific and technical 
+ communities.</p></BODY></HTML>
+END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20220228T090000
 DTEND;TZID="UTC+01:00":20220304T170000
@@ -31,7 +115,7 @@ DESCRIPTION:<p>Hackathon II and TREX Event at premises of <a
   03 March 2022 </strong>TREX Event</p> <p><strong>Day 5 04 March 2022 
  </strong>*Optional – Collaboration sessions</p>
 LOCATION:https://trex-coe.eu/events/trex-hackathon-ii-trex-event-uvsq
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.782029;2.217037
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Hackathon II and
   TREX Event at premises of <a href="https://www.trex-
@@ -71,7 +155,7 @@ DESCRIPTION:<p>Making HPC software easy to install on multiple
  Hackathon are Autotools and CMake.</p>
 LOCATION:https://trex-coe.eu/events/trex-build-system-
  hackathon-8-12-nov-2021
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:52.238346;6.850669
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Making HPC 
  software easy to install on multiple supercomputers or different 

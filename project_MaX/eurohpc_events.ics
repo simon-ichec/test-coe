@@ -22,6 +22,80 @@ TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221003T090000
+DTEND;TZID="UTC+02:00":20221005T170000
+SUMMARY:Co-Design for HPC in Computational Materials and Molecular Science
+UID:https://hpc-portal.eu/node/1443
+DESCRIPTION:<p>The Workshop on HPC (High Performance Computing) Co-design 
+ in Computational Materials and Molecular Science was initiated and is led 
+ by the NOMAD Center of Excellence (www.nomad-coe.eu)\, and is organised by
+  NOMAD in collaboration with the BioExcel\, MAX\, and TREX CoEs. </p> 
+ <p>The workshop will gather contributions from leading scientists\, 
+ technologies\, and SW engineers from the fields of academia\, HPC 
+ centres\, HW-vendors\, and industry. The workshop covers a broad range of 
+ current topics\, taking materials and molecular science codes as reference
+  HPC applications and possible co-design vehicles. </p> <p>The topics to 
+ be covered are:</p> <p>(1) existing examples of HPC co-design in materials
+  and molecular science\,</p> <p>(2) co-design of general purpose and 
+ domain-specific libraries\, kernels\, and mini-apps\, and</p> <p>(3) the 
+ perspective of hardware manufacturers\, integrators\, and data center 
+ owners.</p> <p>The workshop will focus in particular on\, and attempt to 
+ draw conclusions about:</p> <p>(1) the relationship between algorithms and
+  computer architectures in materials science\,</p> <p>(2) the connection 
+ between parallel programming technologies and runtime systems\, and</p> 
+ <p>(3) the interplay of the above layers for a wide spectrum of computer 
+ architectures\, within the selected scientific domain. </p> <p>We aim to 
+ identify how scientific software developers in materials science can 
+ influence hardware manufacturers as well as middleware and system-level 
+ software developers\, and vice versa. In particular\, we seek to determine
+  how co-design is employed in the development of the new HPC processors 
+ and of the related software stack\, including with respect to compilers 
+ and optimized libraries\, schedulers and IO\, and container technologies. 
+ </p> <p>Hardware HPC vendors and integrators will share their vision on 
+ co-design\, while key people from the scientific software development 
+ community will discuss the adoption of state-of-the-art technologies when 
+ porting their codes on emerging computer architectures. Consequently\, the
+  workshop will provide a rare and valuable opportunity to foster close 
+ contacts and the exchange of ideas between the scientific and technical 
+ communities.</p>
+LOCATION:https://www.cecam.org/workshop-details/1113
+DTSTAMP:20220830T140834Z
+GEO:46.520216;6.572210
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Workshop on 
+ HPC (High Performance Computing) Co-design in Computational Materials and 
+ Molecular Science was initiated and is led by the NOMAD Center of 
+ Excellence (www.nomad-coe.eu), and is organised by NOMAD in collaboration 
+ with the BioExcel, MAX, and TREX CoEs. </p> <p>The workshop will gather 
+ contributions from leading scientists, technologies, and SW engineers from
+  the fields of academia, HPC centres, HW-vendors, and industry. The 
+ workshop covers a broad range of current topics, taking materials and 
+ molecular science codes as reference HPC applications and possible co-
+ design vehicles. </p> <p>The topics to be covered are:</p> <p>(1) existing
+  examples of HPC co-design in materials and molecular science,</p> <p>(2) 
+ co-design of general purpose and domain-specific libraries, kernels, and 
+ mini-apps, and</p> <p>(3) the perspective of hardware manufacturers, 
+ integrators, and data center owners.</p> <p>The workshop will focus in 
+ particular on, and attempt to draw conclusions about:</p> <p>(1) the 
+ relationship between algorithms and computer architectures in materials 
+ science,</p> <p>(2) the connection between parallel programming 
+ technologies and runtime systems, and</p> <p>(3) the interplay of the 
+ above layers for a wide spectrum of computer architectures, within the 
+ selected scientific domain. </p> <p>We aim to identify how scientific 
+ software developers in materials science can influence hardware 
+ manufacturers as well as middleware and system-level software developers, 
+ and vice versa. In particular, we seek to determine how co-design is 
+ employed in the development of the new HPC processors and of the related 
+ software stack, including with respect to compilers and optimized 
+ libraries, schedulers and IO, and container technologies. </p> <p>Hardware
+  HPC vendors and integrators will share their vision on co-design, while 
+ key people from the scientific software development community will discuss
+  the adoption of state-of-the-art technologies when porting their codes on
+  emerging computer architectures. Consequently, the workshop will provide 
+ a rare and valuable opportunity to foster close contacts and the exchange 
+ of ideas between the scientific and technical 
+ communities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220509T090000
 DTEND;TZID="UTC+02:00":20220513T170000
 SUMMARY:Young Researchers&#039\; Workshop on Machine Learning for Materials
@@ -42,7 +116,7 @@ DESCRIPTION:<p><strong>Abstract Submission Deadline: 20th March
  information and registration visit the website <a 
  href="https://ml4m.xyz/">https://ml4m.xyz/</a></p>
 LOCATION:https://ml4m.xyz/venue-travel/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:45.703180;13.719586
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Abstract
   Submission Deadline: 20th March 2022</strong><br> <strong>Registration 
@@ -113,7 +187,7 @@ DESCRIPTION:<p>The Computational School on <em>Ab-initio Many-body Methods
  href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
  Guidelines for Visitors</a>.</p>
 LOCATION:https://www.ictp.it/visit-ictp.aspx
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:45.703827;13.718426
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The 
  Computational School on <em>Ab-initio Many-body Methods and Simulations 
@@ -220,7 +294,7 @@ DESCRIPTION:<p>In September 2021 we will hold a hands-on workshop on
   <p>Zeila Zanolli (Utrecht University)</p>
 LOCATION:http://www.max-centre.eu/news-events/optimizing-digital-teaching-
  and-communication
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In September 
  2021 we will hold a hands-on workshop on e-learning techniques and 
@@ -355,7 +429,7 @@ DESCRIPTION:<p>The school is aimed at students and researchers from
  details/5">https://www.cecam.org/workshop-details/5</a></p>
 LOCATION:http://www.max-centre.eu/news-events/first-principles-simulations-
  materials-siesta-0
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school is 
  aimed at students and researchers from different disciplines who already 
@@ -541,7 +615,7 @@ DESCRIPTION:<p>This five-day online school will focus on the field of
  (2018)</p>
 LOCATION:http://www.max-centre.eu/news-events/advanced-school-quantum-
  transport-using-siesta-0
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This five-day 
  online school will focus on the field of theoretical condensed matter 
@@ -679,7 +753,7 @@ DESCRIPTION:<p>The school will introduce students and young researchers to
  46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
 LOCATION:http://www.max-centre.eu/news-events/max-school-advanced-
  materials-and-molecular-modelling-quantum-espresso
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
  introduce students and young researchers to materials and molecular 
@@ -744,7 +818,7 @@ DESCRIPTION:<p>The density-functional theory (DFT) in its various
  46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
 LOCATION:http://www.max-centre.eu/news-events/all-electron-dft-fleur-hands-
  tutorial
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The density-
  functional theory (DFT) in its various incarnation provides the most 
@@ -816,7 +890,7 @@ DESCRIPTION:<p>The MaX/CECAM virtual school will last four days and will be
  PkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
 LOCATION:http://www.max-centre.eu/news-events/virtual-school-electronic-
  excitations-solids-and-nanostructures-using-yambo-code
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The MaX/CECAM 
  virtual school will last four days and will be held on <strong>April 8, 9 
@@ -901,7 +975,7 @@ DESCRIPTION:<p>The goal of this 4 day-tutorial is to help students and
  info <a href="http://www.aiida.net/aiida-virtual-tutorial-
  july-2020/">here</a></p>
 LOCATION:http://www.max-centre.eu/news-events/aiida-virtual-tutorial
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The goal of this
   4 day-tutorial is to help students and researchers from the field of 
@@ -1020,7 +1094,7 @@ DESCRIPTION:<p>The evolutionary pressure on electronic structure software
  releases/exdci-towards-common-hpc-strate...</a></p>
 LOCATION:http://www.max-centre.eu/news-events/integration-esl-modules-
  electronic-structure-codes-0
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:46.520151;6.572236
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The evolutionary
   pressure on electronic structure software development is greatly 

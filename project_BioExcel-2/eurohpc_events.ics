@@ -22,6 +22,80 @@ TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221003T090000
+DTEND;TZID="UTC+02:00":20221005T170000
+SUMMARY:Co-Design for HPC in Computational Materials and Molecular Science
+UID:https://hpc-portal.eu/node/1443
+DESCRIPTION:<p>The Workshop on HPC (High Performance Computing) Co-design 
+ in Computational Materials and Molecular Science was initiated and is led 
+ by the NOMAD Center of Excellence (www.nomad-coe.eu)\, and is organised by
+  NOMAD in collaboration with the BioExcel\, MAX\, and TREX CoEs. </p> 
+ <p>The workshop will gather contributions from leading scientists\, 
+ technologies\, and SW engineers from the fields of academia\, HPC 
+ centres\, HW-vendors\, and industry. The workshop covers a broad range of 
+ current topics\, taking materials and molecular science codes as reference
+  HPC applications and possible co-design vehicles. </p> <p>The topics to 
+ be covered are:</p> <p>(1) existing examples of HPC co-design in materials
+  and molecular science\,</p> <p>(2) co-design of general purpose and 
+ domain-specific libraries\, kernels\, and mini-apps\, and</p> <p>(3) the 
+ perspective of hardware manufacturers\, integrators\, and data center 
+ owners.</p> <p>The workshop will focus in particular on\, and attempt to 
+ draw conclusions about:</p> <p>(1) the relationship between algorithms and
+  computer architectures in materials science\,</p> <p>(2) the connection 
+ between parallel programming technologies and runtime systems\, and</p> 
+ <p>(3) the interplay of the above layers for a wide spectrum of computer 
+ architectures\, within the selected scientific domain. </p> <p>We aim to 
+ identify how scientific software developers in materials science can 
+ influence hardware manufacturers as well as middleware and system-level 
+ software developers\, and vice versa. In particular\, we seek to determine
+  how co-design is employed in the development of the new HPC processors 
+ and of the related software stack\, including with respect to compilers 
+ and optimized libraries\, schedulers and IO\, and container technologies. 
+ </p> <p>Hardware HPC vendors and integrators will share their vision on 
+ co-design\, while key people from the scientific software development 
+ community will discuss the adoption of state-of-the-art technologies when 
+ porting their codes on emerging computer architectures. Consequently\, the
+  workshop will provide a rare and valuable opportunity to foster close 
+ contacts and the exchange of ideas between the scientific and technical 
+ communities.</p>
+LOCATION:https://www.cecam.org/workshop-details/1113
+DTSTAMP:20220830T140833Z
+GEO:46.520216;6.572210
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Workshop on 
+ HPC (High Performance Computing) Co-design in Computational Materials and 
+ Molecular Science was initiated and is led by the NOMAD Center of 
+ Excellence (www.nomad-coe.eu), and is organised by NOMAD in collaboration 
+ with the BioExcel, MAX, and TREX CoEs. </p> <p>The workshop will gather 
+ contributions from leading scientists, technologies, and SW engineers from
+  the fields of academia, HPC centres, HW-vendors, and industry. The 
+ workshop covers a broad range of current topics, taking materials and 
+ molecular science codes as reference HPC applications and possible co-
+ design vehicles. </p> <p>The topics to be covered are:</p> <p>(1) existing
+  examples of HPC co-design in materials and molecular science,</p> <p>(2) 
+ co-design of general purpose and domain-specific libraries, kernels, and 
+ mini-apps, and</p> <p>(3) the perspective of hardware manufacturers, 
+ integrators, and data center owners.</p> <p>The workshop will focus in 
+ particular on, and attempt to draw conclusions about:</p> <p>(1) the 
+ relationship between algorithms and computer architectures in materials 
+ science,</p> <p>(2) the connection between parallel programming 
+ technologies and runtime systems, and</p> <p>(3) the interplay of the 
+ above layers for a wide spectrum of computer architectures, within the 
+ selected scientific domain. </p> <p>We aim to identify how scientific 
+ software developers in materials science can influence hardware 
+ manufacturers as well as middleware and system-level software developers, 
+ and vice versa. In particular, we seek to determine how co-design is 
+ employed in the development of the new HPC processors and of the related 
+ software stack, including with respect to compilers and optimized 
+ libraries, schedulers and IO, and container technologies. </p> <p>Hardware
+  HPC vendors and integrators will share their vision on co-design, while 
+ key people from the scientific software development community will discuss
+  the adoption of state-of-the-art technologies when porting their codes on
+  emerging computer architectures. Consequently, the workshop will provide 
+ a rare and valuable opportunity to foster close contacts and the exchange 
+ of ideas between the scientific and technical 
+ communities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220612T090000
 DTEND;TZID="UTC+02:00":20220617T170000
 SUMMARY:BioExcel Summer School on Biomolecular Simulations 2022
@@ -43,7 +117,7 @@ DESCRIPTION:<p>The summer school will include lectures and hands-on
   is a requirement.</p>
 LOCATION:https://bioexcel.eu/locations/science-and-technology-park-of-
  sardinia/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:38.992215;8.919490
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer 
  school will include lectures and hands-on sessions on the following 
@@ -60,6 +134,111 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer
  planning to use biomolecular modeling and simulation in their everyday 
  research. Familiarity with Linux and basic knowledge of molecular 
  modelling software is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220325T090000
+DTEND;TZID="UTC+02:00":20220401T170000
+SUMMARY:BioExcel School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1454
+DESCRIPTION:<p>The school will include lectures and hands-on sessions on 
+ the following topics:</p> <ul> <li>Molecular Dynamics simulations</li> 
+ <li>Biomolecular Docking</li> <li>Free energy calculations</li> 
+ <li>Advanced sampling methods (Metadynamics)</li> <li>BioExcel Building 
+ Blocks (BioBB)</li> <li>Quantum mechanics/molecular mechanics (QM/MM)</li>
+  </ul> <p>During the hands-on computer practicals you will make use of the
+  BioExcel flagship software and tools: e.g. GROMACS\, HADDOCK\, PMX\, 
+ BioBB\, and CP2K. The trainers\, developers and/or experts in the use of 
+ the software\, will provide guidance and support.</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-school-on-biomolecular-
+ simulations/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
+ include lectures and hands-on sessions on the following topics:</p> <ul> 
+ <li>Molecular Dynamics simulations</li> <li>Biomolecular Docking</li> 
+ <li>Free energy calculations</li> <li>Advanced sampling methods 
+ (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> <li>Quantum 
+ mechanics/molecular mechanics (QM/MM)</li> </ul> <p>During the hands-on 
+ computer practicals you will make use of the BioExcel flagship software 
+ and tools: e.g. GROMACS, HADDOCK, PMX, BioBB, and CP2K. The trainers, 
+ developers and/or experts in the use of the software, will provide 
+ guidance and support.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220309T090000
+DTEND;TZID="UTC+01:00":20220310T170000
+SUMMARY:Virtual course on free energy calculation and alchemical 
+ transformation in GROMACS
+UID:https://hpc-portal.eu/node/1455
+DESCRIPTION:<p><strong>Overview</strong>: Are you interested in computing 
+ free energy using alchemical transformations? Here we give an introduction
+  to free energy calculation in <a 
+ href="http://www.gromacs.org/">GROMACS</a>. In this course\, we focus on 
+ two methods to calculate the free energy associated with an alchemical 
+ transformation: Bennett acceptance ratio method (BAR) and accelerated 
+ weighted histogram (AWH). The tutorials are implemented in Jupyter 
+ notebook and cover how to perform a simple alchemical transformation and 
+ compute the associated free energy change (e.i solvation free energy) 
+ using the two approaches in GROMACS </p> <p><strong>Audience: 
+ </strong>These sessions are aimed at people interested in:<br> 1) Starting
+  to compute free energy using GROMACS.<br> 2) Understanding the difference
+  between the approaches available in GROMACS for alchemical 
+ transformation. </p> <p><strong>Pre-requisites: </strong>A minimum 
+ knowledge of thermodynamics and minimum expertise in using GROMACS to 
+ perform Molecular Dynamics calculation are needed to attend the training. 
+ Moreover\, minimum Linux skills are also required. Please consult the 
+ following materials\, if you’re uncertain of your Linux\, GROMACS and 
+ Jupyter notebook skills:</p> <ul> <li>GROMACS <a 
+ href="https://tutorials.gromacs.org/md-intro-tutorial.html#">tutorial</a> 
+ on ​​Introduction to Molecular Dynamics </li> <li>Linux commands\, bash 
+ shell\, a quiz and a link to <a 
+ href="https://cms.competency.ebi.ac.uk/learning-pathway/module/unix-
+ shell">intro course</a> </li> <li>A short guide to <a href="https://drive.
+ google.com/file/d/1tgpp0xVDo3WuqMGSBrcjwZ6sdf67gDGQ/view?usp=sharing">Jupy
+ ter Notebook</a> </li> </ul> <p><strong>Learning outcomes: </strong>At the
+  end of these sessions\, you will be able to</p> <ul> <li>describe the 
+ principles behind Bennett acceptance ratio (BAR) and accelerated weighted 
+ histogram (AWH) methods to calculate the free energy difference associated
+  with an alchemical transformation. </li> <li>set up and perform simple 
+ alchemical transformations using GROMACS </li> <li>explain which approach 
+ you can apply to your research problem </li> </ul>
+LOCATION:https://bioexcel.eu/events/virtual-course-on-free-energy-
+ calculation-and-alchemical-transformation-in-gromacs/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong>: Are you interested in 
+ computing free energy using alchemical transformations? Here we give an 
+ introduction to free energy calculation in <a 
+ href="http://www.gromacs.org/">GROMACS</a>. In this course, we focus on 
+ two methods to calculate the free energy associated with an alchemical 
+ transformation: Bennett acceptance ratio method (BAR) and accelerated 
+ weighted histogram (AWH). The tutorials are implemented in Jupyter 
+ notebook and cover how to perform a simple alchemical transformation and 
+ compute the associated free energy change (e.i solvation free energy) 
+ using the two approaches in GROMACS </p> <p><strong>Audience: 
+ </strong>These sessions are aimed at people interested in:<br> 1) Starting
+  to compute free energy using GROMACS.<br> 2) Understanding the difference
+  between the approaches available in GROMACS for alchemical 
+ transformation. </p> <p><strong>Pre-requisites: </strong>A minimum 
+ knowledge of thermodynamics and minimum expertise in using GROMACS to 
+ perform Molecular Dynamics calculation are needed to attend the training. 
+ Moreover, minimum Linux skills are also required. Please consult the 
+ following materials, if you’re uncertain of your Linux, GROMACS and 
+ Jupyter notebook skills:</p> <ul> <li>GROMACS <a 
+ href="https://tutorials.gromacs.org/md-intro-tutorial.html#">tutorial</a> 
+ on ​​Introduction to Molecular Dynamics </li> <li>Linux commands, bash 
+ shell, a quiz and a link to <a 
+ href="https://cms.competency.ebi.ac.uk/learning-pathway/module/unix-
+ shell">intro course</a> </li> <li>A short guide to <a href="https://drive.
+ google.com/file/d/1tgpp0xVDo3WuqMGSBrcjwZ6sdf67gDGQ/view?usp=sharing">Jupy
+ ter Notebook</a> </li> </ul> <p><strong>Learning outcomes: </strong>At the
+  end of these sessions, you will be able to</p> <ul> <li>describe the 
+ principles behind Bennett acceptance ratio (BAR) and accelerated weighted 
+ histogram (AWH) methods to calculate the free energy difference associated
+  with an alchemical transformation. </li> <li>set up and perform simple 
+ alchemical transformations using GROMACS </li> <li>explain which approach 
+ you can apply to your research problem </li> </ul></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20220207T090000
@@ -79,7 +258,7 @@ DESCRIPTION:<p>This course gives advanced practical tips on how to run
  href="https://www.csc.fi/">CSC</a>\, <a href="https://enccs.se/">ENCCS</a>
   and supported by <a href="https://www.csc.fi/en/-/eurocc">EuroCC</a>.</p>
 LOCATION:https://ssl.eventilla.com/advanced-gromacs-2022
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:60.178253;24.832881
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
  gives advanced practical tips on how to run GROMACS MD simulations 
@@ -111,7 +290,7 @@ DESCRIPTION:<p>This course introduces HPC to life science researchers\,
  through examples drawn from the life sciences\, such as biomolecular 
  simulation.</p>
 LOCATION:https://events.prace-ri.eu/event/1304/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
  introduces HPC to life science researchers, focusing on the aspects that 
@@ -123,6 +302,92 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course
  an opportunity to gain hands-on practical experience and assistance using 
  an HPC system (MARENOSTRUM) through examples drawn from the life sciences,
   such as biomolecular simulation.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20211122T150000
+DTEND;TZID="UTC+01:00":20211124T170000
+SUMMARY:Computational biomolecular simulation workflows with BioExcel 
+ building blocks
+UID:https://hpc-portal.eu/node/1456
+DESCRIPTION:<p><strong>Overview</strong>: Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations\, but scared to make the first step? What if you could start 
+ smoothly using interactive\, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single\, interoperable library with a unique syntax?</p> 
+ <p>In this session\, we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>\, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS\, Ambertools\, Openbabel or ACPYPE. The philosophy behind its 
+ design\, following best practices and FAIR principles for software 
+ development\, makes it easy to find\, install and use\, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command line will be 
+ explored.</p> <p><strong>Audience</strong>: This session is aimed at 
+ people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations\, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows\, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training\, although some 
+ knowledge and familiarity with this method are recommended to properly 
+ follow the course. Minimum Linux skills are also required. This is an 
+ interactive session that is presented remotely using Zoom.</p> 
+ <p><strong>Learning outcomes</strong>: At the end of these sessions\, you 
+ will be able to</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure\, modify parameters\, add/remove steps\, etc.</li> <li>Write a 
+ new computational biomolecular simulation workflow using the BioExcel 
+ building blocks library from scratch.</li> <li>Launch computational 
+ biomolecular simulation workflows built using the BioExcel building blocks
+  library in a command-line interface.</li> </ul>
+LOCATION:https://bioexcel.eu/events/computational-biomolecular-simulation-
+ workflows-with-bioexcel-building-blocks-3/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong>: Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations, but scared to make the first step? What if you could start 
+ smoothly using interactive, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single, interoperable library with a unique syntax?</p> 
+ <p>In this session, we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS, Ambertools, Openbabel or ACPYPE. The philosophy behind its 
+ design, following best practices and FAIR principles for software 
+ development, makes it easy to find, install and use, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command line will be 
+ explored.</p> <p><strong>Audience</strong>: This session is aimed at 
+ people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training, although some 
+ knowledge and familiarity with this method are recommended to properly 
+ follow the course. Minimum Linux skills are also required. This is an 
+ interactive session that is presented remotely using Zoom.</p> 
+ <p><strong>Learning outcomes</strong>: At the end of these sessions, you 
+ will be able to</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure, modify parameters, add/remove steps, etc.</li> <li>Write a new 
+ computational biomolecular simulation workflow using the BioExcel building
+  blocks library from scratch.</li> <li>Launch computational biomolecular 
+ simulation workflows built using the BioExcel building blocks library in a
+  command-line interface.</li> </ul></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20210909T090000
@@ -139,7 +404,7 @@ DESCRIPTION:<p>Molecular Dynamic (MD) simulations are fundamental to
  features of GROMACS code\, and they will be able to set up and perform 
  molecular simulation on the covered topic.</p>
 LOCATION:https://elixir-portugal.org/node/330
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:40.207620;-8.424491
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Molecular 
  Dynamic (MD) simulations are fundamental to understand the mechanism of 
@@ -153,36 +418,772 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Molecular
  topic.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID="UTC+01:00":20210201T090000
-DTEND;TZID="UTC+01:00":20210203T120000
-SUMMARY:Online: Advanced GROMACS workshop
-UID:https://hpc-portal.eu/node/1129
-DESCRIPTION:<p>This course gives a practical introduction on how to run 
- GROMACS MD simulations efficiently on modern hardware including both CPUs 
- and GPUs. In addition to speeding up MD simulations\, also workflow 
- automation and advanced sampling techniques are discussed. CSC's <a 
- href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
- supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
- course consists of lectures and hands-on exercises. GROMACS will be used 
- in the exercise sessions.</p> <p>The event is organized in collaboration 
- with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
- href="https://www.csc.fi/">CSC</a> and supported by <a 
- href="http://www.prace-ri.eu/">PRACE</a>.</p>
-LOCATION:https://a3s.fi/advanced_gmx/PRACE_CSC_BioExcelWorkshop-
- GROMACS_workflows_and_advanced_topics.html
-DTSTAMP:20220816T095005Z
-GEO:60.178269;24.832865
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
- gives a practical introduction on how to run GROMACS MD simulations 
- efficiently on modern hardware including both CPUs and GPUs. In addition 
- to speeding up MD simulations, also workflow automation and advanced 
- sampling techniques are discussed. CSC's <a 
- href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
- supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
- course consists of lectures and hands-on exercises. GROMACS will be used 
- in the exercise sessions.</p> <p>The event is organized in collaboration 
- with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
- href="https://www.csc.fi/">CSC</a> and supported by <a 
- href="http://www.prace-ri.eu/">PRACE</a>.</p></BODY></HTML>
+DTSTART;TZID="UTC+02:00":20210604T090000
+DTEND;TZID="UTC+02:00":20210611T170000
+SUMMARY:BioExcel Summer School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1457
+DESCRIPTION:<p>The school will include lectures and hands-on sessions on 
+ the following topics:</p> <ul> <li>Molecular Dynamics simulations</li> 
+ <li>Biomolecular Docking</li> <li>Free energy calculations</li> 
+ <li>Advanced sampling methods (Metadynamics)</li> <li>BioExcel Building 
+ Blocks (BioBB)</li> <li>Quantum mechanics/molecular mechanics (QM/MM)</li>
+  </ul> <p>During the hands-on computer practicals you will make use of the
+  BioExcel flagship software and tools: e.g. GROMACS\, HADDOCK\, PMX\, 
+ BioBB\, and CP2K. The trainers\, developers and/or experts in the use of 
+ the software\, will provide guidance and support.</p>
+LOCATION:https://bioexcel.eu/events/summer-school-on-biomolecular-
+ simulations/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
+ include lectures and hands-on sessions on the following topics:</p> <ul> 
+ <li>Molecular Dynamics simulations</li> <li>Biomolecular Docking</li> 
+ <li>Free energy calculations</li> <li>Advanced sampling methods 
+ (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> <li>Quantum 
+ mechanics/molecular mechanics (QM/MM)</li> </ul> <p>During the hands-on 
+ computer practicals you will make use of the BioExcel flagship software 
+ and tools: e.g. GROMACS, HADDOCK, PMX, BioBB, and CP2K. The trainers, 
+ developers and/or experts in the use of the software, will provide 
+ guidance and support.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210422T090000
+DTEND;TZID="UTC+02:00":20210423T170000
+SUMMARY:QM/MM with GROMACS + CP2K
+UID:https://hpc-portal.eu/node/1458
+DESCRIPTION:<p><strong>Learning outcomes</strong><br> This course will 
+ equip participants to perform hybrid QM/MM simulations using the molecular
+  dynamics code GROMACS in combination with the quantum chemistry package 
+ CP2K through an interface developed by one of the instructors from the 
+ BioExcel Centre of Excellence (www.bioexcel.eu).</p> 
+ <p><strong>Prerequisites</strong><br> Participants should be familiar with
+  using GROMACS to perform molecular dynamics simulations. A background in 
+ computational quantum chemistry is not strictly required since an 
+ introduction of key aspects will be provided\, but previous familiarity is
+  beneficial. You should be familiar with connecting to a remote machine 
+ using ssh and will benefit from experience using an HPC facility as you 
+ will execute hands-on practicals on the UK supercomputer ARCHER2.</p> 
+ <p><strong>Description</strong><br> Most classical molecular mechanics 
+ (MM) force fields are not sufficiently flexible to model processes in 
+ which chemical bonds are broken or formed. Instead\, some level of quantum
+  mechanical (QM) description is needed to gain detailed mechanistic 
+ insights into reaction mechanisms\, e.g. the catalytic action of enzymes\,
+  and to compute photochemical properties such as absorption and emission 
+ spectra of fluorescent proteins. However biochemical systems (including 
+ solvent) are too large to be solved in their entirety at ab initio QM 
+ level or efficiently even with a high-quality density functional theory 
+ (DFT) approximation. To overcome the cost of a QM description on the one 
+ hand versus the limitations of a MM treatment on the other hand\, methods 
+ have been developed that treat a small critical region of interest at QM 
+ level while retaining the computationally cheaper MM force field for the 
+ majority of the system.</p> <p>Despite the simplicity of the QM/MM 
+ concept\, its application is currently restricted to a relatively small 
+ group of specialised expert users often using in-house codes. To unlock 
+ the power of QM/MM simulations for the wider biomolecular simulation 
+ community\, the BioExcel Centre of Excellence has developed an interface 
+ between the molecular dynamics code GROMACS\, which is widely used in the 
+ biomolecular simulation community\, and the quantum chemistry package 
+ CP2K\, which supports calculations under periodic boundary conditions with
+  DFT methods.</p> <p>This course explains key aspects relating to the use 
+ of QM/MM for biomolecular simulation with these two codes and equips 
+ participants with the ability to start using GROMACS and CP2K for this 
+ purpose in their own research. Participants are provided with the 
+ opportunity to gain hands-on practical experience running several example 
+ calculations on ARCHER2\, the UK national supercomputing service.</p>
+LOCATION:https://bioexcel.eu/events/qm-mm-with-gromacs-cp2k/
+DTSTAMP:20220830T140833Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Learning
+  outcomes</strong><br> This course will equip participants to perform 
+ hybrid QM/MM simulations using the molecular dynamics code GROMACS in 
+ combination with the quantum chemistry package CP2K through an interface 
+ developed by one of the instructors from the BioExcel Centre of Excellence
+  (www.bioexcel.eu).</p> <p><strong>Prerequisites</strong><br> Participants
+  should be familiar with using GROMACS to perform molecular dynamics 
+ simulations. A background in computational quantum chemistry is not 
+ strictly required since an introduction of key aspects will be provided, 
+ but previous familiarity is beneficial. You should be familiar with 
+ connecting to a remote machine using ssh and will benefit from experience 
+ using an HPC facility as you will execute hands-on practicals on the UK 
+ supercomputer ARCHER2.</p> <p><strong>Description</strong><br> Most 
+ classical molecular mechanics (MM) force fields are not sufficiently 
+ flexible to model processes in which chemical bonds are broken or formed. 
+ Instead, some level of quantum mechanical (QM) description is needed to 
+ gain detailed mechanistic insights into reaction mechanisms, e.g. the 
+ catalytic action of enzymes, and to compute photochemical properties such 
+ as absorption and emission spectra of fluorescent proteins. However 
+ biochemical systems (including solvent) are too large to be solved in 
+ their entirety at ab initio QM level or efficiently even with a high-
+ quality density functional theory (DFT) approximation. To overcome the 
+ cost of a QM description on the one hand versus the limitations of a MM 
+ treatment on the other hand, methods have been developed that treat a 
+ small critical region of interest at QM level while retaining the 
+ computationally cheaper MM force field for the majority of the system.</p>
+  <p>Despite the simplicity of the QM/MM concept, its application is 
+ currently restricted to a relatively small group of specialised expert 
+ users often using in-house codes. To unlock the power of QM/MM simulations
+  for the wider biomolecular simulation community, the BioExcel Centre of 
+ Excellence has developed an interface between the molecular dynamics code 
+ GROMACS, which is widely used in the biomolecular simulation community, 
+ and the quantum chemistry package CP2K, which supports calculations under 
+ periodic boundary conditions with DFT methods.</p> <p>This course explains
+  key aspects relating to the use of QM/MM for biomolecular simulation with
+  these two codes and equips participants with the ability to start using 
+ GROMACS and CP2K for this purpose in their own research. Participants are 
+ provided with the opportunity to gain hands-on practical experience 
+ running several example calculations on ARCHER2, the UK national 
+ supercomputing service.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210322T090000
+DTEND;TZID="UTC+01:00":20210324T170000
+SUMMARY:Introduction to HPC for Life Scientists
+UID:https://hpc-portal.eu/node/1459
+DESCRIPTION:Description: <p>This course provides an introduction to High-
+ Performance Computing (HPC) for researchers in the life sciences\, using 
+ ARCHER2 as a platform for hands-on training exercises.</p> <p>The course 
+ is organised and funded by BioExcel – the Centre of Excellence for 
+ Computational Biomolecular Research and PRACE\, and delivered in 
+ collaboration with ARCHER2 – the UK national supercomputing service.</p> 
+ Overview <p>High-performance computing (HPC) is a fundamental technology 
+ used to solve a wide range of scientific research problems. Many important
+  challenges in science such as protein folding\, the search for the Higgs 
+ boson\, drug discovery\, and the development of nuclear fusion all depend 
+ on simulations\, models and analyses run on HPC facilities to make 
+ progress.</p> <p>This course introduces HPC to life science researchers\, 
+ focusing on the aspects that are most important for those new to this 
+ technology to understand. It will help you judge how HPC can best benefit 
+ your research\, and equip you to go on to successfully and efficiently 
+ make use of HPC facilities in future. The course will cover basic concepts
+  in HPC hardware\, software\, user environments\, filesystems\, and 
+ programming models. It also provides an opportunity to gain hands-on 
+ practical experience and assistance using an HPC system (ARCHER2\, the UK 
+ national supercomputing service) through examples drawn from the life 
+ sciences\, such as biomolecular simulation.</p> Learning outcomes <p>On 
+ completion of the course\, we expect that attendees will understand and be
+  able to explain:</p> <ul> <li>Why HPC? – What are the drivers and 
+ motivation? Who uses it and why?</li> <li>The UK &amp\; EU HPC landscape –
+  HPC facilities available to researchers</li> <li>HPC hardware – Building 
+ blocks and architectures</li> <li>Parallel computing – Programming models 
+ and implementations</li> <li>Using HPC systems <ul> <li>Access</li> 
+ <li>Batch schedulers &amp\; resource allocation</li> <li>Running jobs</li>
+  <li>Dealing with errors</li> <li>Compiling code</li> <li>Using 
+ libraries</li> <li>Performance</li> </ul> </li> <li>The Future of HPC</li>
+  </ul>
+LOCATION:https://bioexcel.eu/events/introduction-to-hpc-for-life-
+ scientists/
+DTSTAMP:20220830T140833Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY>Description: 
+ <p>This course provides an introduction to High-Performance Computing 
+ (HPC) for researchers in the life sciences, using ARCHER2 as a platform 
+ for hands-on training exercises.</p> <p>The course is organised and funded
+  by BioExcel – the Centre of Excellence for Computational Biomolecular 
+ Research and PRACE, and delivered in collaboration with ARCHER2 – the UK 
+ national supercomputing service.</p> Overview <p>High-performance 
+ computing (HPC) is a fundamental technology used to solve a wide range of 
+ scientific research problems. Many important challenges in science such as
+  protein folding, the search for the Higgs boson, drug discovery, and the 
+ development of nuclear fusion all depend on simulations, models and 
+ analyses run on HPC facilities to make progress.</p> <p>This course 
+ introduces HPC to life science researchers, focusing on the aspects that 
+ are most important for those new to this technology to understand. It will
+  help you judge how HPC can best benefit your research, and equip you to 
+ go on to successfully and efficiently make use of HPC facilities in 
+ future. The course will cover basic concepts in HPC hardware, software, 
+ user environments, filesystems, and programming models. It also provides 
+ an opportunity to gain hands-on practical experience and assistance using 
+ an HPC system (ARCHER2, the UK national supercomputing service) through 
+ examples drawn from the life sciences, such as biomolecular 
+ simulation.</p> Learning outcomes <p>On completion of the course, we 
+ expect that attendees will understand and be able to explain:</p> <ul> 
+ <li>Why HPC? – What are the drivers and motivation? Who uses it and 
+ why?</li> <li>The UK &amp; EU HPC landscape – HPC facilities available to 
+ researchers</li> <li>HPC hardware – Building blocks and architectures</li>
+  <li>Parallel computing – Programming models and implementations</li> 
+ <li>Using HPC systems <ul> <li>Access</li> <li>Batch schedulers &amp; 
+ resource allocation</li> <li>Running jobs</li> <li>Dealing with 
+ errors</li> <li>Compiling code</li> <li>Using libraries</li> 
+ <li>Performance</li> </ul> </li> <li>The Future of HPC</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210112T090000
+DTEND;TZID="UTC+01:00":20210115T170000
+SUMMARY:BioExcel/ENCCS workshop – Advanced topics in simulations with 
+ GROMACS
+UID:https://hpc-portal.eu/node/1460
+DESCRIPTION:<p>In collaboration with BioExcel\, ENCCS is offering an online
+  workshop on advanced GROMACS simulations taught by Dr Mark Abraham\, Dr 
+ Christian Blau\, and Dr Artem Zhmurov.</p> <p>The following topics will be
+  covered at the workshop:</p> <p>January 12 – Using umbrella-sampling 
+ (“pulling”) simulations<br> January 13 – Using replica-exchange molecular 
+ dynamics<br> January 14 – Using applied-weight histogram methods 
+ (“AWH”)<br> January 15 – Computing trajectories efficiently on GPUs</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-enccs-workshop-advanced-
+ topics-in-simulations-with-gromacs/
+DTSTAMP:20220830T140833Z
+GEO:59.349456;18.072761
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In collaboration
+  with BioExcel, ENCCS is offering an online workshop on advanced GROMACS 
+ simulations taught by Dr Mark Abraham, Dr Christian Blau, and Dr Artem 
+ Zhmurov.</p> <p>The following topics will be covered at the workshop:</p> 
+ <p>January 12 – Using umbrella-sampling (“pulling”) simulations<br> 
+ January 13 – Using replica-exchange molecular dynamics<br> January 14 – 
+ Using applied-weight histogram methods (“AWH”)<br> January 15 – Computing 
+ trajectories efficiently on GPUs</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20201130T090000
+DTEND;TZID="UTC+01:00":20201204T170000
+SUMMARY:Remote BioExcel Winter School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1461
+DESCRIPTION:<p>The winter school will include lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>Molecular Dynamics 
+ simulations</li> <li>Biomolecular Docking</li> <li>Free energy 
+ calculations</li> <li>Advanced sampling methods (Metadynamics)</li> 
+ <li>BioExcel Building Blocks (BioBB)</li> </ul> <p>During the hands-on 
+ computer practicals you will make use of the BioExcel flagship software 
+ and tools: e.g. GROMACS\, HADDOCK\, PMX\, BioBB. The trainers\, developers
+  and/or experts in the use of the software\, will provide guidance and 
+ support.</p> <p><strong>Audience and Prerequisites</strong></p> <p>The 
+ winter school is intended for researchers (primarily PhD and post-docs) 
+ using or planning to use biomolecular modeling and simulation in their 
+ everyday research. Familiarity with Linux and basic knowledge of molecular
+  modelling software is a requirement.</p>
+LOCATION:https://bioexcel.eu/events/winter-school/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The winter 
+ school will include lectures and hands-on sessions on the following 
+ topics:</p> <ul> <li>Molecular Dynamics simulations</li> <li>Biomolecular 
+ Docking</li> <li>Free energy calculations</li> <li>Advanced sampling 
+ methods (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> 
+ </ul> <p>During the hands-on computer practicals you will make use of the 
+ BioExcel flagship software and tools: e.g. GROMACS, HADDOCK, PMX, BioBB. 
+ The trainers, developers and/or experts in the use of the software, will 
+ provide guidance and support.</p> <p><strong>Audience and 
+ Prerequisites</strong></p> <p>The winter school is intended for 
+ researchers (primarily PhD and post-docs) using or planning to use 
+ biomolecular modeling and simulation in their everyday research. 
+ Familiarity with Linux and basic knowledge of molecular modelling software
+  is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20201109T090000
+DTEND;TZID="UTC+01:00":20201113T170000
+SUMMARY:Computational biomolecular simulation workflows with BioExcel 
+ Building Blocks
+UID:https://hpc-portal.eu/node/1462
+DESCRIPTION:<p><strong>Overview</strong>:</p> <p>Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations\, but scared to make the first step? What if you could start 
+ smoothly using interactive\, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single\, interoperable library with a unique syntax?</p> 
+ <p>In this session we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>\, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS\, Ambertools\, Openbabel or ACPYPE. The philosophy behind its 
+ design\, following best practices and FAIR principles for software 
+ development makes it easy to find\, install and use\, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong>:</p> <p>This session is aimed 
+ at people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations\, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows\, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training\, although some 
+ knowledge and familiarity with this method is recommended to properly 
+ follow the course.</p> <p>Minimum Linux skills are also required.</p> 
+ <p>This is an interactive session that is presented remotely using 
+ GoToTraining.</p> <p><strong>Learning outcomes</strong>:</p> <p>At the end
+  of these sessions you will be able to...</p> <ul> <li>Interactively work 
+ with computational biomolecular simulation demonstration workflows built 
+ using the BioExcel building blocks library in Jupyter Notebooks sessions: 
+ change input structure\, modify parameters\, add/remove steps\, etc.</li> 
+ <li>Write a new computational biomolecular simulation workflow using the 
+ BioExcel building blocks library from scratch.</li> <li>Launch 
+ computational biomolecular simulation workflows built using the BioExcel 
+ building blocks library in a command-line interface.</li> </ul>
+LOCATION:https://bioexcel.eu/events/computational-biomolecular-simulation-
+ workflows-with-bioexcel-building-blocks-2/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong>:</p> <p>Are you interested 
+ in computational biomolecular simulation methods such as Molecular 
+ Dynamics simulations, but scared to make the first step? What if you could
+  start smoothly using interactive, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single, interoperable library with a unique syntax?</p> 
+ <p>In this session we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS, Ambertools, Openbabel or ACPYPE. The philosophy behind its 
+ design, following best practices and FAIR principles for software 
+ development makes it easy to find, install and use, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong>:</p> <p>This session is aimed 
+ at people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training, although some 
+ knowledge and familiarity with this method is recommended to properly 
+ follow the course.</p> <p>Minimum Linux skills are also required.</p> 
+ <p>This is an interactive session that is presented remotely using 
+ GoToTraining.</p> <p><strong>Learning outcomes</strong>:</p> <p>At the end
+  of these sessions you will be able to...</p> <ul> <li>Interactively work 
+ with computational biomolecular simulation demonstration workflows built 
+ using the BioExcel building blocks library in Jupyter Notebooks sessions: 
+ change input structure, modify parameters, add/remove steps, etc.</li> 
+ <li>Write a new computational biomolecular simulation workflow using the 
+ BioExcel building blocks library from scratch.</li> <li>Launch 
+ computational biomolecular simulation workflows built using the BioExcel 
+ building blocks library in a command-line interface.</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20201013T143000
+DTEND;TZID="UTC+02:00":20201020T170000
+SUMMARY:Practical introduction to QM/MM using CP2K for biomolecular 
+ modelling
+UID:https://hpc-portal.eu/node/1463
+DESCRIPTION:<p>As a collaboration between ARCHER2 Training and BioExcel\, 
+ this free online course consists of interactive hands-on practical 
+ sessions presented remotely using Collaborate. Attendees will be given 
+ access to ARCHER to execute the practical.</p> <p>The course will run over
+  two Tuesday afternoons\, 13th and 20th October. Participants are expected
+  to attend both sessions. Each session will run from 13:30-16:00 with a 
+ break 14:30-15:00. There will be a follow-up consultancy session\, where 
+ you can drop-in to ask questions of the tutor on Tuesday 3rd November 
+ 14:00-16:00</p> <h3>Outline</h3> <p>CP2K is a quantum chemistry and solid 
+ state physics software package that can perform atomistic simulations of a
+  wide variety of systems\, ranging from solid state to biological systems.
+  CP2K provides a general framework for running density functional theory 
+ (DFT) simulations\, with extensions that enable users to run classical 
+ molecular dynamics (MD)\, mix MD and DFT to obtain quantum-
+ mechanical/molecular-dynamics (QM/MM) runs\, or perform other forms of 
+ metadynamics\, Monte Carlo\, or other simulations.</p> <p>This course is 
+ aiming to teach attendees how to prepare and run biochemical simulations 
+ in CP2K. Specifically\, we will be looking at how CP2K can be used to 
+ track the reaction dynamics of a system undergoing biological catalysis. 
+ In this course\, we shall be focusing on a Diels Alder transition taking 
+ place in an immunoglobulin. We will begin by considering the reaction site
+  in a purely quantum-mechanical method. Then\, we will slowly increase the
+  complexity of the system to take into account the entire structure of the
+  immunoglobulin (using QM/MM approach)\, the solution\, and finally\, we 
+ will add a ligand to the reaction.</p> <p>While we will be referencing 
+ some DFT and QM/MM theory (mainly the nudged elastic band method and 
+ metadynamics)\, this is not the principal aim of this course. Our aim is 
+ to use these systems to help familiarise attendees with using CP2K to run 
+ simulations of biochemical systems. CP2K can be used for non-biological 
+ systems\, and the topics being taught here can be ported to other fields\,
+  but this will not be a primary focus of this course.</p> <h3>Learning 
+ outcomes</h3> <p>At the end of this session\, you will be able to:</p> 
+ <ul> <li>Run a geometry optimisation using CP2K</li> <li>Run a frequency 
+ calculation using CP2K</li> <li>Estimate the energy barrier of a chemical 
+ reaction</li> <li>Run a nudged elastic band (NEB) simulation to fine-tune 
+ the energy barrier and profile of a chemical reaction</li> <li>Prepare a 
+ QM/MM simulation for CP2K</li> <li>Run a QM/MM simulation in CP2K</li> 
+ </ul>
+LOCATION:https://bioexcel.eu/events/practical-introduction-to-qm-mm-using-
+ cp2k-for-biomolecular-modelling/
+DTSTAMP:20220830T140833Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As a 
+ collaboration between ARCHER2 Training and BioExcel, this free online 
+ course consists of interactive hands-on practical sessions presented 
+ remotely using Collaborate. Attendees will be given access to ARCHER to 
+ execute the practical.</p> <p>The course will run over two Tuesday 
+ afternoons, 13th and 20th October. Participants are expected to attend 
+ both sessions. Each session will run from 13:30-16:00 with a break 
+ 14:30-15:00. There will be a follow-up consultancy session, where you can 
+ drop-in to ask questions of the tutor on Tuesday 3rd November 
+ 14:00-16:00</p> <h3>Outline</h3> <p>CP2K is a quantum chemistry and solid 
+ state physics software package that can perform atomistic simulations of a
+  wide variety of systems, ranging from solid state to biological systems. 
+ CP2K provides a general framework for running density functional theory 
+ (DFT) simulations, with extensions that enable users to run classical 
+ molecular dynamics (MD), mix MD and DFT to obtain quantum-
+ mechanical/molecular-dynamics (QM/MM) runs, or perform other forms of 
+ metadynamics, Monte Carlo, or other simulations.</p> <p>This course is 
+ aiming to teach attendees how to prepare and run biochemical simulations 
+ in CP2K. Specifically, we will be looking at how CP2K can be used to track
+  the reaction dynamics of a system undergoing biological catalysis. In 
+ this course, we shall be focusing on a Diels Alder transition taking place
+  in an immunoglobulin. We will begin by considering the reaction site in a
+  purely quantum-mechanical method. Then, we will slowly increase the 
+ complexity of the system to take into account the entire structure of the 
+ immunoglobulin (using QM/MM approach), the solution, and finally, we will 
+ add a ligand to the reaction.</p> <p>While we will be referencing some DFT
+  and QM/MM theory (mainly the nudged elastic band method and 
+ metadynamics), this is not the principal aim of this course. Our aim is to
+  use these systems to help familiarise attendees with using CP2K to run 
+ simulations of biochemical systems. CP2K can be used for non-biological 
+ systems, and the topics being taught here can be ported to other fields, 
+ but this will not be a primary focus of this course.</p> <h3>Learning 
+ outcomes</h3> <p>At the end of this session, you will be able to:</p> <ul>
+  <li>Run a geometry optimisation using CP2K</li> <li>Run a frequency 
+ calculation using CP2K</li> <li>Estimate the energy barrier of a chemical 
+ reaction</li> <li>Run a nudged elastic band (NEB) simulation to fine-tune 
+ the energy barrier and profile of a chemical reaction</li> <li>Prepare a 
+ QM/MM simulation for CP2K</li> <li>Run a QM/MM simulation in CP2K</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200903T090000
+DTEND;TZID="UTC+02:00":20200904T170000
+SUMMARY:Introduction to GROMACS – A SNIC/PRACE workshop in collaboration 
+ with BioExcel
+UID:https://hpc-portal.eu/node/1464
+DESCRIPTION:<p>GROMACS (<a 
+ href="http://www.gromacs.org/">www.gromacs.org</a>) is a free\, open-
+ source and high-performance software suite for molecular dynamics 
+ simulation and analysis. The workshop aims to provide the basis to perform
+  molecular dynamics simulations and simple free energy calculations using 
+ GROMACS.</p> <p>The workshop is organized jointly by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>\, the main HPC resource provider 
+ in Europe\, <a href="https://bioexcel.eu/">BioExcel</a>\, the leading 
+ European Center of Excellence for Computational Biomolecular Research and 
+ <a href="http://www.snic.se/">SNIC</a>\, Swedish National Infrastructure 
+ for Computing.The workshop will include online lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>The basics of molecular 
+ dynamics simulations</li> <li>Introduction to free energy 
+ calculations</li> <li>The capabilities of GROMACS</li> </ul> <p>During the
+  hands-on computer practicals you will work on protein simulation and 
+ solvation free energy using GROMACS.</p> 
+ <p><strong>Prerequisites</strong></p> <p>The workshop is at beginners 
+ level and assumes no prior experience in GROMACS.</p> <p>The participants 
+ need to have access to a computer where the following software were 
+ already installed: Jupiter notebook\, GROMACS\, VMD (visualisation)\, 
+ Xmgrace (plotting tool) to actively follow the tutorial.</p>
+LOCATION:https://bioexcel.eu/events/introduction-to-gromacs-a-snic-prace-
+ workshop-in-collaboration-with-bioexcel/
+DTSTAMP:20220830T140833Z
+GEO:59.840372;17.648401
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>GROMACS (<a 
+ href="http://www.gromacs.org/">www.gromacs.org</a>) is a free, open-source
+  and high-performance software suite for molecular dynamics simulation and
+  analysis. The workshop aims to provide the basis to perform molecular 
+ dynamics simulations and simple free energy calculations using 
+ GROMACS.</p> <p>The workshop is organized jointly by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>, the main HPC resource provider 
+ in Europe, <a href="https://bioexcel.eu/">BioExcel</a>, the leading 
+ European Center of Excellence for Computational Biomolecular Research and 
+ <a href="http://www.snic.se/">SNIC</a>, Swedish National Infrastructure 
+ for Computing.The workshop will include online lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>The basics of molecular 
+ dynamics simulations</li> <li>Introduction to free energy 
+ calculations</li> <li>The capabilities of GROMACS</li> </ul> <p>During the
+  hands-on computer practicals you will work on protein simulation and 
+ solvation free energy using GROMACS.</p> 
+ <p><strong>Prerequisites</strong></p> <p>The workshop is at beginners 
+ level and assumes no prior experience in GROMACS.</p> <p>The participants 
+ need to have access to a computer where the following software were 
+ already installed: Jupiter notebook, GROMACS, VMD (visualisation), Xmgrace
+  (plotting tool) to actively follow the tutorial.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200622T090000
+DTEND;TZID="UTC+02:00":20200626T170000
+SUMMARY:Remote BioExcel Summer School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1469
+DESCRIPTION:<h2>Overview</h2> <p>The summer school will include lectures 
+ and hands-on sessions on the following topics:</p> <ul> <li>Molecular 
+ Dynamics simulations</li> <li>Biomolecular Docking</li> <li>QM/MM</li> 
+ <li>Free energy calculations</li> <li>Advanced sampling methods 
+ (Metadynamics)</li> </ul> <p>During the hands-on computer practicals you 
+ will work on a use case integrating the various topics above making use\, 
+ among others\, of the BioExcel flagship software (GROMACS\, HADDOCK\, 
+ PMX). The summer school is supported by <a 
+ href="http://www.sardegnaricerche.it/">Sardegna Ricerche</a>.</p> 
+ <h2>Audience and Prerequisites</h2> <p>The summer school is intended for 
+ researchers (primarily PhD and post-docs) using or planning to use 
+ biomolecular modeling and simulation in their everyday research. 
+ Familiarity with Linux and some basic knowledge of molecular modelling 
+ software is a requirement.</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-summer-school-on-biomolecular-
+ simulations-2020/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Overview</h2> 
+ <p>The summer school will include lectures and hands-on sessions on the 
+ following topics:</p> <ul> <li>Molecular Dynamics simulations</li> 
+ <li>Biomolecular Docking</li> <li>QM/MM</li> <li>Free energy 
+ calculations</li> <li>Advanced sampling methods (Metadynamics)</li> </ul> 
+ <p>During the hands-on computer practicals you will work on a use case 
+ integrating the various topics above making use, among others, of the 
+ BioExcel flagship software (GROMACS, HADDOCK, PMX). The summer school is 
+ supported by <a href="http://www.sardegnaricerche.it/">Sardegna 
+ Ricerche</a>.</p> <h2>Audience and Prerequisites</h2> <p>The summer school
+  is intended for researchers (primarily PhD and post-docs) using or 
+ planning to use biomolecular modeling and simulation in their everyday 
+ research. Familiarity with Linux and some basic knowledge of molecular 
+ modelling software is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200609T140000
+DTEND;TZID="UTC+02:00":20200609T170000
+SUMMARY:Preparing to run biomolecular QM/MM simulations with CP2K using 
+ AmberTools Online
+UID:https://hpc-portal.eu/node/1470
+DESCRIPTION:<p>This online course covers basic tools and technologies 
+ needed to succeed in the setting up a QM/MM simulation with AmberTools 
+ suite\, with hands-on exercises. It provides background to preparation of 
+ biological systems for molecular modelling and practical experience in 
+ successfully creating topologies and running simple QM/MM simulations 
+ using CP2K in a HPC environment.</p> <p>The course uses examples drawn 
+ from EPCC’s experiences in the life-sciences and HPC computing\, but using
+  free tools and technologies commonly used in the biomolecular modelling 
+ community. You will learn the intricacies of molecular modelling of 
+ biological systems\, as well as practical aspects of handling and 
+ preparing PDB files\, creating topologies ready to run using CP2K 
+ softwares.</p> <p><strong>Audience:</strong> The course is aimed at 
+ biomolecular modellers who want to use QM/MM simulations in their 
+ work.</p>
+LOCATION:https://bioexcel.eu/events/preparing-to-run-biomolecular-qm-mm-
+ simulations-with-cp2k-using-ambertools-online/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This online 
+ course covers basic tools and technologies needed to succeed in the 
+ setting up a QM/MM simulation with AmberTools suite, with hands-on 
+ exercises. It provides background to preparation of biological systems for
+  molecular modelling and practical experience in successfully creating 
+ topologies and running simple QM/MM simulations using CP2K in a HPC 
+ environment.</p> <p>The course uses examples drawn from EPCC’s experiences
+  in the life-sciences and HPC computing, but using free tools and 
+ technologies commonly used in the biomolecular modelling community. You 
+ will learn the intricacies of molecular modelling of biological systems, 
+ as well as practical aspects of handling and preparing PDB files, creating
+  topologies ready to run using CP2K softwares.</p> 
+ <p><strong>Audience:</strong> The course is aimed at biomolecular 
+ modellers who want to use QM/MM simulations in their 
+ work.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200429T140000
+DTEND;TZID="UTC+02:00":20200429T163000
+SUMMARY:Reproducible analyses with Common Workflow Language
+UID:https://hpc-portal.eu/node/1471
+DESCRIPTION:<h2><strong>About this course</strong></h2> <p>This course will
+  provide a brief introduction to the Common Workflow Language (CWL) and 
+ help you get started with the CWL reference implementation 
+ <em>cwltool</em>\, as well as giving you a taster of the implementation 
+ <em>Toil</em> using the BioExcel Cloud Portal. At the end of this 
+ session\, you will be able to:</p> <ul> <li>Write workflows in CWL and 
+ execute them</li> <li>Execute workflows with Docker containers</li> 
+ <li>Make your own tool descriptions in CWL</li> <li>Share and reuse 
+ workflow and tool descriptions with the CWL community</li> <li>Follow best
+  practice guidelines for writing CWL</li> </ul> <p>Please note the 
+ following <strong>is not</strong> covered in the course:</p> <ul> <li>This
+  course will not teach you how to design a scientifically valid 
+ bioinformatics pipeline <ul> <li>Bioinformatics tools/workflows may be 
+ used as examples\, alongside generic UNIX tools</li> </ul> </li> <li>This 
+ course will not explain how to set up other CWL implementations (e.g. 
+ Galaxy or CWLEXEC for LSF) <ul> <li> You will be shown how to install the 
+ reference implementation <em>cwltool\,</em> and cloud support in <em>toil 
+ </em>will be demonstrated</li> <li>The strengths and pitfalls of the 
+ different engine choices will be covered in brief</li> </ul> </li> 
+ <li>This course will not detail how to use particular compute/cloud 
+ infrastructure <ul> <li>Cloud computing may be used as example</li> </ul> 
+ </li> <li>This course will not provide support for rewriting your existing
+  pipeline to CWL <ul> <li>Instructors will assist attendees with tutorial 
+ lessons</li> </ul> </li> </ul> <h3><strong>Prerequisites</strong></h3> 
+ <p>No prior knowledge of workflows\, CWL or Python is required.</p> <p>A 
+ basic understanding of the command line (<a 
+ href="https://swcarpentry.github.io/shell-novice/">UNIX shell</a> as on 
+ Linux/OS X) is advised\; guidance will also be provided for Windows users.
+  </p> <p>Experience with writing JSON or textual scripts in any 
+ programming/scripting language is advised\, e.g. understanding of quotes\,
+  indentation\, blocks\; however a full introduction to the CWL syntax in 
+ YAML will be provided.</p> <p>No prior knowledge of bioinformatics is 
+ required.</p>
+LOCATION:https://bioexcel.eu/events/reproducible-analyses-with-common-
+ workflow-language/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2><strong>About 
+ this course</strong></h2> <p>This course will provide a brief introduction
+  to the Common Workflow Language (CWL) and help you get started with the 
+ CWL reference implementation <em>cwltool</em>, as well as giving you a 
+ taster of the implementation <em>Toil</em> using the BioExcel Cloud 
+ Portal. At the end of this session, you will be able to:</p> <ul> 
+ <li>Write workflows in CWL and execute them</li> <li>Execute workflows 
+ with Docker containers</li> <li>Make your own tool descriptions in 
+ CWL</li> <li>Share and reuse workflow and tool descriptions with the CWL 
+ community</li> <li>Follow best practice guidelines for writing CWL</li> 
+ </ul> <p>Please note the following <strong>is not</strong> covered in the 
+ course:</p> <ul> <li>This course will not teach you how to design a 
+ scientifically valid bioinformatics pipeline <ul> <li>Bioinformatics 
+ tools/workflows may be used as examples, alongside generic UNIX tools</li>
+  </ul> </li> <li>This course will not explain how to set up other CWL 
+ implementations (e.g. Galaxy or CWLEXEC for LSF) <ul> <li> You will be 
+ shown how to install the reference implementation <em>cwltool,</em> and 
+ cloud support in <em>toil </em>will be demonstrated</li> <li>The strengths
+  and pitfalls of the different engine choices will be covered in 
+ brief</li> </ul> </li> <li>This course will not detail how to use 
+ particular compute/cloud infrastructure <ul> <li>Cloud computing may be 
+ used as example</li> </ul> </li> <li>This course will not provide support 
+ for rewriting your existing pipeline to CWL <ul> <li>Instructors will 
+ assist attendees with tutorial lessons</li> </ul> </li> </ul> 
+ <h3><strong>Prerequisites</strong></h3> <p>No prior knowledge of 
+ workflows, CWL or Python is required.</p> <p>A basic understanding of the 
+ command line (<a href="https://swcarpentry.github.io/shell-novice/">UNIX 
+ shell</a> as on Linux/OS X) is advised; guidance will also be provided for
+  Windows users. </p> <p>Experience with writing JSON or textual scripts in
+  any programming/scripting language is advised, e.g. understanding of 
+ quotes, indentation, blocks; however a full introduction to the CWL syntax
+  in YAML will be provided.</p> <p>No prior knowledge of bioinformatics is 
+ required.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200224T090000
+DTEND;TZID="UTC+01:00":20200228T170000
+SUMMARY:ResOps: Cloud-native tools and technology for researchers
+UID:https://hpc-portal.eu/node/1472
+DESCRIPTION:<p><strong>Overview:</strong> <a 
+ href="https://www.ebi.ac.uk/about/technology/2018/02/resops/">ResOps</a> 
+ is a term coined for ‘Research Operations’\, in the same vein as ‘DevOps’.
+  This course covers basic tools and technologies needed to succeed in the 
+ cloud\, with hands-on exercises. It provides some background to cloud 
+ computing and practical experience in building\, deploying and running 
+ applications in cloud platforms – Embassy (OpenStack)\, Google\, Amazon 
+ and Azure. The course uses examples drawn from <a 
+ href="https://www.ebi.ac.uk/">EMBL-EBI’s</a> experiences in the life-
+ sciences\, but using tools and technologies that are cross-platform and 
+ cross-domain. You will learn about the user-centric hybrid cloud 
+ strategy\, as well as practical aspects of deploying across different 
+ clouds and the architectural considerations around porting applications to
+  a cloud.</p> <p><strong>Learning outcomes: </strong>At the end of this 
+ session you will be able to\,<br> ● Explain cloud terminology\, types of 
+ clouds and how clouds can be used<br> ● Build Docker containers and use 
+ them<br> ● Deploy applications in Kubernetes<br> ● Use Gitlab for 
+ Continuous Integration/Continuous Deployment (CI/CD)</p> 
+ <p><strong>Audience:</strong> The course is aimed at biologists\, 
+ bioinformaticians\, and software developers who want to use cloud 
+ computing in their work.</p>
+LOCATION:https://bioexcel.eu/events/resops-cloud-native-tools-and-
+ technology-for-researchers/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview:</strong> <a 
+ href="https://www.ebi.ac.uk/about/technology/2018/02/resops/">ResOps</a> 
+ is a term coined for ‘Research Operations’, in the same vein as ‘DevOps’. 
+ This course covers basic tools and technologies needed to succeed in the 
+ cloud, with hands-on exercises. It provides some background to cloud 
+ computing and practical experience in building, deploying and running 
+ applications in cloud platforms – Embassy (OpenStack), Google, Amazon and 
+ Azure. The course uses examples drawn from <a 
+ href="https://www.ebi.ac.uk/">EMBL-EBI’s</a> experiences in the life-
+ sciences, but using tools and technologies that are cross-platform and 
+ cross-domain. You will learn about the user-centric hybrid cloud strategy,
+  as well as practical aspects of deploying across different clouds and the
+  architectural considerations around porting applications to a cloud.</p> 
+ <p><strong>Learning outcomes: </strong>At the end of this session you will
+  be able to,<br> ● Explain cloud terminology, types of clouds and how 
+ clouds can be used<br> ● Build Docker containers and use them<br> ● Deploy
+  applications in Kubernetes<br> ● Use Gitlab for Continuous 
+ Integration/Continuous Deployment (CI/CD)</p> 
+ <p><strong>Audience:</strong> The course is aimed at biologists, 
+ bioinformaticians, and software developers who want to use cloud computing
+  in their work.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20191209T090000
+DTEND;TZID="UTC+01:00":20191212T170000
+SUMMARY:Computational biomolecular simulation workflows with BioExcel 
+ building blocks
+UID:https://hpc-portal.eu/node/1473
+DESCRIPTION:<p><strong>Overview</strong></p> <p>Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations\, but scared to make the first step? What if you could start 
+ smoothly using interactive\, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single\, interoperable library with a unique syntax?</p> 
+ <p>Join the online training session where we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>\, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS\, Ambertools\, Openbabel or ACPYPE. The philosophy behind its 
+ design\, following best practices and FAIR principles for software 
+ development makes it easy to find\, install and use\, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. protein-ligand complex GROMACS MD setup). The first steps on
+  how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong></p> <p>This session is aimed at
+  people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations\, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows\, ensuring reproducibility.</li> <li>No expertise in Molecular 
+ Dynamics is needed to attend the training\, although some knowledge and 
+ familiarity with this method is recommended to properly follow the course.
+  Minimum Linux skills are also required.</li> <li>This is an interactive 
+ session that is presented remotely using GoToTraining</li> </ul> 
+ <p><strong>Learning outcomes</strong></p> <p>At the end of this session 
+ you will be able to:</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure\, modify parameters\, add/remove steps\, etc.</li> <li>Write a 
+ new computational biomolecular simulation workflow using the BioExcel 
+ building blocks library from scratch.</li> <li>Launch computational 
+ biomolecular simulation workflows built using the BioExcel building blocks
+  library in a command-line interface.</li> </ul>
+LOCATION:https://bioexcel.eu/events/computational-biomolecular-simulation-
+ workflows-with-bioexcel-building-blocks/
+DTSTAMP:20220830T140833Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong></p> <p>Are you interested in
+  computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations, but scared to make the first step? What if you could start 
+ smoothly using interactive, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single, interoperable library with a unique syntax?</p> 
+ <p>Join the online training session where we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS, Ambertools, Openbabel or ACPYPE. The philosophy behind its 
+ design, following best practices and FAIR principles for software 
+ development makes it easy to find, install and use, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. protein-ligand complex GROMACS MD setup). The first steps on
+  how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong></p> <p>This session is aimed at
+  people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows, ensuring reproducibility.</li> <li>No expertise in Molecular 
+ Dynamics is needed to attend the training, although some knowledge and 
+ familiarity with this method is recommended to properly follow the course.
+  Minimum Linux skills are also required.</li> <li>This is an interactive 
+ session that is presented remotely using GoToTraining</li> </ul> 
+ <p><strong>Learning outcomes</strong></p> <p>At the end of this session 
+ you will be able to:</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure, modify parameters, add/remove steps, etc.</li> <li>Write a new 
+ computational biomolecular simulation workflow using the BioExcel building
+  blocks library from scratch.</li> <li>Launch computational biomolecular 
+ simulation workflows built using the BioExcel building blocks library in a
+  command-line interface.</li> </ul></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

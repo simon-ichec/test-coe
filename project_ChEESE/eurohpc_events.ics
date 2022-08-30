@@ -22,6 +22,114 @@ TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220328T090000
+DTEND;TZID="UTC+02:00":20220330T170000
+SUMMARY:Tsunami-HySEA training (University Puerto Rico Mayaguez)
+UID:https://hpc-portal.eu/node/1475
+DESCRIPTION:<p>ChEESE partner Jorge Macias (UMA) conducts a Tsunami-HySEA 
+ training course at the University of Puerto Rico\, Mayaguez on 28-30 March
+  2022. Participation will include students and researchers from the 
+ university\, as well as representatives from the Seismic Network of Puerto
+  Rico.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-university-
+ puerto-rico-mayaguez
+DTSTAMP:20220830T140833Z
+GEO:18.497278;-67.137109
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ Jorge Macias (UMA) conducts a Tsunami-HySEA training course at the 
+ University of Puerto Rico, Mayaguez on 28-30 March 2022. Participation 
+ will include students and researchers from the university, as well as 
+ representatives from the Seismic Network of Puerto Rico.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220307T090000
+DTEND;TZID="UTC+01:00":20220307T170000
+SUMMARY:Curso sobre el Análisis del Riesgo Sísmico (Seismic Risk Analysis 
+ Course)
+UID:https://hpc-portal.eu/node/1476
+DESCRIPTION:<p>ChEESE partner <a 
+ href="https://www.uma.es/edanya/info/109897/jorge-macias-sanchez/">Jorge 
+ Macias</a> from <a href="https://www.uma.es/">UMA</a> gives a presentation
+  titled "Simulación Numérica de Tsunamis\, ¿por qué y para qué?" (Tsunami 
+ Numerical Simulation\, why and what for?) on 7 March 2022 as part of an 
+ official course hosted by the Subdelegación del Gobierno en Granada y 
+ Escuela Nacional de Protección Civil (Subdelegation of the Government in 
+ Granada and National School of Civil Protection) called Curso sobre el 
+ Analisis del Riesgo Sísmico ( Seismic Risk Analysis Course).</p>
+LOCATION:https://cheese-coe.eu/events/curso-sobre-el-analisis-del-riesgo-
+ sismico-seismic-risk-analysis-course-0
+DTSTAMP:20220830T140833Z
+GEO:37.180873;-3.598343
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ <a href="https://www.uma.es/edanya/info/109897/jorge-macias-
+ sanchez/">Jorge Macias</a> from <a href="https://www.uma.es/">UMA</a> 
+ gives a presentation titled "Simulación Numérica de Tsunamis, ¿por qué y 
+ para qué?" (Tsunami Numerical Simulation, why and what for?) on 7 March 
+ 2022 as part of an official course hosted by the Subdelegación del 
+ Gobierno en Granada y Escuela Nacional de Protección Civil (Subdelegation 
+ of the Government in Granada and National School of Civil Protection) 
+ called Curso sobre el Analisis del Riesgo Sísmico ( Seismic Risk Analysis 
+ Course).</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20211026T090000
+DTEND;TZID="UTC+02:00":20211028T170000
+SUMMARY:PATC: Tools and techniques to quickly improve performances of HPC 
+ applications in Solid Earth
+UID:https://hpc-portal.eu/node/1480
+DESCRIPTION:<p>This is a course targeted to improve the overall performance
+  of a code in Solid Earth\, currently in use at the CHEESE Center of 
+ Excellence H2020 project. Parallel performance profiling tools will be 
+ provided on the initial version of the code to find the so-called 
+ performance bottlenecks. Starting from the profiling analysis\, it will 
+ show how and where to intervene with respect to the hardware 
+ characterization of the HPC machine used for the investigation.</p> <p>We 
+ will show also how debug tools will be useful in the development / 
+ optimization phase to eliminate any possible bugs introduced in the 
+ writing (or redesign) of new parts of the code. Finally\, it will be shown
+  how to improve the overall performance of the code with respect to other 
+ popular parameters such as I / O\, vectorization\, etc.</p> <p> 
+ <strong>Skills:</strong><br> At the end of the course the student will be 
+ able to:</p> <p>Achieve the main information about performance of today 
+ HPC computer</p> <p>Use a concrete methodology to improve the performance 
+ of a code in Solid Earth already in use in the context of<br> ChEESE 
+ project</p> <p>Find and solve the main bottlenecks of an application with 
+ respect to appropriate computational metrics<br> and the machine used</p> 
+ <p>Use appropriate debugging tools to eliminate any bugs that may arise 
+ during the development / optimization phase</p> <p><strong>Target 
+ audience: </strong></p> <p>Researchers in Solid Earth interested to learn 
+ and use all those techniques and related tools that may allow them to 
+ improve the performance of their code on current HPC architectures in the 
+ shortest possible time.</p>
+LOCATION:https://events.prace-ri.eu/event/973/registrations/708/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This is a course
+  targeted to improve the overall performance of a code in Solid Earth, 
+ currently in use at the CHEESE Center of Excellence H2020 project. 
+ Parallel performance profiling tools will be provided on the initial 
+ version of the code to find the so-called performance bottlenecks. 
+ Starting from the profiling analysis, it will show how and where to 
+ intervene with respect to the hardware characterization of the HPC machine
+  used for the investigation.</p> <p>We will show also how debug tools will
+  be useful in the development / optimization phase to eliminate any 
+ possible bugs introduced in the writing (or redesign) of new parts of the 
+ code. Finally, it will be shown how to improve the overall performance of 
+ the code with respect to other popular parameters such as I / O, 
+ vectorization, etc.</p> <p> <strong>Skills:</strong><br> At the end of the
+  course the student will be able to:</p> <p>Achieve the main information 
+ about performance of today HPC computer</p> <p>Use a concrete methodology 
+ to improve the performance of a code in Solid Earth already in use in the 
+ context of<br> ChEESE project</p> <p>Find and solve the main bottlenecks 
+ of an application with respect to appropriate computational metrics<br> 
+ and the machine used</p> <p>Use appropriate debugging tools to eliminate 
+ any bugs that may arise during the development / optimization phase</p> 
+ <p><strong>Target audience: </strong></p> <p>Researchers in Solid Earth 
+ interested to learn and use all those techniques and related tools that 
+ may allow them to improve the performance of their code on current HPC 
+ architectures in the shortest possible time.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20211019T090000
 DTEND;TZID="UTC+02:00":20211021T170000
 SUMMARY:Advanced Training on HPC for Computational Seismology
@@ -48,7 +156,7 @@ DESCRIPTION:<p>Are you interested in numerical wave simulations but feel
  Exascale in Solid Earth and supported by the <a href="https://enerxico-
  project.eu/">ENERXICO</a> project.</p>
 LOCATION:https://www.hlrs.de/training/2021-10-19-CHEESE/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Are you 
  interested in numerical wave simulations but feel like there are too many 
@@ -74,6 +182,56 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Are you
  project.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210708T090000
+DTEND;TZID="UTC+02:00":20210708T170000
+SUMMARY:Tsunami-HySEA training (University of Malta)
+UID:https://hpc-portal.eu/node/1477
+DESCRIPTION:<p>ChEESE partner Jorge Macias (UMA) conducts a training course
+  for participants from the University of Malta on 8 July 2021.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-university-
+ malta
+DTSTAMP:20220830T140833Z
+GEO:35.898546;14.515583
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ Jorge Macias (UMA) conducts a training course for participants from the 
+ University of Malta on 8 July 2021.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210524T090000
+DTEND;TZID="UTC+02:00":20210525T170000
+SUMMARY:Tsunami-HySEA training (Escuela Superior Politécnica)
+UID:https://hpc-portal.eu/node/1478
+DESCRIPTION:<p>Carlos Sanchez and Jorge Macias\, researchers from UMA\, 
+ present a Tsunami-HySEA training course at the Escuela Superior 
+ Politécnica\, Ecuador on 24-25 May 2021.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-escuela-
+ superior-politecnica
+DTSTAMP:20220830T140833Z
+GEO:-2.147712;-79.964729
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Carlos Sanchez 
+ and Jorge Macias, researchers from UMA, present a Tsunami-HySEA training 
+ course at the Escuela Superior Politécnica, Ecuador on 24-25 May 
+ 2021.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210416T090000
+DTEND;TZID="UTC+02:00":20210507T170000
+SUMMARY:Tsunami-HySEA training (Instituto de Hidráulica Ambiental de 
+ Cantabria)
+UID:https://hpc-portal.eu/node/1479
+DESCRIPTION:<p>Carlos Sanchez and Jorge Macias\, researchers from UMA\, 
+ present a Tsunami-HySEA training course at the Instituto de Hidráulica 
+ Ambiental de Cantabria\, Spain on 16 April 2021 and 7 May 2021.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-instituto-de-
+ hidraulica-ambiental-de-cantabria
+DTSTAMP:20220830T140833Z
+GEO:43.452804;-3.872601
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Carlos Sanchez 
+ and Jorge Macias, researchers from UMA, present a Tsunami-HySEA training 
+ course at the Instituto de Hidráulica Ambiental de Cantabria, Spain on 16 
+ April 2021 and 7 May 2021.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20210127T130000
 DTEND;TZID="UTC+01:00":20210129T121500
 SUMMARY:First joint CoEs Technical Workshop
@@ -85,7 +243,7 @@ DESCRIPTION:<p>This event\, which takes place on 27-29 January 2021\, is
  href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
  Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p>
 LOCATION:https://services.excellerat.eu/viewevent/10
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event, 
  which takes place on 27-29 January 2021, is open to HiDALGO, ChEESE and 
@@ -94,5 +252,133 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event,
   Workshop (27-29 Jan)</a></p> <p><a 
  href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
  Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200309T090000
+DTEND;TZID="UTC+01:00":20200309T170000
+SUMMARY:Curso sobre el Analisis del Riesgo Sísmico (Seismic Risk Analysis 
+ Course)
+UID:https://hpc-portal.eu/node/1481
+DESCRIPTION:<p>ChEESE partner <a 
+ href="https://www.uma.es/edanya/info/109897/jorge-macias-sanchez/">Jorge 
+ Macias</a> from <a href="https://www.uma.es/">UMA</a> gives a presentation
+  titled "Simulación Numérica de Tsunamis (Numerical Simulation of 
+ Tsunamis)" in Granada\, Spain on March 9\, 2020 as part of an official 
+ course hosted by Spain ́s <a href="http://www.proteccioncivil.es/escuela-
+ nacional/oferta-formativa">Direccion General de Proteccion Civil y 
+ Emergencias</a> (General Directorate of Civil Protection and Emergencies) 
+ called <a href="http://www.proteccioncivil.es/web/dgpcye/escuela-
+ nacional/oferta-formativa/detalle?_publicador_WAR_publicadorportlet_INSTAN
+ CE_0tE3IN9BcYEL_tipo=VARCHAR&amp\;_publicador_WAR_publicadorportlet_INSTAN
+ CE_0tE3IN9BcYEL_nombre=codigo&amp\;_publicador_WAR_publicadorportlet_INSTA
+ NCE_0tE3IN9BcYEL_tipo_restriccion=igual&amp\;_publicador_WAR_publicadorpor
+ tlet_INSTANCE_0tE3IN9BcYEL_valor=9317265">Curso sobre el Analisis del 
+ Riesgo Sísmico</a> ( Seismic Risk Analysis Course)</p> <p>The participants
+  of the course includes civil protection personnel from Andalusian Civil 
+ Protection and the Military Emergencies Unit\, and researchers from the 
+ Institute of National Geography.</p>
+LOCATION:https://cheese-coe.eu/events/curso-sobre-el-analisis-del-riesgo-
+ sismico-seismic-risk-analysis-course
+DTSTAMP:20220830T140833Z
+GEO:37.180873;-3.598343
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ <a href="https://www.uma.es/edanya/info/109897/jorge-macias-
+ sanchez/">Jorge Macias</a> from <a href="https://www.uma.es/">UMA</a> 
+ gives a presentation titled "Simulación Numérica de Tsunamis (Numerical 
+ Simulation of Tsunamis)" in Granada, Spain on March 9, 2020 as part of an 
+ official course hosted by Spain ́s <a 
+ href="http://www.proteccioncivil.es/escuela-nacional/oferta-
+ formativa">Direccion General de Proteccion Civil y Emergencias</a> 
+ (General Directorate of Civil Protection and Emergencies) called <a 
+ href="http://www.proteccioncivil.es/web/dgpcye/escuela-nacional/oferta-for
+ mativa/detalle?_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9BcYEL_tip
+ o=VARCHAR&amp;_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9BcYEL_nomb
+ re=codigo&amp;_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9BcYEL_tipo
+ _restriccion=igual&amp;_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9B
+ cYEL_valor=9317265">Curso sobre el Analisis del Riesgo Sísmico</a> ( 
+ Seismic Risk Analysis Course)</p> <p>The participants of the course 
+ includes civil protection personnel from Andalusian Civil Protection and 
+ the Military Emergencies Unit, and researchers from the Institute of 
+ National Geography.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20191202T090000
+DTEND;TZID="UTC+01:00":20191205T170000
+SUMMARY:HPC and natural hazards: modelling tsunamis and volcanic plumes 
+ using European flagship codes
+UID:https://hpc-portal.eu/node/1482
+DESCRIPTION:<p><strong>Objectives</strong></p> <p>This course focuses on 
+ modelling two of the highest impact natural hazards\, volcanic eruptions 
+ and tsunamis. The objective is to give a succinct theoretical overview and
+  then introduce students on the use of different HPC flagship codes 
+ included in the Center of Excellence for Exascale in Solid Earth (ChEESE).
+  ASHEE is a volcanic plume and PDC simulator based on a multiphase fluid 
+ dynamic model conceived for compressible mixtures composed of gaseous 
+ components and solid particle phases. FALL3D is a Eulerian model for the 
+ atmospheric transport and ground deposition of volcanic tephra (ash) used 
+ in operational volcanic ash dispersal forecasts routinely used to prevent 
+ aircraft encounters with volcanic ash clouds and to perform re-routings 
+ avoiding contaminated airspace areas. T-HySEA solves the 2D shallow water 
+ equations on hydrostatic and dispersive versions. Based on a high-order 
+ Finite Volume (FV) discretisation (hydrostatic) with Finite Differences 
+ (FD) for the dispersive version on two-way structured nested meshes in 
+ spherical coordinates. Together with hands-on sessions\, the course will 
+ also tackle post-process strategies based on python. In recent years\, the
+  Python programming language has become one of the most popular choice for
+  geoscientists. Python is a modern\, interpreted\, object-oriented\, open-
+ source language easy to learn\, easy to read\, and fast to write. The 
+ proliferation of multiple open-source projects with libraries available 
+ every day\, have facilitated a rapid scientific development in the 
+ geoscience community. In addition\, the modern data structures and object-
+ oriented nature of the language along with an elegant syntax\, enable 
+ Earth scientists to write more robust and less buggy code.</p> 
+ <p><strong>Requirements</strong></p> <p>-At least University degree in 
+ progress on Earth Sciences\, Computer Sciences or related area.<br> -Basic
+  knowledge of LINUX<br> -Knowledge of C\, FORTRAN\, MPI or openMP is 
+ recommended<br> -Knowledge of Earth Sciences data formats is recommended 
+ (grib\, netcdf\, hdf\,...)<br> -Basic knowledge of python</p> 
+ <p><strong>Learning Outcomes</strong></p> <p>Participants will learn and 
+ gain experience in installing SE codes and related utilities and 
+ libraries\, running numerical simulations\, monitoring the execution of 
+ supercomputing jobs\, analyzing and visualizing model results.</p>
+LOCATION:https://events.prace-ri.eu/event/906/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives</strong></p> <p>This course focuses
+  on modelling two of the highest impact natural hazards, volcanic 
+ eruptions and tsunamis. The objective is to give a succinct theoretical 
+ overview and then introduce students on the use of different HPC flagship 
+ codes included in the Center of Excellence for Exascale in Solid Earth 
+ (ChEESE). ASHEE is a volcanic plume and PDC simulator based on a 
+ multiphase fluid dynamic model conceived for compressible mixtures 
+ composed of gaseous components and solid particle phases. FALL3D is a 
+ Eulerian model for the atmospheric transport and ground deposition of 
+ volcanic tephra (ash) used in operational volcanic ash dispersal forecasts
+  routinely used to prevent aircraft encounters with volcanic ash clouds 
+ and to perform re-routings avoiding contaminated airspace areas. T-HySEA 
+ solves the 2D shallow water equations on hydrostatic and dispersive 
+ versions. Based on a high-order Finite Volume (FV) discretisation 
+ (hydrostatic) with Finite Differences (FD) for the dispersive version on 
+ two-way structured nested meshes in spherical coordinates. Together with 
+ hands-on sessions, the course will also tackle post-process strategies 
+ based on python. In recent years, the Python programming language has 
+ become one of the most popular choice for geoscientists. Python is a 
+ modern, interpreted, object-oriented, open-source language easy to learn, 
+ easy to read, and fast to write. The proliferation of multiple open-source
+  projects with libraries available every day, have facilitated a rapid 
+ scientific development in the geoscience community. In addition, the 
+ modern data structures and object-oriented nature of the language along 
+ with an elegant syntax, enable Earth scientists to write more robust and 
+ less buggy code.</p> <p><strong>Requirements</strong></p> <p>-At least 
+ University degree in progress on Earth Sciences, Computer Sciences or 
+ related area.<br> -Basic knowledge of LINUX<br> -Knowledge of C, FORTRAN, 
+ MPI or openMP is recommended<br> -Knowledge of Earth Sciences data formats
+  is recommended (grib, netcdf, hdf,...)<br> -Basic knowledge of python</p>
+  <p><strong>Learning Outcomes</strong></p> <p>Participants will learn and 
+ gain experience in installing SE codes and related utilities and 
+ libraries, running numerical simulations, monitoring the execution of 
+ supercomputing jobs, analyzing and visualizing model 
+ results.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

@@ -2,6 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
 TZID:UTC+01:00
 BEGIN:STANDARD
 TZOFFSETFROM:+0000
@@ -12,6 +22,39 @@ TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220621T120000
+DTEND;TZID="UTC+02:00":20220621T180000
+SUMMARY:Data management and publication – A DICE & CompBioMed Hackathon
+UID:https://hpc-portal.eu/node/1485
+DESCRIPTION:<p>Join us for an exciting <strong>Hackathon</strong> where you
+  will obtain hands-on experience in using the <strong>new 
+ services</strong> implemented in the <strong>CompBioMed project over the 
+ DICE facilities</strong>.</p> <p>Find out how computational biomedical 
+ researchers are using the DICE Data Management services to manage their 
+ federated data in a FAIR way.</p> <p>If you are a researcher or programmer
+  responsible for implementing data handling in your project\, then this 
+ hackathon is for you! We will spend an entire afternoon together on the 
+ premises of the CINECA High-Performance Computing Centre <strong>in 
+ Bologna\, Italy.</strong> Bring your own computer\, and samples of your 
+ data that you would like to work on.</p>
+LOCATION:https://www.dice-eosc.eu/news-events/events/data-management-and-
+ publication-dicecompbiomed-hackathon
+DTSTAMP:20220830T140833Z
+GEO:44.486267;11.259935
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Join us for an 
+ exciting <strong>Hackathon</strong> where you will obtain hands-on 
+ experience in using the <strong>new services</strong> implemented in the 
+ <strong>CompBioMed project over the DICE facilities</strong>.</p> <p>Find 
+ out how computational biomedical researchers are using the DICE Data 
+ Management services to manage their federated data in a FAIR way.</p> 
+ <p>If you are a researcher or programmer responsible for implementing data
+  handling in your project, then this hackathon is for you! We will spend 
+ an entire afternoon together on the premises of the CINECA High-
+ Performance Computing Centre <strong>in Bologna, Italy.</strong> Bring 
+ your own computer, and samples of your data that you would like to work 
+ on.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20220215T100000
 DTEND;TZID="UTC+01:00":20220218T133000
 SUMMARY:[ONLINE] PATC: Short course on HPC-based Computational Bio-Medicine
@@ -21,12 +64,131 @@ DESCRIPTION:<p>The objetive of this course is to give a panorama on the use
   is delivered in collaboration with the centers of excellence CompBioMed2 
  and PerMedCoE.</p>
 LOCATION:https://events.prace-ri.eu/event/1317/registrations/976/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The objetive of 
  this course is to give a panorama on the use of hpc-based computational 
  mechanics in Biomedical Sciences. The training is delivered in 
  collaboration with the centers of excellence CompBioMed2 and 
  PerMedCoE.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210216T090000
+DTEND;TZID="UTC+01:00":20210219T170000
+SUMMARY:Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1483
+DESCRIPTION:<p><strong>Objectives:</strong>The objetive of this course is 
+ to give a panorama on the use of HPC-based computational mechanics in 
+ Engineering and Environment through the projects BSC are carrying on. This
+  panorama includes the basics of what is behind the main tools: 
+ computational mechanics and parallelization. The training is delivered in 
+ collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial\, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition\, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p> <p><strong>Level: 
+ </strong>INTERMEDIATE: For trainees with some theoretical and practical 
+ knowledge</p>
+LOCATION:https://events.prace-ri.eu/event/1130/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives:</strong>The objetive of this 
+ course is to give a panorama on the use of HPC-based computational 
+ mechanics in Engineering and Environment through the projects BSC are 
+ carrying on. This panorama includes the basics of what is behind the main 
+ tools: computational mechanics and parallelization. The training is 
+ delivered in collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition, the student has the opportunity of running Jobs 
+ in Marenostrum supercomputer.</p> <p><strong>Level: </strong>INTERMEDIATE:
+  For trainees with some theoretical and practical 
+ knowledge</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20201203T090000
+DTEND;TZID="UTC+01:00":20201210T170000
+SUMMARY:Online course Cluster computing for computational science
+UID:https://hpc-portal.eu/node/1486
+DESCRIPTION:<h2>Practical training to learn how to use a supercomputer</h2>
+  <p>If you have to perform many calculations or analyses that are too 
+ large for your own system\, clusters and supercomputers provide the 
+ necessary computing power. In this training you do practical exercises to 
+ learn how to use a supercomputer facility effectively\, in particular with
+  the national compute cluster Lisa and the national supercomputer 
+ Cartesius.</p> <p>Moreover\, you get to know some examples of real-world 
+ scientific simulations with significant computational requirements\, such 
+ as blood flow simulations and protein docking\, and therefore you learn 
+ about the different needs for parallel executions for them.</p> <p>This 
+ course is sponsored by the <a href="https://www.compbiomed.eu/">CompBioMed
+  Center of Excellence</a>.</p> <h2>Program</h2> <ul> <li>Session 1 (3 
+ December\, 15:00 - 19:00): Learn how to work with a supercomputer and 
+ advanced Linux tools with hands-on exercises</li> <li>Session 2 (10 
+ December\, 15:00 - 19:00): Parallel computing and applications for 
+ computational science with hands-on exercises</li> </ul> <h2>For 
+ whom?</h2> <p>This course aims at anyone who wants to know how to perform 
+ huge compute tasks applied to different scientific fields. The working 
+ language is English.</p> <h2>Requirements</h2> <p>Basic knowledge of <a 
+ href="https://swcarpentry.github.io/shell-novice/">Unix shell</a> is 
+ useful.</p>
+LOCATION:https://www.surf.nl/en/agenda/online-course-cluster-computing-for-
+ computational-science
+DTSTAMP:20220830T140833Z
+GEO:52.356964;4.954480
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Practical 
+ training to learn how to use a supercomputer</h2> <p>If you have to 
+ perform many calculations or analyses that are too large for your own 
+ system, clusters and supercomputers provide the necessary computing power.
+  In this training you do practical exercises to learn how to use a 
+ supercomputer facility effectively, in particular with the national 
+ compute cluster Lisa and the national supercomputer Cartesius.</p> 
+ <p>Moreover, you get to know some examples of real-world scientific 
+ simulations with significant computational requirements, such as blood 
+ flow simulations and protein docking, and therefore you learn about the 
+ different needs for parallel executions for them.</p> <p>This course is 
+ sponsored by the <a href="https://www.compbiomed.eu/">CompBioMed Center of
+  Excellence</a>.</p> <h2>Program</h2> <ul> <li>Session 1 (3 December, 
+ 15:00 - 19:00): Learn how to work with a supercomputer and advanced Linux 
+ tools with hands-on exercises</li> <li>Session 2 (10 December, 15:00 - 
+ 19:00): Parallel computing and applications for computational science with
+  hands-on exercises</li> </ul> <h2>For whom?</h2> <p>This course aims at 
+ anyone who wants to know how to perform huge compute tasks applied to 
+ different scientific fields. The working language is English.</p> 
+ <h2>Requirements</h2> <p>Basic knowledge of <a 
+ href="https://swcarpentry.github.io/shell-novice/">Unix shell</a> is 
+ useful.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200211T090000
+DTEND;TZID="UTC+01:00":20200213T170000
+SUMMARY:PATC: Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1484
+DESCRIPTION:<h2>Objectives</h2> <p>The objetive of this course is to give a
+  panorama on the use of hpc-based computational mechanics in Engineering 
+ and Environment through the projects BSC are carrying on. This panorama 
+ includes the basics of what is behind the main tools: computational 
+ mechanics and parallelization. The training is delivered in collaboration 
+ with the center of excellence CompBioMed.</p> <h2>Learning Outcomes</h2> 
+ <p>The course gives a wide perspective and the latest trends of how HPC 
+ helps in industrial\, clinical and research applications allowing to 
+ achieve more realistic multiphysics simulations. In addition\, the student
+  has the opportunity of running Jobs in Marenostrum supercomputer.</p>
+LOCATION:https://events.prace-ri.eu/event/912/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Objectives</h2>
+  <p>The objetive of this course is to give a panorama on the use of hpc-
+ based computational mechanics in Engineering and Environment through the 
+ projects BSC are carrying on. This panorama includes the basics of what is
+  behind the main tools: computational mechanics and parallelization. The 
+ training is delivered in collaboration with the center of excellence 
+ CompBioMed.</p> <h2>Learning Outcomes</h2> <p>The course gives a wide 
+ perspective and the latest trends of how HPC helps in industrial, clinical
+  and research applications allowing to achieve more realistic multiphysics
+  simulations. In addition, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

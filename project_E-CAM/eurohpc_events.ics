@@ -2,6 +2,16 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
 TZID:UTC+01:00
 BEGIN:STANDARD
 TZOFFSETFROM:+0000
@@ -11,6 +21,167 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220725T090000
+DTEND;TZID="UTC+02:00":20220729T170000
+SUMMARY:Modeling Materials at Realistic time Scales via Optimal 
+ Exploitation of Exascale Computers and Artificial Intelligence
+UID:https://hpc-portal.eu/node/1442
+DESCRIPTION:<p>The event is planned in terms of two stages: a high-level 
+ CECAM workshop and a subsequent hands-on tutorial. Both activities address
+  the concepts and implementations that are needed in order to link the 
+ Quantum Mechanical (QM) description of electrons in materials\, to the 
+ statistical mechanics principles that address the larger time and length 
+ scales governing real-life situations.</p> <p>During the first 3 days\, 
+ the workshop will focus on recent and important developments 
+ addressing<strong> exascale scientific computing applications </strong>and
+  related<strong> artificial intelligence (AI) methods\, </strong>with a 
+ specific focus on urgent and critical aspects in the domain of 
+ computational materials science. In particular\, we will address how 
+ exascale computing can contribute to the enhanced performance of materials
+  modeling\, in terms of higher accuracy\, precision and degree of inter-
+ operability between different modeling length- and time-scales. These 
+ technical aspects will be <strong>presented and discussed by leading 
+ experts in different domains</strong>\, thus giving the opportunity to 
+ explore similarities and differences in the various current state-of-the-
+ art approaches towards exascale computing\, as well as the management of 
+ modeling workflows and corresponding output data of interesting materials 
+ properties.</p> <p>Then the following 2 days will consist of tutorials and
+  hands-on demonstrations that will focus on recent progress in (1) first 
+ principles simulations and (2) advanced sampling methods and software\, 
+ and (3) the coupling of first principles molecular dynamics simulations 
+ and advanced sampling methods. In particular\, examples using the <a 
+ href="http://qboxcode.org/">Qbox</a> code coupled with with the <a 
+ href="https://ssagesproject.github.io/">SSAGES suite of codes</a> and <a 
+ href="http://ipi-code.org/">I-Pi</a> will be discussed in detail\, with 
+ several hands-on examples.</p> <h3>General Scope</h3> <p>Real materials 
+ are not necessarily in thermal equilibrium\, and a careful understanding 
+ of the micro-structure of any material (e.g. grains and grain boundaries) 
+ is crucial for the estimation of important materials properties and 
+ functions. Thus\, QM techniques have necessarily to be connected to 
+ molecular mechanics (MM)\, large-scale molecular dynamics (MD)\, kinetic 
+ Monte Carlo (kMC)\, and computational fluid dynamics (CFD)\, just to name 
+ a few methodologies. Very importantly\, we need robust connections between
+  all such modelling techniques\, including a detailed understanding of the
+  various errors and uncertainties involved. Moreover\, in order to 
+ properly interpret the corresponding results\, we need all such inter-
+ connections to be fully reversible\, i.e. not just able to transition from
+  small to large scales but also conversely.</p> <p>The Handbook of 
+ Materials Modeling (2005) is one of the main classical references in this 
+ domain of scientific computing [1]\, and its 2nd edition has since 
+ appeared in 2020 [2]. This has now turned into a six-volume major review 
+ masterwork\, reflecting the significant developments in all aspects 
+ pertaining to computational materials research over the past decade or 
+ so\, including major progress in the formulation of increasingly realistic
+  multi-scale modeling approaches\, workflows and models. However\, two 
+ recent innovations in materials modeling applications are still relatively
+  poorly and sparsely covered in the currently available review 
+ literature\, namely <strong>exascale computing</strong> and related 
+ <strong>artificial intelligence (AI)-based methods</strong>. These two 
+ topics will be the main focus of our attention within our proposed 
+ workshop and associated tutorial school.</p> <p>[1] Handbook of Materials 
+ Modeling\, 2005\, S. Yip (ed)\, ISBN 978-1402032875\, Springer\, Cham<br> 
+ [2] Handbook of Materials Modeling\, 2nd ed.\, 2020\, W. Andreoni and S. 
+ Yip (eds)\, ISBN 978-3319788760\, Springer\, Cham</p> <h3>Format</h3> 
+ <p>The event will start with a <strong>high-level workshop (3 
+ days)</strong>. Talks\, discussions\, and poster sessions will be held as 
+ a<strong> regular meeting involving the physical presence of all 
+ participants</strong> (some but very few talks may be presented 
+ virtually).</p> <p>Each of the five main sessions during the first part of
+  the workshop (throughout the first three days) will start with an 
+ <strong>introduction (15 minutes)</strong> by a renowned scientist\, the 
+ so-called <strong>“moderator”</strong> for that particular session. The 
+ subsequent talks in the corresponding session will then last for 
+ <strong>30 minutes each</strong>\, and will be followed in turn by 
+ <strong>10 minutes of general Q&amp\;A discussion</strong>.</p> <p>The 
+ <strong>following 2-day hands-on tutorial</strong> will include coupling 
+ first principles molecular dynamics simulations and advanced sampling 
+ methods using the <a href="http://qboxcode.org/">Qbox</a> code coupled 
+ with with the <a href="https://ssagesproject.github.io/">SSAGES suite of 
+ codes</a> and <a href="http://ipi-code.org/">I-Pi</a>. Several examples 
+ will be discussed with hands-on demonstrations\, and opportunities will be
+  provided for students to develop simulation strategies of direct 
+ relevance to their own research with the help of expert instructors.</p>
+LOCATION:https://iris-adlershof.de/en/modelingmaterialsworkshop.html
+DTSTAMP:20220830T140833Z
+GEO:52.433627;13.531931
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The event is 
+ planned in terms of two stages: a high-level CECAM workshop and a 
+ subsequent hands-on tutorial. Both activities address the concepts and 
+ implementations that are needed in order to link the Quantum Mechanical 
+ (QM) description of electrons in materials, to the statistical mechanics 
+ principles that address the larger time and length scales governing real-
+ life situations.</p> <p>During the first 3 days, the workshop will focus 
+ on recent and important developments addressing<strong> exascale 
+ scientific computing applications </strong>and related<strong> artificial 
+ intelligence (AI) methods, </strong>with a specific focus on urgent and 
+ critical aspects in the domain of computational materials science. In 
+ particular, we will address how exascale computing can contribute to the 
+ enhanced performance of materials modeling, in terms of higher accuracy, 
+ precision and degree of inter-operability between different modeling 
+ length- and time-scales. These technical aspects will be <strong>presented
+  and discussed by leading experts in different domains</strong>, thus 
+ giving the opportunity to explore similarities and differences in the 
+ various current state-of-the-art approaches towards exascale computing, as
+  well as the management of modeling workflows and corresponding output 
+ data of interesting materials properties.</p> <p>Then the following 2 days
+  will consist of tutorials and hands-on demonstrations that will focus on 
+ recent progress in (1) first principles simulations and (2) advanced 
+ sampling methods and software, and (3) the coupling of first principles 
+ molecular dynamics simulations and advanced sampling methods. In 
+ particular, examples using the <a href="http://qboxcode.org/">Qbox</a> 
+ code coupled with with the <a 
+ href="https://ssagesproject.github.io/">SSAGES suite of codes</a> and <a 
+ href="http://ipi-code.org/">I-Pi</a> will be discussed in detail, with 
+ several hands-on examples.</p> <h3>General Scope</h3> <p>Real materials 
+ are not necessarily in thermal equilibrium, and a careful understanding of
+  the micro-structure of any material (e.g. grains and grain boundaries) is
+  crucial for the estimation of important materials properties and 
+ functions. Thus, QM techniques have necessarily to be connected to 
+ molecular mechanics (MM), large-scale molecular dynamics (MD), kinetic 
+ Monte Carlo (kMC), and computational fluid dynamics (CFD), just to name a 
+ few methodologies. Very importantly, we need robust connections between 
+ all such modelling techniques, including a detailed understanding of the 
+ various errors and uncertainties involved. Moreover, in order to properly 
+ interpret the corresponding results, we need all such inter-connections to
+  be fully reversible, i.e. not just able to transition from small to large
+  scales but also conversely.</p> <p>The Handbook of Materials Modeling 
+ (2005) is one of the main classical references in this domain of 
+ scientific computing [1], and its 2nd edition has since appeared in 2020 
+ [2]. This has now turned into a six-volume major review masterwork, 
+ reflecting the significant developments in all aspects pertaining to 
+ computational materials research over the past decade or so, including 
+ major progress in the formulation of increasingly realistic multi-scale 
+ modeling approaches, workflows and models. However, two recent innovations
+  in materials modeling applications are still relatively poorly and 
+ sparsely covered in the currently available review literature, namely 
+ <strong>exascale computing</strong> and related <strong>artificial 
+ intelligence (AI)-based methods</strong>. These two topics will be the 
+ main focus of our attention within our proposed workshop and associated 
+ tutorial school.</p> <p>[1] Handbook of Materials Modeling, 2005, S. Yip 
+ (ed), ISBN 978-1402032875, Springer, Cham<br> [2] Handbook of Materials 
+ Modeling, 2nd ed., 2020, W. Andreoni and S. Yip (eds), ISBN 
+ 978-3319788760, Springer, Cham</p> <h3>Format</h3> <p>The event will start
+  with a <strong>high-level workshop (3 days)</strong>. Talks, discussions,
+  and poster sessions will be held as a<strong> regular meeting involving 
+ the physical presence of all participants</strong> (some but very few 
+ talks may be presented virtually).</p> <p>Each of the five main sessions 
+ during the first part of the workshop (throughout the first three days) 
+ will start with an <strong>introduction (15 minutes)</strong> by a 
+ renowned scientist, the so-called <strong>“moderator”</strong> for that 
+ particular session. The subsequent talks in the corresponding session will
+  then last for <strong>30 minutes each</strong>, and will be followed in 
+ turn by <strong>10 minutes of general Q&amp;A discussion</strong>.</p> 
+ <p>The <strong>following 2-day hands-on tutorial</strong> will include 
+ coupling first principles molecular dynamics simulations and advanced 
+ sampling methods using the <a href="http://qboxcode.org/">Qbox</a> code 
+ coupled with with the <a href="https://ssagesproject.github.io/">SSAGES 
+ suite of codes</a> and <a href="http://ipi-code.org/">I-Pi</a>. Several 
+ examples will be discussed with hands-on demonstrations, and opportunities
+  will be provided for students to develop simulation strategies of direct 
+ relevance to their own research with the help of expert 
+ instructors.</p></BODY></HTML>
+END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20210118T090000
 DTEND;TZID="UTC+01:00":20210122T170000
@@ -64,7 +235,7 @@ DESCRIPTION:<p>Mesoscale simulations have grown recently in importance due
  0.1016/j.cpc.2020.107159">https://doi.org/10.1016/j.cpc.2020.107159</a></l
  i> </ul>
 LOCATION:https://www.cecam.org/workshop-details/8
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:53.343521;-2.640737
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Mesoscale 
  simulations have grown recently in importance due to their capacity of 

@@ -37,7 +37,7 @@ DESCRIPTION:<p>This course is targeted at researchers with basic knowledge
  learn how to build interactive 3D Models for Virtual Environments and how 
  to set up an Augmented Reality visualization.</p>
 LOCATION:https://www.hlrs.de/contact
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
  targeted at researchers with basic knowledge in numerical simulation, who 
@@ -74,7 +74,7 @@ DESCRIPTION:<p>This course has been postponed from the original date May
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://www.hlrs.de/training/2022/ML4SIM2
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course has 
  been postponed from the original date May 9-11. 2022.</p> 
@@ -118,7 +118,7 @@ DESCRIPTION:<p><strong>This course is a second instance of the same course
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://www.hlrs.de/training/2022/ML4SIM3
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>This 
  course is a second instance of the same course provided on June 13-15 
@@ -165,7 +165,7 @@ DESCRIPTION:<p>The <a
  ENGINES\, SAFRAN HELICOPTER ENGINES\, ARIANEGROUP\, HERAKLES\, TOTAL\, 
  etc.).</p>
 LOCATION:https://services.excellerat.eu/viewevent/60
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:43.574084;1.376453
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The <a 
  href="https://services.excellerat.eu/viewcode/5">AVBP</a> code is a 
@@ -212,7 +212,7 @@ DESCRIPTION:<p><strong>This course is a second instance of the same course
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://hpc-portal.eu/node/805
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>This 
  course is a second instance of the same course provided on December 13-14,
@@ -255,7 +255,7 @@ DESCRIPTION:<p><strong>This course is a second instance of the same course
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://www.hlrs.de/training/2021/ML4SIM/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>This 
  course is a second instance of the same course provided on December 13-14,
@@ -292,7 +292,7 @@ DESCRIPTION:<p>OpenFOAM is a widely-used open-source code in computational
  systems</a>.</p> <p>This course will be provided in cooperation with <a 
  href="https://www.excellerat.eu">EXCELLERAT</a>.</p>
 LOCATION:https://services.excellerat.eu/viewevent/54
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM is a 
  widely-used open-source code in computational fluid dynamics (CFD). 
@@ -323,7 +323,7 @@ DESCRIPTION:<p>This course is targeted at researchers with basic knowledge
  learn how to build interactive 3D Models for Virtual Environments and how 
  to set up an Augmented Reality visualization.</p>
 LOCATION:http://www.hlrs.de/contact/how-to-find-us/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
  targeted at researchers with basic knowledge in numerical simulation, who 
@@ -358,7 +358,7 @@ DESCRIPTION:<p>In this one-day training\, we will give an overview of the
  order and efficient parallelisation is clearly a distinguishing feature in
   situations when high fidelity simulation data is required.</p>
 LOCATION:https://services.excellerat.eu/viewevent/49
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In this one-day 
  training, we will give an overview of the capabilities and features of 
@@ -403,7 +403,7 @@ DESCRIPTION:<p>This HLRS course addresses students\, data scientists\, and
  optimize data storage. The lectures are interleaved with many hands-on 
  sessions using Jupyter Notebooks and scripts on HLRS systems.</p>
 LOCATION:https://services.excellerat.eu/viewevent/42
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This HLRS course
   addresses students, data scientists, and researchers who would like to 
@@ -436,7 +436,7 @@ DESCRIPTION:<p>This course will be a deep dive in the CDNA (AMD GPU)
  href="https://www.hlrs.de/training/2021/AMD3">course website</a> for all 
  information.</p>
 LOCATION:https://services.excellerat.eu/viewevent/46
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course will
   be a deep dive in the CDNA (AMD GPU) architecture and ecosystem. 
@@ -459,7 +459,7 @@ DESCRIPTION:<p>Despite its age\, Fortran remains the dominant programming
  be more involved in the future of the language via the <a 
  href="https://fortran-lang.org/">new website</a>.</p>
 LOCATION:https://services.excellerat.eu/viewevent/39
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.597590;2.198736
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Despite its age,
   Fortran remains the dominant programming language for high performance 
@@ -499,7 +499,7 @@ DESCRIPTION:<p>The <a
  ENGINES\, SAFRAN HELICOPTER ENGINES\, ARIANEGROUP\, HERAKLES\, TOTAL\, 
  etc.).</p>
 LOCATION:https://services.excellerat.eu/viewevent/38
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:43.574084;1.376453
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The <a 
  href="https://services.excellerat.eu/viewcode/5">AVBP</a> code is a 
@@ -543,7 +543,7 @@ DESCRIPTION:<p>As part of the EXCELLERAT training program\, <a
  will be open for all partners and corresponding institutes of 
  EXCELLERAT.</p>
 LOCATION:https://services.excellerat.eu/viewevent/8
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.749501;7.203595
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As part of the 
  EXCELLERAT training program, <a 
@@ -573,7 +573,7 @@ DESCRIPTION:<p>This event\, which takes place on 27-29 January 2021\, is
  href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
  Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p>
 LOCATION:https://services.excellerat.eu/viewevent/10
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event, 
  which takes place on 27-29 January 2021, is open to HiDALGO, ChEESE and 
@@ -597,7 +597,7 @@ DESCRIPTION:<p>Participants will be introduced to AMD's Instinct GPU
  profiling tools for AMD GPUs.</p> <p>This course provides training in 
  distributed Machine Learning.</p>
 LOCATION:https://services.excellerat.eu/viewevent/29
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Participants 
  will be introduced to AMD's Instinct GPU portfolio and ROCm software 

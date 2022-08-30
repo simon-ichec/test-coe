@@ -1,4 +1,60 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220826T090000
+DTEND;TZID="UTC+02:00":20220826T170000
+SUMMARY:EoCoE School 2022
+UID:https://hpc-portal.eu/node/1487
+DESCRIPTION:<p>EoCoE School offers collaborative online learning 
+ opportunities on Energy-oriented Centre of Excellence project tools and 
+ codes. In its mission to accelerate the transition to the production\, 
+ storage and management of clean\, decarbonized energy\, EoCoE channels its
+  efforts into 5 scientific Exascale challenges in the low-carbon sectors 
+ of Energy Meteorology\, Materials\, Water\, Wind and Fusion. A world-class
+  consortium of 18 complementary partners from 7 countries form a unique 
+ network of expertise in energy science\, scientific computing and HPC\, 
+ including 3 leading European supercomputing centres.</p> <p>Participants 
+ will be taught for free and supported online by experts in High 
+ Performance Computing and in Sustainable Energies. This event creates a 
+ great opportunity to share experience and learn more about EoCoE technical
+  and industrial work. During the hand-on sessions attendees will be using 
+ the EoCoE SaaS Portal that benefits from the Altair supercomputer (Top 
+ 500). At the end of the event each participant will be awarded with 
+ certification.<br> Target audience are scientists and researchers from 
+ academia and industry from across Europe. A preliminary unified session on
+  the school’s technical environment will be held.</p>
+LOCATION:https://www.eocoe.eu/workshops/eocoe-school-2022/
+DTSTAMP:20220830T140833Z
+GEO:48.725016;2.157492
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>EoCoE School 
+ offers collaborative online learning opportunities on Energy-oriented 
+ Centre of Excellence project tools and codes. In its mission to accelerate
+  the transition to the production, storage and management of clean, 
+ decarbonized energy, EoCoE channels its efforts into 5 scientific Exascale
+  challenges in the low-carbon sectors of Energy Meteorology, Materials, 
+ Water, Wind and Fusion. A world-class consortium of 18 complementary 
+ partners from 7 countries form a unique network of expertise in energy 
+ science, scientific computing and HPC, including 3 leading European 
+ supercomputing centres.</p> <p>Participants will be taught for free and 
+ supported online by experts in High Performance Computing and in 
+ Sustainable Energies. This event creates a great opportunity to share 
+ experience and learn more about EoCoE technical and industrial work. 
+ During the hand-on sessions attendees will be using the EoCoE SaaS Portal 
+ that benefits from the Altair supercomputer (Top 500). At the end of the 
+ event each participant will be awarded with certification.<br> Target 
+ audience are scientists and researchers from academia and industry from 
+ across Europe. A preliminary unified session on the school’s technical 
+ environment will be held.</p></BODY></HTML>
+END:VEVENT
 END:VCALENDAR

@@ -21,7 +21,7 @@ DESCRIPTION:<p>The objetive of this course is to give a panorama on the use
   is delivered in collaboration with the centers of excellence CompBioMed2 
  and PerMedCoE.</p>
 LOCATION:https://events.prace-ri.eu/event/1317/registrations/976/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The objetive of 
  this course is to give a panorama on the use of hpc-based computational 
@@ -45,7 +45,7 @@ DESCRIPTION:<p>This course introduces HPC to life science researchers\,
  through examples drawn from the life sciences\, such as biomolecular 
  simulation.</p>
 LOCATION:https://events.prace-ri.eu/event/1304/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
  introduces HPC to life science researchers, focusing on the aspects that 
@@ -57,5 +57,71 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course
  an opportunity to gain hands-on practical experience and assistance using 
  an HPC system (MARENOSTRUM) through examples drawn from the life sciences,
   such as biomolecular simulation.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210216T090000
+DTEND;TZID="UTC+01:00":20210219T170000
+SUMMARY:Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1483
+DESCRIPTION:<p><strong>Objectives:</strong>The objetive of this course is 
+ to give a panorama on the use of HPC-based computational mechanics in 
+ Engineering and Environment through the projects BSC are carrying on. This
+  panorama includes the basics of what is behind the main tools: 
+ computational mechanics and parallelization. The training is delivered in 
+ collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial\, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition\, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p> <p><strong>Level: 
+ </strong>INTERMEDIATE: For trainees with some theoretical and practical 
+ knowledge</p>
+LOCATION:https://events.prace-ri.eu/event/1130/
+DTSTAMP:20220830T140834Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives:</strong>The objetive of this 
+ course is to give a panorama on the use of HPC-based computational 
+ mechanics in Engineering and Environment through the projects BSC are 
+ carrying on. This panorama includes the basics of what is behind the main 
+ tools: computational mechanics and parallelization. The training is 
+ delivered in collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition, the student has the opportunity of running Jobs 
+ in Marenostrum supercomputer.</p> <p><strong>Level: </strong>INTERMEDIATE:
+  For trainees with some theoretical and practical 
+ knowledge</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200211T090000
+DTEND;TZID="UTC+01:00":20200213T170000
+SUMMARY:PATC: Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1484
+DESCRIPTION:<h2>Objectives</h2> <p>The objetive of this course is to give a
+  panorama on the use of hpc-based computational mechanics in Engineering 
+ and Environment through the projects BSC are carrying on. This panorama 
+ includes the basics of what is behind the main tools: computational 
+ mechanics and parallelization. The training is delivered in collaboration 
+ with the center of excellence CompBioMed.</p> <h2>Learning Outcomes</h2> 
+ <p>The course gives a wide perspective and the latest trends of how HPC 
+ helps in industrial\, clinical and research applications allowing to 
+ achieve more realistic multiphysics simulations. In addition\, the student
+  has the opportunity of running Jobs in Marenostrum supercomputer.</p>
+LOCATION:https://events.prace-ri.eu/event/912/
+DTSTAMP:20220830T140834Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Objectives</h2>
+  <p>The objetive of this course is to give a panorama on the use of hpc-
+ based computational mechanics in Engineering and Environment through the 
+ projects BSC are carrying on. This panorama includes the basics of what is
+  behind the main tools: computational mechanics and parallelization. The 
+ training is delivered in collaboration with the center of excellence 
+ CompBioMed.</p> <h2>Learning Outcomes</h2> <p>The course gives a wide 
+ perspective and the latest trends of how HPC helps in industrial, clinical
+  and research applications allowing to achieve more realistic multiphysics
+  simulations. In addition, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

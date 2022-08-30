@@ -2,16 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VTIMEZONE
-TZID:UTC+02:00
-BEGIN:STANDARD
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0200
-DTSTART:19700101T000000
-RRULE:FREQ=YEARLY;COUNT=1
-TZNAME:UTC+02:00
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:UTC+01:00
 BEGIN:STANDARD
 TZOFFSETFROM:+0000
@@ -21,6 +11,360 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20221122T090000
+DTEND;TZID="UTC+01:00":20221124T170000
+SUMMARY:Advanced HPC Workshop for MPG and NOMAD
+UID:https://hpc-portal.eu/node/1445
+DESCRIPTION:<p>This workshop helps HPC developers to better manage\, debug 
+ and profile their code. One day is dedicated to GPU programming.</p> 
+ <p>MPCDF organizes an advanced HPC workshop for users of the MPG and of 
+ the <a href="https://www.nomad-coe.eu/">EU Center of Excellence NOMAD</a> 
+ from Tuesday\, November 22nd until Thursday\, November 24th\, 2022. We 
+ plan to give the lectures in a hybrid fashion\, onsite and streamed 
+ online. The hands-on part will be onsite at the MPCDF in Garching if the 
+ pandemic situation permits. The main topics of the lectures are</p> <ul> 
+ <li>Debugging and profiling of CPU and GPU codes</li> <li>Porting codes to
+  GPU-accelerated systems</li> </ul> <p>As a prerequisite\, we require 
+ participants to have an account for the HPC machines of MPCDF and are 
+ already familiar with accessing\, building and running their codes. The 
+ workshop is open to code developers of the NOMAD CoE\, who will 
+ specifically learn about GPUs as the main building blocks for 
+ (pre-)exascale systems and how to develop and optimize codes on such 
+ platforms.</p> <p>If you are interested in bringing in your own code to 
+ work with the experts and to apply the techniques and tools taught in the 
+ lectures\, please apply by adding a short description of your code and 
+ specific goals in the registration form. The entire Thursday\, November 
+ 24th is dedicated to working on the selected code projects.</p> <p>The 
+ workshop will be given by members of the application group of the MPCDF 
+ together with experts from Intel and Nvidia. The registration is open and 
+ can be accessed via the link on the left. The deadline for registration 
+ for the lectures is November 12th\, for pure online participation\, you 
+ can register until November 18th.</p> <p>The applicants for the hands-on 
+ day are asked to test the building of the code on Raven and to prepare a 
+ representative test case for the problem that they want to inspect 
+ (ideally the test can be run on a single Raven node\, either GPU or CPU) 
+ in advance of the workshop. Assistance by MPCDF is provided on 
+ request.</p>
+LOCATION:https://www.mpcdf.mpg.de/events/31623/14192
+DTSTAMP:20220830T140834Z
+GEO:48.261289;11.671093
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This workshop 
+ helps HPC developers to better manage, debug and profile their code. One 
+ day is dedicated to GPU programming.</p> <p>MPCDF organizes an advanced 
+ HPC workshop for users of the MPG and of the <a href="https://www.nomad-
+ coe.eu/">EU Center of Excellence NOMAD</a> from Tuesday, November 22nd 
+ until Thursday, November 24th, 2022. We plan to give the lectures in a 
+ hybrid fashion, onsite and streamed online. The hands-on part will be 
+ onsite at the MPCDF in Garching if the pandemic situation permits. The 
+ main topics of the lectures are</p> <ul> <li>Debugging and profiling of 
+ CPU and GPU codes</li> <li>Porting codes to GPU-accelerated systems</li> 
+ </ul> <p>As a prerequisite, we require participants to have an account for
+  the HPC machines of MPCDF and are already familiar with accessing, 
+ building and running their codes. The workshop is open to code developers 
+ of the NOMAD CoE, who will specifically learn about GPUs as the main 
+ building blocks for (pre-)exascale systems and how to develop and optimize
+  codes on such platforms.</p> <p>If you are interested in bringing in your
+  own code to work with the experts and to apply the techniques and tools 
+ taught in the lectures, please apply by adding a short description of your
+  code and specific goals in the registration form. The entire Thursday, 
+ November 24th is dedicated to working on the selected code projects.</p> 
+ <p>The workshop will be given by members of the application group of the 
+ MPCDF together with experts from Intel and Nvidia. The registration is 
+ open and can be accessed via the link on the left. The deadline for 
+ registration for the lectures is November 12th, for pure online 
+ participation, you can register until November 18th.</p> <p>The applicants
+  for the hands-on day are asked to test the building of the code on Raven 
+ and to prepare a representative test case for the problem that they want 
+ to inspect (ideally the test can be run on a single Raven node, either GPU
+  or CPU) in advance of the workshop. Assistance by MPCDF is provided on 
+ request.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221010T090000
+DTEND;TZID="UTC+02:00":20221012T170000
+SUMMARY:Charting large materials dataspaces: AI methods and scalability
+UID:https://hpc-portal.eu/node/1444
+DESCRIPTION:Organisers <ul> <li>Luca Ghiringhelli (NOMAD Laboratory at the 
+ Fritz Haber Institute of the Max Planck Society and Humboldt University\, 
+ Berlin)</li> <li>James Kermode (University of Warwick)</li> <li>Markus 
+ Rampp (Max Planck Computing and Data Facility (MPCDF))</li> </ul> 
+ <p>Across a wide range of fields and in particular in materials science\, 
+ there is increasing awareness that big data is a fundamental resource for 
+ fostering deeper understanding of physical systems and ensuring 
+ reproducibility of calculations.</p> <p>It is crucial to realize that 
+ “big” does not refer only to the sheer amount of data\, but also to their 
+ complexity. For example\, in materials science\, a material is typically 
+ characterized by an intricate hierarchy of observables including ensemble 
+ averages at various thermodynamic conditions. Another crucial aspect is 
+ the need to validate and quantify uncertainty\, i.e.\, being able to 
+ assign to any single entry in the database a level of accuracy so that 
+ data points from disparate sources can be used concurrently in an 
+ analysis.</p> <p>Such awareness has motivated the creation of large 
+ computational materials-science databases. Some are “project-based”\, 
+ i.e.\, collections of high-throughput scans of given materials classes 
+ (e.g.\, AFLOW [1]\, Materials Project [2]\, OQMD [3])\, others collect 
+ data from heterogeneous sources (e.g.\, NOMAD [4]\, Materials Cloud 
+ [5]).</p> <p>In order for the data to be (re-)usable for new analyses and 
+ possibly discoveries\, they have to comply with the so-called FAIR 
+ (findable - accessible - interoperable - reusable/repurposable/recyclable)
+  principles [6]. </p> <p>This requires complex\, hierarchical metadata 
+ structures that annotate the data\, so that the users know the provenance 
+ (settings\, purpose) of a calculation in order to judge whether an entry 
+ can be part of a dataset to be analysed [7].</p> <p>The complexity and 
+ extent of the existing databases\, which can only grow in both respects\, 
+ reveals a rarely addressed challenge: the possibility to efficiently 
+ <em>explore</em> the databases themselves in order to reveal patterns and 
+ trends.</p> <p>Here\, exploration refers specifically to the possibility 
+ of producing dynamic\, visual maps of the databases’ content. For 
+ instance\, a user may be looking for ternary materials\, not containing 
+ radioactive species\, and would like to understand how diverse are the 
+ entries\, i.e.\, whether they are somewhat uniformly spanning the 
+ materials space or are clustered into classes\, where understanding what 
+ is common among class’ members is a challenge in itself.</p> <p>This and 
+ similar kinds of questions call for interactive\, dynamic\, and 
+ intelligent (i.e.\, artificial-intelligent-driven) tools\, which are also 
+ efficient\, i.e.\, they are able to propose a meaningful solution within 
+ seconds. </p> <p>In summary\, in order to harvest the yet unhearted 
+ richness contained in presently known and future materials-science data\, 
+ four pillars need to be concurrently developed:</p> <ul> <li>FAIR-
+ compliant materials databases</li> <li>Identification of proper 
+ descriptors and metrics for capturing the similarity amongst materials\, 
+ including the complex restructuring occurring at varying environmental 
+ conditions [8]</li> <li>Artificial-intelligence (AI) approaches for 
+ exploratory analysis: clustering\, dimension reduction and corresponding 
+ visualization that can reveal hidden patterns [9]</li> <li>Scalable 
+ implementations\, combining clever choice of the hardware as well as 
+ algorithmic speed-up (e.g.\, landmarking) [10]</li> </ul> <p>In this 
+ workshop\, experts in all these aspects\, not necessarily limited to 
+ materials-science applications\, will interact to confront ideas and 
+ solutions for performing flexible\, interactive\, efficient\, and 
+ insightful analyses of materials databases.</p> <h2>References</h2> <p><a 
+ href="http://dx.doi.org/10.1016/j.commatsci.2012.02.005">[1] S. 
+ Curtarolo\, W. Setyawan\, G. Hart\, M. Jahnatek\, R. Chepulskii\, R. 
+ Taylor\, S. Wang\, J. Xue\, K. Yang\, O. Levy\, M. Mehl\, H. Stokes\, D. 
+ Demchenko\, D. Morgan\, Computational Materials Science\, 
+ <strong>58</strong>\, 218-226 (2012)</a><br> <a 
+ href="http://dx.doi.org/10.1063/1.4812323">[2] A. Jain\, S. Ong\, G. 
+ Hautier\, W. Chen\, W. Richards\, S. Dacek\, S. Cholia\, D. Gunter\, D. 
+ Skinner\, G. Ceder\, K. Persson\, APL Materials\, <strong>1</strong>\, 
+ 011002 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1007/s11837-013-0755-4">[3] J. Saal\, S. 
+ Kirklin\, M. Aykol\, B. Meredig\, C. Wolverton\, JOM\, 
+ <strong>65</strong>\, 1501-1509 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1557/mrs.2018.208">[4] C. Draxl\, M. 
+ Scheffler\, MRS Bull.\, <strong>43</strong>\, 676-682 (2018)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41597-020-00637-5">[5] L. Talirz\, S. 
+ Kumbhar\, E. Passaro\, A. Yakutovich\, V. Granata\, F. Gargiulo\, M. 
+ Borelli\, M. Uhrin\, S. Huber\, S. Zoupanos\, C. Adorf\, C. Andersen\, O. 
+ Schütt\, C. Pignedoli\, D. Passerone\, J. VandeVondele\, T. Schulthess\, 
+ B. Smit\, G. Pizzi\, N. Marzari\, Sci. Data.\, <strong>7</strong>\, 299 
+ (2020)</a><br> <a href="http://dx.doi.org/10.1038/sdata.2016.18">[6] M. 
+ Wilkinson\, M. Dumontier\, I. Aalbersberg\, G. Appleton\, M. Axton\, A. 
+ Baak\, N. Blomberg\, J. Boiten\, L. da Silva Santos\, P. Bourne\, J. 
+ Bouwman\, A. Brookes\, T. Clark\, M. Crosas\, I. Dillo\, O. Dumon\, S. 
+ Edmunds\, C. Evelo\, R. Finkers\, A. Gonzalez-Beltran\, A. Gray\, P. 
+ Groth\, C. Goble\, J. Grethe\, J. Heringa\, P. ’t Hoen\, R. Hooft\, T. 
+ Kuhn\, R. Kok\, J. Kok\, S. Lusher\, M. Martone\, A. Mons\, A. Packer\, B.
+  Persson\, P. Rocca-Serra\, M. Roos\, R. van Schaik\, S. Sansone\, E. 
+ Schultes\, T. Sengstag\, T. Slater\, G. Strawn\, M. Swertz\, M. Thompson\,
+  J. van der Lei\, E. van Mulligen\, J. Velterop\, A. Waagmeester\, P. 
+ Wittenburg\, K. Wolstencroft\, J. Zhao\, B. Mons\, Sci. Data.\, 
+ <strong>3</strong>\, 160018 (2016)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41524-017-0048-5">[7] L. Ghiringhelli\, 
+ C. Carbogno\, S. Levchenko\, F. Mohamed\, G. Huhs\, M. Lüders\, M. 
+ Oliveira\, M. Scheffler\, npj. Comput. Mater.\, <strong>3</strong>\, 46 
+ (2017)</a><br> <a href="http://dx.doi.org/10.1126/sciadv.1701816">[8] A. 
+ Bartók\, S. De\, C. Poelking\, N. Bernstein\, J. Kermode\, G. Csányi\, M. 
+ Ceriotti\, Sci. Adv.\, <strong>3</strong>\, e1701816 (2017)</a><br> <a 
+ href="http://dx.doi.org/10.1063/1.5091842">[9] M. Ceriotti\, J. Chem. 
+ Phys.\, <strong>150</strong>\, 150901 (2019)</a><br> <a 
+ href="http://dx.doi.org/10.1145/2723372.2731084">[10] S. Idreos\, O. 
+ Papaemmanouil\, S. Chaudhuri\, Overview of Data Exploration Techniques\, 
+ 2015</a></p>
+LOCATION:https://www.cecam.org/workshop-details/1167
+DTSTAMP:20220830T140834Z
+GEO:45.190196;5.767295
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY>Organisers <ul> 
+ <li>Luca Ghiringhelli (NOMAD Laboratory at the Fritz Haber Institute of 
+ the Max Planck Society and Humboldt University, Berlin)</li> <li>James 
+ Kermode (University of Warwick)</li> <li>Markus Rampp (Max Planck 
+ Computing and Data Facility (MPCDF))</li> </ul> <p>Across a wide range of 
+ fields and in particular in materials science, there is increasing 
+ awareness that big data is a fundamental resource for fostering deeper 
+ understanding of physical systems and ensuring reproducibility of 
+ calculations.</p> <p>It is crucial to realize that “big” does not refer 
+ only to the sheer amount of data, but also to their complexity. For 
+ example, in materials science, a material is typically characterized by an
+  intricate hierarchy of observables including ensemble averages at various
+  thermodynamic conditions. Another crucial aspect is the need to validate 
+ and quantify uncertainty, i.e., being able to assign to any single entry 
+ in the database a level of accuracy so that data points from disparate 
+ sources can be used concurrently in an analysis.</p> <p>Such awareness has
+  motivated the creation of large computational materials-science 
+ databases. Some are “project-based”, i.e., collections of high-throughput 
+ scans of given materials classes (e.g., AFLOW [1], Materials Project [2], 
+ OQMD [3]), others collect data from heterogeneous sources (e.g., NOMAD 
+ [4], Materials Cloud [5]).</p> <p>In order for the data to be (re-)usable 
+ for new analyses and possibly discoveries, they have to comply with the 
+ so-called FAIR (findable - accessible - interoperable - 
+ reusable/repurposable/recyclable) principles [6]. </p> <p>This requires 
+ complex, hierarchical metadata structures that annotate the data, so that 
+ the users know the provenance (settings, purpose) of a calculation in 
+ order to judge whether an entry can be part of a dataset to be analysed 
+ [7].</p> <p>The complexity and extent of the existing databases, which can
+  only grow in both respects, reveals a rarely addressed challenge: the 
+ possibility to efficiently <em>explore</em> the databases themselves in 
+ order to reveal patterns and trends.</p> <p>Here, exploration refers 
+ specifically to the possibility of producing dynamic, visual maps of the 
+ databases’ content. For instance, a user may be looking for ternary 
+ materials, not containing radioactive species, and would like to 
+ understand how diverse are the entries, i.e., whether they are somewhat 
+ uniformly spanning the materials space or are clustered into classes, 
+ where understanding what is common among class’ members is a challenge in 
+ itself.</p> <p>This and similar kinds of questions call for interactive, 
+ dynamic, and intelligent (i.e., artificial-intelligent-driven) tools, 
+ which are also efficient, i.e., they are able to propose a meaningful 
+ solution within seconds. </p> <p>In summary, in order to harvest the yet 
+ unhearted richness contained in presently known and future materials-
+ science data, four pillars need to be concurrently developed:</p> <ul> 
+ <li>FAIR-compliant materials databases</li> <li>Identification of proper 
+ descriptors and metrics for capturing the similarity amongst materials, 
+ including the complex restructuring occurring at varying environmental 
+ conditions [8]</li> <li>Artificial-intelligence (AI) approaches for 
+ exploratory analysis: clustering, dimension reduction and corresponding 
+ visualization that can reveal hidden patterns [9]</li> <li>Scalable 
+ implementations, combining clever choice of the hardware as well as 
+ algorithmic speed-up (e.g., landmarking) [10]</li> </ul> <p>In this 
+ workshop, experts in all these aspects, not necessarily limited to 
+ materials-science applications, will interact to confront ideas and 
+ solutions for performing flexible, interactive, efficient, and insightful 
+ analyses of materials databases.</p> <h2>References</h2> <p><a 
+ href="http://dx.doi.org/10.1016/j.commatsci.2012.02.005">[1] S. Curtarolo,
+  W. Setyawan, G. Hart, M. Jahnatek, R. Chepulskii, R. Taylor, S. Wang, J. 
+ Xue, K. Yang, O. Levy, M. Mehl, H. Stokes, D. Demchenko, D. Morgan, 
+ Computational Materials Science, <strong>58</strong>, 218-226 
+ (2012)</a><br> <a href="http://dx.doi.org/10.1063/1.4812323">[2] A. Jain, 
+ S. Ong, G. Hautier, W. Chen, W. Richards, S. Dacek, S. Cholia, D. Gunter, 
+ D. Skinner, G. Ceder, K. Persson, APL Materials, <strong>1</strong>, 
+ 011002 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1007/s11837-013-0755-4">[3] J. Saal, S. 
+ Kirklin, M. Aykol, B. Meredig, C. Wolverton, JOM, <strong>65</strong>, 
+ 1501-1509 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1557/mrs.2018.208">[4] C. Draxl, M. Scheffler, 
+ MRS Bull., <strong>43</strong>, 676-682 (2018)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41597-020-00637-5">[5] L. Talirz, S. 
+ Kumbhar, E. Passaro, A. Yakutovich, V. Granata, F. Gargiulo, M. Borelli, 
+ M. Uhrin, S. Huber, S. Zoupanos, C. Adorf, C. Andersen, O. Schütt, C. 
+ Pignedoli, D. Passerone, J. VandeVondele, T. Schulthess, B. Smit, G. 
+ Pizzi, N. Marzari, Sci. Data., <strong>7</strong>, 299 (2020)</a><br> <a 
+ href="http://dx.doi.org/10.1038/sdata.2016.18">[6] M. Wilkinson, M. 
+ Dumontier, I. Aalbersberg, G. Appleton, M. Axton, A. Baak, N. Blomberg, J.
+  Boiten, L. da Silva Santos, P. Bourne, J. Bouwman, A. Brookes, T. Clark, 
+ M. Crosas, I. Dillo, O. Dumon, S. Edmunds, C. Evelo, R. Finkers, A. 
+ Gonzalez-Beltran, A. Gray, P. Groth, C. Goble, J. Grethe, J. Heringa, P. 
+ ’t Hoen, R. Hooft, T. Kuhn, R. Kok, J. Kok, S. Lusher, M. Martone, A. 
+ Mons, A. Packer, B. Persson, P. Rocca-Serra, M. Roos, R. van Schaik, S. 
+ Sansone, E. Schultes, T. Sengstag, T. Slater, G. Strawn, M. Swertz, M. 
+ Thompson, J. van der Lei, E. van Mulligen, J. Velterop, A. Waagmeester, P.
+  Wittenburg, K. Wolstencroft, J. Zhao, B. Mons, Sci. Data., 
+ <strong>3</strong>, 160018 (2016)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41524-017-0048-5">[7] L. Ghiringhelli, C.
+  Carbogno, S. Levchenko, F. Mohamed, G. Huhs, M. Lüders, M. Oliveira, M. 
+ Scheffler, npj. Comput. Mater., <strong>3</strong>, 46 (2017)</a><br> <a 
+ href="http://dx.doi.org/10.1126/sciadv.1701816">[8] A. Bartók, S. De, C. 
+ Poelking, N. Bernstein, J. Kermode, G. Csányi, M. Ceriotti, Sci. Adv., 
+ <strong>3</strong>, e1701816 (2017)</a><br> <a 
+ href="http://dx.doi.org/10.1063/1.5091842">[9] M. Ceriotti, J. Chem. 
+ Phys., <strong>150</strong>, 150901 (2019)</a><br> <a 
+ href="http://dx.doi.org/10.1145/2723372.2731084">[10] S. Idreos, O. 
+ Papaemmanouil, S. Chaudhuri, Overview of Data Exploration Techniques, 
+ 2015</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221003T090000
+DTEND;TZID="UTC+02:00":20221005T170000
+SUMMARY:Co-Design for HPC in Computational Materials and Molecular Science
+UID:https://hpc-portal.eu/node/1443
+DESCRIPTION:<p>The Workshop on HPC (High Performance Computing) Co-design 
+ in Computational Materials and Molecular Science was initiated and is led 
+ by the NOMAD Center of Excellence (www.nomad-coe.eu)\, and is organised by
+  NOMAD in collaboration with the BioExcel\, MAX\, and TREX CoEs. </p> 
+ <p>The workshop will gather contributions from leading scientists\, 
+ technologies\, and SW engineers from the fields of academia\, HPC 
+ centres\, HW-vendors\, and industry. The workshop covers a broad range of 
+ current topics\, taking materials and molecular science codes as reference
+  HPC applications and possible co-design vehicles. </p> <p>The topics to 
+ be covered are:</p> <p>(1) existing examples of HPC co-design in materials
+  and molecular science\,</p> <p>(2) co-design of general purpose and 
+ domain-specific libraries\, kernels\, and mini-apps\, and</p> <p>(3) the 
+ perspective of hardware manufacturers\, integrators\, and data center 
+ owners.</p> <p>The workshop will focus in particular on\, and attempt to 
+ draw conclusions about:</p> <p>(1) the relationship between algorithms and
+  computer architectures in materials science\,</p> <p>(2) the connection 
+ between parallel programming technologies and runtime systems\, and</p> 
+ <p>(3) the interplay of the above layers for a wide spectrum of computer 
+ architectures\, within the selected scientific domain. </p> <p>We aim to 
+ identify how scientific software developers in materials science can 
+ influence hardware manufacturers as well as middleware and system-level 
+ software developers\, and vice versa. In particular\, we seek to determine
+  how co-design is employed in the development of the new HPC processors 
+ and of the related software stack\, including with respect to compilers 
+ and optimized libraries\, schedulers and IO\, and container technologies. 
+ </p> <p>Hardware HPC vendors and integrators will share their vision on 
+ co-design\, while key people from the scientific software development 
+ community will discuss the adoption of state-of-the-art technologies when 
+ porting their codes on emerging computer architectures. Consequently\, the
+  workshop will provide a rare and valuable opportunity to foster close 
+ contacts and the exchange of ideas between the scientific and technical 
+ communities.</p>
+LOCATION:https://www.cecam.org/workshop-details/1113
+DTSTAMP:20220830T140834Z
+GEO:46.520216;6.572210
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Workshop on 
+ HPC (High Performance Computing) Co-design in Computational Materials and 
+ Molecular Science was initiated and is led by the NOMAD Center of 
+ Excellence (www.nomad-coe.eu), and is organised by NOMAD in collaboration 
+ with the BioExcel, MAX, and TREX CoEs. </p> <p>The workshop will gather 
+ contributions from leading scientists, technologies, and SW engineers from
+  the fields of academia, HPC centres, HW-vendors, and industry. The 
+ workshop covers a broad range of current topics, taking materials and 
+ molecular science codes as reference HPC applications and possible co-
+ design vehicles. </p> <p>The topics to be covered are:</p> <p>(1) existing
+  examples of HPC co-design in materials and molecular science,</p> <p>(2) 
+ co-design of general purpose and domain-specific libraries, kernels, and 
+ mini-apps, and</p> <p>(3) the perspective of hardware manufacturers, 
+ integrators, and data center owners.</p> <p>The workshop will focus in 
+ particular on, and attempt to draw conclusions about:</p> <p>(1) the 
+ relationship between algorithms and computer architectures in materials 
+ science,</p> <p>(2) the connection between parallel programming 
+ technologies and runtime systems, and</p> <p>(3) the interplay of the 
+ above layers for a wide spectrum of computer architectures, within the 
+ selected scientific domain. </p> <p>We aim to identify how scientific 
+ software developers in materials science can influence hardware 
+ manufacturers as well as middleware and system-level software developers, 
+ and vice versa. In particular, we seek to determine how co-design is 
+ employed in the development of the new HPC processors and of the related 
+ software stack, including with respect to compilers and optimized 
+ libraries, schedulers and IO, and container technologies. </p> <p>Hardware
+  HPC vendors and integrators will share their vision on co-design, while 
+ key people from the scientific software development community will discuss
+  the adoption of state-of-the-art technologies when porting their codes on
+  emerging computer architectures. Consequently, the workshop will provide 
+ a rare and valuable opportunity to foster close contacts and the exchange 
+ of ideas between the scientific and technical 
+ communities.</p></BODY></HTML>
+END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220929T090000
 DTEND;TZID="UTC+02:00":20220930T160000
@@ -37,7 +381,7 @@ DESCRIPTION:<p>This course is targeted at researchers with basic knowledge
  learn how to build interactive 3D Models for Virtual Environments and how 
  to set up an Augmented Reality visualization.</p>
 LOCATION:https://www.hlrs.de/contact
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
  targeted at researchers with basic knowledge in numerical simulation, who 
@@ -106,7 +450,7 @@ DESCRIPTION:<p>As the volumes of weather and climate data expand\, it is of
  training-2021-completed">news item</a> on the successfully completed 2021 
  edition of this training.</p>
 LOCATION:https://www.esiwace.eu/events/hpda-vis-training-2022
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:53.566848;9.976507
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As the volumes 
  of weather and climate data expand, it is of paramount importance for 
@@ -160,75 +504,244 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As the volumes
  edition of this training.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID="UTC+02:00":20220615T090000
-DTEND;TZID="UTC+02:00":20220621T170000
-SUMMARY:NOMAD&#039\;s Midsummer School: Towards exascale solutions in Green
-  function methods and advanced DFT
-UID:https://hpc-portal.eu/node/1325
-DESCRIPTION:<p>With 10^18 floating point operations per second\, exascale 
- computers will be able to simulate and analyze complex processes in real 
- materials more realistically than what is possible today. This will allow 
- to study systems of higher complexity (in space and time) and to achieve 
- higher accuracy and precision. In close contact with academia and 
- industry\, the <strong>NOMAD CoE</strong> will develop exascale software\,
-  artificial intelligence (Al) methods\, and efficient workflows for an 
- advanced materials modeling. The <strong>NOMAD School focusses on 
- "exascale solutions in Green function methods and advanced 
- DFT"</strong>.</p> <p> The NOMAD School features <strong>50-minute 
- tutorial lectures </strong>by renowned scientists of the field (see below 
- and the PROGRAM) who will introduce their respective topics and address 
- recent exascale achievements and prevailing challenges.</p> <p> NOMAD 
- anticipates that the exascale challenge\, which shows "exaflops" 
- performance in some components of the codes\, will be met by workflows 
- handling high-throughput calculations and/or complex ensemble averages of 
- statistical mechanics and artificial intelligence. To get more practical 
- insights into all these topics\, there will be hands-on tutorials and/or 
- hackathons in the afternoon\, run in parallel by key developers of the 
- codes Abinit\, exciting\, FHI-aims\, <strong>GPAW</strong>\, and by 
- <strong>developers of ASE/ASR\, CC4S and Mini-Apps</strong>. For 
- example:</p> <ul> <li>people presently using code A can learn about the 
- possible advantages of code B.</li> <li>people using any of the codes can 
- learn about and contribute to the workflow management of ASE/AS R.</li> 
- <li>people using any of the codes can learn about and contribute to the 
- development of the INTERFACE towards CC4S (coupled cluster for 
- solids).</li> <li>people using any of the codes can learn about and 
- contribute to the development of mini apps to check and analyze their code
-  performance.</li> </ul> <p>The school is aimed at graduate students and 
- early-career postdocs. </p>
-LOCATION:https://www.nomad-coe.eu/events/nomads-midsummer-school-2022-in-
- riga/NMS22-location
-DTSTAMP:20220816T095005Z
-GEO:56.950760;24.116231
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>With 10^18 
- floating point operations per second, exascale computers will be able to 
- simulate and analyze complex processes in real materials more 
- realistically than what is possible today. This will allow to study 
- systems of higher complexity (in space and time) and to achieve higher 
- accuracy and precision. In close contact with academia and industry, the 
- <strong>NOMAD CoE</strong> will develop exascale software, artificial 
- intelligence (Al) methods, and efficient workflows for an advanced 
- materials modeling. The <strong>NOMAD School focusses on "exascale 
- solutions in Green function methods and advanced DFT"</strong>.</p> <p> 
- The NOMAD School features <strong>50-minute tutorial lectures </strong>by 
- renowned scientists of the field (see below and the PROGRAM) who will 
- introduce their respective topics and address recent exascale achievements
-  and prevailing challenges.</p> <p> NOMAD anticipates that the exascale 
- challenge, which shows "exaflops" performance in some components of the 
- codes, will be met by workflows handling high-throughput calculations 
- and/or complex ensemble averages of statistical mechanics and artificial 
- intelligence. To get more practical insights into all these topics, there 
- will be hands-on tutorials and/or hackathons in the afternoon, run in 
- parallel by key developers of the codes Abinit, exciting, FHI-aims, 
- <strong>GPAW</strong>, and by <strong>developers of ASE/ASR, CC4S and 
- Mini-Apps</strong>. For example:</p> <ul> <li>people presently using code 
- A can learn about the possible advantages of code B.</li> <li>people using
-  any of the codes can learn about and contribute to the workflow 
- management of ASE/AS R.</li> <li>people using any of the codes can learn 
- about and contribute to the development of the INTERFACE towards CC4S 
- (coupled cluster for solids).</li> <li>people using any of the codes can 
- learn about and contribute to the development of mini apps to check and 
- analyze their code performance.</li> </ul> <p>The school is aimed at 
- graduate students and early-career postdocs. </p></BODY></HTML>
+DTSTART;TZID="UTC+02:00":20220826T090000
+DTEND;TZID="UTC+02:00":20220826T170000
+SUMMARY:EoCoE School 2022
+UID:https://hpc-portal.eu/node/1487
+DESCRIPTION:<p>EoCoE School offers collaborative online learning 
+ opportunities on Energy-oriented Centre of Excellence project tools and 
+ codes. In its mission to accelerate the transition to the production\, 
+ storage and management of clean\, decarbonized energy\, EoCoE channels its
+  efforts into 5 scientific Exascale challenges in the low-carbon sectors 
+ of Energy Meteorology\, Materials\, Water\, Wind and Fusion. A world-class
+  consortium of 18 complementary partners from 7 countries form a unique 
+ network of expertise in energy science\, scientific computing and HPC\, 
+ including 3 leading European supercomputing centres.</p> <p>Participants 
+ will be taught for free and supported online by experts in High 
+ Performance Computing and in Sustainable Energies. This event creates a 
+ great opportunity to share experience and learn more about EoCoE technical
+  and industrial work. During the hand-on sessions attendees will be using 
+ the EoCoE SaaS Portal that benefits from the Altair supercomputer (Top 
+ 500). At the end of the event each participant will be awarded with 
+ certification.<br> Target audience are scientists and researchers from 
+ academia and industry from across Europe. A preliminary unified session on
+  the school’s technical environment will be held.</p>
+LOCATION:https://www.eocoe.eu/workshops/eocoe-school-2022/
+DTSTAMP:20220830T140834Z
+GEO:48.725016;2.157492
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>EoCoE School 
+ offers collaborative online learning opportunities on Energy-oriented 
+ Centre of Excellence project tools and codes. In its mission to accelerate
+  the transition to the production, storage and management of clean, 
+ decarbonized energy, EoCoE channels its efforts into 5 scientific Exascale
+  challenges in the low-carbon sectors of Energy Meteorology, Materials, 
+ Water, Wind and Fusion. A world-class consortium of 18 complementary 
+ partners from 7 countries form a unique network of expertise in energy 
+ science, scientific computing and HPC, including 3 leading European 
+ supercomputing centres.</p> <p>Participants will be taught for free and 
+ supported online by experts in High Performance Computing and in 
+ Sustainable Energies. This event creates a great opportunity to share 
+ experience and learn more about EoCoE technical and industrial work. 
+ During the hand-on sessions attendees will be using the EoCoE SaaS Portal 
+ that benefits from the Altair supercomputer (Top 500). At the end of the 
+ event each participant will be awarded with certification.<br> Target 
+ audience are scientists and researchers from academia and industry from 
+ across Europe. A preliminary unified session on the school’s technical 
+ environment will be held.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220725T090000
+DTEND;TZID="UTC+02:00":20220729T170000
+SUMMARY:Modeling Materials at Realistic time Scales via Optimal 
+ Exploitation of Exascale Computers and Artificial Intelligence
+UID:https://hpc-portal.eu/node/1442
+DESCRIPTION:<p>The event is planned in terms of two stages: a high-level 
+ CECAM workshop and a subsequent hands-on tutorial. Both activities address
+  the concepts and implementations that are needed in order to link the 
+ Quantum Mechanical (QM) description of electrons in materials\, to the 
+ statistical mechanics principles that address the larger time and length 
+ scales governing real-life situations.</p> <p>During the first 3 days\, 
+ the workshop will focus on recent and important developments 
+ addressing<strong> exascale scientific computing applications </strong>and
+  related<strong> artificial intelligence (AI) methods\, </strong>with a 
+ specific focus on urgent and critical aspects in the domain of 
+ computational materials science. In particular\, we will address how 
+ exascale computing can contribute to the enhanced performance of materials
+  modeling\, in terms of higher accuracy\, precision and degree of inter-
+ operability between different modeling length- and time-scales. These 
+ technical aspects will be <strong>presented and discussed by leading 
+ experts in different domains</strong>\, thus giving the opportunity to 
+ explore similarities and differences in the various current state-of-the-
+ art approaches towards exascale computing\, as well as the management of 
+ modeling workflows and corresponding output data of interesting materials 
+ properties.</p> <p>Then the following 2 days will consist of tutorials and
+  hands-on demonstrations that will focus on recent progress in (1) first 
+ principles simulations and (2) advanced sampling methods and software\, 
+ and (3) the coupling of first principles molecular dynamics simulations 
+ and advanced sampling methods. In particular\, examples using the <a 
+ href="http://qboxcode.org/">Qbox</a> code coupled with with the <a 
+ href="https://ssagesproject.github.io/">SSAGES suite of codes</a> and <a 
+ href="http://ipi-code.org/">I-Pi</a> will be discussed in detail\, with 
+ several hands-on examples.</p> <h3>General Scope</h3> <p>Real materials 
+ are not necessarily in thermal equilibrium\, and a careful understanding 
+ of the micro-structure of any material (e.g. grains and grain boundaries) 
+ is crucial for the estimation of important materials properties and 
+ functions. Thus\, QM techniques have necessarily to be connected to 
+ molecular mechanics (MM)\, large-scale molecular dynamics (MD)\, kinetic 
+ Monte Carlo (kMC)\, and computational fluid dynamics (CFD)\, just to name 
+ a few methodologies. Very importantly\, we need robust connections between
+  all such modelling techniques\, including a detailed understanding of the
+  various errors and uncertainties involved. Moreover\, in order to 
+ properly interpret the corresponding results\, we need all such inter-
+ connections to be fully reversible\, i.e. not just able to transition from
+  small to large scales but also conversely.</p> <p>The Handbook of 
+ Materials Modeling (2005) is one of the main classical references in this 
+ domain of scientific computing [1]\, and its 2nd edition has since 
+ appeared in 2020 [2]. This has now turned into a six-volume major review 
+ masterwork\, reflecting the significant developments in all aspects 
+ pertaining to computational materials research over the past decade or 
+ so\, including major progress in the formulation of increasingly realistic
+  multi-scale modeling approaches\, workflows and models. However\, two 
+ recent innovations in materials modeling applications are still relatively
+  poorly and sparsely covered in the currently available review 
+ literature\, namely <strong>exascale computing</strong> and related 
+ <strong>artificial intelligence (AI)-based methods</strong>. These two 
+ topics will be the main focus of our attention within our proposed 
+ workshop and associated tutorial school.</p> <p>[1] Handbook of Materials 
+ Modeling\, 2005\, S. Yip (ed)\, ISBN 978-1402032875\, Springer\, Cham<br> 
+ [2] Handbook of Materials Modeling\, 2nd ed.\, 2020\, W. Andreoni and S. 
+ Yip (eds)\, ISBN 978-3319788760\, Springer\, Cham</p> <h3>Format</h3> 
+ <p>The event will start with a <strong>high-level workshop (3 
+ days)</strong>. Talks\, discussions\, and poster sessions will be held as 
+ a<strong> regular meeting involving the physical presence of all 
+ participants</strong> (some but very few talks may be presented 
+ virtually).</p> <p>Each of the five main sessions during the first part of
+  the workshop (throughout the first three days) will start with an 
+ <strong>introduction (15 minutes)</strong> by a renowned scientist\, the 
+ so-called <strong>“moderator”</strong> for that particular session. The 
+ subsequent talks in the corresponding session will then last for 
+ <strong>30 minutes each</strong>\, and will be followed in turn by 
+ <strong>10 minutes of general Q&amp\;A discussion</strong>.</p> <p>The 
+ <strong>following 2-day hands-on tutorial</strong> will include coupling 
+ first principles molecular dynamics simulations and advanced sampling 
+ methods using the <a href="http://qboxcode.org/">Qbox</a> code coupled 
+ with with the <a href="https://ssagesproject.github.io/">SSAGES suite of 
+ codes</a> and <a href="http://ipi-code.org/">I-Pi</a>. Several examples 
+ will be discussed with hands-on demonstrations\, and opportunities will be
+  provided for students to develop simulation strategies of direct 
+ relevance to their own research with the help of expert instructors.</p>
+LOCATION:https://iris-adlershof.de/en/modelingmaterialsworkshop.html
+DTSTAMP:20220830T140834Z
+GEO:52.433627;13.531931
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The event is 
+ planned in terms of two stages: a high-level CECAM workshop and a 
+ subsequent hands-on tutorial. Both activities address the concepts and 
+ implementations that are needed in order to link the Quantum Mechanical 
+ (QM) description of electrons in materials, to the statistical mechanics 
+ principles that address the larger time and length scales governing real-
+ life situations.</p> <p>During the first 3 days, the workshop will focus 
+ on recent and important developments addressing<strong> exascale 
+ scientific computing applications </strong>and related<strong> artificial 
+ intelligence (AI) methods, </strong>with a specific focus on urgent and 
+ critical aspects in the domain of computational materials science. In 
+ particular, we will address how exascale computing can contribute to the 
+ enhanced performance of materials modeling, in terms of higher accuracy, 
+ precision and degree of inter-operability between different modeling 
+ length- and time-scales. These technical aspects will be <strong>presented
+  and discussed by leading experts in different domains</strong>, thus 
+ giving the opportunity to explore similarities and differences in the 
+ various current state-of-the-art approaches towards exascale computing, as
+  well as the management of modeling workflows and corresponding output 
+ data of interesting materials properties.</p> <p>Then the following 2 days
+  will consist of tutorials and hands-on demonstrations that will focus on 
+ recent progress in (1) first principles simulations and (2) advanced 
+ sampling methods and software, and (3) the coupling of first principles 
+ molecular dynamics simulations and advanced sampling methods. In 
+ particular, examples using the <a href="http://qboxcode.org/">Qbox</a> 
+ code coupled with with the <a 
+ href="https://ssagesproject.github.io/">SSAGES suite of codes</a> and <a 
+ href="http://ipi-code.org/">I-Pi</a> will be discussed in detail, with 
+ several hands-on examples.</p> <h3>General Scope</h3> <p>Real materials 
+ are not necessarily in thermal equilibrium, and a careful understanding of
+  the micro-structure of any material (e.g. grains and grain boundaries) is
+  crucial for the estimation of important materials properties and 
+ functions. Thus, QM techniques have necessarily to be connected to 
+ molecular mechanics (MM), large-scale molecular dynamics (MD), kinetic 
+ Monte Carlo (kMC), and computational fluid dynamics (CFD), just to name a 
+ few methodologies. Very importantly, we need robust connections between 
+ all such modelling techniques, including a detailed understanding of the 
+ various errors and uncertainties involved. Moreover, in order to properly 
+ interpret the corresponding results, we need all such inter-connections to
+  be fully reversible, i.e. not just able to transition from small to large
+  scales but also conversely.</p> <p>The Handbook of Materials Modeling 
+ (2005) is one of the main classical references in this domain of 
+ scientific computing [1], and its 2nd edition has since appeared in 2020 
+ [2]. This has now turned into a six-volume major review masterwork, 
+ reflecting the significant developments in all aspects pertaining to 
+ computational materials research over the past decade or so, including 
+ major progress in the formulation of increasingly realistic multi-scale 
+ modeling approaches, workflows and models. However, two recent innovations
+  in materials modeling applications are still relatively poorly and 
+ sparsely covered in the currently available review literature, namely 
+ <strong>exascale computing</strong> and related <strong>artificial 
+ intelligence (AI)-based methods</strong>. These two topics will be the 
+ main focus of our attention within our proposed workshop and associated 
+ tutorial school.</p> <p>[1] Handbook of Materials Modeling, 2005, S. Yip 
+ (ed), ISBN 978-1402032875, Springer, Cham<br> [2] Handbook of Materials 
+ Modeling, 2nd ed., 2020, W. Andreoni and S. Yip (eds), ISBN 
+ 978-3319788760, Springer, Cham</p> <h3>Format</h3> <p>The event will start
+  with a <strong>high-level workshop (3 days)</strong>. Talks, discussions,
+  and poster sessions will be held as a<strong> regular meeting involving 
+ the physical presence of all participants</strong> (some but very few 
+ talks may be presented virtually).</p> <p>Each of the five main sessions 
+ during the first part of the workshop (throughout the first three days) 
+ will start with an <strong>introduction (15 minutes)</strong> by a 
+ renowned scientist, the so-called <strong>“moderator”</strong> for that 
+ particular session. The subsequent talks in the corresponding session will
+  then last for <strong>30 minutes each</strong>, and will be followed in 
+ turn by <strong>10 minutes of general Q&amp;A discussion</strong>.</p> 
+ <p>The <strong>following 2-day hands-on tutorial</strong> will include 
+ coupling first principles molecular dynamics simulations and advanced 
+ sampling methods using the <a href="http://qboxcode.org/">Qbox</a> code 
+ coupled with with the <a href="https://ssagesproject.github.io/">SSAGES 
+ suite of codes</a> and <a href="http://ipi-code.org/">I-Pi</a>. Several 
+ examples will be discussed with hands-on demonstrations, and opportunities
+  will be provided for students to develop simulation strategies of direct 
+ relevance to their own research with the help of expert 
+ instructors.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220621T120000
+DTEND;TZID="UTC+02:00":20220621T180000
+SUMMARY:Data management and publication – A DICE & CompBioMed Hackathon
+UID:https://hpc-portal.eu/node/1485
+DESCRIPTION:<p>Join us for an exciting <strong>Hackathon</strong> where you
+  will obtain hands-on experience in using the <strong>new 
+ services</strong> implemented in the <strong>CompBioMed project over the 
+ DICE facilities</strong>.</p> <p>Find out how computational biomedical 
+ researchers are using the DICE Data Management services to manage their 
+ federated data in a FAIR way.</p> <p>If you are a researcher or programmer
+  responsible for implementing data handling in your project\, then this 
+ hackathon is for you! We will spend an entire afternoon together on the 
+ premises of the CINECA High-Performance Computing Centre <strong>in 
+ Bologna\, Italy.</strong> Bring your own computer\, and samples of your 
+ data that you would like to work on.</p>
+LOCATION:https://www.dice-eosc.eu/news-events/events/data-management-and-
+ publication-dicecompbiomed-hackathon
+DTSTAMP:20220830T140834Z
+GEO:44.486267;11.259935
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Join us for an 
+ exciting <strong>Hackathon</strong> where you will obtain hands-on 
+ experience in using the <strong>new services</strong> implemented in the 
+ <strong>CompBioMed project over the DICE facilities</strong>.</p> <p>Find 
+ out how computational biomedical researchers are using the DICE Data 
+ Management services to manage their federated data in a FAIR way.</p> 
+ <p>If you are a researcher or programmer responsible for implementing data
+  handling in your project, then this hackathon is for you! We will spend 
+ an entire afternoon together on the premises of the CINECA High-
+ Performance Computing Centre <strong>in Bologna, Italy.</strong> Bring 
+ your own computer, and samples of your data that you would like to work 
+ on.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20220613T090000
@@ -254,7 +767,7 @@ DESCRIPTION:<p>This course has been postponed from the original date May
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://www.hlrs.de/training/2022/ML4SIM2
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course has 
  been postponed from the original date May 9-11. 2022.</p> 
@@ -297,7 +810,7 @@ DESCRIPTION:<p>The summer school will include lectures and hands-on
   is a requirement.</p>
 LOCATION:https://bioexcel.eu/locations/science-and-technology-park-of-
  sardinia/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:38.992215;8.919490
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The summer 
  school will include lectures and hands-on sessions on the following 
@@ -338,7 +851,7 @@ DESCRIPTION:<p><strong>This course is a second instance of the same course
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://www.hlrs.de/training/2022/ML4SIM3
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>This 
  course is a second instance of the same course provided on June 13-15 
@@ -379,7 +892,7 @@ DESCRIPTION:<p><strong>Abstract Submission Deadline: 20th March
  information and registration visit the website <a 
  href="https://ml4m.xyz/">https://ml4m.xyz/</a></p>
 LOCATION:https://ml4m.xyz/venue-travel/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:45.703180;13.719586
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Abstract
   Submission Deadline: 20th March 2022</strong><br> <strong>Registration 
@@ -424,7 +937,7 @@ DESCRIPTION:<p>The <a
  ENGINES\, SAFRAN HELICOPTER ENGINES\, ARIANEGROUP\, HERAKLES\, TOTAL\, 
  etc.).</p>
 LOCATION:https://services.excellerat.eu/viewevent/60
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:43.574084;1.376453
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The <a 
  href="https://services.excellerat.eu/viewcode/5">AVBP</a> code is a 
@@ -501,7 +1014,7 @@ DESCRIPTION:<p>The Computational School on <em>Ab-initio Many-body Methods
  href="https://www.ictp.it/ictp_covidresponse/ictp-visitors.aspx">Access 
  Guidelines for Visitors</a>.</p>
 LOCATION:https://www.ictp.it/visit-ictp.aspx
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:45.703827;13.718426
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The 
  Computational School on <em>Ab-initio Many-body Methods and Simulations 
@@ -571,7 +1084,7 @@ DESCRIPTION:<p>YALES2 aims at the solving of two-phase combustion from
  <p><strong>Instructors:</strong> Vincent Moureau (CNRS)\, Ghislain 
  Lartigue (CNRS)\, Pierre Bénard (INSA of Rouen)</p>
 LOCATION:https://coec-project.eu/event/yales2-training-session-2/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:49.386996;1.068877
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>YALES2 aims at 
  the solving of two-phase combustion from primary atomization to pollutant 
@@ -588,6 +1101,55 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>YALES2 aims at
  cfd.fr/index.php/YALES2">here</a></strong>.</p> 
  <p><strong>Instructors:</strong> Vincent Moureau (CNRS), Ghislain Lartigue
   (CNRS), Pierre Bénard (INSA of Rouen)</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220328T090000
+DTEND;TZID="UTC+02:00":20220330T170000
+SUMMARY:Tsunami-HySEA training (University Puerto Rico Mayaguez)
+UID:https://hpc-portal.eu/node/1475
+DESCRIPTION:<p>ChEESE partner Jorge Macias (UMA) conducts a Tsunami-HySEA 
+ training course at the University of Puerto Rico\, Mayaguez on 28-30 March
+  2022. Participation will include students and researchers from the 
+ university\, as well as representatives from the Seismic Network of Puerto
+  Rico.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-university-
+ puerto-rico-mayaguez
+DTSTAMP:20220830T140834Z
+GEO:18.497278;-67.137109
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ Jorge Macias (UMA) conducts a Tsunami-HySEA training course at the 
+ University of Puerto Rico, Mayaguez on 28-30 March 2022. Participation 
+ will include students and researchers from the university, as well as 
+ representatives from the Seismic Network of Puerto Rico.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220325T090000
+DTEND;TZID="UTC+02:00":20220401T170000
+SUMMARY:BioExcel School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1454
+DESCRIPTION:<p>The school will include lectures and hands-on sessions on 
+ the following topics:</p> <ul> <li>Molecular Dynamics simulations</li> 
+ <li>Biomolecular Docking</li> <li>Free energy calculations</li> 
+ <li>Advanced sampling methods (Metadynamics)</li> <li>BioExcel Building 
+ Blocks (BioBB)</li> <li>Quantum mechanics/molecular mechanics (QM/MM)</li>
+  </ul> <p>During the hands-on computer practicals you will make use of the
+  BioExcel flagship software and tools: e.g. GROMACS\, HADDOCK\, PMX\, 
+ BioBB\, and CP2K. The trainers\, developers and/or experts in the use of 
+ the software\, will provide guidance and support.</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-school-on-biomolecular-
+ simulations/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
+ include lectures and hands-on sessions on the following topics:</p> <ul> 
+ <li>Molecular Dynamics simulations</li> <li>Biomolecular Docking</li> 
+ <li>Free energy calculations</li> <li>Advanced sampling methods 
+ (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> <li>Quantum 
+ mechanics/molecular mechanics (QM/MM)</li> </ul> <p>During the hands-on 
+ computer practicals you will make use of the BioExcel flagship software 
+ and tools: e.g. GROMACS, HADDOCK, PMX, BioBB, and CP2K. The trainers, 
+ developers and/or experts in the use of the software, will provide 
+ guidance and support.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20220322T090000
@@ -621,7 +1183,7 @@ DESCRIPTION:<p>South-East Europe Combustion Spring School 2022 intends to
  (Germany)</a><strong>.</strong></p>
 LOCATION:https://coec-project.eu/event/south-east-europe-combustion-spring-
  school-2022/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:42.693485;23.324989
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>South-East 
  Europe Combustion Spring School 2022 intends to give a high view of 
@@ -662,7 +1224,7 @@ DESCRIPTION:<p>The following session aims to bring together the Centers of
  good opportunity to get a common understanding of the ongoing activities 
  within the different CoEs and foster collaboration opportunities.</p>
 LOCATION:https://www.ai4europe.eu/news-and-events/events/webcafes
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The following 
  session aims to bring together the Centers of Excellence in AI sectors to 
@@ -671,6 +1233,112 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The following
  and which opportunities are emerging. It is a good opportunity to get a 
  common understanding of the ongoing activities within the different CoEs 
  and foster collaboration opportunities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220309T090000
+DTEND;TZID="UTC+01:00":20220310T170000
+SUMMARY:Virtual course on free energy calculation and alchemical 
+ transformation in GROMACS
+UID:https://hpc-portal.eu/node/1455
+DESCRIPTION:<p><strong>Overview</strong>: Are you interested in computing 
+ free energy using alchemical transformations? Here we give an introduction
+  to free energy calculation in <a 
+ href="http://www.gromacs.org/">GROMACS</a>. In this course\, we focus on 
+ two methods to calculate the free energy associated with an alchemical 
+ transformation: Bennett acceptance ratio method (BAR) and accelerated 
+ weighted histogram (AWH). The tutorials are implemented in Jupyter 
+ notebook and cover how to perform a simple alchemical transformation and 
+ compute the associated free energy change (e.i solvation free energy) 
+ using the two approaches in GROMACS </p> <p><strong>Audience: 
+ </strong>These sessions are aimed at people interested in:<br> 1) Starting
+  to compute free energy using GROMACS.<br> 2) Understanding the difference
+  between the approaches available in GROMACS for alchemical 
+ transformation. </p> <p><strong>Pre-requisites: </strong>A minimum 
+ knowledge of thermodynamics and minimum expertise in using GROMACS to 
+ perform Molecular Dynamics calculation are needed to attend the training. 
+ Moreover\, minimum Linux skills are also required. Please consult the 
+ following materials\, if you’re uncertain of your Linux\, GROMACS and 
+ Jupyter notebook skills:</p> <ul> <li>GROMACS <a 
+ href="https://tutorials.gromacs.org/md-intro-tutorial.html#">tutorial</a> 
+ on ​​Introduction to Molecular Dynamics </li> <li>Linux commands\, bash 
+ shell\, a quiz and a link to <a 
+ href="https://cms.competency.ebi.ac.uk/learning-pathway/module/unix-
+ shell">intro course</a> </li> <li>A short guide to <a href="https://drive.
+ google.com/file/d/1tgpp0xVDo3WuqMGSBrcjwZ6sdf67gDGQ/view?usp=sharing">Jupy
+ ter Notebook</a> </li> </ul> <p><strong>Learning outcomes: </strong>At the
+  end of these sessions\, you will be able to</p> <ul> <li>describe the 
+ principles behind Bennett acceptance ratio (BAR) and accelerated weighted 
+ histogram (AWH) methods to calculate the free energy difference associated
+  with an alchemical transformation. </li> <li>set up and perform simple 
+ alchemical transformations using GROMACS </li> <li>explain which approach 
+ you can apply to your research problem </li> </ul>
+LOCATION:https://bioexcel.eu/events/virtual-course-on-free-energy-
+ calculation-and-alchemical-transformation-in-gromacs/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong>: Are you interested in 
+ computing free energy using alchemical transformations? Here we give an 
+ introduction to free energy calculation in <a 
+ href="http://www.gromacs.org/">GROMACS</a>. In this course, we focus on 
+ two methods to calculate the free energy associated with an alchemical 
+ transformation: Bennett acceptance ratio method (BAR) and accelerated 
+ weighted histogram (AWH). The tutorials are implemented in Jupyter 
+ notebook and cover how to perform a simple alchemical transformation and 
+ compute the associated free energy change (e.i solvation free energy) 
+ using the two approaches in GROMACS </p> <p><strong>Audience: 
+ </strong>These sessions are aimed at people interested in:<br> 1) Starting
+  to compute free energy using GROMACS.<br> 2) Understanding the difference
+  between the approaches available in GROMACS for alchemical 
+ transformation. </p> <p><strong>Pre-requisites: </strong>A minimum 
+ knowledge of thermodynamics and minimum expertise in using GROMACS to 
+ perform Molecular Dynamics calculation are needed to attend the training. 
+ Moreover, minimum Linux skills are also required. Please consult the 
+ following materials, if you’re uncertain of your Linux, GROMACS and 
+ Jupyter notebook skills:</p> <ul> <li>GROMACS <a 
+ href="https://tutorials.gromacs.org/md-intro-tutorial.html#">tutorial</a> 
+ on ​​Introduction to Molecular Dynamics </li> <li>Linux commands, bash 
+ shell, a quiz and a link to <a 
+ href="https://cms.competency.ebi.ac.uk/learning-pathway/module/unix-
+ shell">intro course</a> </li> <li>A short guide to <a href="https://drive.
+ google.com/file/d/1tgpp0xVDo3WuqMGSBrcjwZ6sdf67gDGQ/view?usp=sharing">Jupy
+ ter Notebook</a> </li> </ul> <p><strong>Learning outcomes: </strong>At the
+  end of these sessions, you will be able to</p> <ul> <li>describe the 
+ principles behind Bennett acceptance ratio (BAR) and accelerated weighted 
+ histogram (AWH) methods to calculate the free energy difference associated
+  with an alchemical transformation. </li> <li>set up and perform simple 
+ alchemical transformations using GROMACS </li> <li>explain which approach 
+ you can apply to your research problem </li> </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20220307T090000
+DTEND;TZID="UTC+01:00":20220307T170000
+SUMMARY:Curso sobre el Análisis del Riesgo Sísmico (Seismic Risk Analysis 
+ Course)
+UID:https://hpc-portal.eu/node/1476
+DESCRIPTION:<p>ChEESE partner <a 
+ href="https://www.uma.es/edanya/info/109897/jorge-macias-sanchez/">Jorge 
+ Macias</a> from <a href="https://www.uma.es/">UMA</a> gives a presentation
+  titled "Simulación Numérica de Tsunamis\, ¿por qué y para qué?" (Tsunami 
+ Numerical Simulation\, why and what for?) on 7 March 2022 as part of an 
+ official course hosted by the Subdelegación del Gobierno en Granada y 
+ Escuela Nacional de Protección Civil (Subdelegation of the Government in 
+ Granada and National School of Civil Protection) called Curso sobre el 
+ Analisis del Riesgo Sísmico ( Seismic Risk Analysis Course).</p>
+LOCATION:https://cheese-coe.eu/events/curso-sobre-el-analisis-del-riesgo-
+ sismico-seismic-risk-analysis-course-0
+DTSTAMP:20220830T140834Z
+GEO:37.180873;-3.598343
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ <a href="https://www.uma.es/edanya/info/109897/jorge-macias-
+ sanchez/">Jorge Macias</a> from <a href="https://www.uma.es/">UMA</a> 
+ gives a presentation titled "Simulación Numérica de Tsunamis, ¿por qué y 
+ para qué?" (Tsunami Numerical Simulation, why and what for?) on 7 March 
+ 2022 as part of an official course hosted by the Subdelegación del 
+ Gobierno en Granada y Escuela Nacional de Protección Civil (Subdelegation 
+ of the Government in Granada and National School of Civil Protection) 
+ called Curso sobre el Analisis del Riesgo Sísmico ( Seismic Risk Analysis 
+ Course).</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20220228T090000
@@ -692,7 +1360,7 @@ DESCRIPTION:<p>Hackathon II and TREX Event at premises of <a
   03 March 2022 </strong>TREX Event</p> <p><strong>Day 5 04 March 2022 
  </strong>*Optional – Collaboration sessions</p>
 LOCATION:https://trex-coe.eu/events/trex-hackathon-ii-trex-event-uvsq
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.782029;2.217037
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Hackathon II and
   TREX Event at premises of <a href="https://www.trex-
@@ -720,7 +1388,7 @@ DESCRIPTION:<p>The objetive of this course is to give a panorama on the use
   is delivered in collaboration with the centers of excellence CompBioMed2 
  and PerMedCoE.</p>
 LOCATION:https://events.prace-ri.eu/event/1317/registrations/976/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The objetive of 
  this course is to give a panorama on the use of hpc-based computational 
@@ -746,7 +1414,7 @@ DESCRIPTION:<p>This course gives advanced practical tips on how to run
  href="https://www.csc.fi/">CSC</a>\, <a href="https://enccs.se/">ENCCS</a>
   and supported by <a href="https://www.csc.fi/en/-/eurocc">EuroCC</a>.</p>
 LOCATION:https://ssl.eventilla.com/advanced-gromacs-2022
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:60.178253;24.832881
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
  gives advanced practical tips on how to run GROMACS MD simulations 
@@ -779,7 +1447,7 @@ DESCRIPTION:<p>This workshop organised by VI-HPS\, Jülich Supercomputing
  test cases will have been coached in the tuning of their measurement and 
  analysis\, and provided optimization suggestions.</p>
 LOCATION:https://indico-jsc.fz-juelich.de/event/171/registration/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.909433;6.406038
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This workshop 
  organised by VI-HPS, Jülich Supercomputing Centre &amp; RWTH Aachen ITC 
@@ -810,7 +1478,7 @@ DESCRIPTION:<p>This course introduces HPC to life science researchers\,
  through examples drawn from the life sciences\, such as biomolecular 
  simulation.</p>
 LOCATION:https://events.prace-ri.eu/event/1304/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
  introduces HPC to life science researchers, focusing on the aspects that 
@@ -846,7 +1514,7 @@ DESCRIPTION:<p><strong>This course is a second instance of the same course
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://hpc-portal.eu/node/805
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>This 
  course is a second instance of the same course provided on December 13-14,
@@ -881,7 +1549,7 @@ DESCRIPTION:<p>The training course covers the theoretical and practical
  using CUDA in machine learning solutions.</p>
 LOCATION:https://hpc.rtu.lv/training-courses/gpu-computing-with-
  cuda/?lang=en
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:56.951555;24.079442
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The training 
  course covers the theoretical and practical principles of massively 
@@ -916,7 +1584,7 @@ DESCRIPTION:<p><strong>This course is a second instance of the same course
  numpy\, scikit-learn and pytorch as well as the SCAI <a 
  href="https://services.excellerat.eu/viewcode/13">SimExplore</a>.</p>
 LOCATION:https://www.hlrs.de/training/2021/ML4SIM/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.748543;7.200400
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>This 
  course is a second instance of the same course provided on December 13-14,
@@ -953,7 +1621,7 @@ DESCRIPTION:<p>OpenFOAM is a widely-used open-source code in computational
  systems</a>.</p> <p>This course will be provided in cooperation with <a 
  href="https://www.excellerat.eu">EXCELLERAT</a>.</p>
 LOCATION:https://services.excellerat.eu/viewevent/54
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM is a 
  widely-used open-source code in computational fluid dynamics (CFD). 
@@ -967,6 +1635,92 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM is a
  systems">https://www.pdc.kth.se/hpc-services/computing-systems</a>.</p> 
  <p>This course will be provided in cooperation with <a 
  href="https://www.excellerat.eu">EXCELLERAT</a>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20211122T150000
+DTEND;TZID="UTC+01:00":20211124T170000
+SUMMARY:Computational biomolecular simulation workflows with BioExcel 
+ building blocks
+UID:https://hpc-portal.eu/node/1456
+DESCRIPTION:<p><strong>Overview</strong>: Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations\, but scared to make the first step? What if you could start 
+ smoothly using interactive\, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single\, interoperable library with a unique syntax?</p> 
+ <p>In this session\, we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>\, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS\, Ambertools\, Openbabel or ACPYPE. The philosophy behind its 
+ design\, following best practices and FAIR principles for software 
+ development\, makes it easy to find\, install and use\, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command line will be 
+ explored.</p> <p><strong>Audience</strong>: This session is aimed at 
+ people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations\, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows\, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training\, although some 
+ knowledge and familiarity with this method are recommended to properly 
+ follow the course. Minimum Linux skills are also required. This is an 
+ interactive session that is presented remotely using Zoom.</p> 
+ <p><strong>Learning outcomes</strong>: At the end of these sessions\, you 
+ will be able to</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure\, modify parameters\, add/remove steps\, etc.</li> <li>Write a 
+ new computational biomolecular simulation workflow using the BioExcel 
+ building blocks library from scratch.</li> <li>Launch computational 
+ biomolecular simulation workflows built using the BioExcel building blocks
+  library in a command-line interface.</li> </ul>
+LOCATION:https://bioexcel.eu/events/computational-biomolecular-simulation-
+ workflows-with-bioexcel-building-blocks-3/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong>: Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations, but scared to make the first step? What if you could start 
+ smoothly using interactive, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single, interoperable library with a unique syntax?</p> 
+ <p>In this session, we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS, Ambertools, Openbabel or ACPYPE. The philosophy behind its 
+ design, following best practices and FAIR principles for software 
+ development, makes it easy to find, install and use, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command line will be 
+ explored.</p> <p><strong>Audience</strong>: This session is aimed at 
+ people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training, although some 
+ knowledge and familiarity with this method are recommended to properly 
+ follow the course. Minimum Linux skills are also required. This is an 
+ interactive session that is presented remotely using Zoom.</p> 
+ <p><strong>Learning outcomes</strong>: At the end of these sessions, you 
+ will be able to</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure, modify parameters, add/remove steps, etc.</li> <li>Write a new 
+ computational biomolecular simulation workflow using the BioExcel building
+  blocks library from scratch.</li> <li>Launch computational biomolecular 
+ simulation workflows built using the BioExcel building blocks library in a
+  command-line interface.</li> </ul></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20211117T090000
@@ -989,7 +1743,7 @@ DESCRIPTION:<p>YALES2 aims at the solving of two-phase combustion from
  <p><strong>Instructors:</strong> Vincent Moureau (CNRS)\, Ghislain 
  Lartigue (CNRS)\, Pierre Bénard (INSA of Rouen)</p>
 LOCATION:https://coec-project.eu/event/yales2-training-session/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:49.387241;1.068741
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>YALES2 aims at 
  the solving of two-phase combustion from primary atomization to pollutant 
@@ -1034,7 +1788,7 @@ DESCRIPTION:<p>This 4-days combined workshop/hackathon (2-day/2-day) will
  and improving the existing interfaces between ASE/Fireworks and ES codes 
  to take full advantage of new powerful features.</p>
 LOCATION:https://nomad-coe.eu/events/ase-fireworks-workshop
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:55.785409;12.519589
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This 4-days 
  combined workshop/hackathon (2-day/2-day) will introduce young scientists 
@@ -1080,7 +1834,7 @@ DESCRIPTION:<p>Making HPC software easy to install on multiple
  Hackathon are Autotools and CMake.</p>
 LOCATION:https://trex-coe.eu/events/trex-build-system-
  hackathon-8-12-nov-2021
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:52.238346;6.850669
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Making HPC 
  software easy to install on multiple supercomputers or different 
@@ -1098,6 +1852,64 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Making HPC
  six developers improve the build scripts of codes they develop. The 
  supported build systems for this Hackathon are Autotools and 
  CMake.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20211026T090000
+DTEND;TZID="UTC+02:00":20211028T170000
+SUMMARY:PATC: Tools and techniques to quickly improve performances of HPC 
+ applications in Solid Earth
+UID:https://hpc-portal.eu/node/1480
+DESCRIPTION:<p>This is a course targeted to improve the overall performance
+  of a code in Solid Earth\, currently in use at the CHEESE Center of 
+ Excellence H2020 project. Parallel performance profiling tools will be 
+ provided on the initial version of the code to find the so-called 
+ performance bottlenecks. Starting from the profiling analysis\, it will 
+ show how and where to intervene with respect to the hardware 
+ characterization of the HPC machine used for the investigation.</p> <p>We 
+ will show also how debug tools will be useful in the development / 
+ optimization phase to eliminate any possible bugs introduced in the 
+ writing (or redesign) of new parts of the code. Finally\, it will be shown
+  how to improve the overall performance of the code with respect to other 
+ popular parameters such as I / O\, vectorization\, etc.</p> <p> 
+ <strong>Skills:</strong><br> At the end of the course the student will be 
+ able to:</p> <p>Achieve the main information about performance of today 
+ HPC computer</p> <p>Use a concrete methodology to improve the performance 
+ of a code in Solid Earth already in use in the context of<br> ChEESE 
+ project</p> <p>Find and solve the main bottlenecks of an application with 
+ respect to appropriate computational metrics<br> and the machine used</p> 
+ <p>Use appropriate debugging tools to eliminate any bugs that may arise 
+ during the development / optimization phase</p> <p><strong>Target 
+ audience: </strong></p> <p>Researchers in Solid Earth interested to learn 
+ and use all those techniques and related tools that may allow them to 
+ improve the performance of their code on current HPC architectures in the 
+ shortest possible time.</p>
+LOCATION:https://events.prace-ri.eu/event/973/registrations/708/
+DTSTAMP:20220830T140834Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This is a course
+  targeted to improve the overall performance of a code in Solid Earth, 
+ currently in use at the CHEESE Center of Excellence H2020 project. 
+ Parallel performance profiling tools will be provided on the initial 
+ version of the code to find the so-called performance bottlenecks. 
+ Starting from the profiling analysis, it will show how and where to 
+ intervene with respect to the hardware characterization of the HPC machine
+  used for the investigation.</p> <p>We will show also how debug tools will
+  be useful in the development / optimization phase to eliminate any 
+ possible bugs introduced in the writing (or redesign) of new parts of the 
+ code. Finally, it will be shown how to improve the overall performance of 
+ the code with respect to other popular parameters such as I / O, 
+ vectorization, etc.</p> <p> <strong>Skills:</strong><br> At the end of the
+  course the student will be able to:</p> <p>Achieve the main information 
+ about performance of today HPC computer</p> <p>Use a concrete methodology 
+ to improve the performance of a code in Solid Earth already in use in the 
+ context of<br> ChEESE project</p> <p>Find and solve the main bottlenecks 
+ of an application with respect to appropriate computational metrics<br> 
+ and the machine used</p> <p>Use appropriate debugging tools to eliminate 
+ any bugs that may arise during the development / optimization phase</p> 
+ <p><strong>Target audience: </strong></p> <p>Researchers in Solid Earth 
+ interested to learn and use all those techniques and related tools that 
+ may allow them to improve the performance of their code on current HPC 
+ architectures in the shortest possible time.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20211019T090000
@@ -1126,7 +1938,7 @@ DESCRIPTION:<p>Are you interested in numerical wave simulations but feel
  Exascale in Solid Earth and supported by the <a href="https://enerxico-
  project.eu/">ENERXICO</a> project.</p>
 LOCATION:https://www.hlrs.de/training/2021-10-19-CHEESE/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Are you 
  interested in numerical wave simulations but feel like there are too many 
@@ -1191,7 +2003,7 @@ DESCRIPTION:<p><strong>Distributed memory parallelization with the Message
  Computational Science\, and in addition\, the scientific exchange of the 
  participants among themselves.</p>
 LOCATION:https://hpc-portal.eu/node/807
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
  HTML><HTML><BODY><p><strong>Distributed memory parallelization with the 
@@ -1244,7 +2056,7 @@ DESCRIPTION:<p>This course is targeted at researchers with basic knowledge
  learn how to build interactive 3D Models for Virtual Environments and how 
  to set up an Augmented Reality visualization.</p>
 LOCATION:http://www.hlrs.de/contact/how-to-find-us/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course is 
  targeted at researchers with basic knowledge in numerical simulation, who 
@@ -1284,7 +2096,7 @@ DESCRIPTION:<p>OpenFOAM® is a widely-used open-source code and a powerful
  for Global Challenges. See also the <a href="https://moodle.hidalgo-
  project.eu/"><strong>moodle platform</strong></a> of HiDALGO training.</p>
 LOCATION:https://www.hlrs.de/contact/how-to-find-us/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM® is a 
  widely-used open-source code and a powerful framework for solving a 
@@ -1367,7 +2179,7 @@ DESCRIPTION:<p>In September 2021 we will hold a hands-on workshop on
   <p>Zeila Zanolli (Utrecht University)</p>
 LOCATION:http://www.max-centre.eu/news-events/optimizing-digital-teaching-
  and-communication
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In September 
  2021 we will hold a hands-on workshop on e-learning techniques and 
@@ -1437,7 +2249,7 @@ DESCRIPTION:<p>Molecular Dynamic (MD) simulations are fundamental to
  features of GROMACS code\, and they will be able to set up and perform 
  molecular simulation on the covered topic.</p>
 LOCATION:https://elixir-portugal.org/node/330
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:40.207620;-8.424491
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Molecular 
  Dynamic (MD) simulations are fundamental to understand the mechanism of 
@@ -1472,7 +2284,7 @@ DESCRIPTION:<p>In this one-day training\, we will give an overview of the
  order and efficient parallelisation is clearly a distinguishing feature in
   situations when high fidelity simulation data is required.</p>
 LOCATION:https://services.excellerat.eu/viewevent/49
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In this one-day 
  training, we will give an overview of the capabilities and features of 
@@ -1493,6 +2305,21 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In this one-day
  simulation data is required.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210708T090000
+DTEND;TZID="UTC+02:00":20210708T170000
+SUMMARY:Tsunami-HySEA training (University of Malta)
+UID:https://hpc-portal.eu/node/1477
+DESCRIPTION:<p>ChEESE partner Jorge Macias (UMA) conducts a training course
+  for participants from the University of Malta on 8 July 2021.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-university-
+ malta
+DTSTAMP:20220830T140834Z
+GEO:35.898546;14.515583
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ Jorge Macias (UMA) conducts a training course for participants from the 
+ University of Malta on 8 July 2021.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20210707T090000
 DTEND;TZID="UTC+02:00":20210709T103000
 SUMMARY:Tackling Global challenges with HPC\, HPDA\, and simulations
@@ -1509,7 +2336,7 @@ DESCRIPTION:<p>The EU-funded projects HiDALGO and ESIWACE kindly invite for
  material:<br> https://moodle.hidalgo-project.eu/course/view.php?id=6<br> 
  https://moodle.hidalgo-project.eu/course/view.php?id=13</p> 
 LOCATION:https://hpc-portal.eu/node/809
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:40.434870;-3.632042
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The EU-funded 
  projects HiDALGO and ESIWACE kindly invite for a joined online workshop on
@@ -1604,7 +2431,7 @@ DESCRIPTION:<p>The school is aimed at students and researchers from
  details/5">https://www.cecam.org/workshop-details/5</a></p>
 LOCATION:http://www.max-centre.eu/news-events/first-principles-simulations-
  materials-siesta-0
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school is 
  aimed at students and researchers from different disciplines who already 
@@ -1705,7 +2532,7 @@ DESCRIPTION:<p>This HLRS course addresses students\, data scientists\, and
  optimize data storage. The lectures are interleaved with many hands-on 
  sessions using Jupyter Notebooks and scripts on HLRS systems.</p>
 LOCATION:https://services.excellerat.eu/viewevent/42
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This HLRS course
   addresses students, data scientists, and researchers who would like to 
@@ -1738,13 +2565,59 @@ DESCRIPTION:<p>This course will be a deep dive in the CDNA (AMD GPU)
  href="https://www.hlrs.de/training/2021/AMD3">course website</a> for all 
  information.</p>
 LOCATION:https://services.excellerat.eu/viewevent/46
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course will
   be a deep dive in the CDNA (AMD GPU) architecture and ecosystem. 
  Participants will also get an overview of the HIP software.</p> <p>Please 
  visit the main <a href="https://www.hlrs.de/training/2021/AMD3">course 
  website</a> for all information.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210604T090000
+DTEND;TZID="UTC+02:00":20210611T170000
+SUMMARY:BioExcel Summer School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1457
+DESCRIPTION:<p>The school will include lectures and hands-on sessions on 
+ the following topics:</p> <ul> <li>Molecular Dynamics simulations</li> 
+ <li>Biomolecular Docking</li> <li>Free energy calculations</li> 
+ <li>Advanced sampling methods (Metadynamics)</li> <li>BioExcel Building 
+ Blocks (BioBB)</li> <li>Quantum mechanics/molecular mechanics (QM/MM)</li>
+  </ul> <p>During the hands-on computer practicals you will make use of the
+  BioExcel flagship software and tools: e.g. GROMACS\, HADDOCK\, PMX\, 
+ BioBB\, and CP2K. The trainers\, developers and/or experts in the use of 
+ the software\, will provide guidance and support.</p>
+LOCATION:https://bioexcel.eu/events/summer-school-on-biomolecular-
+ simulations/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
+ include lectures and hands-on sessions on the following topics:</p> <ul> 
+ <li>Molecular Dynamics simulations</li> <li>Biomolecular Docking</li> 
+ <li>Free energy calculations</li> <li>Advanced sampling methods 
+ (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> <li>Quantum 
+ mechanics/molecular mechanics (QM/MM)</li> </ul> <p>During the hands-on 
+ computer practicals you will make use of the BioExcel flagship software 
+ and tools: e.g. GROMACS, HADDOCK, PMX, BioBB, and CP2K. The trainers, 
+ developers and/or experts in the use of the software, will provide 
+ guidance and support.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210524T090000
+DTEND;TZID="UTC+02:00":20210525T170000
+SUMMARY:Tsunami-HySEA training (Escuela Superior Politécnica)
+UID:https://hpc-portal.eu/node/1478
+DESCRIPTION:<p>Carlos Sanchez and Jorge Macias\, researchers from UMA\, 
+ present a Tsunami-HySEA training course at the Escuela Superior 
+ Politécnica\, Ecuador on 24-25 May 2021.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-escuela-
+ superior-politecnica
+DTSTAMP:20220830T140834Z
+GEO:-2.147712;-79.964729
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Carlos Sanchez 
+ and Jorge Macias, researchers from UMA, present a Tsunami-HySEA training 
+ course at the Escuela Superior Politécnica, Ecuador on 24-25 May 
+ 2021.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20210517T090000
@@ -1856,7 +2729,7 @@ DESCRIPTION:<p>This five-day online school will focus on the field of
  (2018)</p>
 LOCATION:http://www.max-centre.eu/news-events/advanced-school-quantum-
  transport-using-siesta-0
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This five-day 
  online school will focus on the field of theoretical condensed matter 
@@ -1994,7 +2867,7 @@ DESCRIPTION:<p>The school will introduce students and young researchers to
  46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
 LOCATION:http://www.max-centre.eu/news-events/max-school-advanced-
  materials-and-molecular-modelling-quantum-espresso
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The school will 
  introduce students and young researchers to materials and molecular 
@@ -2037,7 +2910,7 @@ DESCRIPTION:<p>Despite its age\, Fortran remains the dominant programming
  be more involved in the future of the language via the <a 
  href="https://fortran-lang.org/">new website</a>.</p>
 LOCATION:https://services.excellerat.eu/viewevent/39
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.597590;2.198736
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Despite its age,
   Fortran remains the dominant programming language for high performance 
@@ -2116,7 +2989,7 @@ DESCRIPTION:<h2>General description and learning outcomes</h2> <p>We would
  performance-data-analytics/">https://enccs.se/events/2021/04/enccshidalgo-
  workshop-on-high-performance-data-analytics/</a></p>
 LOCATION:https://events.prace-ri.eu/event/1193/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>General 
  description and learning outcomes</h2> <p>We would like to invite you to 
@@ -2180,6 +3053,112 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>General
  workshop-on-high-performance-data-analytics/</a></p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210422T090000
+DTEND;TZID="UTC+02:00":20210423T170000
+SUMMARY:QM/MM with GROMACS + CP2K
+UID:https://hpc-portal.eu/node/1458
+DESCRIPTION:<p><strong>Learning outcomes</strong><br> This course will 
+ equip participants to perform hybrid QM/MM simulations using the molecular
+  dynamics code GROMACS in combination with the quantum chemistry package 
+ CP2K through an interface developed by one of the instructors from the 
+ BioExcel Centre of Excellence (www.bioexcel.eu).</p> 
+ <p><strong>Prerequisites</strong><br> Participants should be familiar with
+  using GROMACS to perform molecular dynamics simulations. A background in 
+ computational quantum chemistry is not strictly required since an 
+ introduction of key aspects will be provided\, but previous familiarity is
+  beneficial. You should be familiar with connecting to a remote machine 
+ using ssh and will benefit from experience using an HPC facility as you 
+ will execute hands-on practicals on the UK supercomputer ARCHER2.</p> 
+ <p><strong>Description</strong><br> Most classical molecular mechanics 
+ (MM) force fields are not sufficiently flexible to model processes in 
+ which chemical bonds are broken or formed. Instead\, some level of quantum
+  mechanical (QM) description is needed to gain detailed mechanistic 
+ insights into reaction mechanisms\, e.g. the catalytic action of enzymes\,
+  and to compute photochemical properties such as absorption and emission 
+ spectra of fluorescent proteins. However biochemical systems (including 
+ solvent) are too large to be solved in their entirety at ab initio QM 
+ level or efficiently even with a high-quality density functional theory 
+ (DFT) approximation. To overcome the cost of a QM description on the one 
+ hand versus the limitations of a MM treatment on the other hand\, methods 
+ have been developed that treat a small critical region of interest at QM 
+ level while retaining the computationally cheaper MM force field for the 
+ majority of the system.</p> <p>Despite the simplicity of the QM/MM 
+ concept\, its application is currently restricted to a relatively small 
+ group of specialised expert users often using in-house codes. To unlock 
+ the power of QM/MM simulations for the wider biomolecular simulation 
+ community\, the BioExcel Centre of Excellence has developed an interface 
+ between the molecular dynamics code GROMACS\, which is widely used in the 
+ biomolecular simulation community\, and the quantum chemistry package 
+ CP2K\, which supports calculations under periodic boundary conditions with
+  DFT methods.</p> <p>This course explains key aspects relating to the use 
+ of QM/MM for biomolecular simulation with these two codes and equips 
+ participants with the ability to start using GROMACS and CP2K for this 
+ purpose in their own research. Participants are provided with the 
+ opportunity to gain hands-on practical experience running several example 
+ calculations on ARCHER2\, the UK national supercomputing service.</p>
+LOCATION:https://bioexcel.eu/events/qm-mm-with-gromacs-cp2k/
+DTSTAMP:20220830T140834Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Learning
+  outcomes</strong><br> This course will equip participants to perform 
+ hybrid QM/MM simulations using the molecular dynamics code GROMACS in 
+ combination with the quantum chemistry package CP2K through an interface 
+ developed by one of the instructors from the BioExcel Centre of Excellence
+  (www.bioexcel.eu).</p> <p><strong>Prerequisites</strong><br> Participants
+  should be familiar with using GROMACS to perform molecular dynamics 
+ simulations. A background in computational quantum chemistry is not 
+ strictly required since an introduction of key aspects will be provided, 
+ but previous familiarity is beneficial. You should be familiar with 
+ connecting to a remote machine using ssh and will benefit from experience 
+ using an HPC facility as you will execute hands-on practicals on the UK 
+ supercomputer ARCHER2.</p> <p><strong>Description</strong><br> Most 
+ classical molecular mechanics (MM) force fields are not sufficiently 
+ flexible to model processes in which chemical bonds are broken or formed. 
+ Instead, some level of quantum mechanical (QM) description is needed to 
+ gain detailed mechanistic insights into reaction mechanisms, e.g. the 
+ catalytic action of enzymes, and to compute photochemical properties such 
+ as absorption and emission spectra of fluorescent proteins. However 
+ biochemical systems (including solvent) are too large to be solved in 
+ their entirety at ab initio QM level or efficiently even with a high-
+ quality density functional theory (DFT) approximation. To overcome the 
+ cost of a QM description on the one hand versus the limitations of a MM 
+ treatment on the other hand, methods have been developed that treat a 
+ small critical region of interest at QM level while retaining the 
+ computationally cheaper MM force field for the majority of the system.</p>
+  <p>Despite the simplicity of the QM/MM concept, its application is 
+ currently restricted to a relatively small group of specialised expert 
+ users often using in-house codes. To unlock the power of QM/MM simulations
+  for the wider biomolecular simulation community, the BioExcel Centre of 
+ Excellence has developed an interface between the molecular dynamics code 
+ GROMACS, which is widely used in the biomolecular simulation community, 
+ and the quantum chemistry package CP2K, which supports calculations under 
+ periodic boundary conditions with DFT methods.</p> <p>This course explains
+  key aspects relating to the use of QM/MM for biomolecular simulation with
+  these two codes and equips participants with the ability to start using 
+ GROMACS and CP2K for this purpose in their own research. Participants are 
+ provided with the opportunity to gain hands-on practical experience 
+ running several example calculations on ARCHER2, the UK national 
+ supercomputing service.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20210416T090000
+DTEND;TZID="UTC+02:00":20210507T170000
+SUMMARY:Tsunami-HySEA training (Instituto de Hidráulica Ambiental de 
+ Cantabria)
+UID:https://hpc-portal.eu/node/1479
+DESCRIPTION:<p>Carlos Sanchez and Jorge Macias\, researchers from UMA\, 
+ present a Tsunami-HySEA training course at the Instituto de Hidráulica 
+ Ambiental de Cantabria\, Spain on 16 April 2021 and 7 May 2021.</p>
+LOCATION:https://cheese-coe.eu/events/tsunami-hysea-training-instituto-de-
+ hidraulica-ambiental-de-cantabria
+DTSTAMP:20220830T140834Z
+GEO:43.452804;-3.872601
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Carlos Sanchez 
+ and Jorge Macias, researchers from UMA, present a Tsunami-HySEA training 
+ course at the Instituto de Hidráulica Ambiental de Cantabria, Spain on 16 
+ April 2021 and 7 May 2021.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20210414T140000
 DTEND;TZID="UTC+02:00":20210414T160000
 SUMMARY:Reproducible Software Environments & Benchmarks with Ansible and 
@@ -2225,7 +3204,7 @@ DESCRIPTION:<p>A talk will be given by Sergiy Gogolenko at HLRS (HiDALGO
  their reporting with Ansible (10min)<br> - Reproducible benchmarks and 
  their reporting with Ansible (10min)<br> - Q&amp\;A (10min)</p>
 LOCATION:https://moodle.hidalgo-project.eu/course/view.php?id=11
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>A talk will be 
  given by Sergiy Gogolenko at HLRS (HiDALGO partner) on simplifying user 
@@ -2305,7 +3284,7 @@ DESCRIPTION:<p>The density-functional theory (DFT) in its various
  46djK5odpKSGfrtpvC6rFzEPkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
 LOCATION:http://www.max-centre.eu/news-events/all-electron-dft-fleur-hands-
  tutorial
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The density-
  functional theory (DFT) in its various incarnation provides the most 
@@ -2366,7 +3345,7 @@ DESCRIPTION:<p>The <a
  ENGINES\, SAFRAN HELICOPTER ENGINES\, ARIANEGROUP\, HERAKLES\, TOTAL\, 
  etc.).</p>
 LOCATION:https://services.excellerat.eu/viewevent/38
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:43.574084;1.376453
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The <a 
  href="https://services.excellerat.eu/viewcode/5">AVBP</a> code is a 
@@ -2428,7 +3407,7 @@ DESCRIPTION:<p>The MaX/CECAM virtual school will last four days and will be
  PkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p>
 LOCATION:http://www.max-centre.eu/news-events/virtual-school-electronic-
  excitations-solids-and-nanostructures-using-yambo-code
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The MaX/CECAM 
  virtual school will last four days and will be held on <strong>April 8, 9 
@@ -2462,6 +3441,79 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The MaX/CECAM
  PkYWD2XCVKH6kXVa-1qIWYwwmt3P"></p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210322T090000
+DTEND;TZID="UTC+01:00":20210324T170000
+SUMMARY:Introduction to HPC for Life Scientists
+UID:https://hpc-portal.eu/node/1459
+DESCRIPTION:Description: <p>This course provides an introduction to High-
+ Performance Computing (HPC) for researchers in the life sciences\, using 
+ ARCHER2 as a platform for hands-on training exercises.</p> <p>The course 
+ is organised and funded by BioExcel – the Centre of Excellence for 
+ Computational Biomolecular Research and PRACE\, and delivered in 
+ collaboration with ARCHER2 – the UK national supercomputing service.</p> 
+ Overview <p>High-performance computing (HPC) is a fundamental technology 
+ used to solve a wide range of scientific research problems. Many important
+  challenges in science such as protein folding\, the search for the Higgs 
+ boson\, drug discovery\, and the development of nuclear fusion all depend 
+ on simulations\, models and analyses run on HPC facilities to make 
+ progress.</p> <p>This course introduces HPC to life science researchers\, 
+ focusing on the aspects that are most important for those new to this 
+ technology to understand. It will help you judge how HPC can best benefit 
+ your research\, and equip you to go on to successfully and efficiently 
+ make use of HPC facilities in future. The course will cover basic concepts
+  in HPC hardware\, software\, user environments\, filesystems\, and 
+ programming models. It also provides an opportunity to gain hands-on 
+ practical experience and assistance using an HPC system (ARCHER2\, the UK 
+ national supercomputing service) through examples drawn from the life 
+ sciences\, such as biomolecular simulation.</p> Learning outcomes <p>On 
+ completion of the course\, we expect that attendees will understand and be
+  able to explain:</p> <ul> <li>Why HPC? – What are the drivers and 
+ motivation? Who uses it and why?</li> <li>The UK &amp\; EU HPC landscape –
+  HPC facilities available to researchers</li> <li>HPC hardware – Building 
+ blocks and architectures</li> <li>Parallel computing – Programming models 
+ and implementations</li> <li>Using HPC systems <ul> <li>Access</li> 
+ <li>Batch schedulers &amp\; resource allocation</li> <li>Running jobs</li>
+  <li>Dealing with errors</li> <li>Compiling code</li> <li>Using 
+ libraries</li> <li>Performance</li> </ul> </li> <li>The Future of HPC</li>
+  </ul>
+LOCATION:https://bioexcel.eu/events/introduction-to-hpc-for-life-
+ scientists/
+DTSTAMP:20220830T140834Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY>Description: 
+ <p>This course provides an introduction to High-Performance Computing 
+ (HPC) for researchers in the life sciences, using ARCHER2 as a platform 
+ for hands-on training exercises.</p> <p>The course is organised and funded
+  by BioExcel – the Centre of Excellence for Computational Biomolecular 
+ Research and PRACE, and delivered in collaboration with ARCHER2 – the UK 
+ national supercomputing service.</p> Overview <p>High-performance 
+ computing (HPC) is a fundamental technology used to solve a wide range of 
+ scientific research problems. Many important challenges in science such as
+  protein folding, the search for the Higgs boson, drug discovery, and the 
+ development of nuclear fusion all depend on simulations, models and 
+ analyses run on HPC facilities to make progress.</p> <p>This course 
+ introduces HPC to life science researchers, focusing on the aspects that 
+ are most important for those new to this technology to understand. It will
+  help you judge how HPC can best benefit your research, and equip you to 
+ go on to successfully and efficiently make use of HPC facilities in 
+ future. The course will cover basic concepts in HPC hardware, software, 
+ user environments, filesystems, and programming models. It also provides 
+ an opportunity to gain hands-on practical experience and assistance using 
+ an HPC system (ARCHER2, the UK national supercomputing service) through 
+ examples drawn from the life sciences, such as biomolecular 
+ simulation.</p> Learning outcomes <p>On completion of the course, we 
+ expect that attendees will understand and be able to explain:</p> <ul> 
+ <li>Why HPC? – What are the drivers and motivation? Who uses it and 
+ why?</li> <li>The UK &amp; EU HPC landscape – HPC facilities available to 
+ researchers</li> <li>HPC hardware – Building blocks and architectures</li>
+  <li>Parallel computing – Programming models and implementations</li> 
+ <li>Using HPC systems <ul> <li>Access</li> <li>Batch schedulers &amp; 
+ resource allocation</li> <li>Running jobs</li> <li>Dealing with 
+ errors</li> <li>Compiling code</li> <li>Using libraries</li> 
+ <li>Performance</li> </ul> </li> <li>The Future of HPC</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20210319T095500
 DTEND;TZID="UTC+01:00":20210319T170000
 SUMMARY:Data analytics for engineering data using machine learning
@@ -2481,7 +3533,7 @@ DESCRIPTION:<p>As part of the EXCELLERAT training program\, <a
  will be open for all partners and corresponding institutes of 
  EXCELLERAT.</p>
 LOCATION:https://services.excellerat.eu/viewevent/8
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:50.749501;7.203595
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As part of the 
  EXCELLERAT training program, <a 
@@ -2520,7 +3572,7 @@ DESCRIPTION:<p>The focus of the course is on modern iterative solvers for
  in the HiDALGO <strong><a href="https://hidalgo-project.eu/use-
  cases/social-networks">Social Network Pilot</a></strong>.</p>
 LOCATION:https://www.hlrs.de/training/2021/ITER-S/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The focus of the
   course is on modern iterative solvers for large linear systems of 
@@ -2547,44 +3599,47 @@ UID:https://hpc-portal.eu/node/865
 DESCRIPTION:<p>Please visit the <a href="https://moodle.hidalgo-
  project.eu/course/view.php?id=10">Moodle page</a>.</p>
 LOCATION:https://moodle.hidalgo-project.eu/course/view.php?id=10
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:52.407190;16.953149
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Please visit the
   <a href="https://moodle.hidalgo-project.eu/course/view.php?id=10">Moodle 
  page</a>.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID="UTC+01:00":20210201T090000
-DTEND;TZID="UTC+01:00":20210203T120000
-SUMMARY:Online: Advanced GROMACS workshop
-UID:https://hpc-portal.eu/node/1129
-DESCRIPTION:<p>This course gives a practical introduction on how to run 
- GROMACS MD simulations efficiently on modern hardware including both CPUs 
- and GPUs. In addition to speeding up MD simulations\, also workflow 
- automation and advanced sampling techniques are discussed. CSC's <a 
- href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
- supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
- course consists of lectures and hands-on exercises. GROMACS will be used 
- in the exercise sessions.</p> <p>The event is organized in collaboration 
- with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
- href="https://www.csc.fi/">CSC</a> and supported by <a 
- href="http://www.prace-ri.eu/">PRACE</a>.</p>
-LOCATION:https://a3s.fi/advanced_gmx/PRACE_CSC_BioExcelWorkshop-
- GROMACS_workflows_and_advanced_topics.html
-DTSTAMP:20220816T095005Z
-GEO:60.178269;24.832865
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
- gives a practical introduction on how to run GROMACS MD simulations 
- efficiently on modern hardware including both CPUs and GPUs. In addition 
- to speeding up MD simulations, also workflow automation and advanced 
- sampling techniques are discussed. CSC's <a 
- href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
- supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
- course consists of lectures and hands-on exercises. GROMACS will be used 
- in the exercise sessions.</p> <p>The event is organized in collaboration 
- with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
- href="https://www.csc.fi/">CSC</a> and supported by <a 
- href="http://www.prace-ri.eu/">PRACE</a>.</p></BODY></HTML>
+DTSTART;TZID="UTC+01:00":20210216T090000
+DTEND;TZID="UTC+01:00":20210219T170000
+SUMMARY:Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1483
+DESCRIPTION:<p><strong>Objectives:</strong>The objetive of this course is 
+ to give a panorama on the use of HPC-based computational mechanics in 
+ Engineering and Environment through the projects BSC are carrying on. This
+  panorama includes the basics of what is behind the main tools: 
+ computational mechanics and parallelization. The training is delivered in 
+ collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial\, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition\, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p> <p><strong>Level: 
+ </strong>INTERMEDIATE: For trainees with some theoretical and practical 
+ knowledge</p>
+LOCATION:https://events.prace-ri.eu/event/1130/
+DTSTAMP:20220830T140834Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives:</strong>The objetive of this 
+ course is to give a panorama on the use of HPC-based computational 
+ mechanics in Engineering and Environment through the projects BSC are 
+ carrying on. This panorama includes the basics of what is behind the main 
+ tools: computational mechanics and parallelization. The training is 
+ delivered in collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition, the student has the opportunity of running Jobs 
+ in Marenostrum supercomputer.</p> <p><strong>Level: </strong>INTERMEDIATE:
+  For trainees with some theoretical and practical 
+ knowledge</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20210127T130000
@@ -2598,7 +3653,7 @@ DESCRIPTION:<p>This event\, which takes place on 27-29 January 2021\, is
  href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
  Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p>
 LOCATION:https://services.excellerat.eu/viewevent/10
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event, 
  which takes place on 27-29 January 2021, is open to HiDALGO, ChEESE and 
@@ -2622,7 +3677,7 @@ DESCRIPTION:<p>Participants will be introduced to AMD's Instinct GPU
  profiling tools for AMD GPUs.</p> <p>This course provides training in 
  distributed Machine Learning.</p>
 LOCATION:https://services.excellerat.eu/viewevent/29
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Participants 
  will be introduced to AMD's Instinct GPU portfolio and ROCm software 
@@ -2652,7 +3707,7 @@ DESCRIPTION:<p>Global challenges\, like the spread of diseases\, climate
  bring together different stakeholders from the HPC and Big Data and Global
   Challenges communities.</p>
 LOCATION:https://www.hipeac.net/2021/budapest/#/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:47.481583;19.130016
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Global 
  challenges, like the spread of diseases, climate change, air pollution, 
@@ -2720,7 +3775,7 @@ DESCRIPTION:<p>Mesoscale simulations have grown recently in importance due
  0.1016/j.cpc.2020.107159">https://doi.org/10.1016/j.cpc.2020.107159</a></l
  i> </ul>
 LOCATION:https://www.cecam.org/workshop-details/8
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:53.343521;-2.640737
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Mesoscale 
  simulations have grown recently in importance due to their capacity of 
@@ -2769,6 +3824,349 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Mesoscale
  Communications (2020) 107159, <a href="https://doi.org/10.1016/j.cpc.2020.
  107159">https://doi.org/10.1016/j.cpc.2020.107159</a></li> 
  </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210112T090000
+DTEND;TZID="UTC+01:00":20210115T170000
+SUMMARY:BioExcel/ENCCS workshop – Advanced topics in simulations with 
+ GROMACS
+UID:https://hpc-portal.eu/node/1460
+DESCRIPTION:<p>In collaboration with BioExcel\, ENCCS is offering an online
+  workshop on advanced GROMACS simulations taught by Dr Mark Abraham\, Dr 
+ Christian Blau\, and Dr Artem Zhmurov.</p> <p>The following topics will be
+  covered at the workshop:</p> <p>January 12 – Using umbrella-sampling 
+ (“pulling”) simulations<br> January 13 – Using replica-exchange molecular 
+ dynamics<br> January 14 – Using applied-weight histogram methods 
+ (“AWH”)<br> January 15 – Computing trajectories efficiently on GPUs</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-enccs-workshop-advanced-
+ topics-in-simulations-with-gromacs/
+DTSTAMP:20220830T140834Z
+GEO:59.349456;18.072761
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In collaboration
+  with BioExcel, ENCCS is offering an online workshop on advanced GROMACS 
+ simulations taught by Dr Mark Abraham, Dr Christian Blau, and Dr Artem 
+ Zhmurov.</p> <p>The following topics will be covered at the workshop:</p> 
+ <p>January 12 – Using umbrella-sampling (“pulling”) simulations<br> 
+ January 13 – Using replica-exchange molecular dynamics<br> January 14 – 
+ Using applied-weight histogram methods (“AWH”)<br> January 15 – Computing 
+ trajectories efficiently on GPUs</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20201203T090000
+DTEND;TZID="UTC+01:00":20201210T170000
+SUMMARY:Online course Cluster computing for computational science
+UID:https://hpc-portal.eu/node/1486
+DESCRIPTION:<h2>Practical training to learn how to use a supercomputer</h2>
+  <p>If you have to perform many calculations or analyses that are too 
+ large for your own system\, clusters and supercomputers provide the 
+ necessary computing power. In this training you do practical exercises to 
+ learn how to use a supercomputer facility effectively\, in particular with
+  the national compute cluster Lisa and the national supercomputer 
+ Cartesius.</p> <p>Moreover\, you get to know some examples of real-world 
+ scientific simulations with significant computational requirements\, such 
+ as blood flow simulations and protein docking\, and therefore you learn 
+ about the different needs for parallel executions for them.</p> <p>This 
+ course is sponsored by the <a href="https://www.compbiomed.eu/">CompBioMed
+  Center of Excellence</a>.</p> <h2>Program</h2> <ul> <li>Session 1 (3 
+ December\, 15:00 - 19:00): Learn how to work with a supercomputer and 
+ advanced Linux tools with hands-on exercises</li> <li>Session 2 (10 
+ December\, 15:00 - 19:00): Parallel computing and applications for 
+ computational science with hands-on exercises</li> </ul> <h2>For 
+ whom?</h2> <p>This course aims at anyone who wants to know how to perform 
+ huge compute tasks applied to different scientific fields. The working 
+ language is English.</p> <h2>Requirements</h2> <p>Basic knowledge of <a 
+ href="https://swcarpentry.github.io/shell-novice/">Unix shell</a> is 
+ useful.</p>
+LOCATION:https://www.surf.nl/en/agenda/online-course-cluster-computing-for-
+ computational-science
+DTSTAMP:20220830T140834Z
+GEO:52.356964;4.954480
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Practical 
+ training to learn how to use a supercomputer</h2> <p>If you have to 
+ perform many calculations or analyses that are too large for your own 
+ system, clusters and supercomputers provide the necessary computing power.
+  In this training you do practical exercises to learn how to use a 
+ supercomputer facility effectively, in particular with the national 
+ compute cluster Lisa and the national supercomputer Cartesius.</p> 
+ <p>Moreover, you get to know some examples of real-world scientific 
+ simulations with significant computational requirements, such as blood 
+ flow simulations and protein docking, and therefore you learn about the 
+ different needs for parallel executions for them.</p> <p>This course is 
+ sponsored by the <a href="https://www.compbiomed.eu/">CompBioMed Center of
+  Excellence</a>.</p> <h2>Program</h2> <ul> <li>Session 1 (3 December, 
+ 15:00 - 19:00): Learn how to work with a supercomputer and advanced Linux 
+ tools with hands-on exercises</li> <li>Session 2 (10 December, 15:00 - 
+ 19:00): Parallel computing and applications for computational science with
+  hands-on exercises</li> </ul> <h2>For whom?</h2> <p>This course aims at 
+ anyone who wants to know how to perform huge compute tasks applied to 
+ different scientific fields. The working language is English.</p> 
+ <h2>Requirements</h2> <p>Basic knowledge of <a 
+ href="https://swcarpentry.github.io/shell-novice/">Unix shell</a> is 
+ useful.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20201130T090000
+DTEND;TZID="UTC+01:00":20201204T170000
+SUMMARY:Remote BioExcel Winter School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1461
+DESCRIPTION:<p>The winter school will include lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>Molecular Dynamics 
+ simulations</li> <li>Biomolecular Docking</li> <li>Free energy 
+ calculations</li> <li>Advanced sampling methods (Metadynamics)</li> 
+ <li>BioExcel Building Blocks (BioBB)</li> </ul> <p>During the hands-on 
+ computer practicals you will make use of the BioExcel flagship software 
+ and tools: e.g. GROMACS\, HADDOCK\, PMX\, BioBB. The trainers\, developers
+  and/or experts in the use of the software\, will provide guidance and 
+ support.</p> <p><strong>Audience and Prerequisites</strong></p> <p>The 
+ winter school is intended for researchers (primarily PhD and post-docs) 
+ using or planning to use biomolecular modeling and simulation in their 
+ everyday research. Familiarity with Linux and basic knowledge of molecular
+  modelling software is a requirement.</p>
+LOCATION:https://bioexcel.eu/events/winter-school/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The winter 
+ school will include lectures and hands-on sessions on the following 
+ topics:</p> <ul> <li>Molecular Dynamics simulations</li> <li>Biomolecular 
+ Docking</li> <li>Free energy calculations</li> <li>Advanced sampling 
+ methods (Metadynamics)</li> <li>BioExcel Building Blocks (BioBB)</li> 
+ </ul> <p>During the hands-on computer practicals you will make use of the 
+ BioExcel flagship software and tools: e.g. GROMACS, HADDOCK, PMX, BioBB. 
+ The trainers, developers and/or experts in the use of the software, will 
+ provide guidance and support.</p> <p><strong>Audience and 
+ Prerequisites</strong></p> <p>The winter school is intended for 
+ researchers (primarily PhD and post-docs) using or planning to use 
+ biomolecular modeling and simulation in their everyday research. 
+ Familiarity with Linux and basic knowledge of molecular modelling software
+  is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20201109T090000
+DTEND;TZID="UTC+01:00":20201113T170000
+SUMMARY:Computational biomolecular simulation workflows with BioExcel 
+ Building Blocks
+UID:https://hpc-portal.eu/node/1462
+DESCRIPTION:<p><strong>Overview</strong>:</p> <p>Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations\, but scared to make the first step? What if you could start 
+ smoothly using interactive\, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single\, interoperable library with a unique syntax?</p> 
+ <p>In this session we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>\, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS\, Ambertools\, Openbabel or ACPYPE. The philosophy behind its 
+ design\, following best practices and FAIR principles for software 
+ development makes it easy to find\, install and use\, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong>:</p> <p>This session is aimed 
+ at people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations\, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows\, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training\, although some 
+ knowledge and familiarity with this method is recommended to properly 
+ follow the course.</p> <p>Minimum Linux skills are also required.</p> 
+ <p>This is an interactive session that is presented remotely using 
+ GoToTraining.</p> <p><strong>Learning outcomes</strong>:</p> <p>At the end
+  of these sessions you will be able to...</p> <ul> <li>Interactively work 
+ with computational biomolecular simulation demonstration workflows built 
+ using the BioExcel building blocks library in Jupyter Notebooks sessions: 
+ change input structure\, modify parameters\, add/remove steps\, etc.</li> 
+ <li>Write a new computational biomolecular simulation workflow using the 
+ BioExcel building blocks library from scratch.</li> <li>Launch 
+ computational biomolecular simulation workflows built using the BioExcel 
+ building blocks library in a command-line interface.</li> </ul>
+LOCATION:https://bioexcel.eu/events/computational-biomolecular-simulation-
+ workflows-with-bioexcel-building-blocks-2/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong>:</p> <p>Are you interested 
+ in computational biomolecular simulation methods such as Molecular 
+ Dynamics simulations, but scared to make the first step? What if you could
+  start smoothly using interactive, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single, interoperable library with a unique syntax?</p> 
+ <p>In this session we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS, Ambertools, Openbabel or ACPYPE. The philosophy behind its 
+ design, following best practices and FAIR principles for software 
+ development makes it easy to find, install and use, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. <a 
+ href="http://mmb.irbbarcelona.org/biobb/workflows/tutorials/protein-
+ complex_md_setup">protein-ligand complex GROMACS MD setup</a>). The first 
+ steps on how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong>:</p> <p>This session is aimed 
+ at people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows, ensuring reproducibility.</li> </ul> <p>No expertise in 
+ Molecular Dynamics is needed to attend the training, although some 
+ knowledge and familiarity with this method is recommended to properly 
+ follow the course.</p> <p>Minimum Linux skills are also required.</p> 
+ <p>This is an interactive session that is presented remotely using 
+ GoToTraining.</p> <p><strong>Learning outcomes</strong>:</p> <p>At the end
+  of these sessions you will be able to...</p> <ul> <li>Interactively work 
+ with computational biomolecular simulation demonstration workflows built 
+ using the BioExcel building blocks library in Jupyter Notebooks sessions: 
+ change input structure, modify parameters, add/remove steps, etc.</li> 
+ <li>Write a new computational biomolecular simulation workflow using the 
+ BioExcel building blocks library from scratch.</li> <li>Launch 
+ computational biomolecular simulation workflows built using the BioExcel 
+ building blocks library in a command-line interface.</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20201013T143000
+DTEND;TZID="UTC+02:00":20201020T170000
+SUMMARY:Practical introduction to QM/MM using CP2K for biomolecular 
+ modelling
+UID:https://hpc-portal.eu/node/1463
+DESCRIPTION:<p>As a collaboration between ARCHER2 Training and BioExcel\, 
+ this free online course consists of interactive hands-on practical 
+ sessions presented remotely using Collaborate. Attendees will be given 
+ access to ARCHER to execute the practical.</p> <p>The course will run over
+  two Tuesday afternoons\, 13th and 20th October. Participants are expected
+  to attend both sessions. Each session will run from 13:30-16:00 with a 
+ break 14:30-15:00. There will be a follow-up consultancy session\, where 
+ you can drop-in to ask questions of the tutor on Tuesday 3rd November 
+ 14:00-16:00</p> <h3>Outline</h3> <p>CP2K is a quantum chemistry and solid 
+ state physics software package that can perform atomistic simulations of a
+  wide variety of systems\, ranging from solid state to biological systems.
+  CP2K provides a general framework for running density functional theory 
+ (DFT) simulations\, with extensions that enable users to run classical 
+ molecular dynamics (MD)\, mix MD and DFT to obtain quantum-
+ mechanical/molecular-dynamics (QM/MM) runs\, or perform other forms of 
+ metadynamics\, Monte Carlo\, or other simulations.</p> <p>This course is 
+ aiming to teach attendees how to prepare and run biochemical simulations 
+ in CP2K. Specifically\, we will be looking at how CP2K can be used to 
+ track the reaction dynamics of a system undergoing biological catalysis. 
+ In this course\, we shall be focusing on a Diels Alder transition taking 
+ place in an immunoglobulin. We will begin by considering the reaction site
+  in a purely quantum-mechanical method. Then\, we will slowly increase the
+  complexity of the system to take into account the entire structure of the
+  immunoglobulin (using QM/MM approach)\, the solution\, and finally\, we 
+ will add a ligand to the reaction.</p> <p>While we will be referencing 
+ some DFT and QM/MM theory (mainly the nudged elastic band method and 
+ metadynamics)\, this is not the principal aim of this course. Our aim is 
+ to use these systems to help familiarise attendees with using CP2K to run 
+ simulations of biochemical systems. CP2K can be used for non-biological 
+ systems\, and the topics being taught here can be ported to other fields\,
+  but this will not be a primary focus of this course.</p> <h3>Learning 
+ outcomes</h3> <p>At the end of this session\, you will be able to:</p> 
+ <ul> <li>Run a geometry optimisation using CP2K</li> <li>Run a frequency 
+ calculation using CP2K</li> <li>Estimate the energy barrier of a chemical 
+ reaction</li> <li>Run a nudged elastic band (NEB) simulation to fine-tune 
+ the energy barrier and profile of a chemical reaction</li> <li>Prepare a 
+ QM/MM simulation for CP2K</li> <li>Run a QM/MM simulation in CP2K</li> 
+ </ul>
+LOCATION:https://bioexcel.eu/events/practical-introduction-to-qm-mm-using-
+ cp2k-for-biomolecular-modelling/
+DTSTAMP:20220830T140834Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As a 
+ collaboration between ARCHER2 Training and BioExcel, this free online 
+ course consists of interactive hands-on practical sessions presented 
+ remotely using Collaborate. Attendees will be given access to ARCHER to 
+ execute the practical.</p> <p>The course will run over two Tuesday 
+ afternoons, 13th and 20th October. Participants are expected to attend 
+ both sessions. Each session will run from 13:30-16:00 with a break 
+ 14:30-15:00. There will be a follow-up consultancy session, where you can 
+ drop-in to ask questions of the tutor on Tuesday 3rd November 
+ 14:00-16:00</p> <h3>Outline</h3> <p>CP2K is a quantum chemistry and solid 
+ state physics software package that can perform atomistic simulations of a
+  wide variety of systems, ranging from solid state to biological systems. 
+ CP2K provides a general framework for running density functional theory 
+ (DFT) simulations, with extensions that enable users to run classical 
+ molecular dynamics (MD), mix MD and DFT to obtain quantum-
+ mechanical/molecular-dynamics (QM/MM) runs, or perform other forms of 
+ metadynamics, Monte Carlo, or other simulations.</p> <p>This course is 
+ aiming to teach attendees how to prepare and run biochemical simulations 
+ in CP2K. Specifically, we will be looking at how CP2K can be used to track
+  the reaction dynamics of a system undergoing biological catalysis. In 
+ this course, we shall be focusing on a Diels Alder transition taking place
+  in an immunoglobulin. We will begin by considering the reaction site in a
+  purely quantum-mechanical method. Then, we will slowly increase the 
+ complexity of the system to take into account the entire structure of the 
+ immunoglobulin (using QM/MM approach), the solution, and finally, we will 
+ add a ligand to the reaction.</p> <p>While we will be referencing some DFT
+  and QM/MM theory (mainly the nudged elastic band method and 
+ metadynamics), this is not the principal aim of this course. Our aim is to
+  use these systems to help familiarise attendees with using CP2K to run 
+ simulations of biochemical systems. CP2K can be used for non-biological 
+ systems, and the topics being taught here can be ported to other fields, 
+ but this will not be a primary focus of this course.</p> <h3>Learning 
+ outcomes</h3> <p>At the end of this session, you will be able to:</p> <ul>
+  <li>Run a geometry optimisation using CP2K</li> <li>Run a frequency 
+ calculation using CP2K</li> <li>Estimate the energy barrier of a chemical 
+ reaction</li> <li>Run a nudged elastic band (NEB) simulation to fine-tune 
+ the energy barrier and profile of a chemical reaction</li> <li>Prepare a 
+ QM/MM simulation for CP2K</li> <li>Run a QM/MM simulation in CP2K</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200903T090000
+DTEND;TZID="UTC+02:00":20200904T170000
+SUMMARY:Introduction to GROMACS – A SNIC/PRACE workshop in collaboration 
+ with BioExcel
+UID:https://hpc-portal.eu/node/1464
+DESCRIPTION:<p>GROMACS (<a 
+ href="http://www.gromacs.org/">www.gromacs.org</a>) is a free\, open-
+ source and high-performance software suite for molecular dynamics 
+ simulation and analysis. The workshop aims to provide the basis to perform
+  molecular dynamics simulations and simple free energy calculations using 
+ GROMACS.</p> <p>The workshop is organized jointly by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>\, the main HPC resource provider 
+ in Europe\, <a href="https://bioexcel.eu/">BioExcel</a>\, the leading 
+ European Center of Excellence for Computational Biomolecular Research and 
+ <a href="http://www.snic.se/">SNIC</a>\, Swedish National Infrastructure 
+ for Computing.The workshop will include online lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>The basics of molecular 
+ dynamics simulations</li> <li>Introduction to free energy 
+ calculations</li> <li>The capabilities of GROMACS</li> </ul> <p>During the
+  hands-on computer practicals you will work on protein simulation and 
+ solvation free energy using GROMACS.</p> 
+ <p><strong>Prerequisites</strong></p> <p>The workshop is at beginners 
+ level and assumes no prior experience in GROMACS.</p> <p>The participants 
+ need to have access to a computer where the following software were 
+ already installed: Jupiter notebook\, GROMACS\, VMD (visualisation)\, 
+ Xmgrace (plotting tool) to actively follow the tutorial.</p>
+LOCATION:https://bioexcel.eu/events/introduction-to-gromacs-a-snic-prace-
+ workshop-in-collaboration-with-bioexcel/
+DTSTAMP:20220830T140834Z
+GEO:59.840372;17.648401
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>GROMACS (<a 
+ href="http://www.gromacs.org/">www.gromacs.org</a>) is a free, open-source
+  and high-performance software suite for molecular dynamics simulation and
+  analysis. The workshop aims to provide the basis to perform molecular 
+ dynamics simulations and simple free energy calculations using 
+ GROMACS.</p> <p>The workshop is organized jointly by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>, the main HPC resource provider 
+ in Europe, <a href="https://bioexcel.eu/">BioExcel</a>, the leading 
+ European Center of Excellence for Computational Biomolecular Research and 
+ <a href="http://www.snic.se/">SNIC</a>, Swedish National Infrastructure 
+ for Computing.The workshop will include online lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>The basics of molecular 
+ dynamics simulations</li> <li>Introduction to free energy 
+ calculations</li> <li>The capabilities of GROMACS</li> </ul> <p>During the
+  hands-on computer practicals you will work on protein simulation and 
+ solvation free energy using GROMACS.</p> 
+ <p><strong>Prerequisites</strong></p> <p>The workshop is at beginners 
+ level and assumes no prior experience in GROMACS.</p> <p>The participants 
+ need to have access to a computer where the following software were 
+ already installed: Jupiter notebook, GROMACS, VMD (visualisation), Xmgrace
+  (plotting tool) to actively follow the tutorial.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20200707T090000
@@ -2822,7 +4220,7 @@ DESCRIPTION:<p>The goal of this 4 day-tutorial is to help students and
  info <a href="http://www.aiida.net/aiida-virtual-tutorial-
  july-2020/">here</a></p>
 LOCATION:http://www.max-centre.eu/news-events/aiida-virtual-tutorial
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:44.631901;10.945368
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The goal of this
   4 day-tutorial is to help students and researchers from the field of 
@@ -2870,6 +4268,261 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The goal of this
  href="mailto:marnik.bercx@epfl.ch">marnik.bercx@epfl.ch</a>).</p> <p>More 
  info <a href="http://www.aiida.net/aiida-virtual-tutorial-
  july-2020/">here</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200622T090000
+DTEND;TZID="UTC+02:00":20200626T170000
+SUMMARY:Remote BioExcel Summer School on Biomolecular Simulations
+UID:https://hpc-portal.eu/node/1469
+DESCRIPTION:<h2>Overview</h2> <p>The summer school will include lectures 
+ and hands-on sessions on the following topics:</p> <ul> <li>Molecular 
+ Dynamics simulations</li> <li>Biomolecular Docking</li> <li>QM/MM</li> 
+ <li>Free energy calculations</li> <li>Advanced sampling methods 
+ (Metadynamics)</li> </ul> <p>During the hands-on computer practicals you 
+ will work on a use case integrating the various topics above making use\, 
+ among others\, of the BioExcel flagship software (GROMACS\, HADDOCK\, 
+ PMX). The summer school is supported by <a 
+ href="http://www.sardegnaricerche.it/">Sardegna Ricerche</a>.</p> 
+ <h2>Audience and Prerequisites</h2> <p>The summer school is intended for 
+ researchers (primarily PhD and post-docs) using or planning to use 
+ biomolecular modeling and simulation in their everyday research. 
+ Familiarity with Linux and some basic knowledge of molecular modelling 
+ software is a requirement.</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-summer-school-on-biomolecular-
+ simulations-2020/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Overview</h2> 
+ <p>The summer school will include lectures and hands-on sessions on the 
+ following topics:</p> <ul> <li>Molecular Dynamics simulations</li> 
+ <li>Biomolecular Docking</li> <li>QM/MM</li> <li>Free energy 
+ calculations</li> <li>Advanced sampling methods (Metadynamics)</li> </ul> 
+ <p>During the hands-on computer practicals you will work on a use case 
+ integrating the various topics above making use, among others, of the 
+ BioExcel flagship software (GROMACS, HADDOCK, PMX). The summer school is 
+ supported by <a href="http://www.sardegnaricerche.it/">Sardegna 
+ Ricerche</a>.</p> <h2>Audience and Prerequisites</h2> <p>The summer school
+  is intended for researchers (primarily PhD and post-docs) using or 
+ planning to use biomolecular modeling and simulation in their everyday 
+ research. Familiarity with Linux and some basic knowledge of molecular 
+ modelling software is a requirement.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200609T140000
+DTEND;TZID="UTC+02:00":20200609T170000
+SUMMARY:Preparing to run biomolecular QM/MM simulations with CP2K using 
+ AmberTools Online
+UID:https://hpc-portal.eu/node/1470
+DESCRIPTION:<p>This online course covers basic tools and technologies 
+ needed to succeed in the setting up a QM/MM simulation with AmberTools 
+ suite\, with hands-on exercises. It provides background to preparation of 
+ biological systems for molecular modelling and practical experience in 
+ successfully creating topologies and running simple QM/MM simulations 
+ using CP2K in a HPC environment.</p> <p>The course uses examples drawn 
+ from EPCC’s experiences in the life-sciences and HPC computing\, but using
+  free tools and technologies commonly used in the biomolecular modelling 
+ community. You will learn the intricacies of molecular modelling of 
+ biological systems\, as well as practical aspects of handling and 
+ preparing PDB files\, creating topologies ready to run using CP2K 
+ softwares.</p> <p><strong>Audience:</strong> The course is aimed at 
+ biomolecular modellers who want to use QM/MM simulations in their 
+ work.</p>
+LOCATION:https://bioexcel.eu/events/preparing-to-run-biomolecular-qm-mm-
+ simulations-with-cp2k-using-ambertools-online/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This online 
+ course covers basic tools and technologies needed to succeed in the 
+ setting up a QM/MM simulation with AmberTools suite, with hands-on 
+ exercises. It provides background to preparation of biological systems for
+  molecular modelling and practical experience in successfully creating 
+ topologies and running simple QM/MM simulations using CP2K in a HPC 
+ environment.</p> <p>The course uses examples drawn from EPCC’s experiences
+  in the life-sciences and HPC computing, but using free tools and 
+ technologies commonly used in the biomolecular modelling community. You 
+ will learn the intricacies of molecular modelling of biological systems, 
+ as well as practical aspects of handling and preparing PDB files, creating
+  topologies ready to run using CP2K softwares.</p> 
+ <p><strong>Audience:</strong> The course is aimed at biomolecular 
+ modellers who want to use QM/MM simulations in their 
+ work.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200429T140000
+DTEND;TZID="UTC+02:00":20200429T163000
+SUMMARY:Reproducible analyses with Common Workflow Language
+UID:https://hpc-portal.eu/node/1471
+DESCRIPTION:<h2><strong>About this course</strong></h2> <p>This course will
+  provide a brief introduction to the Common Workflow Language (CWL) and 
+ help you get started with the CWL reference implementation 
+ <em>cwltool</em>\, as well as giving you a taster of the implementation 
+ <em>Toil</em> using the BioExcel Cloud Portal. At the end of this 
+ session\, you will be able to:</p> <ul> <li>Write workflows in CWL and 
+ execute them</li> <li>Execute workflows with Docker containers</li> 
+ <li>Make your own tool descriptions in CWL</li> <li>Share and reuse 
+ workflow and tool descriptions with the CWL community</li> <li>Follow best
+  practice guidelines for writing CWL</li> </ul> <p>Please note the 
+ following <strong>is not</strong> covered in the course:</p> <ul> <li>This
+  course will not teach you how to design a scientifically valid 
+ bioinformatics pipeline <ul> <li>Bioinformatics tools/workflows may be 
+ used as examples\, alongside generic UNIX tools</li> </ul> </li> <li>This 
+ course will not explain how to set up other CWL implementations (e.g. 
+ Galaxy or CWLEXEC for LSF) <ul> <li> You will be shown how to install the 
+ reference implementation <em>cwltool\,</em> and cloud support in <em>toil 
+ </em>will be demonstrated</li> <li>The strengths and pitfalls of the 
+ different engine choices will be covered in brief</li> </ul> </li> 
+ <li>This course will not detail how to use particular compute/cloud 
+ infrastructure <ul> <li>Cloud computing may be used as example</li> </ul> 
+ </li> <li>This course will not provide support for rewriting your existing
+  pipeline to CWL <ul> <li>Instructors will assist attendees with tutorial 
+ lessons</li> </ul> </li> </ul> <h3><strong>Prerequisites</strong></h3> 
+ <p>No prior knowledge of workflows\, CWL or Python is required.</p> <p>A 
+ basic understanding of the command line (<a 
+ href="https://swcarpentry.github.io/shell-novice/">UNIX shell</a> as on 
+ Linux/OS X) is advised\; guidance will also be provided for Windows users.
+  </p> <p>Experience with writing JSON or textual scripts in any 
+ programming/scripting language is advised\, e.g. understanding of quotes\,
+  indentation\, blocks\; however a full introduction to the CWL syntax in 
+ YAML will be provided.</p> <p>No prior knowledge of bioinformatics is 
+ required.</p>
+LOCATION:https://bioexcel.eu/events/reproducible-analyses-with-common-
+ workflow-language/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2><strong>About 
+ this course</strong></h2> <p>This course will provide a brief introduction
+  to the Common Workflow Language (CWL) and help you get started with the 
+ CWL reference implementation <em>cwltool</em>, as well as giving you a 
+ taster of the implementation <em>Toil</em> using the BioExcel Cloud 
+ Portal. At the end of this session, you will be able to:</p> <ul> 
+ <li>Write workflows in CWL and execute them</li> <li>Execute workflows 
+ with Docker containers</li> <li>Make your own tool descriptions in 
+ CWL</li> <li>Share and reuse workflow and tool descriptions with the CWL 
+ community</li> <li>Follow best practice guidelines for writing CWL</li> 
+ </ul> <p>Please note the following <strong>is not</strong> covered in the 
+ course:</p> <ul> <li>This course will not teach you how to design a 
+ scientifically valid bioinformatics pipeline <ul> <li>Bioinformatics 
+ tools/workflows may be used as examples, alongside generic UNIX tools</li>
+  </ul> </li> <li>This course will not explain how to set up other CWL 
+ implementations (e.g. Galaxy or CWLEXEC for LSF) <ul> <li> You will be 
+ shown how to install the reference implementation <em>cwltool,</em> and 
+ cloud support in <em>toil </em>will be demonstrated</li> <li>The strengths
+  and pitfalls of the different engine choices will be covered in 
+ brief</li> </ul> </li> <li>This course will not detail how to use 
+ particular compute/cloud infrastructure <ul> <li>Cloud computing may be 
+ used as example</li> </ul> </li> <li>This course will not provide support 
+ for rewriting your existing pipeline to CWL <ul> <li>Instructors will 
+ assist attendees with tutorial lessons</li> </ul> </li> </ul> 
+ <h3><strong>Prerequisites</strong></h3> <p>No prior knowledge of 
+ workflows, CWL or Python is required.</p> <p>A basic understanding of the 
+ command line (<a href="https://swcarpentry.github.io/shell-novice/">UNIX 
+ shell</a> as on Linux/OS X) is advised; guidance will also be provided for
+  Windows users. </p> <p>Experience with writing JSON or textual scripts in
+  any programming/scripting language is advised, e.g. understanding of 
+ quotes, indentation, blocks; however a full introduction to the CWL syntax
+  in YAML will be provided.</p> <p>No prior knowledge of bioinformatics is 
+ required.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200309T090000
+DTEND;TZID="UTC+01:00":20200309T170000
+SUMMARY:Curso sobre el Analisis del Riesgo Sísmico (Seismic Risk Analysis 
+ Course)
+UID:https://hpc-portal.eu/node/1481
+DESCRIPTION:<p>ChEESE partner <a 
+ href="https://www.uma.es/edanya/info/109897/jorge-macias-sanchez/">Jorge 
+ Macias</a> from <a href="https://www.uma.es/">UMA</a> gives a presentation
+  titled "Simulación Numérica de Tsunamis (Numerical Simulation of 
+ Tsunamis)" in Granada\, Spain on March 9\, 2020 as part of an official 
+ course hosted by Spain ́s <a href="http://www.proteccioncivil.es/escuela-
+ nacional/oferta-formativa">Direccion General de Proteccion Civil y 
+ Emergencias</a> (General Directorate of Civil Protection and Emergencies) 
+ called <a href="http://www.proteccioncivil.es/web/dgpcye/escuela-
+ nacional/oferta-formativa/detalle?_publicador_WAR_publicadorportlet_INSTAN
+ CE_0tE3IN9BcYEL_tipo=VARCHAR&amp\;_publicador_WAR_publicadorportlet_INSTAN
+ CE_0tE3IN9BcYEL_nombre=codigo&amp\;_publicador_WAR_publicadorportlet_INSTA
+ NCE_0tE3IN9BcYEL_tipo_restriccion=igual&amp\;_publicador_WAR_publicadorpor
+ tlet_INSTANCE_0tE3IN9BcYEL_valor=9317265">Curso sobre el Analisis del 
+ Riesgo Sísmico</a> ( Seismic Risk Analysis Course)</p> <p>The participants
+  of the course includes civil protection personnel from Andalusian Civil 
+ Protection and the Military Emergencies Unit\, and researchers from the 
+ Institute of National Geography.</p>
+LOCATION:https://cheese-coe.eu/events/curso-sobre-el-analisis-del-riesgo-
+ sismico-seismic-risk-analysis-course
+DTSTAMP:20220830T140834Z
+GEO:37.180873;-3.598343
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>ChEESE partner 
+ <a href="https://www.uma.es/edanya/info/109897/jorge-macias-
+ sanchez/">Jorge Macias</a> from <a href="https://www.uma.es/">UMA</a> 
+ gives a presentation titled "Simulación Numérica de Tsunamis (Numerical 
+ Simulation of Tsunamis)" in Granada, Spain on March 9, 2020 as part of an 
+ official course hosted by Spain ́s <a 
+ href="http://www.proteccioncivil.es/escuela-nacional/oferta-
+ formativa">Direccion General de Proteccion Civil y Emergencias</a> 
+ (General Directorate of Civil Protection and Emergencies) called <a 
+ href="http://www.proteccioncivil.es/web/dgpcye/escuela-nacional/oferta-for
+ mativa/detalle?_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9BcYEL_tip
+ o=VARCHAR&amp;_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9BcYEL_nomb
+ re=codigo&amp;_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9BcYEL_tipo
+ _restriccion=igual&amp;_publicador_WAR_publicadorportlet_INSTANCE_0tE3IN9B
+ cYEL_valor=9317265">Curso sobre el Analisis del Riesgo Sísmico</a> ( 
+ Seismic Risk Analysis Course)</p> <p>The participants of the course 
+ includes civil protection personnel from Andalusian Civil Protection and 
+ the Military Emergencies Unit, and researchers from the Institute of 
+ National Geography.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200224T090000
+DTEND;TZID="UTC+01:00":20200228T170000
+SUMMARY:ResOps: Cloud-native tools and technology for researchers
+UID:https://hpc-portal.eu/node/1472
+DESCRIPTION:<p><strong>Overview:</strong> <a 
+ href="https://www.ebi.ac.uk/about/technology/2018/02/resops/">ResOps</a> 
+ is a term coined for ‘Research Operations’\, in the same vein as ‘DevOps’.
+  This course covers basic tools and technologies needed to succeed in the 
+ cloud\, with hands-on exercises. It provides some background to cloud 
+ computing and practical experience in building\, deploying and running 
+ applications in cloud platforms – Embassy (OpenStack)\, Google\, Amazon 
+ and Azure. The course uses examples drawn from <a 
+ href="https://www.ebi.ac.uk/">EMBL-EBI’s</a> experiences in the life-
+ sciences\, but using tools and technologies that are cross-platform and 
+ cross-domain. You will learn about the user-centric hybrid cloud 
+ strategy\, as well as practical aspects of deploying across different 
+ clouds and the architectural considerations around porting applications to
+  a cloud.</p> <p><strong>Learning outcomes: </strong>At the end of this 
+ session you will be able to\,<br> ● Explain cloud terminology\, types of 
+ clouds and how clouds can be used<br> ● Build Docker containers and use 
+ them<br> ● Deploy applications in Kubernetes<br> ● Use Gitlab for 
+ Continuous Integration/Continuous Deployment (CI/CD)</p> 
+ <p><strong>Audience:</strong> The course is aimed at biologists\, 
+ bioinformaticians\, and software developers who want to use cloud 
+ computing in their work.</p>
+LOCATION:https://bioexcel.eu/events/resops-cloud-native-tools-and-
+ technology-for-researchers/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview:</strong> <a 
+ href="https://www.ebi.ac.uk/about/technology/2018/02/resops/">ResOps</a> 
+ is a term coined for ‘Research Operations’, in the same vein as ‘DevOps’. 
+ This course covers basic tools and technologies needed to succeed in the 
+ cloud, with hands-on exercises. It provides some background to cloud 
+ computing and practical experience in building, deploying and running 
+ applications in cloud platforms – Embassy (OpenStack), Google, Amazon and 
+ Azure. The course uses examples drawn from <a 
+ href="https://www.ebi.ac.uk/">EMBL-EBI’s</a> experiences in the life-
+ sciences, but using tools and technologies that are cross-platform and 
+ cross-domain. You will learn about the user-centric hybrid cloud strategy,
+  as well as practical aspects of deploying across different clouds and the
+  architectural considerations around porting applications to a cloud.</p> 
+ <p><strong>Learning outcomes: </strong>At the end of this session you will
+  be able to,<br> ● Explain cloud terminology, types of clouds and how 
+ clouds can be used<br> ● Build Docker containers and use them<br> ● Deploy
+  applications in Kubernetes<br> ● Use Gitlab for Continuous 
+ Integration/Continuous Deployment (CI/CD)</p> 
+ <p><strong>Audience:</strong> The course is aimed at biologists, 
+ bioinformaticians, and software developers who want to use cloud computing
+  in their work.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20200217T090000
@@ -2941,7 +4594,7 @@ DESCRIPTION:<p>The evolutionary pressure on electronic structure software
  releases/exdci-towards-common-hpc-strate...</a></p>
 LOCATION:http://www.max-centre.eu/news-events/integration-esl-modules-
  electronic-structure-codes-0
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:46.520151;6.572236
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The evolutionary
   pressure on electronic structure software development is greatly 
@@ -3006,5 +4659,197 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The evolutionary
  br> [exdci] <a href="https://exdci.eu/newsroom/press-releases/exdci-
  towards-common-hpc-strategy-europe">https://exdci.eu/newsroom/press-
  releases/exdci-towards-common-hpc-strate...</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200211T090000
+DTEND;TZID="UTC+01:00":20200213T170000
+SUMMARY:PATC: Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1484
+DESCRIPTION:<h2>Objectives</h2> <p>The objetive of this course is to give a
+  panorama on the use of hpc-based computational mechanics in Engineering 
+ and Environment through the projects BSC are carrying on. This panorama 
+ includes the basics of what is behind the main tools: computational 
+ mechanics and parallelization. The training is delivered in collaboration 
+ with the center of excellence CompBioMed.</p> <h2>Learning Outcomes</h2> 
+ <p>The course gives a wide perspective and the latest trends of how HPC 
+ helps in industrial\, clinical and research applications allowing to 
+ achieve more realistic multiphysics simulations. In addition\, the student
+  has the opportunity of running Jobs in Marenostrum supercomputer.</p>
+LOCATION:https://events.prace-ri.eu/event/912/
+DTSTAMP:20220830T140834Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Objectives</h2>
+  <p>The objetive of this course is to give a panorama on the use of hpc-
+ based computational mechanics in Engineering and Environment through the 
+ projects BSC are carrying on. This panorama includes the basics of what is
+  behind the main tools: computational mechanics and parallelization. The 
+ training is delivered in collaboration with the center of excellence 
+ CompBioMed.</p> <h2>Learning Outcomes</h2> <p>The course gives a wide 
+ perspective and the latest trends of how HPC helps in industrial, clinical
+  and research applications allowing to achieve more realistic multiphysics
+  simulations. In addition, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20191209T090000
+DTEND;TZID="UTC+01:00":20191212T170000
+SUMMARY:Computational biomolecular simulation workflows with BioExcel 
+ building blocks
+UID:https://hpc-portal.eu/node/1473
+DESCRIPTION:<p><strong>Overview</strong></p> <p>Are you interested in 
+ computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations\, but scared to make the first step? What if you could start 
+ smoothly using interactive\, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single\, interoperable library with a unique syntax?</p> 
+ <p>Join the online training session where we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>\, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS\, Ambertools\, Openbabel or ACPYPE. The philosophy behind its 
+ design\, following best practices and FAIR principles for software 
+ development makes it easy to find\, install and use\, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. protein-ligand complex GROMACS MD setup). The first steps on
+  how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong></p> <p>This session is aimed at
+  people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations\, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows\, ensuring reproducibility.</li> <li>No expertise in Molecular 
+ Dynamics is needed to attend the training\, although some knowledge and 
+ familiarity with this method is recommended to properly follow the course.
+  Minimum Linux skills are also required.</li> <li>This is an interactive 
+ session that is presented remotely using GoToTraining</li> </ul> 
+ <p><strong>Learning outcomes</strong></p> <p>At the end of this session 
+ you will be able to:</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure\, modify parameters\, add/remove steps\, etc.</li> <li>Write a 
+ new computational biomolecular simulation workflow using the BioExcel 
+ building blocks library from scratch.</li> <li>Launch computational 
+ biomolecular simulation workflows built using the BioExcel building blocks
+  library in a command-line interface.</li> </ul>
+LOCATION:https://bioexcel.eu/events/computational-biomolecular-simulation-
+ workflows-with-bioexcel-building-blocks/
+DTSTAMP:20220830T140834Z
+GEO:52.077917;0.187124
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Overview</strong></p> <p>Are you interested in
+  computational biomolecular simulation methods such as Molecular Dynamics 
+ simulations, but scared to make the first step? What if you could start 
+ smoothly using interactive, graphical user interfaces like Jupyter 
+ Notebooks? What if you could easily build pipelines chaining different 
+ programs using a single, interoperable library with a unique syntax?</p> 
+ <p>Join the online training session where we will introduce the <a 
+ href="https://www.nature.com/articles/s41597-019-0177-4">BioExcel building
+  blocks</a>, a fully interoperable software library comprising a 
+ collection of Python wrappers on top of biomolecular simulation tools such
+  as GROMACS, Ambertools, Openbabel or ACPYPE. The philosophy behind its 
+ design, following best practices and FAIR principles for software 
+ development makes it easy to find, install and use, increasing 
+ reproducibility and (re)usability. Demonstration workflows implemented in 
+ Jupyter notebooks using the library will be presented and explained step 
+ by step (e.g. protein-ligand complex GROMACS MD setup). The first steps on
+  how to build and run complex workflows in command-line will be 
+ explored.</p> <p><strong>Audience</strong></p> <p>This session is aimed at
+  people interested in:</p> <ul> <li>Starting with computational 
+ biomolecular simulations, and more specifically Molecular Dynamics 
+ simulations.</li> <li>Building computational biomolecular simulations 
+ workflows, ensuring reproducibility.</li> <li>No expertise in Molecular 
+ Dynamics is needed to attend the training, although some knowledge and 
+ familiarity with this method is recommended to properly follow the course.
+  Minimum Linux skills are also required.</li> <li>This is an interactive 
+ session that is presented remotely using GoToTraining</li> </ul> 
+ <p><strong>Learning outcomes</strong></p> <p>At the end of this session 
+ you will be able to:</p> <ul> <li>Interactively work with computational 
+ biomolecular simulation demonstration workflows built using the BioExcel 
+ building blocks library in Jupyter Notebooks sessions: change input 
+ structure, modify parameters, add/remove steps, etc.</li> <li>Write a new 
+ computational biomolecular simulation workflow using the BioExcel building
+  blocks library from scratch.</li> <li>Launch computational biomolecular 
+ simulation workflows built using the BioExcel building blocks library in a
+  command-line interface.</li> </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20191202T090000
+DTEND;TZID="UTC+01:00":20191205T170000
+SUMMARY:HPC and natural hazards: modelling tsunamis and volcanic plumes 
+ using European flagship codes
+UID:https://hpc-portal.eu/node/1482
+DESCRIPTION:<p><strong>Objectives</strong></p> <p>This course focuses on 
+ modelling two of the highest impact natural hazards\, volcanic eruptions 
+ and tsunamis. The objective is to give a succinct theoretical overview and
+  then introduce students on the use of different HPC flagship codes 
+ included in the Center of Excellence for Exascale in Solid Earth (ChEESE).
+  ASHEE is a volcanic plume and PDC simulator based on a multiphase fluid 
+ dynamic model conceived for compressible mixtures composed of gaseous 
+ components and solid particle phases. FALL3D is a Eulerian model for the 
+ atmospheric transport and ground deposition of volcanic tephra (ash) used 
+ in operational volcanic ash dispersal forecasts routinely used to prevent 
+ aircraft encounters with volcanic ash clouds and to perform re-routings 
+ avoiding contaminated airspace areas. T-HySEA solves the 2D shallow water 
+ equations on hydrostatic and dispersive versions. Based on a high-order 
+ Finite Volume (FV) discretisation (hydrostatic) with Finite Differences 
+ (FD) for the dispersive version on two-way structured nested meshes in 
+ spherical coordinates. Together with hands-on sessions\, the course will 
+ also tackle post-process strategies based on python. In recent years\, the
+  Python programming language has become one of the most popular choice for
+  geoscientists. Python is a modern\, interpreted\, object-oriented\, open-
+ source language easy to learn\, easy to read\, and fast to write. The 
+ proliferation of multiple open-source projects with libraries available 
+ every day\, have facilitated a rapid scientific development in the 
+ geoscience community. In addition\, the modern data structures and object-
+ oriented nature of the language along with an elegant syntax\, enable 
+ Earth scientists to write more robust and less buggy code.</p> 
+ <p><strong>Requirements</strong></p> <p>-At least University degree in 
+ progress on Earth Sciences\, Computer Sciences or related area.<br> -Basic
+  knowledge of LINUX<br> -Knowledge of C\, FORTRAN\, MPI or openMP is 
+ recommended<br> -Knowledge of Earth Sciences data formats is recommended 
+ (grib\, netcdf\, hdf\,...)<br> -Basic knowledge of python</p> 
+ <p><strong>Learning Outcomes</strong></p> <p>Participants will learn and 
+ gain experience in installing SE codes and related utilities and 
+ libraries\, running numerical simulations\, monitoring the execution of 
+ supercomputing jobs\, analyzing and visualizing model results.</p>
+LOCATION:https://events.prace-ri.eu/event/906/
+DTSTAMP:20220830T140834Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives</strong></p> <p>This course focuses
+  on modelling two of the highest impact natural hazards, volcanic 
+ eruptions and tsunamis. The objective is to give a succinct theoretical 
+ overview and then introduce students on the use of different HPC flagship 
+ codes included in the Center of Excellence for Exascale in Solid Earth 
+ (ChEESE). ASHEE is a volcanic plume and PDC simulator based on a 
+ multiphase fluid dynamic model conceived for compressible mixtures 
+ composed of gaseous components and solid particle phases. FALL3D is a 
+ Eulerian model for the atmospheric transport and ground deposition of 
+ volcanic tephra (ash) used in operational volcanic ash dispersal forecasts
+  routinely used to prevent aircraft encounters with volcanic ash clouds 
+ and to perform re-routings avoiding contaminated airspace areas. T-HySEA 
+ solves the 2D shallow water equations on hydrostatic and dispersive 
+ versions. Based on a high-order Finite Volume (FV) discretisation 
+ (hydrostatic) with Finite Differences (FD) for the dispersive version on 
+ two-way structured nested meshes in spherical coordinates. Together with 
+ hands-on sessions, the course will also tackle post-process strategies 
+ based on python. In recent years, the Python programming language has 
+ become one of the most popular choice for geoscientists. Python is a 
+ modern, interpreted, object-oriented, open-source language easy to learn, 
+ easy to read, and fast to write. The proliferation of multiple open-source
+  projects with libraries available every day, have facilitated a rapid 
+ scientific development in the geoscience community. In addition, the 
+ modern data structures and object-oriented nature of the language along 
+ with an elegant syntax, enable Earth scientists to write more robust and 
+ less buggy code.</p> <p><strong>Requirements</strong></p> <p>-At least 
+ University degree in progress on Earth Sciences, Computer Sciences or 
+ related area.<br> -Basic knowledge of LINUX<br> -Knowledge of C, FORTRAN, 
+ MPI or openMP is recommended<br> -Knowledge of Earth Sciences data formats
+  is recommended (grib, netcdf, hdf,...)<br> -Basic knowledge of python</p>
+  <p><strong>Learning Outcomes</strong></p> <p>Participants will learn and 
+ gain experience in installing SE codes and related utilities and 
+ libraries, running numerical simulations, monitoring the execution of 
+ supercomputing jobs, analyzing and visualizing model 
+ results.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

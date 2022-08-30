@@ -31,7 +31,7 @@ DESCRIPTION:<p>The objetive of this course is to give a panorama on the use
   is delivered in collaboration with the centers of excellence CompBioMed2 
  and PerMedCoE.</p>
 LOCATION:https://events.prace-ri.eu/event/1317/registrations/976/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The objetive of 
  this course is to give a panorama on the use of hpc-based computational 
@@ -55,7 +55,7 @@ DESCRIPTION:<p>This course introduces HPC to life science researchers\,
  through examples drawn from the life sciences\, such as biomolecular 
  simulation.</p>
 LOCATION:https://events.prace-ri.eu/event/1304/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
  introduces HPC to life science researchers, focusing on the aspects that 
@@ -85,7 +85,7 @@ DESCRIPTION:<p>OpenFOAM is a widely-used open-source code in computational
  systems</a>.</p> <p>This course will be provided in cooperation with <a 
  href="https://www.excellerat.eu">EXCELLERAT</a>.</p>
 LOCATION:https://services.excellerat.eu/viewevent/54
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM is a 
  widely-used open-source code in computational fluid dynamics (CFD). 
@@ -99,6 +99,64 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM is a
  systems">https://www.pdc.kth.se/hpc-services/computing-systems</a>.</p> 
  <p>This course will be provided in cooperation with <a 
  href="https://www.excellerat.eu">EXCELLERAT</a>.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20211026T090000
+DTEND;TZID="UTC+02:00":20211028T170000
+SUMMARY:PATC: Tools and techniques to quickly improve performances of HPC 
+ applications in Solid Earth
+UID:https://hpc-portal.eu/node/1480
+DESCRIPTION:<p>This is a course targeted to improve the overall performance
+  of a code in Solid Earth\, currently in use at the CHEESE Center of 
+ Excellence H2020 project. Parallel performance profiling tools will be 
+ provided on the initial version of the code to find the so-called 
+ performance bottlenecks. Starting from the profiling analysis\, it will 
+ show how and where to intervene with respect to the hardware 
+ characterization of the HPC machine used for the investigation.</p> <p>We 
+ will show also how debug tools will be useful in the development / 
+ optimization phase to eliminate any possible bugs introduced in the 
+ writing (or redesign) of new parts of the code. Finally\, it will be shown
+  how to improve the overall performance of the code with respect to other 
+ popular parameters such as I / O\, vectorization\, etc.</p> <p> 
+ <strong>Skills:</strong><br> At the end of the course the student will be 
+ able to:</p> <p>Achieve the main information about performance of today 
+ HPC computer</p> <p>Use a concrete methodology to improve the performance 
+ of a code in Solid Earth already in use in the context of<br> ChEESE 
+ project</p> <p>Find and solve the main bottlenecks of an application with 
+ respect to appropriate computational metrics<br> and the machine used</p> 
+ <p>Use appropriate debugging tools to eliminate any bugs that may arise 
+ during the development / optimization phase</p> <p><strong>Target 
+ audience: </strong></p> <p>Researchers in Solid Earth interested to learn 
+ and use all those techniques and related tools that may allow them to 
+ improve the performance of their code on current HPC architectures in the 
+ shortest possible time.</p>
+LOCATION:https://events.prace-ri.eu/event/973/registrations/708/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This is a course
+  targeted to improve the overall performance of a code in Solid Earth, 
+ currently in use at the CHEESE Center of Excellence H2020 project. 
+ Parallel performance profiling tools will be provided on the initial 
+ version of the code to find the so-called performance bottlenecks. 
+ Starting from the profiling analysis, it will show how and where to 
+ intervene with respect to the hardware characterization of the HPC machine
+  used for the investigation.</p> <p>We will show also how debug tools will
+  be useful in the development / optimization phase to eliminate any 
+ possible bugs introduced in the writing (or redesign) of new parts of the 
+ code. Finally, it will be shown how to improve the overall performance of 
+ the code with respect to other popular parameters such as I / O, 
+ vectorization, etc.</p> <p> <strong>Skills:</strong><br> At the end of the
+  course the student will be able to:</p> <p>Achieve the main information 
+ about performance of today HPC computer</p> <p>Use a concrete methodology 
+ to improve the performance of a code in Solid Earth already in use in the 
+ context of<br> ChEESE project</p> <p>Find and solve the main bottlenecks 
+ of an application with respect to appropriate computational metrics<br> 
+ and the machine used</p> <p>Use appropriate debugging tools to eliminate 
+ any bugs that may arise during the development / optimization phase</p> 
+ <p><strong>Target audience: </strong></p> <p>Researchers in Solid Earth 
+ interested to learn and use all those techniques and related tools that 
+ may allow them to improve the performance of their code on current HPC 
+ architectures in the shortest possible time.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+02:00":20211011T083000
@@ -140,7 +198,7 @@ DESCRIPTION:<p><strong>Distributed memory parallelization with the Message
  Computational Science\, and in addition\, the scientific exchange of the 
  participants among themselves.</p>
 LOCATION:https://hpc-portal.eu/node/807
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
  HTML><HTML><BODY><p><strong>Distributed memory parallelization with the 
@@ -199,7 +257,7 @@ DESCRIPTION:<p>In this one-day training\, we will give an overview of the
  order and efficient parallelisation is clearly a distinguishing feature in
   situations when high fidelity simulation data is required.</p>
 LOCATION:https://services.excellerat.eu/viewevent/49
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In this one-day 
  training, we will give an overview of the capabilities and features of 
@@ -285,7 +343,7 @@ DESCRIPTION:<h2>General description and learning outcomes</h2> <p>We would
  performance-data-analytics/">https://enccs.se/events/2021/04/enccshidalgo-
  workshop-on-high-performance-data-analytics/</a></p>
 LOCATION:https://events.prace-ri.eu/event/1193/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140833Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>General 
  description and learning outcomes</h2> <p>We would like to invite you to 
@@ -349,36 +407,477 @@ X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>General
  workshop-on-high-performance-data-analytics/</a></p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;TZID="UTC+01:00":20210201T090000
-DTEND;TZID="UTC+01:00":20210203T120000
-SUMMARY:Online: Advanced GROMACS workshop
-UID:https://hpc-portal.eu/node/1129
-DESCRIPTION:<p>This course gives a practical introduction on how to run 
- GROMACS MD simulations efficiently on modern hardware including both CPUs 
- and GPUs. In addition to speeding up MD simulations\, also workflow 
- automation and advanced sampling techniques are discussed. CSC's <a 
- href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
- supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
- course consists of lectures and hands-on exercises. GROMACS will be used 
- in the exercise sessions.</p> <p>The event is organized in collaboration 
- with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
- href="https://www.csc.fi/">CSC</a> and supported by <a 
- href="http://www.prace-ri.eu/">PRACE</a>.</p>
-LOCATION:https://a3s.fi/advanced_gmx/PRACE_CSC_BioExcelWorkshop-
- GROMACS_workflows_and_advanced_topics.html
-DTSTAMP:20220816T095005Z
-GEO:60.178269;24.832865
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This course 
- gives a practical introduction on how to run GROMACS MD simulations 
- efficiently on modern hardware including both CPUs and GPUs. In addition 
- to speeding up MD simulations, also workflow automation and advanced 
- sampling techniques are discussed. CSC's <a 
- href="https://docs.csc.fi/computing/available-systems/">Puhti and Mahti 
- supercomputers</a> will be used for the hands-on exercises.</p> <p>The 
- course consists of lectures and hands-on exercises. GROMACS will be used 
- in the exercise sessions.</p> <p>The event is organized in collaboration 
- with <a href="https://bioexcel.eu/">BioExcel</a> and <a 
- href="https://www.csc.fi/">CSC</a> and supported by <a 
- href="http://www.prace-ri.eu/">PRACE</a>.</p></BODY></HTML>
+DTSTART;TZID="UTC+02:00":20210422T090000
+DTEND;TZID="UTC+02:00":20210423T170000
+SUMMARY:QM/MM with GROMACS + CP2K
+UID:https://hpc-portal.eu/node/1458
+DESCRIPTION:<p><strong>Learning outcomes</strong><br> This course will 
+ equip participants to perform hybrid QM/MM simulations using the molecular
+  dynamics code GROMACS in combination with the quantum chemistry package 
+ CP2K through an interface developed by one of the instructors from the 
+ BioExcel Centre of Excellence (www.bioexcel.eu).</p> 
+ <p><strong>Prerequisites</strong><br> Participants should be familiar with
+  using GROMACS to perform molecular dynamics simulations. A background in 
+ computational quantum chemistry is not strictly required since an 
+ introduction of key aspects will be provided\, but previous familiarity is
+  beneficial. You should be familiar with connecting to a remote machine 
+ using ssh and will benefit from experience using an HPC facility as you 
+ will execute hands-on practicals on the UK supercomputer ARCHER2.</p> 
+ <p><strong>Description</strong><br> Most classical molecular mechanics 
+ (MM) force fields are not sufficiently flexible to model processes in 
+ which chemical bonds are broken or formed. Instead\, some level of quantum
+  mechanical (QM) description is needed to gain detailed mechanistic 
+ insights into reaction mechanisms\, e.g. the catalytic action of enzymes\,
+  and to compute photochemical properties such as absorption and emission 
+ spectra of fluorescent proteins. However biochemical systems (including 
+ solvent) are too large to be solved in their entirety at ab initio QM 
+ level or efficiently even with a high-quality density functional theory 
+ (DFT) approximation. To overcome the cost of a QM description on the one 
+ hand versus the limitations of a MM treatment on the other hand\, methods 
+ have been developed that treat a small critical region of interest at QM 
+ level while retaining the computationally cheaper MM force field for the 
+ majority of the system.</p> <p>Despite the simplicity of the QM/MM 
+ concept\, its application is currently restricted to a relatively small 
+ group of specialised expert users often using in-house codes. To unlock 
+ the power of QM/MM simulations for the wider biomolecular simulation 
+ community\, the BioExcel Centre of Excellence has developed an interface 
+ between the molecular dynamics code GROMACS\, which is widely used in the 
+ biomolecular simulation community\, and the quantum chemistry package 
+ CP2K\, which supports calculations under periodic boundary conditions with
+  DFT methods.</p> <p>This course explains key aspects relating to the use 
+ of QM/MM for biomolecular simulation with these two codes and equips 
+ participants with the ability to start using GROMACS and CP2K for this 
+ purpose in their own research. Participants are provided with the 
+ opportunity to gain hands-on practical experience running several example 
+ calculations on ARCHER2\, the UK national supercomputing service.</p>
+LOCATION:https://bioexcel.eu/events/qm-mm-with-gromacs-cp2k/
+DTSTAMP:20220830T140833Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p><strong>Learning
+  outcomes</strong><br> This course will equip participants to perform 
+ hybrid QM/MM simulations using the molecular dynamics code GROMACS in 
+ combination with the quantum chemistry package CP2K through an interface 
+ developed by one of the instructors from the BioExcel Centre of Excellence
+  (www.bioexcel.eu).</p> <p><strong>Prerequisites</strong><br> Participants
+  should be familiar with using GROMACS to perform molecular dynamics 
+ simulations. A background in computational quantum chemistry is not 
+ strictly required since an introduction of key aspects will be provided, 
+ but previous familiarity is beneficial. You should be familiar with 
+ connecting to a remote machine using ssh and will benefit from experience 
+ using an HPC facility as you will execute hands-on practicals on the UK 
+ supercomputer ARCHER2.</p> <p><strong>Description</strong><br> Most 
+ classical molecular mechanics (MM) force fields are not sufficiently 
+ flexible to model processes in which chemical bonds are broken or formed. 
+ Instead, some level of quantum mechanical (QM) description is needed to 
+ gain detailed mechanistic insights into reaction mechanisms, e.g. the 
+ catalytic action of enzymes, and to compute photochemical properties such 
+ as absorption and emission spectra of fluorescent proteins. However 
+ biochemical systems (including solvent) are too large to be solved in 
+ their entirety at ab initio QM level or efficiently even with a high-
+ quality density functional theory (DFT) approximation. To overcome the 
+ cost of a QM description on the one hand versus the limitations of a MM 
+ treatment on the other hand, methods have been developed that treat a 
+ small critical region of interest at QM level while retaining the 
+ computationally cheaper MM force field for the majority of the system.</p>
+  <p>Despite the simplicity of the QM/MM concept, its application is 
+ currently restricted to a relatively small group of specialised expert 
+ users often using in-house codes. To unlock the power of QM/MM simulations
+  for the wider biomolecular simulation community, the BioExcel Centre of 
+ Excellence has developed an interface between the molecular dynamics code 
+ GROMACS, which is widely used in the biomolecular simulation community, 
+ and the quantum chemistry package CP2K, which supports calculations under 
+ periodic boundary conditions with DFT methods.</p> <p>This course explains
+  key aspects relating to the use of QM/MM for biomolecular simulation with
+  these two codes and equips participants with the ability to start using 
+ GROMACS and CP2K for this purpose in their own research. Participants are 
+ provided with the opportunity to gain hands-on practical experience 
+ running several example calculations on ARCHER2, the UK national 
+ supercomputing service.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210322T090000
+DTEND;TZID="UTC+01:00":20210324T170000
+SUMMARY:Introduction to HPC for Life Scientists
+UID:https://hpc-portal.eu/node/1459
+DESCRIPTION:Description: <p>This course provides an introduction to High-
+ Performance Computing (HPC) for researchers in the life sciences\, using 
+ ARCHER2 as a platform for hands-on training exercises.</p> <p>The course 
+ is organised and funded by BioExcel – the Centre of Excellence for 
+ Computational Biomolecular Research and PRACE\, and delivered in 
+ collaboration with ARCHER2 – the UK national supercomputing service.</p> 
+ Overview <p>High-performance computing (HPC) is a fundamental technology 
+ used to solve a wide range of scientific research problems. Many important
+  challenges in science such as protein folding\, the search for the Higgs 
+ boson\, drug discovery\, and the development of nuclear fusion all depend 
+ on simulations\, models and analyses run on HPC facilities to make 
+ progress.</p> <p>This course introduces HPC to life science researchers\, 
+ focusing on the aspects that are most important for those new to this 
+ technology to understand. It will help you judge how HPC can best benefit 
+ your research\, and equip you to go on to successfully and efficiently 
+ make use of HPC facilities in future. The course will cover basic concepts
+  in HPC hardware\, software\, user environments\, filesystems\, and 
+ programming models. It also provides an opportunity to gain hands-on 
+ practical experience and assistance using an HPC system (ARCHER2\, the UK 
+ national supercomputing service) through examples drawn from the life 
+ sciences\, such as biomolecular simulation.</p> Learning outcomes <p>On 
+ completion of the course\, we expect that attendees will understand and be
+  able to explain:</p> <ul> <li>Why HPC? – What are the drivers and 
+ motivation? Who uses it and why?</li> <li>The UK &amp\; EU HPC landscape –
+  HPC facilities available to researchers</li> <li>HPC hardware – Building 
+ blocks and architectures</li> <li>Parallel computing – Programming models 
+ and implementations</li> <li>Using HPC systems <ul> <li>Access</li> 
+ <li>Batch schedulers &amp\; resource allocation</li> <li>Running jobs</li>
+  <li>Dealing with errors</li> <li>Compiling code</li> <li>Using 
+ libraries</li> <li>Performance</li> </ul> </li> <li>The Future of HPC</li>
+  </ul>
+LOCATION:https://bioexcel.eu/events/introduction-to-hpc-for-life-
+ scientists/
+DTSTAMP:20220830T140833Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY>Description: 
+ <p>This course provides an introduction to High-Performance Computing 
+ (HPC) for researchers in the life sciences, using ARCHER2 as a platform 
+ for hands-on training exercises.</p> <p>The course is organised and funded
+  by BioExcel – the Centre of Excellence for Computational Biomolecular 
+ Research and PRACE, and delivered in collaboration with ARCHER2 – the UK 
+ national supercomputing service.</p> Overview <p>High-performance 
+ computing (HPC) is a fundamental technology used to solve a wide range of 
+ scientific research problems. Many important challenges in science such as
+  protein folding, the search for the Higgs boson, drug discovery, and the 
+ development of nuclear fusion all depend on simulations, models and 
+ analyses run on HPC facilities to make progress.</p> <p>This course 
+ introduces HPC to life science researchers, focusing on the aspects that 
+ are most important for those new to this technology to understand. It will
+  help you judge how HPC can best benefit your research, and equip you to 
+ go on to successfully and efficiently make use of HPC facilities in 
+ future. The course will cover basic concepts in HPC hardware, software, 
+ user environments, filesystems, and programming models. It also provides 
+ an opportunity to gain hands-on practical experience and assistance using 
+ an HPC system (ARCHER2, the UK national supercomputing service) through 
+ examples drawn from the life sciences, such as biomolecular 
+ simulation.</p> Learning outcomes <p>On completion of the course, we 
+ expect that attendees will understand and be able to explain:</p> <ul> 
+ <li>Why HPC? – What are the drivers and motivation? Who uses it and 
+ why?</li> <li>The UK &amp; EU HPC landscape – HPC facilities available to 
+ researchers</li> <li>HPC hardware – Building blocks and architectures</li>
+  <li>Parallel computing – Programming models and implementations</li> 
+ <li>Using HPC systems <ul> <li>Access</li> <li>Batch schedulers &amp; 
+ resource allocation</li> <li>Running jobs</li> <li>Dealing with 
+ errors</li> <li>Compiling code</li> <li>Using libraries</li> 
+ <li>Performance</li> </ul> </li> <li>The Future of HPC</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210216T090000
+DTEND;TZID="UTC+01:00":20210219T170000
+SUMMARY:Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1483
+DESCRIPTION:<p><strong>Objectives:</strong>The objetive of this course is 
+ to give a panorama on the use of HPC-based computational mechanics in 
+ Engineering and Environment through the projects BSC are carrying on. This
+  panorama includes the basics of what is behind the main tools: 
+ computational mechanics and parallelization. The training is delivered in 
+ collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial\, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition\, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p> <p><strong>Level: 
+ </strong>INTERMEDIATE: For trainees with some theoretical and practical 
+ knowledge</p>
+LOCATION:https://events.prace-ri.eu/event/1130/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives:</strong>The objetive of this 
+ course is to give a panorama on the use of HPC-based computational 
+ mechanics in Engineering and Environment through the projects BSC are 
+ carrying on. This panorama includes the basics of what is behind the main 
+ tools: computational mechanics and parallelization. The training is 
+ delivered in collaboration with the center of excellence CompBioMed.</p> 
+ <p><strong>Learning outcomes: </strong>The course gives a wide perspective
+  and the latest trends of how HPC helps in industrial, clinical and 
+ research applications allowing to achieve more realistic multiphysics 
+ simulations. In addition, the student has the opportunity of running Jobs 
+ in Marenostrum supercomputer.</p> <p><strong>Level: </strong>INTERMEDIATE:
+  For trainees with some theoretical and practical 
+ knowledge</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20210112T090000
+DTEND;TZID="UTC+01:00":20210115T170000
+SUMMARY:BioExcel/ENCCS workshop – Advanced topics in simulations with 
+ GROMACS
+UID:https://hpc-portal.eu/node/1460
+DESCRIPTION:<p>In collaboration with BioExcel\, ENCCS is offering an online
+  workshop on advanced GROMACS simulations taught by Dr Mark Abraham\, Dr 
+ Christian Blau\, and Dr Artem Zhmurov.</p> <p>The following topics will be
+  covered at the workshop:</p> <p>January 12 – Using umbrella-sampling 
+ (“pulling”) simulations<br> January 13 – Using replica-exchange molecular 
+ dynamics<br> January 14 – Using applied-weight histogram methods 
+ (“AWH”)<br> January 15 – Computing trajectories efficiently on GPUs</p>
+LOCATION:https://bioexcel.eu/events/bioexcel-enccs-workshop-advanced-
+ topics-in-simulations-with-gromacs/
+DTSTAMP:20220830T140833Z
+GEO:59.349456;18.072761
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>In collaboration
+  with BioExcel, ENCCS is offering an online workshop on advanced GROMACS 
+ simulations taught by Dr Mark Abraham, Dr Christian Blau, and Dr Artem 
+ Zhmurov.</p> <p>The following topics will be covered at the workshop:</p> 
+ <p>January 12 – Using umbrella-sampling (“pulling”) simulations<br> 
+ January 13 – Using replica-exchange molecular dynamics<br> January 14 – 
+ Using applied-weight histogram methods (“AWH”)<br> January 15 – Computing 
+ trajectories efficiently on GPUs</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20201013T143000
+DTEND;TZID="UTC+02:00":20201020T170000
+SUMMARY:Practical introduction to QM/MM using CP2K for biomolecular 
+ modelling
+UID:https://hpc-portal.eu/node/1463
+DESCRIPTION:<p>As a collaboration between ARCHER2 Training and BioExcel\, 
+ this free online course consists of interactive hands-on practical 
+ sessions presented remotely using Collaborate. Attendees will be given 
+ access to ARCHER to execute the practical.</p> <p>The course will run over
+  two Tuesday afternoons\, 13th and 20th October. Participants are expected
+  to attend both sessions. Each session will run from 13:30-16:00 with a 
+ break 14:30-15:00. There will be a follow-up consultancy session\, where 
+ you can drop-in to ask questions of the tutor on Tuesday 3rd November 
+ 14:00-16:00</p> <h3>Outline</h3> <p>CP2K is a quantum chemistry and solid 
+ state physics software package that can perform atomistic simulations of a
+  wide variety of systems\, ranging from solid state to biological systems.
+  CP2K provides a general framework for running density functional theory 
+ (DFT) simulations\, with extensions that enable users to run classical 
+ molecular dynamics (MD)\, mix MD and DFT to obtain quantum-
+ mechanical/molecular-dynamics (QM/MM) runs\, or perform other forms of 
+ metadynamics\, Monte Carlo\, or other simulations.</p> <p>This course is 
+ aiming to teach attendees how to prepare and run biochemical simulations 
+ in CP2K. Specifically\, we will be looking at how CP2K can be used to 
+ track the reaction dynamics of a system undergoing biological catalysis. 
+ In this course\, we shall be focusing on a Diels Alder transition taking 
+ place in an immunoglobulin. We will begin by considering the reaction site
+  in a purely quantum-mechanical method. Then\, we will slowly increase the
+  complexity of the system to take into account the entire structure of the
+  immunoglobulin (using QM/MM approach)\, the solution\, and finally\, we 
+ will add a ligand to the reaction.</p> <p>While we will be referencing 
+ some DFT and QM/MM theory (mainly the nudged elastic band method and 
+ metadynamics)\, this is not the principal aim of this course. Our aim is 
+ to use these systems to help familiarise attendees with using CP2K to run 
+ simulations of biochemical systems. CP2K can be used for non-biological 
+ systems\, and the topics being taught here can be ported to other fields\,
+  but this will not be a primary focus of this course.</p> <h3>Learning 
+ outcomes</h3> <p>At the end of this session\, you will be able to:</p> 
+ <ul> <li>Run a geometry optimisation using CP2K</li> <li>Run a frequency 
+ calculation using CP2K</li> <li>Estimate the energy barrier of a chemical 
+ reaction</li> <li>Run a nudged elastic band (NEB) simulation to fine-tune 
+ the energy barrier and profile of a chemical reaction</li> <li>Prepare a 
+ QM/MM simulation for CP2K</li> <li>Run a QM/MM simulation in CP2K</li> 
+ </ul>
+LOCATION:https://bioexcel.eu/events/practical-introduction-to-qm-mm-using-
+ cp2k-for-biomolecular-modelling/
+DTSTAMP:20220830T140833Z
+GEO:55.945303;-3.187240
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>As a 
+ collaboration between ARCHER2 Training and BioExcel, this free online 
+ course consists of interactive hands-on practical sessions presented 
+ remotely using Collaborate. Attendees will be given access to ARCHER to 
+ execute the practical.</p> <p>The course will run over two Tuesday 
+ afternoons, 13th and 20th October. Participants are expected to attend 
+ both sessions. Each session will run from 13:30-16:00 with a break 
+ 14:30-15:00. There will be a follow-up consultancy session, where you can 
+ drop-in to ask questions of the tutor on Tuesday 3rd November 
+ 14:00-16:00</p> <h3>Outline</h3> <p>CP2K is a quantum chemistry and solid 
+ state physics software package that can perform atomistic simulations of a
+  wide variety of systems, ranging from solid state to biological systems. 
+ CP2K provides a general framework for running density functional theory 
+ (DFT) simulations, with extensions that enable users to run classical 
+ molecular dynamics (MD), mix MD and DFT to obtain quantum-
+ mechanical/molecular-dynamics (QM/MM) runs, or perform other forms of 
+ metadynamics, Monte Carlo, or other simulations.</p> <p>This course is 
+ aiming to teach attendees how to prepare and run biochemical simulations 
+ in CP2K. Specifically, we will be looking at how CP2K can be used to track
+  the reaction dynamics of a system undergoing biological catalysis. In 
+ this course, we shall be focusing on a Diels Alder transition taking place
+  in an immunoglobulin. We will begin by considering the reaction site in a
+  purely quantum-mechanical method. Then, we will slowly increase the 
+ complexity of the system to take into account the entire structure of the 
+ immunoglobulin (using QM/MM approach), the solution, and finally, we will 
+ add a ligand to the reaction.</p> <p>While we will be referencing some DFT
+  and QM/MM theory (mainly the nudged elastic band method and 
+ metadynamics), this is not the principal aim of this course. Our aim is to
+  use these systems to help familiarise attendees with using CP2K to run 
+ simulations of biochemical systems. CP2K can be used for non-biological 
+ systems, and the topics being taught here can be ported to other fields, 
+ but this will not be a primary focus of this course.</p> <h3>Learning 
+ outcomes</h3> <p>At the end of this session, you will be able to:</p> <ul>
+  <li>Run a geometry optimisation using CP2K</li> <li>Run a frequency 
+ calculation using CP2K</li> <li>Estimate the energy barrier of a chemical 
+ reaction</li> <li>Run a nudged elastic band (NEB) simulation to fine-tune 
+ the energy barrier and profile of a chemical reaction</li> <li>Prepare a 
+ QM/MM simulation for CP2K</li> <li>Run a QM/MM simulation in CP2K</li> 
+ </ul></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20200903T090000
+DTEND;TZID="UTC+02:00":20200904T170000
+SUMMARY:Introduction to GROMACS – A SNIC/PRACE workshop in collaboration 
+ with BioExcel
+UID:https://hpc-portal.eu/node/1464
+DESCRIPTION:<p>GROMACS (<a 
+ href="http://www.gromacs.org/">www.gromacs.org</a>) is a free\, open-
+ source and high-performance software suite for molecular dynamics 
+ simulation and analysis. The workshop aims to provide the basis to perform
+  molecular dynamics simulations and simple free energy calculations using 
+ GROMACS.</p> <p>The workshop is organized jointly by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>\, the main HPC resource provider 
+ in Europe\, <a href="https://bioexcel.eu/">BioExcel</a>\, the leading 
+ European Center of Excellence for Computational Biomolecular Research and 
+ <a href="http://www.snic.se/">SNIC</a>\, Swedish National Infrastructure 
+ for Computing.The workshop will include online lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>The basics of molecular 
+ dynamics simulations</li> <li>Introduction to free energy 
+ calculations</li> <li>The capabilities of GROMACS</li> </ul> <p>During the
+  hands-on computer practicals you will work on protein simulation and 
+ solvation free energy using GROMACS.</p> 
+ <p><strong>Prerequisites</strong></p> <p>The workshop is at beginners 
+ level and assumes no prior experience in GROMACS.</p> <p>The participants 
+ need to have access to a computer where the following software were 
+ already installed: Jupiter notebook\, GROMACS\, VMD (visualisation)\, 
+ Xmgrace (plotting tool) to actively follow the tutorial.</p>
+LOCATION:https://bioexcel.eu/events/introduction-to-gromacs-a-snic-prace-
+ workshop-in-collaboration-with-bioexcel/
+DTSTAMP:20220830T140833Z
+GEO:59.840372;17.648401
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>GROMACS (<a 
+ href="http://www.gromacs.org/">www.gromacs.org</a>) is a free, open-source
+  and high-performance software suite for molecular dynamics simulation and
+  analysis. The workshop aims to provide the basis to perform molecular 
+ dynamics simulations and simple free energy calculations using 
+ GROMACS.</p> <p>The workshop is organized jointly by <a 
+ href="http://www.prace-ri.eu/">PRACE</a>, the main HPC resource provider 
+ in Europe, <a href="https://bioexcel.eu/">BioExcel</a>, the leading 
+ European Center of Excellence for Computational Biomolecular Research and 
+ <a href="http://www.snic.se/">SNIC</a>, Swedish National Infrastructure 
+ for Computing.The workshop will include online lectures and hands-on 
+ sessions on the following topics:</p> <ul> <li>The basics of molecular 
+ dynamics simulations</li> <li>Introduction to free energy 
+ calculations</li> <li>The capabilities of GROMACS</li> </ul> <p>During the
+  hands-on computer practicals you will work on protein simulation and 
+ solvation free energy using GROMACS.</p> 
+ <p><strong>Prerequisites</strong></p> <p>The workshop is at beginners 
+ level and assumes no prior experience in GROMACS.</p> <p>The participants 
+ need to have access to a computer where the following software were 
+ already installed: Jupiter notebook, GROMACS, VMD (visualisation), Xmgrace
+  (plotting tool) to actively follow the tutorial.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20200211T090000
+DTEND;TZID="UTC+01:00":20200213T170000
+SUMMARY:PATC: Short course on HPC-based Computational Bio-Medicine
+UID:https://hpc-portal.eu/node/1484
+DESCRIPTION:<h2>Objectives</h2> <p>The objetive of this course is to give a
+  panorama on the use of hpc-based computational mechanics in Engineering 
+ and Environment through the projects BSC are carrying on. This panorama 
+ includes the basics of what is behind the main tools: computational 
+ mechanics and parallelization. The training is delivered in collaboration 
+ with the center of excellence CompBioMed.</p> <h2>Learning Outcomes</h2> 
+ <p>The course gives a wide perspective and the latest trends of how HPC 
+ helps in industrial\, clinical and research applications allowing to 
+ achieve more realistic multiphysics simulations. In addition\, the student
+  has the opportunity of running Jobs in Marenostrum supercomputer.</p>
+LOCATION:https://events.prace-ri.eu/event/912/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>Objectives</h2>
+  <p>The objetive of this course is to give a panorama on the use of hpc-
+ based computational mechanics in Engineering and Environment through the 
+ projects BSC are carrying on. This panorama includes the basics of what is
+  behind the main tools: computational mechanics and parallelization. The 
+ training is delivered in collaboration with the center of excellence 
+ CompBioMed.</p> <h2>Learning Outcomes</h2> <p>The course gives a wide 
+ perspective and the latest trends of how HPC helps in industrial, clinical
+  and research applications allowing to achieve more realistic multiphysics
+  simulations. In addition, the student has the opportunity of running Jobs
+  in Marenostrum supercomputer.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+01:00":20191202T090000
+DTEND;TZID="UTC+01:00":20191205T170000
+SUMMARY:HPC and natural hazards: modelling tsunamis and volcanic plumes 
+ using European flagship codes
+UID:https://hpc-portal.eu/node/1482
+DESCRIPTION:<p><strong>Objectives</strong></p> <p>This course focuses on 
+ modelling two of the highest impact natural hazards\, volcanic eruptions 
+ and tsunamis. The objective is to give a succinct theoretical overview and
+  then introduce students on the use of different HPC flagship codes 
+ included in the Center of Excellence for Exascale in Solid Earth (ChEESE).
+  ASHEE is a volcanic plume and PDC simulator based on a multiphase fluid 
+ dynamic model conceived for compressible mixtures composed of gaseous 
+ components and solid particle phases. FALL3D is a Eulerian model for the 
+ atmospheric transport and ground deposition of volcanic tephra (ash) used 
+ in operational volcanic ash dispersal forecasts routinely used to prevent 
+ aircraft encounters with volcanic ash clouds and to perform re-routings 
+ avoiding contaminated airspace areas. T-HySEA solves the 2D shallow water 
+ equations on hydrostatic and dispersive versions. Based on a high-order 
+ Finite Volume (FV) discretisation (hydrostatic) with Finite Differences 
+ (FD) for the dispersive version on two-way structured nested meshes in 
+ spherical coordinates. Together with hands-on sessions\, the course will 
+ also tackle post-process strategies based on python. In recent years\, the
+  Python programming language has become one of the most popular choice for
+  geoscientists. Python is a modern\, interpreted\, object-oriented\, open-
+ source language easy to learn\, easy to read\, and fast to write. The 
+ proliferation of multiple open-source projects with libraries available 
+ every day\, have facilitated a rapid scientific development in the 
+ geoscience community. In addition\, the modern data structures and object-
+ oriented nature of the language along with an elegant syntax\, enable 
+ Earth scientists to write more robust and less buggy code.</p> 
+ <p><strong>Requirements</strong></p> <p>-At least University degree in 
+ progress on Earth Sciences\, Computer Sciences or related area.<br> -Basic
+  knowledge of LINUX<br> -Knowledge of C\, FORTRAN\, MPI or openMP is 
+ recommended<br> -Knowledge of Earth Sciences data formats is recommended 
+ (grib\, netcdf\, hdf\,...)<br> -Basic knowledge of python</p> 
+ <p><strong>Learning Outcomes</strong></p> <p>Participants will learn and 
+ gain experience in installing SE codes and related utilities and 
+ libraries\, running numerical simulations\, monitoring the execution of 
+ supercomputing jobs\, analyzing and visualizing model results.</p>
+LOCATION:https://events.prace-ri.eu/event/906/
+DTSTAMP:20220830T140833Z
+GEO:41.389776;2.116072
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
+ HTML><HTML><BODY><p><strong>Objectives</strong></p> <p>This course focuses
+  on modelling two of the highest impact natural hazards, volcanic 
+ eruptions and tsunamis. The objective is to give a succinct theoretical 
+ overview and then introduce students on the use of different HPC flagship 
+ codes included in the Center of Excellence for Exascale in Solid Earth 
+ (ChEESE). ASHEE is a volcanic plume and PDC simulator based on a 
+ multiphase fluid dynamic model conceived for compressible mixtures 
+ composed of gaseous components and solid particle phases. FALL3D is a 
+ Eulerian model for the atmospheric transport and ground deposition of 
+ volcanic tephra (ash) used in operational volcanic ash dispersal forecasts
+  routinely used to prevent aircraft encounters with volcanic ash clouds 
+ and to perform re-routings avoiding contaminated airspace areas. T-HySEA 
+ solves the 2D shallow water equations on hydrostatic and dispersive 
+ versions. Based on a high-order Finite Volume (FV) discretisation 
+ (hydrostatic) with Finite Differences (FD) for the dispersive version on 
+ two-way structured nested meshes in spherical coordinates. Together with 
+ hands-on sessions, the course will also tackle post-process strategies 
+ based on python. In recent years, the Python programming language has 
+ become one of the most popular choice for geoscientists. Python is a 
+ modern, interpreted, object-oriented, open-source language easy to learn, 
+ easy to read, and fast to write. The proliferation of multiple open-source
+  projects with libraries available every day, have facilitated a rapid 
+ scientific development in the geoscience community. In addition, the 
+ modern data structures and object-oriented nature of the language along 
+ with an elegant syntax, enable Earth scientists to write more robust and 
+ less buggy code.</p> <p><strong>Requirements</strong></p> <p>-At least 
+ University degree in progress on Earth Sciences, Computer Sciences or 
+ related area.<br> -Basic knowledge of LINUX<br> -Knowledge of C, FORTRAN, 
+ MPI or openMP is recommended<br> -Knowledge of Earth Sciences data formats
+  is recommended (grib, netcdf, hdf,...)<br> -Basic knowledge of python</p>
+  <p><strong>Learning Outcomes</strong></p> <p>Participants will learn and 
+ gain experience in installing SE codes and related utilities and 
+ libraries, running numerical simulations, monitoring the execution of 
+ supercomputing jobs, analyzing and visualizing model 
+ results.</p></BODY></HTML>
 END:VEVENT
 END:VCALENDAR

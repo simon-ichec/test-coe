@@ -34,7 +34,7 @@ DESCRIPTION:<p>The following session aims to bring together the Centers of
  good opportunity to get a common understanding of the ongoing activities 
  within the different CoEs and foster collaboration opportunities.</p>
 LOCATION:https://www.ai4europe.eu/news-and-events/events/webcafes
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:41.389776;2.116072
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The following 
  session aims to bring together the Centers of Excellence in AI sectors to 
@@ -84,7 +84,7 @@ DESCRIPTION:<p><strong>Distributed memory parallelization with the Message
  Computational Science\, and in addition\, the scientific exchange of the 
  participants among themselves.</p>
 LOCATION:https://hpc-portal.eu/node/807
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE 
  HTML><HTML><BODY><p><strong>Distributed memory parallelization with the 
@@ -148,7 +148,7 @@ DESCRIPTION:<p>OpenFOAM® is a widely-used open-source code and a powerful
  for Global Challenges. See also the <a href="https://moodle.hidalgo-
  project.eu/"><strong>moodle platform</strong></a> of HiDALGO training.</p>
 LOCATION:https://www.hlrs.de/contact/how-to-find-us/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>OpenFOAM® is a 
  widely-used open-source code and a powerful framework for solving a 
@@ -190,7 +190,7 @@ DESCRIPTION:<p>The EU-funded projects HiDALGO and ESIWACE kindly invite for
  material:<br> https://moodle.hidalgo-project.eu/course/view.php?id=6<br> 
  https://moodle.hidalgo-project.eu/course/view.php?id=13</p> 
 LOCATION:https://hpc-portal.eu/node/809
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:40.434870;-3.632042
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The EU-funded 
  projects HiDALGO and ESIWACE kindly invite for a joined online workshop on
@@ -271,7 +271,7 @@ DESCRIPTION:<h2>General description and learning outcomes</h2> <p>We would
  performance-data-analytics/">https://enccs.se/events/2021/04/enccshidalgo-
  workshop-on-high-performance-data-analytics/</a></p>
 LOCATION:https://events.prace-ri.eu/event/1193/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:59.349456;18.072761
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><h2>General 
  description and learning outcomes</h2> <p>We would like to invite you to 
@@ -380,7 +380,7 @@ DESCRIPTION:<p>A talk will be given by Sergiy Gogolenko at HLRS (HiDALGO
  their reporting with Ansible (10min)<br> - Reproducible benchmarks and 
  their reporting with Ansible (10min)<br> - Q&amp\;A (10min)</p>
 LOCATION:https://moodle.hidalgo-project.eu/course/view.php?id=11
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>A talk will be 
  given by Sergiy Gogolenko at HLRS (HiDALGO partner) on simplifying user 
@@ -444,7 +444,7 @@ DESCRIPTION:<p>The focus of the course is on modern iterative solvers for
  in the HiDALGO <strong><a href="https://hidalgo-project.eu/use-
  cases/social-networks">Social Network Pilot</a></strong>.</p>
 LOCATION:https://www.hlrs.de/training/2021/ITER-S/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The focus of the
   course is on modern iterative solvers for large linear systems of 
@@ -471,7 +471,7 @@ UID:https://hpc-portal.eu/node/865
 DESCRIPTION:<p>Please visit the <a href="https://moodle.hidalgo-
  project.eu/course/view.php?id=10">Moodle page</a>.</p>
 LOCATION:https://moodle.hidalgo-project.eu/course/view.php?id=10
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:52.407190;16.953149
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Please visit the
   <a href="https://moodle.hidalgo-project.eu/course/view.php?id=10">Moodle 
@@ -489,7 +489,7 @@ DESCRIPTION:<p>This event\, which takes place on 27-29 January 2021\, is
  href="https://docs.google.com/spreadsheets/d/1QHekVGeEYT3SVoog9aN-
  Gns5GrjCsxOMwuclbCBlDXo/edit#gid=2123902136">Agenda</a></p>
 LOCATION:https://services.excellerat.eu/viewevent/10
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:48.739486;9.097317
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This event, 
  which takes place on 27-29 January 2021, is open to HiDALGO, ChEESE and 
@@ -517,7 +517,7 @@ DESCRIPTION:<p>Global challenges\, like the spread of diseases\, climate
  bring together different stakeholders from the HPC and Big Data and Global
   Challenges communities.</p>
 LOCATION:https://www.hipeac.net/2021/budapest/#/
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:47.481583;19.130016
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>Global 
  challenges, like the spread of diseases, climate change, air pollution, 

@@ -2,16 +2,6 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VTIMEZONE
-TZID:UTC+02:00
-BEGIN:STANDARD
-TZOFFSETFROM:+0000
-TZOFFSETTO:+0200
-DTSTART:19700101T000000
-RRULE:FREQ=YEARLY;COUNT=1
-TZNAME:UTC+02:00
-END:STANDARD
-END:VTIMEZONE
-BEGIN:VTIMEZONE
 TZID:UTC+01:00
 BEGIN:STANDARD
 TZOFFSETFROM:+0000
@@ -21,76 +11,520 @@ RRULE:FREQ=YEARLY;COUNT=1
 TZNAME:UTC+01:00
 END:STANDARD
 END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:UTC+02:00
+BEGIN:STANDARD
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0200
+DTSTART:19700101T000000
+RRULE:FREQ=YEARLY;COUNT=1
+TZNAME:UTC+02:00
+END:STANDARD
+END:VTIMEZONE
 BEGIN:VEVENT
-DTSTART;TZID="UTC+02:00":20220615T090000
-DTEND;TZID="UTC+02:00":20220621T170000
-SUMMARY:NOMAD&#039\;s Midsummer School: Towards exascale solutions in Green
-  function methods and advanced DFT
-UID:https://hpc-portal.eu/node/1325
-DESCRIPTION:<p>With 10^18 floating point operations per second\, exascale 
- computers will be able to simulate and analyze complex processes in real 
- materials more realistically than what is possible today. This will allow 
- to study systems of higher complexity (in space and time) and to achieve 
- higher accuracy and precision. In close contact with academia and 
- industry\, the <strong>NOMAD CoE</strong> will develop exascale software\,
-  artificial intelligence (Al) methods\, and efficient workflows for an 
- advanced materials modeling. The <strong>NOMAD School focusses on 
- "exascale solutions in Green function methods and advanced 
- DFT"</strong>.</p> <p> The NOMAD School features <strong>50-minute 
- tutorial lectures </strong>by renowned scientists of the field (see below 
- and the PROGRAM) who will introduce their respective topics and address 
- recent exascale achievements and prevailing challenges.</p> <p> NOMAD 
- anticipates that the exascale challenge\, which shows "exaflops" 
- performance in some components of the codes\, will be met by workflows 
- handling high-throughput calculations and/or complex ensemble averages of 
- statistical mechanics and artificial intelligence. To get more practical 
- insights into all these topics\, there will be hands-on tutorials and/or 
- hackathons in the afternoon\, run in parallel by key developers of the 
- codes Abinit\, exciting\, FHI-aims\, <strong>GPAW</strong>\, and by 
- <strong>developers of ASE/ASR\, CC4S and Mini-Apps</strong>. For 
- example:</p> <ul> <li>people presently using code A can learn about the 
- possible advantages of code B.</li> <li>people using any of the codes can 
- learn about and contribute to the workflow management of ASE/AS R.</li> 
- <li>people using any of the codes can learn about and contribute to the 
- development of the INTERFACE towards CC4S (coupled cluster for 
- solids).</li> <li>people using any of the codes can learn about and 
- contribute to the development of mini apps to check and analyze their code
-  performance.</li> </ul> <p>The school is aimed at graduate students and 
- early-career postdocs. </p>
-LOCATION:https://www.nomad-coe.eu/events/nomads-midsummer-school-2022-in-
- riga/NMS22-location
-DTSTAMP:20220816T095005Z
-GEO:56.950760;24.116231
-X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>With 10^18 
- floating point operations per second, exascale computers will be able to 
- simulate and analyze complex processes in real materials more 
- realistically than what is possible today. This will allow to study 
- systems of higher complexity (in space and time) and to achieve higher 
- accuracy and precision. In close contact with academia and industry, the 
- <strong>NOMAD CoE</strong> will develop exascale software, artificial 
- intelligence (Al) methods, and efficient workflows for an advanced 
- materials modeling. The <strong>NOMAD School focusses on "exascale 
- solutions in Green function methods and advanced DFT"</strong>.</p> <p> 
- The NOMAD School features <strong>50-minute tutorial lectures </strong>by 
- renowned scientists of the field (see below and the PROGRAM) who will 
- introduce their respective topics and address recent exascale achievements
-  and prevailing challenges.</p> <p> NOMAD anticipates that the exascale 
- challenge, which shows "exaflops" performance in some components of the 
- codes, will be met by workflows handling high-throughput calculations 
- and/or complex ensemble averages of statistical mechanics and artificial 
- intelligence. To get more practical insights into all these topics, there 
- will be hands-on tutorials and/or hackathons in the afternoon, run in 
- parallel by key developers of the codes Abinit, exciting, FHI-aims, 
- <strong>GPAW</strong>, and by <strong>developers of ASE/ASR, CC4S and 
- Mini-Apps</strong>. For example:</p> <ul> <li>people presently using code 
- A can learn about the possible advantages of code B.</li> <li>people using
-  any of the codes can learn about and contribute to the workflow 
- management of ASE/AS R.</li> <li>people using any of the codes can learn 
- about and contribute to the development of the INTERFACE towards CC4S 
- (coupled cluster for solids).</li> <li>people using any of the codes can 
- learn about and contribute to the development of mini apps to check and 
- analyze their code performance.</li> </ul> <p>The school is aimed at 
- graduate students and early-career postdocs. </p></BODY></HTML>
+DTSTART;TZID="UTC+01:00":20221122T090000
+DTEND;TZID="UTC+01:00":20221124T170000
+SUMMARY:Advanced HPC Workshop for MPG and NOMAD
+UID:https://hpc-portal.eu/node/1445
+DESCRIPTION:<p>This workshop helps HPC developers to better manage\, debug 
+ and profile their code. One day is dedicated to GPU programming.</p> 
+ <p>MPCDF organizes an advanced HPC workshop for users of the MPG and of 
+ the <a href="https://www.nomad-coe.eu/">EU Center of Excellence NOMAD</a> 
+ from Tuesday\, November 22nd until Thursday\, November 24th\, 2022. We 
+ plan to give the lectures in a hybrid fashion\, onsite and streamed 
+ online. The hands-on part will be onsite at the MPCDF in Garching if the 
+ pandemic situation permits. The main topics of the lectures are</p> <ul> 
+ <li>Debugging and profiling of CPU and GPU codes</li> <li>Porting codes to
+  GPU-accelerated systems</li> </ul> <p>As a prerequisite\, we require 
+ participants to have an account for the HPC machines of MPCDF and are 
+ already familiar with accessing\, building and running their codes. The 
+ workshop is open to code developers of the NOMAD CoE\, who will 
+ specifically learn about GPUs as the main building blocks for 
+ (pre-)exascale systems and how to develop and optimize codes on such 
+ platforms.</p> <p>If you are interested in bringing in your own code to 
+ work with the experts and to apply the techniques and tools taught in the 
+ lectures\, please apply by adding a short description of your code and 
+ specific goals in the registration form. The entire Thursday\, November 
+ 24th is dedicated to working on the selected code projects.</p> <p>The 
+ workshop will be given by members of the application group of the MPCDF 
+ together with experts from Intel and Nvidia. The registration is open and 
+ can be accessed via the link on the left. The deadline for registration 
+ for the lectures is November 12th\, for pure online participation\, you 
+ can register until November 18th.</p> <p>The applicants for the hands-on 
+ day are asked to test the building of the code on Raven and to prepare a 
+ representative test case for the problem that they want to inspect 
+ (ideally the test can be run on a single Raven node\, either GPU or CPU) 
+ in advance of the workshop. Assistance by MPCDF is provided on 
+ request.</p>
+LOCATION:https://www.mpcdf.mpg.de/events/31623/14192
+DTSTAMP:20220830T140834Z
+GEO:48.261289;11.671093
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This workshop 
+ helps HPC developers to better manage, debug and profile their code. One 
+ day is dedicated to GPU programming.</p> <p>MPCDF organizes an advanced 
+ HPC workshop for users of the MPG and of the <a href="https://www.nomad-
+ coe.eu/">EU Center of Excellence NOMAD</a> from Tuesday, November 22nd 
+ until Thursday, November 24th, 2022. We plan to give the lectures in a 
+ hybrid fashion, onsite and streamed online. The hands-on part will be 
+ onsite at the MPCDF in Garching if the pandemic situation permits. The 
+ main topics of the lectures are</p> <ul> <li>Debugging and profiling of 
+ CPU and GPU codes</li> <li>Porting codes to GPU-accelerated systems</li> 
+ </ul> <p>As a prerequisite, we require participants to have an account for
+  the HPC machines of MPCDF and are already familiar with accessing, 
+ building and running their codes. The workshop is open to code developers 
+ of the NOMAD CoE, who will specifically learn about GPUs as the main 
+ building blocks for (pre-)exascale systems and how to develop and optimize
+  codes on such platforms.</p> <p>If you are interested in bringing in your
+  own code to work with the experts and to apply the techniques and tools 
+ taught in the lectures, please apply by adding a short description of your
+  code and specific goals in the registration form. The entire Thursday, 
+ November 24th is dedicated to working on the selected code projects.</p> 
+ <p>The workshop will be given by members of the application group of the 
+ MPCDF together with experts from Intel and Nvidia. The registration is 
+ open and can be accessed via the link on the left. The deadline for 
+ registration for the lectures is November 12th, for pure online 
+ participation, you can register until November 18th.</p> <p>The applicants
+  for the hands-on day are asked to test the building of the code on Raven 
+ and to prepare a representative test case for the problem that they want 
+ to inspect (ideally the test can be run on a single Raven node, either GPU
+  or CPU) in advance of the workshop. Assistance by MPCDF is provided on 
+ request.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221010T090000
+DTEND;TZID="UTC+02:00":20221012T170000
+SUMMARY:Charting large materials dataspaces: AI methods and scalability
+UID:https://hpc-portal.eu/node/1444
+DESCRIPTION:Organisers <ul> <li>Luca Ghiringhelli (NOMAD Laboratory at the 
+ Fritz Haber Institute of the Max Planck Society and Humboldt University\, 
+ Berlin)</li> <li>James Kermode (University of Warwick)</li> <li>Markus 
+ Rampp (Max Planck Computing and Data Facility (MPCDF))</li> </ul> 
+ <p>Across a wide range of fields and in particular in materials science\, 
+ there is increasing awareness that big data is a fundamental resource for 
+ fostering deeper understanding of physical systems and ensuring 
+ reproducibility of calculations.</p> <p>It is crucial to realize that 
+ “big” does not refer only to the sheer amount of data\, but also to their 
+ complexity. For example\, in materials science\, a material is typically 
+ characterized by an intricate hierarchy of observables including ensemble 
+ averages at various thermodynamic conditions. Another crucial aspect is 
+ the need to validate and quantify uncertainty\, i.e.\, being able to 
+ assign to any single entry in the database a level of accuracy so that 
+ data points from disparate sources can be used concurrently in an 
+ analysis.</p> <p>Such awareness has motivated the creation of large 
+ computational materials-science databases. Some are “project-based”\, 
+ i.e.\, collections of high-throughput scans of given materials classes 
+ (e.g.\, AFLOW [1]\, Materials Project [2]\, OQMD [3])\, others collect 
+ data from heterogeneous sources (e.g.\, NOMAD [4]\, Materials Cloud 
+ [5]).</p> <p>In order for the data to be (re-)usable for new analyses and 
+ possibly discoveries\, they have to comply with the so-called FAIR 
+ (findable - accessible - interoperable - reusable/repurposable/recyclable)
+  principles [6]. </p> <p>This requires complex\, hierarchical metadata 
+ structures that annotate the data\, so that the users know the provenance 
+ (settings\, purpose) of a calculation in order to judge whether an entry 
+ can be part of a dataset to be analysed [7].</p> <p>The complexity and 
+ extent of the existing databases\, which can only grow in both respects\, 
+ reveals a rarely addressed challenge: the possibility to efficiently 
+ <em>explore</em> the databases themselves in order to reveal patterns and 
+ trends.</p> <p>Here\, exploration refers specifically to the possibility 
+ of producing dynamic\, visual maps of the databases’ content. For 
+ instance\, a user may be looking for ternary materials\, not containing 
+ radioactive species\, and would like to understand how diverse are the 
+ entries\, i.e.\, whether they are somewhat uniformly spanning the 
+ materials space or are clustered into classes\, where understanding what 
+ is common among class’ members is a challenge in itself.</p> <p>This and 
+ similar kinds of questions call for interactive\, dynamic\, and 
+ intelligent (i.e.\, artificial-intelligent-driven) tools\, which are also 
+ efficient\, i.e.\, they are able to propose a meaningful solution within 
+ seconds. </p> <p>In summary\, in order to harvest the yet unhearted 
+ richness contained in presently known and future materials-science data\, 
+ four pillars need to be concurrently developed:</p> <ul> <li>FAIR-
+ compliant materials databases</li> <li>Identification of proper 
+ descriptors and metrics for capturing the similarity amongst materials\, 
+ including the complex restructuring occurring at varying environmental 
+ conditions [8]</li> <li>Artificial-intelligence (AI) approaches for 
+ exploratory analysis: clustering\, dimension reduction and corresponding 
+ visualization that can reveal hidden patterns [9]</li> <li>Scalable 
+ implementations\, combining clever choice of the hardware as well as 
+ algorithmic speed-up (e.g.\, landmarking) [10]</li> </ul> <p>In this 
+ workshop\, experts in all these aspects\, not necessarily limited to 
+ materials-science applications\, will interact to confront ideas and 
+ solutions for performing flexible\, interactive\, efficient\, and 
+ insightful analyses of materials databases.</p> <h2>References</h2> <p><a 
+ href="http://dx.doi.org/10.1016/j.commatsci.2012.02.005">[1] S. 
+ Curtarolo\, W. Setyawan\, G. Hart\, M. Jahnatek\, R. Chepulskii\, R. 
+ Taylor\, S. Wang\, J. Xue\, K. Yang\, O. Levy\, M. Mehl\, H. Stokes\, D. 
+ Demchenko\, D. Morgan\, Computational Materials Science\, 
+ <strong>58</strong>\, 218-226 (2012)</a><br> <a 
+ href="http://dx.doi.org/10.1063/1.4812323">[2] A. Jain\, S. Ong\, G. 
+ Hautier\, W. Chen\, W. Richards\, S. Dacek\, S. Cholia\, D. Gunter\, D. 
+ Skinner\, G. Ceder\, K. Persson\, APL Materials\, <strong>1</strong>\, 
+ 011002 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1007/s11837-013-0755-4">[3] J. Saal\, S. 
+ Kirklin\, M. Aykol\, B. Meredig\, C. Wolverton\, JOM\, 
+ <strong>65</strong>\, 1501-1509 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1557/mrs.2018.208">[4] C. Draxl\, M. 
+ Scheffler\, MRS Bull.\, <strong>43</strong>\, 676-682 (2018)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41597-020-00637-5">[5] L. Talirz\, S. 
+ Kumbhar\, E. Passaro\, A. Yakutovich\, V. Granata\, F. Gargiulo\, M. 
+ Borelli\, M. Uhrin\, S. Huber\, S. Zoupanos\, C. Adorf\, C. Andersen\, O. 
+ Schütt\, C. Pignedoli\, D. Passerone\, J. VandeVondele\, T. Schulthess\, 
+ B. Smit\, G. Pizzi\, N. Marzari\, Sci. Data.\, <strong>7</strong>\, 299 
+ (2020)</a><br> <a href="http://dx.doi.org/10.1038/sdata.2016.18">[6] M. 
+ Wilkinson\, M. Dumontier\, I. Aalbersberg\, G. Appleton\, M. Axton\, A. 
+ Baak\, N. Blomberg\, J. Boiten\, L. da Silva Santos\, P. Bourne\, J. 
+ Bouwman\, A. Brookes\, T. Clark\, M. Crosas\, I. Dillo\, O. Dumon\, S. 
+ Edmunds\, C. Evelo\, R. Finkers\, A. Gonzalez-Beltran\, A. Gray\, P. 
+ Groth\, C. Goble\, J. Grethe\, J. Heringa\, P. ’t Hoen\, R. Hooft\, T. 
+ Kuhn\, R. Kok\, J. Kok\, S. Lusher\, M. Martone\, A. Mons\, A. Packer\, B.
+  Persson\, P. Rocca-Serra\, M. Roos\, R. van Schaik\, S. Sansone\, E. 
+ Schultes\, T. Sengstag\, T. Slater\, G. Strawn\, M. Swertz\, M. Thompson\,
+  J. van der Lei\, E. van Mulligen\, J. Velterop\, A. Waagmeester\, P. 
+ Wittenburg\, K. Wolstencroft\, J. Zhao\, B. Mons\, Sci. Data.\, 
+ <strong>3</strong>\, 160018 (2016)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41524-017-0048-5">[7] L. Ghiringhelli\, 
+ C. Carbogno\, S. Levchenko\, F. Mohamed\, G. Huhs\, M. Lüders\, M. 
+ Oliveira\, M. Scheffler\, npj. Comput. Mater.\, <strong>3</strong>\, 46 
+ (2017)</a><br> <a href="http://dx.doi.org/10.1126/sciadv.1701816">[8] A. 
+ Bartók\, S. De\, C. Poelking\, N. Bernstein\, J. Kermode\, G. Csányi\, M. 
+ Ceriotti\, Sci. Adv.\, <strong>3</strong>\, e1701816 (2017)</a><br> <a 
+ href="http://dx.doi.org/10.1063/1.5091842">[9] M. Ceriotti\, J. Chem. 
+ Phys.\, <strong>150</strong>\, 150901 (2019)</a><br> <a 
+ href="http://dx.doi.org/10.1145/2723372.2731084">[10] S. Idreos\, O. 
+ Papaemmanouil\, S. Chaudhuri\, Overview of Data Exploration Techniques\, 
+ 2015</a></p>
+LOCATION:https://www.cecam.org/workshop-details/1167
+DTSTAMP:20220830T140834Z
+GEO:45.190196;5.767295
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY>Organisers <ul> 
+ <li>Luca Ghiringhelli (NOMAD Laboratory at the Fritz Haber Institute of 
+ the Max Planck Society and Humboldt University, Berlin)</li> <li>James 
+ Kermode (University of Warwick)</li> <li>Markus Rampp (Max Planck 
+ Computing and Data Facility (MPCDF))</li> </ul> <p>Across a wide range of 
+ fields and in particular in materials science, there is increasing 
+ awareness that big data is a fundamental resource for fostering deeper 
+ understanding of physical systems and ensuring reproducibility of 
+ calculations.</p> <p>It is crucial to realize that “big” does not refer 
+ only to the sheer amount of data, but also to their complexity. For 
+ example, in materials science, a material is typically characterized by an
+  intricate hierarchy of observables including ensemble averages at various
+  thermodynamic conditions. Another crucial aspect is the need to validate 
+ and quantify uncertainty, i.e., being able to assign to any single entry 
+ in the database a level of accuracy so that data points from disparate 
+ sources can be used concurrently in an analysis.</p> <p>Such awareness has
+  motivated the creation of large computational materials-science 
+ databases. Some are “project-based”, i.e., collections of high-throughput 
+ scans of given materials classes (e.g., AFLOW [1], Materials Project [2], 
+ OQMD [3]), others collect data from heterogeneous sources (e.g., NOMAD 
+ [4], Materials Cloud [5]).</p> <p>In order for the data to be (re-)usable 
+ for new analyses and possibly discoveries, they have to comply with the 
+ so-called FAIR (findable - accessible - interoperable - 
+ reusable/repurposable/recyclable) principles [6]. </p> <p>This requires 
+ complex, hierarchical metadata structures that annotate the data, so that 
+ the users know the provenance (settings, purpose) of a calculation in 
+ order to judge whether an entry can be part of a dataset to be analysed 
+ [7].</p> <p>The complexity and extent of the existing databases, which can
+  only grow in both respects, reveals a rarely addressed challenge: the 
+ possibility to efficiently <em>explore</em> the databases themselves in 
+ order to reveal patterns and trends.</p> <p>Here, exploration refers 
+ specifically to the possibility of producing dynamic, visual maps of the 
+ databases’ content. For instance, a user may be looking for ternary 
+ materials, not containing radioactive species, and would like to 
+ understand how diverse are the entries, i.e., whether they are somewhat 
+ uniformly spanning the materials space or are clustered into classes, 
+ where understanding what is common among class’ members is a challenge in 
+ itself.</p> <p>This and similar kinds of questions call for interactive, 
+ dynamic, and intelligent (i.e., artificial-intelligent-driven) tools, 
+ which are also efficient, i.e., they are able to propose a meaningful 
+ solution within seconds. </p> <p>In summary, in order to harvest the yet 
+ unhearted richness contained in presently known and future materials-
+ science data, four pillars need to be concurrently developed:</p> <ul> 
+ <li>FAIR-compliant materials databases</li> <li>Identification of proper 
+ descriptors and metrics for capturing the similarity amongst materials, 
+ including the complex restructuring occurring at varying environmental 
+ conditions [8]</li> <li>Artificial-intelligence (AI) approaches for 
+ exploratory analysis: clustering, dimension reduction and corresponding 
+ visualization that can reveal hidden patterns [9]</li> <li>Scalable 
+ implementations, combining clever choice of the hardware as well as 
+ algorithmic speed-up (e.g., landmarking) [10]</li> </ul> <p>In this 
+ workshop, experts in all these aspects, not necessarily limited to 
+ materials-science applications, will interact to confront ideas and 
+ solutions for performing flexible, interactive, efficient, and insightful 
+ analyses of materials databases.</p> <h2>References</h2> <p><a 
+ href="http://dx.doi.org/10.1016/j.commatsci.2012.02.005">[1] S. Curtarolo,
+  W. Setyawan, G. Hart, M. Jahnatek, R. Chepulskii, R. Taylor, S. Wang, J. 
+ Xue, K. Yang, O. Levy, M. Mehl, H. Stokes, D. Demchenko, D. Morgan, 
+ Computational Materials Science, <strong>58</strong>, 218-226 
+ (2012)</a><br> <a href="http://dx.doi.org/10.1063/1.4812323">[2] A. Jain, 
+ S. Ong, G. Hautier, W. Chen, W. Richards, S. Dacek, S. Cholia, D. Gunter, 
+ D. Skinner, G. Ceder, K. Persson, APL Materials, <strong>1</strong>, 
+ 011002 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1007/s11837-013-0755-4">[3] J. Saal, S. 
+ Kirklin, M. Aykol, B. Meredig, C. Wolverton, JOM, <strong>65</strong>, 
+ 1501-1509 (2013)</a><br> <a 
+ href="http://dx.doi.org/10.1557/mrs.2018.208">[4] C. Draxl, M. Scheffler, 
+ MRS Bull., <strong>43</strong>, 676-682 (2018)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41597-020-00637-5">[5] L. Talirz, S. 
+ Kumbhar, E. Passaro, A. Yakutovich, V. Granata, F. Gargiulo, M. Borelli, 
+ M. Uhrin, S. Huber, S. Zoupanos, C. Adorf, C. Andersen, O. Schütt, C. 
+ Pignedoli, D. Passerone, J. VandeVondele, T. Schulthess, B. Smit, G. 
+ Pizzi, N. Marzari, Sci. Data., <strong>7</strong>, 299 (2020)</a><br> <a 
+ href="http://dx.doi.org/10.1038/sdata.2016.18">[6] M. Wilkinson, M. 
+ Dumontier, I. Aalbersberg, G. Appleton, M. Axton, A. Baak, N. Blomberg, J.
+  Boiten, L. da Silva Santos, P. Bourne, J. Bouwman, A. Brookes, T. Clark, 
+ M. Crosas, I. Dillo, O. Dumon, S. Edmunds, C. Evelo, R. Finkers, A. 
+ Gonzalez-Beltran, A. Gray, P. Groth, C. Goble, J. Grethe, J. Heringa, P. 
+ ’t Hoen, R. Hooft, T. Kuhn, R. Kok, J. Kok, S. Lusher, M. Martone, A. 
+ Mons, A. Packer, B. Persson, P. Rocca-Serra, M. Roos, R. van Schaik, S. 
+ Sansone, E. Schultes, T. Sengstag, T. Slater, G. Strawn, M. Swertz, M. 
+ Thompson, J. van der Lei, E. van Mulligen, J. Velterop, A. Waagmeester, P.
+  Wittenburg, K. Wolstencroft, J. Zhao, B. Mons, Sci. Data., 
+ <strong>3</strong>, 160018 (2016)</a><br> <a 
+ href="http://dx.doi.org/10.1038/s41524-017-0048-5">[7] L. Ghiringhelli, C.
+  Carbogno, S. Levchenko, F. Mohamed, G. Huhs, M. Lüders, M. Oliveira, M. 
+ Scheffler, npj. Comput. Mater., <strong>3</strong>, 46 (2017)</a><br> <a 
+ href="http://dx.doi.org/10.1126/sciadv.1701816">[8] A. Bartók, S. De, C. 
+ Poelking, N. Bernstein, J. Kermode, G. Csányi, M. Ceriotti, Sci. Adv., 
+ <strong>3</strong>, e1701816 (2017)</a><br> <a 
+ href="http://dx.doi.org/10.1063/1.5091842">[9] M. Ceriotti, J. Chem. 
+ Phys., <strong>150</strong>, 150901 (2019)</a><br> <a 
+ href="http://dx.doi.org/10.1145/2723372.2731084">[10] S. Idreos, O. 
+ Papaemmanouil, S. Chaudhuri, Overview of Data Exploration Techniques, 
+ 2015</a></p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20221003T090000
+DTEND;TZID="UTC+02:00":20221005T170000
+SUMMARY:Co-Design for HPC in Computational Materials and Molecular Science
+UID:https://hpc-portal.eu/node/1443
+DESCRIPTION:<p>The Workshop on HPC (High Performance Computing) Co-design 
+ in Computational Materials and Molecular Science was initiated and is led 
+ by the NOMAD Center of Excellence (www.nomad-coe.eu)\, and is organised by
+  NOMAD in collaboration with the BioExcel\, MAX\, and TREX CoEs. </p> 
+ <p>The workshop will gather contributions from leading scientists\, 
+ technologies\, and SW engineers from the fields of academia\, HPC 
+ centres\, HW-vendors\, and industry. The workshop covers a broad range of 
+ current topics\, taking materials and molecular science codes as reference
+  HPC applications and possible co-design vehicles. </p> <p>The topics to 
+ be covered are:</p> <p>(1) existing examples of HPC co-design in materials
+  and molecular science\,</p> <p>(2) co-design of general purpose and 
+ domain-specific libraries\, kernels\, and mini-apps\, and</p> <p>(3) the 
+ perspective of hardware manufacturers\, integrators\, and data center 
+ owners.</p> <p>The workshop will focus in particular on\, and attempt to 
+ draw conclusions about:</p> <p>(1) the relationship between algorithms and
+  computer architectures in materials science\,</p> <p>(2) the connection 
+ between parallel programming technologies and runtime systems\, and</p> 
+ <p>(3) the interplay of the above layers for a wide spectrum of computer 
+ architectures\, within the selected scientific domain. </p> <p>We aim to 
+ identify how scientific software developers in materials science can 
+ influence hardware manufacturers as well as middleware and system-level 
+ software developers\, and vice versa. In particular\, we seek to determine
+  how co-design is employed in the development of the new HPC processors 
+ and of the related software stack\, including with respect to compilers 
+ and optimized libraries\, schedulers and IO\, and container technologies. 
+ </p> <p>Hardware HPC vendors and integrators will share their vision on 
+ co-design\, while key people from the scientific software development 
+ community will discuss the adoption of state-of-the-art technologies when 
+ porting their codes on emerging computer architectures. Consequently\, the
+  workshop will provide a rare and valuable opportunity to foster close 
+ contacts and the exchange of ideas between the scientific and technical 
+ communities.</p>
+LOCATION:https://www.cecam.org/workshop-details/1113
+DTSTAMP:20220830T140834Z
+GEO:46.520216;6.572210
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The Workshop on 
+ HPC (High Performance Computing) Co-design in Computational Materials and 
+ Molecular Science was initiated and is led by the NOMAD Center of 
+ Excellence (www.nomad-coe.eu), and is organised by NOMAD in collaboration 
+ with the BioExcel, MAX, and TREX CoEs. </p> <p>The workshop will gather 
+ contributions from leading scientists, technologies, and SW engineers from
+  the fields of academia, HPC centres, HW-vendors, and industry. The 
+ workshop covers a broad range of current topics, taking materials and 
+ molecular science codes as reference HPC applications and possible co-
+ design vehicles. </p> <p>The topics to be covered are:</p> <p>(1) existing
+  examples of HPC co-design in materials and molecular science,</p> <p>(2) 
+ co-design of general purpose and domain-specific libraries, kernels, and 
+ mini-apps, and</p> <p>(3) the perspective of hardware manufacturers, 
+ integrators, and data center owners.</p> <p>The workshop will focus in 
+ particular on, and attempt to draw conclusions about:</p> <p>(1) the 
+ relationship between algorithms and computer architectures in materials 
+ science,</p> <p>(2) the connection between parallel programming 
+ technologies and runtime systems, and</p> <p>(3) the interplay of the 
+ above layers for a wide spectrum of computer architectures, within the 
+ selected scientific domain. </p> <p>We aim to identify how scientific 
+ software developers in materials science can influence hardware 
+ manufacturers as well as middleware and system-level software developers, 
+ and vice versa. In particular, we seek to determine how co-design is 
+ employed in the development of the new HPC processors and of the related 
+ software stack, including with respect to compilers and optimized 
+ libraries, schedulers and IO, and container technologies. </p> <p>Hardware
+  HPC vendors and integrators will share their vision on co-design, while 
+ key people from the scientific software development community will discuss
+  the adoption of state-of-the-art technologies when porting their codes on
+  emerging computer architectures. Consequently, the workshop will provide 
+ a rare and valuable opportunity to foster close contacts and the exchange 
+ of ideas between the scientific and technical 
+ communities.</p></BODY></HTML>
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;TZID="UTC+02:00":20220725T090000
+DTEND;TZID="UTC+02:00":20220729T170000
+SUMMARY:Modeling Materials at Realistic time Scales via Optimal 
+ Exploitation of Exascale Computers and Artificial Intelligence
+UID:https://hpc-portal.eu/node/1442
+DESCRIPTION:<p>The event is planned in terms of two stages: a high-level 
+ CECAM workshop and a subsequent hands-on tutorial. Both activities address
+  the concepts and implementations that are needed in order to link the 
+ Quantum Mechanical (QM) description of electrons in materials\, to the 
+ statistical mechanics principles that address the larger time and length 
+ scales governing real-life situations.</p> <p>During the first 3 days\, 
+ the workshop will focus on recent and important developments 
+ addressing<strong> exascale scientific computing applications </strong>and
+  related<strong> artificial intelligence (AI) methods\, </strong>with a 
+ specific focus on urgent and critical aspects in the domain of 
+ computational materials science. In particular\, we will address how 
+ exascale computing can contribute to the enhanced performance of materials
+  modeling\, in terms of higher accuracy\, precision and degree of inter-
+ operability between different modeling length- and time-scales. These 
+ technical aspects will be <strong>presented and discussed by leading 
+ experts in different domains</strong>\, thus giving the opportunity to 
+ explore similarities and differences in the various current state-of-the-
+ art approaches towards exascale computing\, as well as the management of 
+ modeling workflows and corresponding output data of interesting materials 
+ properties.</p> <p>Then the following 2 days will consist of tutorials and
+  hands-on demonstrations that will focus on recent progress in (1) first 
+ principles simulations and (2) advanced sampling methods and software\, 
+ and (3) the coupling of first principles molecular dynamics simulations 
+ and advanced sampling methods. In particular\, examples using the <a 
+ href="http://qboxcode.org/">Qbox</a> code coupled with with the <a 
+ href="https://ssagesproject.github.io/">SSAGES suite of codes</a> and <a 
+ href="http://ipi-code.org/">I-Pi</a> will be discussed in detail\, with 
+ several hands-on examples.</p> <h3>General Scope</h3> <p>Real materials 
+ are not necessarily in thermal equilibrium\, and a careful understanding 
+ of the micro-structure of any material (e.g. grains and grain boundaries) 
+ is crucial for the estimation of important materials properties and 
+ functions. Thus\, QM techniques have necessarily to be connected to 
+ molecular mechanics (MM)\, large-scale molecular dynamics (MD)\, kinetic 
+ Monte Carlo (kMC)\, and computational fluid dynamics (CFD)\, just to name 
+ a few methodologies. Very importantly\, we need robust connections between
+  all such modelling techniques\, including a detailed understanding of the
+  various errors and uncertainties involved. Moreover\, in order to 
+ properly interpret the corresponding results\, we need all such inter-
+ connections to be fully reversible\, i.e. not just able to transition from
+  small to large scales but also conversely.</p> <p>The Handbook of 
+ Materials Modeling (2005) is one of the main classical references in this 
+ domain of scientific computing [1]\, and its 2nd edition has since 
+ appeared in 2020 [2]. This has now turned into a six-volume major review 
+ masterwork\, reflecting the significant developments in all aspects 
+ pertaining to computational materials research over the past decade or 
+ so\, including major progress in the formulation of increasingly realistic
+  multi-scale modeling approaches\, workflows and models. However\, two 
+ recent innovations in materials modeling applications are still relatively
+  poorly and sparsely covered in the currently available review 
+ literature\, namely <strong>exascale computing</strong> and related 
+ <strong>artificial intelligence (AI)-based methods</strong>. These two 
+ topics will be the main focus of our attention within our proposed 
+ workshop and associated tutorial school.</p> <p>[1] Handbook of Materials 
+ Modeling\, 2005\, S. Yip (ed)\, ISBN 978-1402032875\, Springer\, Cham<br> 
+ [2] Handbook of Materials Modeling\, 2nd ed.\, 2020\, W. Andreoni and S. 
+ Yip (eds)\, ISBN 978-3319788760\, Springer\, Cham</p> <h3>Format</h3> 
+ <p>The event will start with a <strong>high-level workshop (3 
+ days)</strong>. Talks\, discussions\, and poster sessions will be held as 
+ a<strong> regular meeting involving the physical presence of all 
+ participants</strong> (some but very few talks may be presented 
+ virtually).</p> <p>Each of the five main sessions during the first part of
+  the workshop (throughout the first three days) will start with an 
+ <strong>introduction (15 minutes)</strong> by a renowned scientist\, the 
+ so-called <strong>“moderator”</strong> for that particular session. The 
+ subsequent talks in the corresponding session will then last for 
+ <strong>30 minutes each</strong>\, and will be followed in turn by 
+ <strong>10 minutes of general Q&amp\;A discussion</strong>.</p> <p>The 
+ <strong>following 2-day hands-on tutorial</strong> will include coupling 
+ first principles molecular dynamics simulations and advanced sampling 
+ methods using the <a href="http://qboxcode.org/">Qbox</a> code coupled 
+ with with the <a href="https://ssagesproject.github.io/">SSAGES suite of 
+ codes</a> and <a href="http://ipi-code.org/">I-Pi</a>. Several examples 
+ will be discussed with hands-on demonstrations\, and opportunities will be
+  provided for students to develop simulation strategies of direct 
+ relevance to their own research with the help of expert instructors.</p>
+LOCATION:https://iris-adlershof.de/en/modelingmaterialsworkshop.html
+DTSTAMP:20220830T140834Z
+GEO:52.433627;13.531931
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>The event is 
+ planned in terms of two stages: a high-level CECAM workshop and a 
+ subsequent hands-on tutorial. Both activities address the concepts and 
+ implementations that are needed in order to link the Quantum Mechanical 
+ (QM) description of electrons in materials, to the statistical mechanics 
+ principles that address the larger time and length scales governing real-
+ life situations.</p> <p>During the first 3 days, the workshop will focus 
+ on recent and important developments addressing<strong> exascale 
+ scientific computing applications </strong>and related<strong> artificial 
+ intelligence (AI) methods, </strong>with a specific focus on urgent and 
+ critical aspects in the domain of computational materials science. In 
+ particular, we will address how exascale computing can contribute to the 
+ enhanced performance of materials modeling, in terms of higher accuracy, 
+ precision and degree of inter-operability between different modeling 
+ length- and time-scales. These technical aspects will be <strong>presented
+  and discussed by leading experts in different domains</strong>, thus 
+ giving the opportunity to explore similarities and differences in the 
+ various current state-of-the-art approaches towards exascale computing, as
+  well as the management of modeling workflows and corresponding output 
+ data of interesting materials properties.</p> <p>Then the following 2 days
+  will consist of tutorials and hands-on demonstrations that will focus on 
+ recent progress in (1) first principles simulations and (2) advanced 
+ sampling methods and software, and (3) the coupling of first principles 
+ molecular dynamics simulations and advanced sampling methods. In 
+ particular, examples using the <a href="http://qboxcode.org/">Qbox</a> 
+ code coupled with with the <a 
+ href="https://ssagesproject.github.io/">SSAGES suite of codes</a> and <a 
+ href="http://ipi-code.org/">I-Pi</a> will be discussed in detail, with 
+ several hands-on examples.</p> <h3>General Scope</h3> <p>Real materials 
+ are not necessarily in thermal equilibrium, and a careful understanding of
+  the micro-structure of any material (e.g. grains and grain boundaries) is
+  crucial for the estimation of important materials properties and 
+ functions. Thus, QM techniques have necessarily to be connected to 
+ molecular mechanics (MM), large-scale molecular dynamics (MD), kinetic 
+ Monte Carlo (kMC), and computational fluid dynamics (CFD), just to name a 
+ few methodologies. Very importantly, we need robust connections between 
+ all such modelling techniques, including a detailed understanding of the 
+ various errors and uncertainties involved. Moreover, in order to properly 
+ interpret the corresponding results, we need all such inter-connections to
+  be fully reversible, i.e. not just able to transition from small to large
+  scales but also conversely.</p> <p>The Handbook of Materials Modeling 
+ (2005) is one of the main classical references in this domain of 
+ scientific computing [1], and its 2nd edition has since appeared in 2020 
+ [2]. This has now turned into a six-volume major review masterwork, 
+ reflecting the significant developments in all aspects pertaining to 
+ computational materials research over the past decade or so, including 
+ major progress in the formulation of increasingly realistic multi-scale 
+ modeling approaches, workflows and models. However, two recent innovations
+  in materials modeling applications are still relatively poorly and 
+ sparsely covered in the currently available review literature, namely 
+ <strong>exascale computing</strong> and related <strong>artificial 
+ intelligence (AI)-based methods</strong>. These two topics will be the 
+ main focus of our attention within our proposed workshop and associated 
+ tutorial school.</p> <p>[1] Handbook of Materials Modeling, 2005, S. Yip 
+ (ed), ISBN 978-1402032875, Springer, Cham<br> [2] Handbook of Materials 
+ Modeling, 2nd ed., 2020, W. Andreoni and S. Yip (eds), ISBN 
+ 978-3319788760, Springer, Cham</p> <h3>Format</h3> <p>The event will start
+  with a <strong>high-level workshop (3 days)</strong>. Talks, discussions,
+  and poster sessions will be held as a<strong> regular meeting involving 
+ the physical presence of all participants</strong> (some but very few 
+ talks may be presented virtually).</p> <p>Each of the five main sessions 
+ during the first part of the workshop (throughout the first three days) 
+ will start with an <strong>introduction (15 minutes)</strong> by a 
+ renowned scientist, the so-called <strong>“moderator”</strong> for that 
+ particular session. The subsequent talks in the corresponding session will
+  then last for <strong>30 minutes each</strong>, and will be followed in 
+ turn by <strong>10 minutes of general Q&amp;A discussion</strong>.</p> 
+ <p>The <strong>following 2-day hands-on tutorial</strong> will include 
+ coupling first principles molecular dynamics simulations and advanced 
+ sampling methods using the <a href="http://qboxcode.org/">Qbox</a> code 
+ coupled with with the <a href="https://ssagesproject.github.io/">SSAGES 
+ suite of codes</a> and <a href="http://ipi-code.org/">I-Pi</a>. Several 
+ examples will be discussed with hands-on demonstrations, and opportunities
+  will be provided for students to develop simulation strategies of direct 
+ relevance to their own research with the help of expert 
+ instructors.</p></BODY></HTML>
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;TZID="UTC+01:00":20211115T090000
@@ -119,7 +553,7 @@ DESCRIPTION:<p>This 4-days combined workshop/hackathon (2-day/2-day) will
  and improving the existing interfaces between ASE/Fireworks and ES codes 
  to take full advantage of new powerful features.</p>
 LOCATION:https://nomad-coe.eu/events/ase-fireworks-workshop
-DTSTAMP:20220816T095005Z
+DTSTAMP:20220830T140834Z
 GEO:55.785409;12.519589
 X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE HTML><HTML><BODY><p>This 4-days 
  combined workshop/hackathon (2-day/2-day) will introduce young scientists 
